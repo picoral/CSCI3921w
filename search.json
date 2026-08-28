@@ -1,0 +1,310 @@
+[
+  {
+    "objectID": "assignment-0.html",
+    "href": "assignment-0.html",
+    "title": "Positionality Statement",
+    "section": "",
+    "text": "Length: 750–1,000 words (approx. 3–4 double-spaced pages)\nThis assignment is due Sept 23, end of the day"
+  },
+  {
+    "objectID": "assignment-0.html#background-and-identity",
+    "href": "assignment-0.html#background-and-identity",
+    "title": "Positionality Statement",
+    "section": "1. Background and identity",
+    "text": "1. Background and identity\n\nWhat aspects of your background (e.g., where you grew up, your family, your culture, language, socioeconomic context, education) shape how you see technology’s role in society?\nWhich of your identities or communities feel relevant to how you experience computing systems? (You decide what is relevant and what you are comfortable sharing.)"
+  },
+  {
+    "objectID": "assignment-0.html#relationship-to-computing",
+    "href": "assignment-0.html#relationship-to-computing",
+    "title": "Positionality Statement",
+    "section": "2. Relationship to computing",
+    "text": "2. Relationship to computing\n\nHow and when did you first get access to computers and the internet? Was access easy, limited, or somewhere in between?\nWhat has been your own experience with technology (e.g., when did you get your first computer, why did you decide to pursue a career in computing)?\nWhat has your experience with technology been—as a user, a student, a worker, a creator? Where do you feel like an insider, and where an outsider?\nWhat has been your experience with computing in school (middle school, high school, college)?"
+  },
+  {
+    "objectID": "assignment-0.html#values-and-assumptions",
+    "href": "assignment-0.html#values-and-assumptions",
+    "title": "Positionality Statement",
+    "section": "3. Values and assumptions",
+    "text": "3. Values and assumptions\n\nWhat do you tend to assume is true about technology. For example, do you believe that technology makes life better, that it’s inevitable, that regulation stifles innovation, that data should be free, or something else? Where might those assumptions come from?\nWhich social, legal, or ethical issues in computing do you care about most, and why?"
+  },
+  {
+    "objectID": "assignment-0.html#blind-spots-and-standpoint",
+    "href": "assignment-0.html#blind-spots-and-standpoint",
+    "title": "Positionality Statement",
+    "section": "4. Blind spots and standpoint",
+    "text": "4. Blind spots and standpoint\n\nWhose experiences with technology are you least familiar with? What might you fail to notice because of your particular vantage point? (this is a tough question, since we failed to realize what our own biases are)\nHow might someone with a very different background reasonably disagree with you?"
+  },
+  {
+    "objectID": "ref-w-intensive.html",
+    "href": "ref-w-intensive.html",
+    "title": "Writing Intensive Aspects",
+    "section": "",
+    "text": "Question 1 - How do writing assignments and writing instruction further the learning objectives of this course and how is writing integrated into the course? Note that the syllabus must reflect the critical role that writing plays in the course.\nUnderstanding the organization of a complex software system, how potentially adversarial inputs and actors can affect the system, and methods to mitigate these threats requires strong written communication to be effective – if team members cannot convey why a threat should be considered, or why it works, or how to address a threat, resources may not be devoted to fix security problems. Developing skills to communicate about software and threats is thus equally important to developing skills to find and address these threats. Writing is integrated into the course through the regular submission of long-form reports as well as short-form exercise responses.\nQuestion 2 - What types of writing (e.g., research papers, problem sets, presentations, technical documents, lab reports, essays, journaling etc.) will be assigned? Explain how these assignments meet the requirement that writing be a significant part of the course work, including details about multi-authored assignments, if any. Include the required length for each writing assignment and demonstrate how the minimum word count (or its equivalent) for finished writing will be met.\nThe primary writing assessment will be in the form of 4 lab reports detailing four separate software systems the students examine for potential vulnerabilities, the process by which they are examined, and the vulnerabilities and mitigation strategies that result. Each report should be 4-5 pages and involve figures that communicate the details of the system and vulnerabilities in sufficient detail to be replicated by others. The typical audience of such a report would be other software professionals and technical managers.\nSince the final reports may be produced collaboratively, each student in a group will be required to submit a draft of at least 1 of the 3 required sections (roughly 1200 words) and provide a written critique (150 words each) of each section drafted by other group members, so that each lab report will require 1400-1500 words of writing.\nIn addition, students will also complete bi-weekly problem sets involving shorter descriptions of threats and mitigations. These problem sets will typically involve 400-500 words of writing and grading will have a writing quality component.\nQuestion 3 - How will students’ final course grade depend on their writing performance? What percentage of the course grade will depend on the quality and level of the student’s writing compared to the percentage of the grade that depends on the course content? Note that this information must also be on the syllabus.\nLab reports will account for 45% of the final grade, and bi-weekly problem sets will account for 15% of the final grade. Thus 60% of the course grade will be based on writing-focused assignments.\nQuestion 4 - Indicate which assignment(s) students will be required to revise and resubmit after feedback from the instructor. Indicate who will be providing the feedback. Include an example of the assignment instructions you are likely to use for this assignment or assignments.\nStudents are expected to apply draft feedback from their group members in producing each lab report, and instructor feedback on lab reports to future reports. Instructors will provide feedback on lab report writing quality, and all lab report instructions will include instructions reminding students to review the feedback on previous reports and submit a short explanation of how feedback was incorporated. Written exercise solutions – graded by teaching assistants ­– that receive a low writing quality score can be revised and re-submitted for writing quality.\nQuestion 5 - What types of writing instruction will be experienced by students? How much class time will be devoted to explicit writing instruction and at what points in the semester? What types of writing support and resources will be provided to students?\nThroughout the semester examples of presenting the architecture of various types of software systems (applications, operating systems, network protocols) will be given in class, with an early emphasis on architectural diagrams, which are an important part of the computer science WEC plan that are not covered in many other classes. Example threat models and vulnerability reports will be used in the explanation of these concepts, and presented along with opportunities to critically analyze the presentation before each lab report is due.\nQuestion 6 - If teaching assistants will participate in writing assessment and writing instruction, explain how will they be trained (e.g. in how to review, grade and respond to student writing) and how will they be supervised. If the course is taught in multiple sections with multiple faculty (e.g. a capstone directed studies course), explain how every faculty mentor will ensure that their students will receive a writing intensive experience.\nTeaching assistants will be trained in writing assessment by grading a small subset of submissions for each exercise set along with the instructor, in addition to reviewing rubrics for the writing quality grades (based on the criteria set forth in the department WEC plan) for each of these exercise sets before they are due."
+  },
+  {
+    "objectID": "assignment-2.html",
+    "href": "assignment-2.html",
+    "title": "Application",
+    "section": "",
+    "text": "You have the option to complete this individually or in pairs.\n\nOption 1: science fiction option\nWrite a piece of science fiction that explores the social and ethical implications of a particular socio-technical phenomenon.\n\n\nOption 2: Surveillance, Privacy, and Free Speech\nFor this assignment, you will be asked to come up with a set of requirements for a fictional app that aims to address a given real-world issue concerning the right to privacy and free speech. As part of this assignment, you will conduct at least two interviews with prospective users of the app, paying special attention to the use cases, desired functionality, and concerns brought up by the interviewees.\nYou will summarize the interview findings in a short report, describe the main functional requirements of the app, and provide general recommendations to the app developers on how to implement this functionality while respecting user privacy and the right to free speech.\nIn order to balance the workload, we will form pairs of students to complete this assignment.\n\n\nOption 3: Software Risks and Algorithmic Bias\nIn this assignment, you will obtain experience developing a machine learning algorithm and assessing the resulting model on a number of criteria. Your investigation will include not only being able to transparently see the code for the machine learning algorithm (which is what some lawmakers argue is a necessary safeguard in deploying algorithms for such decision-making), but also assessing the “fairness” of the model produced by the algorithm on a number of criteria. You will be asked to determine what you would do to make the decision-making model produced by the algorithm more “fair,” and justify this position in a short writeup.\nIn order to balance the workload, we will form pairs of students to complete this assignment and ensure that at least one team member has prior programming experience."
+  },
+  {
+    "objectID": "ref-role-of-writing.html",
+    "href": "ref-role-of-writing.html",
+    "title": "Role of Writing",
+    "section": "",
+    "text": "This is a Writing Intensive course, and written communication is a core learning outcome.\nWriting in CSCI 4970W mirrors the documentation practices of professional software engineering and research: writing is carried out iteratively, collaboratively where appropriate, and always with the goal of producing documentation that is complete, clear, and technically rigorous. Writing in this course takes several forms:\nGitHub Documentation Milestones. The core writing in this course is the staged GitHub documentation of your project across three milestones: (1) design documentation, (2) implementation documentation, and (3) testing documentation. Each milestone is submitted as a pull request, reviewed by the instructor for completeness, clarity, and technical rigor, and then revised and merged. This staged, feedback-and-revision structure is the heart of Writing Intensive pedagogy in this course: you are expected to take instructor feedback seriously and to produce substantially improved revised documentation in response to it.\nIndividually Authored Pull Requests. For team projects, each student is expected to lead a distinct portion of the documentation for each milestone and to submit that portion as their own pull request. This allows writing to be assessed individually even when the underlying project work is collaborative. Revisions to the initial submissions may be made by the full team, but all teammates are expected to contribute approximately equally across the three milestones.\nLab Notebooks. Each student maintains an individual lab notebook throughout the semester, beginning in Week 1. The lab notebook is an ongoing written record of your technical work: what you tried, what you learned, what decisions you made, and why. Lab notebooks are reviewed during the Implementation Clinic phase and contribute to individual written communication assessment. Lab notebooks must be the student’s own work.\nArchitecture Presentation. A 20-minute oral presentation delivered to the instructor in Week 7 serves as a companion communication assessment. You will identify the specific technical challenge your project addresses and present your proposed system architecture, connecting your design to prior work and existing systems.\nUse of AI tools. Because this is a project course, you are allowed and encouraged to use AI tools, forums, code repositories, and other external resources to help solve technical problems, as long as you appropriately credit those sources. However, because written communication is a learning outcome of this course, the content of your individually authored documentation pull requests and lab notebook entries must be your own writing. AI tools may be used for grammar and clarity editing of your own prose, but not to generate the substance of the writing that forms the basis of the Writing Intensive assessment. All AI assistance must be acknowledged and cited."
+  },
+  {
+    "objectID": "rules-of-engagement.html",
+    "href": "rules-of-engagement.html",
+    "title": "Rules of Engagement",
+    "section": "",
+    "text": "It is expected that everyone will participate in a mature and respectful fashion.\nParticipate actively in the discussions, having completed the pre-review material and thought about the issues.\nThrow sunlight, not shade. Like beautiful flowers, we are here to learn and grow together. This will involve discussing difficult topics and challenging some of our deepest held beliefs and assumptions with curiosity and respect. In order to do that, your actions and behavior should support the growth and learning of others. You should find ways to acknowledge disagreement while also supporting the growth and dignity of your colleagues. This means that hostile reactions such as eye-rolls, yelling, teasing, or otherwise throwing shade will not be accepted.\nDisagree with ideas, but do not make personal attacks. Do not demean or embarrass others. Do not make sexist, racist, xenophobic, homophobic, transphobic, or victim-blaming comments. Immature, aggressive, or disrespectful behavior (i.e., the various ways we can throw shade and hate on one another) will not be tolerated.\nBe cautious of how you use humor. Tone is often difficult to gauge when you don’t know people very well (not as well as you do at a friendship level). Some common forms of humor such as sarcasm can be interpreted as hurtful and demeaning by others. Be aware of the potential impact of your words, regardless of the intentions. Think through your comments before you say them.\nBe open to be challenged or confronted on your pre-conceived ideas. The academic classroom is a place where we learn to examine social issues through scientific inquiry. It is no place for uninformed biases.\nCommunicate in “I” statements. Don’t tell others what to do or think as if it is a command. Instead, describe your own perspective or experience. Speak for yourself; don’t volunteer other people to speak. Consider when it is appropriate to speak from your own experience and when it is better to consider the text or listen to others.\nStudy and avoid engaging in rhetorical fallacies.\nAvoid making broad generalizations you can’t back up with evidence (e.g.,“everyone everywhere always does x”). Acknowledge when your personal experience is too limited or privileged to be generalized.\n\nBased on the 3C Fellows rules of engagement"
+  },
+  {
+    "objectID": "slides/slides-01-01.html#critical-consciousness",
+    "href": "slides/slides-01-01.html#critical-consciousness",
+    "title": "Positionality",
+    "section": "Critical Consciousness",
+    "text": "Critical Consciousness\nAwareness of the systems, values, norms, and processes that limit and potentially oppress one’s life and community.\nPaulo Freire (1968). Pedagogy of the oppressed. Bloomsbury Publishing."
+  },
+  {
+    "objectID": "slides/slides-01-01.html#oppression",
+    "href": "slides/slides-01-01.html#oppression",
+    "title": "Positionality",
+    "section": "Oppression",
+    "text": "Oppression\n\n“how a design is built can impose their own forms of oppression, and programmers often do this unknowingly, because they do not verify that programs work for all possible people who might use them.”\n\nAmy J. Ko, Anne Beitlers, Brett Wortzman, Matt Davidson, Alannah Oleson, Mara Kirdani-Ryan, Stefania Druga, Jayne Everson (2026). Critically Conscious Computing: Methods for Secondary Education. https://criticallyconsciouscomputing.org/, retrieved 3/4/2026.\nThe goal is to name injustices, critique systems, and alter the world we inhabit"
+  },
+  {
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "Assignments",
+    "section": "",
+    "text": "You are expected to complete assigned readings in advance of in-class discussion so that you come prepared. Discussions require a much deeper engagement with a topic – reading about a topic in advance will help you to engage in productive and critical discussions. We’ll spend the bulk of the time discussing the concepts in the chapter, so if you haven’t read it, it will be hard to discuss them as a group.\n\n\nThis list will be updated as the semester progresses. These readings are available on Canvas (where you are expected to put some of your notes).\n\nWilliams, Apryl. “Two. Automating Sexual Racism”. Not My Type: Automating Sexual Racism in Online Dating, Redwood City: Stanford University Press, 2024, pp. 50-81. https://doi.org/10.1515/9781503637610-005 pdf"
+  },
+  {
+    "objectID": "assignments.html#list-of-readings",
+    "href": "assignments.html#list-of-readings",
+    "title": "Assignments",
+    "section": "",
+    "text": "This list will be updated as the semester progresses. These readings are available on Canvas (where you are expected to put some of your notes).\n\nWilliams, Apryl. “Two. Automating Sexual Racism”. Not My Type: Automating Sexual Racism in Online Dating, Redwood City: Stanford University Press, 2024, pp. 50-81. https://doi.org/10.1515/9781503637610-005 pdf"
+  },
+  {
+    "objectID": "assignments.html#reflective-journal",
+    "href": "assignments.html#reflective-journal",
+    "title": "Assignments",
+    "section": "Reflective Journal",
+    "text": "Reflective Journal\nIn-class Discussions There is a lot of nuance, context, values, tensions, and complexity in general when it comes to social, legal, and ethical issues in computing. We are going to be discussing the different ways that people view these issues. For that reason, classroom discussion is a central tool to help build awareness about these diverse, complex phenomena.\nLecture time will be arranged around discussions. After each in-class discussion you will have 10 minutes to write down your reflection on what was discussed. You should reflect on 1) What you learned from the discussion (something that surprised you, something you had not considered before, a new way of thinking of something, etc.), 2) What you wish you’d learned from the discussion (what questions you have). You will be doing that in a Google doc that you will share with me only (your classmates will not have access to this).\nThis journal will be a personalized space for you to keep track of how core concepts and topics of the class relate directly to your own lived experiences, identities, and perspectives. It will also serve as an artifact of your learning that will be useful to you when writing major assignments."
+  },
+  {
+    "objectID": "patents-list.html",
+    "href": "patents-list.html",
+    "title": "Patents List",
+    "section": "",
+    "text": "Patent Public Search Basic\n\nSYSTEMS AND METHODS FOR IDENTIFYING INTERESTS BASED ON SOCIAL MEDIA ACTIVITY – US-20260087464-A1\nAUTOMATED QUOTE COMPARISON AND GRAPHICAL RISK STRUCTURE GENERATION FROM UNSTRUCTURED INSURANCE QUOTATION DOCUMENTS – US-20260080480-A1\nGENERATION OF DATA-GROUNDED EMAILS FOR AUTO-RESPONSE – US-20260081881-A1\nDEVICE, METHOD AND SYSTEM FOR LOGGING SMOKING DATA – US-20260083925-A1\nPERSONALIZED AVATAR RESPONSIVE TO USER PHYSICAL STATE AND CONTEXT – US-20260088164-A1\nSYSTEM AND METHOD TO DETERMINE RESPONSIVENESS OF A DRIVER OF A VEHICLE TO FEEDBACK REGARDING DRIVING BEHAVIORS – US-20260084702-A1"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CSCI 3921W - Social, Legal, and Ethical Issues in Computing",
+    "section": "",
+    "text": "Course description: Impact of computers on society. Computer science perspective of ethical, legal, social, philosophical, political, and economic aspects of computing.\n\nSyllabus\nRules of Engagement\nAssignments"
+  },
+  {
+    "objectID": "slides/slides-00-00.html#lecture-structure",
+    "href": "slides/slides-00-00.html#lecture-structure",
+    "title": "Lecture Structure",
+    "section": "Lecture Structure",
+    "text": "Lecture Structure\n\nFirst 10 minutes of class: Q&A about ethics, computing, and logistics of the course. No question is too silly, naive, controversial, basic, or advanced. Curiosities are fine as well and you can ask my opinions about things.\nPriming: Brief direct instruction on concepts, scenarios, frameworks, etc.\nDiscussion: We will practice what Freire called “dialogic” methods, using discussion and dialogue to help develop our collective critical conscious of computing.\nReflective Journal Writing: After each discussion, you will reflect on what you liked and disliked about the discussion, what you learned, and what you wished you’d learned.\nThe previous three steps might repeat depending of the topic."
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "CSCI 3921W - Social, Legal, and Ethical Issues in Computing"
+  },
+  {
+    "objectID": "syllabus.html#instructor",
+    "href": "syllabus.html#instructor",
+    "title": "Syllabus",
+    "section": "Instructor",
+    "text": "Instructor\n\nAdriana Picoral (PhD, she/her)\napicoral@umn.edu\nOffice: 300A Lind Hall\n\noffice hours (drop in):\n\nMonday 12pm to 2pm\nTuesday 1pm to 3pm\n\n\n\nCome to student drop-in hours if you have questions, want to discuss the material, or feel free to tell me more about yourself and your interests and activities outside of class.\nContacting me by email: At some points in the term, my inbox gets quite full, but I do want to hear from you. If you email me and don’t hear back from me within two business days, please send a follow up email. I will appreciate the gentle reminder."
+  },
+  {
+    "objectID": "syllabus.html#teaching-assistants",
+    "href": "syllabus.html#teaching-assistants",
+    "title": "Syllabus",
+    "section": "Teaching Assistants",
+    "text": "Teaching Assistants\nWhen you have questions about the course material, questions about the subject more broadly, concerns to discuss, accommodations you need, or thoughts you want to share, please start by going to office hours. Me and my staff care about students’ success and we all have expertise to share.\nTAs can review the course material, and assignments with you, and suggest study strategies. They can also give you tips about the resources that the campus offers, and can provide insights into how to succeed in college more broadly.\nThe following teaching assistants are affiliated with this course and may be responsible for grading:\n\nRisako Owan\nAmvi Dwivedi\nSarah Peng\n\nTA assignments and contact information will be updated at the start of the semester."
+  },
+  {
+    "objectID": "syllabus.html#general-course-description",
+    "href": "syllabus.html#general-course-description",
+    "title": "Syllabus",
+    "section": "General course description",
+    "text": "General course description\nComputing technology has profound effects on society and is strongly affected by society. This provides many benefits and also presents many challenges. This course will examine many important areas, such as privacy, equity, social media, artificial intelligence, information reliability, intellectual property rights, professional conduct, and other current issues in computing and society.\nCSCI 3921W fulfills the Liberal Education (LE) Civic Life and Ethics Theme. Please view this document for more information: https://z.umn.edu/CSCI3921-civic-live-and-ethics"
+  },
+  {
+    "objectID": "syllabus.html#course-catalog-description",
+    "href": "syllabus.html#course-catalog-description",
+    "title": "Syllabus",
+    "section": "Course Catalog Description",
+    "text": "Course Catalog Description\nNumber of Credits: 3\nImpact of computers on society. Computer science perspective of ethical, legal, social, philosophical, political, and economic aspects of computing."
+  },
+  {
+    "objectID": "syllabus.html#prerequisites",
+    "href": "syllabus.html#prerequisites",
+    "title": "Syllabus",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nSophomore standing or above. Some computer background will be helpful for the class but is not necessary."
+  },
+  {
+    "objectID": "syllabus.html#course-learning-goals",
+    "href": "syllabus.html#course-learning-goals",
+    "title": "Syllabus",
+    "section": "Course Learning Goals",
+    "text": "Course Learning Goals\nUpon successfully completing this course students should be able to:\n\nEngage in constructive discussions using the basic terminology, concepts, and tools in areas such as ethical systems, intellectual property law, privacy, computer security, etc.\nExplain why these concepts are important\nDiscuss, analyze, and make recommendations on ethical or social issues in computing\nExpress and analyze perspectives on ethical or social issues in computing by listening to and discussing them with others in the class\nClarify their values and further develop their ways of thinking about issues involving computers and society\nAnalyze societal influences on and effects of computing\nProvide examples of important ways that computing influences, and is influenced by society\nList and use different resources where issues of computers and society are being debated or resolved across the globe\nClearly and accurately communicate their analysis and recommendations about situations involving social, legal, and ethical aspects of computing."
+  },
+  {
+    "objectID": "syllabus.html#modality",
+    "href": "syllabus.html#modality",
+    "title": "Syllabus",
+    "section": "Modality",
+    "text": "Modality\nThis course is scheduled as an in-person course. I intend to hold all class ses- sions in-person except if situational factors arise, such as personal illness of the instructor or inclement weather, when the class may be held synchronously via Zoom or recorded for later viewing.\nThere will be no outside regularly-scheduled-class meetings."
+  },
+  {
+    "objectID": "syllabus.html#textbook",
+    "href": "syllabus.html#textbook",
+    "title": "Syllabus",
+    "section": "Textbook",
+    "text": "Textbook\nDue to the ever-changing nature of the topics in the class, instead of a textbook the class will use a number of online resources that will be linked to the class website in the weekly modules. You are expected to spend a lot of time reading for this class with the goal of preparing for in-class discussions."
+  },
+  {
+    "objectID": "syllabus.html#in-class-discussions",
+    "href": "syllabus.html#in-class-discussions",
+    "title": "Syllabus",
+    "section": "In-class Discussions",
+    "text": "In-class Discussions\nDiscussions require a much deeper engagement with a topic – reading about a topic in advance will help you to engage in productive and critical discussions. Discussion is a powerful tool for developing one’s critical consciousness of computing. After each in-class discussion exercise, you will be given time to reflect on what you have learned and what you still have questions about. You will write your reflections in a journal, which will help you with your major writing assignments."
+  },
+  {
+    "objectID": "syllabus.html#writing-is-comprehensively-integrated-into-the-course",
+    "href": "syllabus.html#writing-is-comprehensively-integrated-into-the-course",
+    "title": "Syllabus",
+    "section": "Writing is comprehensively integrated into the course",
+    "text": "Writing is comprehensively integrated into the course\nDuring lectures, short writing will be assigned, in which students describe their reactions and opinions to the topics presented (approximately 250-500 words per week)"
+  },
+  {
+    "objectID": "syllabus.html#writing-is-a-significant-part-of-the-course-work",
+    "href": "syllabus.html#writing-is-a-significant-part-of-the-course-work",
+    "title": "Syllabus",
+    "section": "Writing is a significant part of the course work",
+    "text": "Writing is a significant part of the course work\nThe major writing assignments all have minimum word counts and require a rough and final draft:\n\nPaper 0: 750-1,0000 words\nPaper 1: 1,000-1,500 words\nPaper 2: 1,500-2,000 words\nPaper 3: 750-1,000 words\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nAssessment\nDue Date\n\n\n\n\n3\nPaper 0 (positionality)\nSept 23, end of the day\n\n\n5\nPaper 1 First draft (technology analysis)\nOct 2, end of the day\n\n\n7\nPaper 1 Final draft (technology analysis)\nOct 21, end of the day\n\n\n9\nPaper 2 First Draft (application analysis)\nNov 4, end of the day\n\n\n11\nPaper 2 Final Draft (application analysis)\nNov 18, end of the day\n\n\n13\nPaper 3 First Draft (reflection paper)\nDec 2, end of the day\n\n\n15\nPaper 3 Final Draft (reflection paper)\nDec 16, end of the day"
+  },
+  {
+    "objectID": "syllabus.html#writing-is-a-significant-part-of-the-course-grade",
+    "href": "syllabus.html#writing-is-a-significant-part-of-the-course-grade",
+    "title": "Syllabus",
+    "section": "Writing is a significant part of the course grade",
+    "text": "Writing is a significant part of the course grade\nWriting assignments make up 90% of the course grade\nYour final grade is based on the following categories and weights:\n\n\n\nAssignment\nPoints\n\n\n\n\nIn-Class Activities\n25\n\n\nJournal\n10\n\n\nPaper 0\n5\n\n\nPaper 1\n20\n\n\nPaper 2\n20\n\n\nPaper 3\n20\n\n\nTotal points\n100"
+  },
+  {
+    "objectID": "syllabus.html#writing-is-learned-through-revision",
+    "href": "syllabus.html#writing-is-learned-through-revision",
+    "title": "Syllabus",
+    "section": "Writing is learned through revision",
+    "text": "Writing is learned through revision\nStudents are required to submit rough drafts of all major writing assignments.\n\nStudents who earn less than a B on any writing assignment are required to meet with a TA before submitting the final draft of the following assignment.\nStudents who earn a B-, B, or B+ on any writing assignment are not required to meet with a TA, but are required to send a rough draft to a TA before submitting the final draft of the following assignment.\nStudents may resubmit major writing assignments with no penalty until the last day of class by meeting with a TA and revising their original submission."
+  },
+  {
+    "objectID": "syllabus.html#writing-within-the-discipline-is-explained-and-practiced-in-the-course",
+    "href": "syllabus.html#writing-within-the-discipline-is-explained-and-practiced-in-the-course",
+    "title": "Syllabus",
+    "section": "Writing within the discipline is explained and practiced in the course",
+    "text": "Writing within the discipline is explained and practiced in the course\nThe readings for this course will served as a model for your writing. We will be discussing the readings in class, and each assignment specification will describe what genre (minimum requirements) you are to follow."
+  },
+  {
+    "objectID": "syllabus.html#class-participation-and-expectations",
+    "href": "syllabus.html#class-participation-and-expectations",
+    "title": "Syllabus",
+    "section": "Class participation and expectations",
+    "text": "Class participation and expectations\nAttending the scheduled class time, participating in the in-class activities, and doing the between-class activities are all essential parts of the class.\nUnless you are ill or have another legitimate excuse to miss class – plan on attending all the class meetings.\nIf you are experiencing school-life conflicts or unforeseen difficulties that impact your ability to meet a deadline, please contact me immediately. We want to work together to form a plan for your academic success.\nThis class differs from most computer science classes. It does not involve computer programming or solving computer-related technical problems. Instead we will be exploring societal aspects of computing.\nThis is a “doing things” class – if you spend the time to attend class and do the between-class activities then you should pass the class without any trouble. So read, listen to, or watch the assigned material, spend time reflecting on it, and spend time completing the class activities.\nThe instructor expects all students to be active participants in their learning, not passive consumers1\nIf you will miss a lecture or group discussion due to illness or another legitimate cause, you must contact me in advance. If you do not contact me in advance, you will receive a 0. If you contact me in advance: for the lectures, you will be given an extra-day to write your answers based on the prompts in the slides. If you are suffering from an incapacitating illness or emergency, an assignment may be waived.\nYou can expect to spend about 9 hours per week on this class. class. Of course the actual amount will vary from week to week and student to student. But here are some rough guidelines:\n\nApproximately two hours per week going through the readings, listening to podcasts, and/or watching videos. Note-taking is strongly recommended for participation in group discussions.\nTwo and a half hours per week for the in-person class meeting.\nEvery week there will also be work on drafting and rewriting assignments. On average, you will probably need to spend three to four hours per week on these activities."
+  },
+  {
+    "objectID": "syllabus.html#in-class-assignments",
+    "href": "syllabus.html#in-class-assignments",
+    "title": "Syllabus",
+    "section": "In-class Assignments",
+    "text": "In-class Assignments\nTo be absolutely clear, assignments marked as “in-class” assignments are to be done while in the classroom or immediately after attending (if you need accommodations, reach out to me)."
+  },
+  {
+    "objectID": "syllabus.html#preferred-names",
+    "href": "syllabus.html#preferred-names",
+    "title": "Syllabus",
+    "section": "Preferred Names",
+    "text": "Preferred Names\nIf your preferred name is not the same as the name that appears on the university provided roster for the course, please let me know so that I can use your preferred name."
+  },
+  {
+    "objectID": "syllabus.html#a-respectful-learning-environment-for-all",
+    "href": "syllabus.html#a-respectful-learning-environment-for-all",
+    "title": "Syllabus",
+    "section": "A respectful learning environment for all",
+    "text": "A respectful learning environment for all\nEveryone living, learning, and working at this college is expected to contribute to creating a respectful environment free from harassment and discrimination."
+  },
+  {
+    "objectID": "syllabus.html#caregiver-responsibilities-policy",
+    "href": "syllabus.html#caregiver-responsibilities-policy",
+    "title": "Syllabus",
+    "section": "Caregiver Responsibilities Policy",
+    "text": "Caregiver Responsibilities Policy\nI have great respect for students who are balancing their pursuit of education with the responsibilities of caring for children or other family members. If you run into challenges that require you to miss a class, or if your caregiving responsibilities are interfering with your ability to engage in remote learning, please contact me. There may be some instances of flexibility we can offer to support your learning."
+  },
+  {
+    "objectID": "syllabus.html#disability-accommodations",
+    "href": "syllabus.html#disability-accommodations",
+    "title": "Syllabus",
+    "section": "Disability Accommodations",
+    "text": "Disability Accommodations\nI am committed to creating an inclusive learning environment within my course. Inclusivity and accessibility are ongoing community processes, and I hope that you as a member of our class share my commitment to creating a classroom experience that fosters belonging.\nPlease contact me immediately if you become concerned—for any reason—about your capacity to fully participate in our course due to the structure of the course, activities, or assignments. If you work with the Disability Resource Center (DRC), please notify me as soon as possible so that we can discuss access (see contact information below). If you do not work with the DRC, but know that access barriers may arise (due to undiagnosed health conditions, mental health, learning style, life circumstances, etc.), please reach out to me as soon as possible so that we can work together to support your learning. I welcome the conversation."
+  },
+  {
+    "objectID": "syllabus.html#students-mental-health-and-stress-management",
+    "href": "syllabus.html#students-mental-health-and-stress-management",
+    "title": "Syllabus",
+    "section": "Students Mental Health and Stress Management",
+    "text": "Students Mental Health and Stress Management\nAs a student you may experience a range of issues that can cause barriers to learning, such as strained relationships, increased anxiety, alcohol/drug problems, feeling down, difficulty concentrating and/or lack of motivation. These mental health concerns or stressful events may lead to diminished academic performance and may reduce your ability to participate in daily activities. University services are available to assist you. All of us need a support system, and many students benefit from the use of counseling services. You can learn more about the broad range of confidential mental health services available on campus via the Student Mental Health Website. As an instructor/University community member, we care about the wellbeing of students. If health, safety, or mental health concerns are conveyed, we may consult with campus support offices to provide support and resources to a student.\nMental Health is Physical Health. I am committed to treating mental health issues, short-term or long-term, with the same severity I would treat physical health issues, especially as it would relate to accommodations and make-up work."
+  },
+  {
+    "objectID": "syllabus.html#footnotes",
+    "href": "syllabus.html#footnotes",
+    "title": "Syllabus",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nhooks, b. (1994). Teaching to transgress: Education as the practice of freedom. Routledge.↩︎"
+  },
+  {
+    "objectID": "integrity.html",
+    "href": "integrity.html",
+    "title": "Academic Integrity",
+    "section": "",
+    "text": "Cheating Questionnaire\nQuestions adapted from Bowers, W. J. (1964). Student Dishonesty and Its Control in College. New York: Columbia University Press.\n\nWorking on the same assignment with several students when the teacher does not allow it\n“Padding” a few items on a bibliography\nCopying answers from a text or other source instead of doing the work independently\nPlagiarizing (copying without citation) from published material on papers\nTurning in a paper done entirely or in part by other students/sources\nSending your solution for an assignment to another student\nGetting questions or answers from someone who has already taken the same exam\nGiving questions or answers to someone when you have already taken the same exam\nUsing notes during an exam when notes are not allowed\nArranging with other student(s) to give or receive answers by use of signals\nArranging to sit next to someone who will let you copy from them during a test or exam\nCopying from someone’s assignment, test or exam paper without their knowing about it\nCopying from someone’s assignment, test or exam paper with that person’s knowledge\nWriting an assignment for another student\nTaking an exam for another student\nHaving another student take an exam for you"
+  },
+  {
+    "objectID": "assignment-3.html",
+    "href": "assignment-3.html",
+    "title": "Final Reflection",
+    "section": "",
+    "text": "In this assignment you will be asked to write a final reflection essay using the provided prompt.\nYou will need to complete this assignment individually."
+  },
+  {
+    "objectID": "assignment-1.html",
+    "href": "assignment-1.html",
+    "title": "Technology Analysis",
+    "section": "",
+    "text": "Using at least 3 of the academic sources we have read so far, develop a conceptual framework that articulates your unique perspective on technology. Your conceptual framework should integrate theoretical arguments from the readings covered thus far and your own personal identity and experience in the world. Ultimately, your conceptual framework should be useful, and productive. You will draw upon it to conduct an in-depth analysis of your chosen technology. Your analysis should address the following questions:\n\nWhat values do this technology reflect, embrace, reject, or encourage?\nWho is affected by its design?\nHow was its design affected by society?\nWho reaps the benefits, and who suffers the costs of its creation and use?\n\nYou must pick an article that describes a computer technology (e.g. a platform, an app, an algorithm, etc.) that presents a moral dilemma when considering its intended or unintended use cases. In your paper, you will be asked to identify the moral dilemma and the ethical considerations of using this technology, explaining its benefits and dangers. You will then provide 2-3 independent, persuasive arguments for using the technology and 2-3 arguments against its use. Based on your arguments, you will provide a recommendation as to whether this technology should be used (explaining how to mitigate the potential dangers) or not (explaining how to achieve similar benefits in another way). In drawing your conclusion, be sure to explain which actors should have a say in how this technology is distributed, employed, and regulated.\nYou will need to complete this assignment individually."
+  },
+  {
+    "objectID": "syllabus.html#use-of-ai-tools",
+    "href": "syllabus.html#use-of-ai-tools",
+    "title": "Syllabus",
+    "section": "Use of AI tools",
+    "text": "Use of AI tools\nSince written communication is a learning outcome of this course, the content of your individually authored papers and journal entries must be your own writing. AI tools may be used for grammar and clarity editing of your own prose, but not to generate the substance of the writing that forms the basis of the Writing Intensive assessment. All AI assistance must be acknowledged and cited.\nAI tools should also not be used to summarize readings. You should train your brain to read and reflect on what you are reading, and make connections. We will be using a social reading tool where you can interact with your classmates, so that hopefully the reading will be more meaningful."
+  }
+]
