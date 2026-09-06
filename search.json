@@ -25,7 +25,7 @@
     "href": "assignment-0.html#values-and-assumptions",
     "title": "Positionality Statement",
     "section": "3. Values and assumptions",
-    "text": "3. Values and assumptions\n\nWhat do you tend to assume is true about technology. For example, do you believe that technology makes life better, that it’s inevitable, that regulation stifles innovation, that data should be free, or something else? Where might those assumptions come from?\nWhich social, legal, or ethical issues in computing do you care about most, and why?"
+    "text": "3. Values and assumptions\n\nWhat do you tend to assume is true about technology. For example, do you believe that technology makes life better, that it’s inevitable, that regulation stifles innovation, that data access should be free for companies and/or individuals, or something else? Where might those assumptions come from?\nWhich social, legal, or ethical issues in computing do you care about most, and why?"
   },
   {
     "objectID": "assignment-0.html#blind-spots-and-standpoint",
@@ -81,7 +81,7 @@
     "href": "assignments.html",
     "title": "Assignments",
     "section": "",
-    "text": "You are expected to complete assigned readings in advance of in-class discussion so that you come prepared. Discussions require a much deeper engagement with a topic – reading about a topic in advance will help you to engage in productive and critical discussions. We’ll spend the bulk of the time discussing the concepts in the chapter, so if you haven’t read it, it will be hard to discuss them as a group.\n\n\nThis list will be updated as the semester progresses. These readings are available on Canvas (where you are expected to put some of your notes).\n\nPeter C Baker. “Teacher v chatbot: my journey into the classroom in the age of AI” The Guardian, March 3, 2026.\nOffice of the Mayor. “Mayor Mamdani and Chancellor Samuels Put Students First with Nation’s Broadest Generative AI Moratorium in Schools” NYC Office Website, September 2, 2026.\nAmy J. Ko. “That time I wanted to be an AI researcher” Bits and Behavior, Jul 17, 2023.\nPope Leo XIV. “Chapter 3. Technology and Dominance. The Grandeur of Humanity in Light of the Promises of AI” Encyclical Letter, 2026.\nApryl Williams. “Two. Automating Sexual Racism”. Not My Type: Automating Sexual Racism in Online Dating, Redwood City: Stanford University Press, 2024, pp. 50-81. https://doi.org/10.1515/9781503637610-005 pdf"
+    "text": "You are expected to complete assigned readings in advance of in-class discussion so that you come prepared. Discussions require a much deeper engagement with a topic – reading about a topic in advance will help you to engage in productive and critical discussions. We’ll spend the bulk of the time discussing the concepts/ideas presented in the readings, so if you haven’t read it, it will be hard to discuss them as a group.\n\n\nThis list will be updated as the semester progresses. These readings are available on Canvas (where you are expected to put some of your notes).\n\nPeter C Baker. “Teacher v chatbot: my journey into the classroom in the age of AI” The Guardian, March 3, 2026.\nOffice of the Mayor. “Mayor Mamdani and Chancellor Samuels Put Students First with Nation’s Broadest Generative AI Moratorium in Schools” NYC Office Website, September 2, 2026.\nAmy J. Ko. “That time I wanted to be an AI researcher” Bits and Behavior, Jul 17, 2023.\nPope Leo XIV. “Chapter 3. Technology and Dominance. The Grandeur of Humanity in Light of the Promises of AI” Encyclical Letter, 2026.\nApryl Williams. “Two. Automating Sexual Racism”. Not My Type: Automating Sexual Racism in Online Dating, Redwood City: Stanford University Press, 2024, pp. 50-81. https://doi.org/10.1515/9781503637610-005 pdf"
   },
   {
     "objectID": "assignments.html#list-of-readings",
@@ -109,14 +109,14 @@
     "href": "index.html",
     "title": "CSCI 3921W - Social, Legal, and Ethical Issues in Computing",
     "section": "",
-    "text": "Course description: Impact of computers on society. Computer science perspective of ethical, legal, social, philosophical, political, and economic aspects of computing.\n\nSyllabus\nRules of Engagement\nAssignments"
+    "text": "Course description: Impact of computers on society. Computer science perspective of ethical, legal, social, philosophical, political, and economic aspects of computing."
   },
   {
     "objectID": "slides/slides-00-00.html#lecture-structure",
     "href": "slides/slides-00-00.html#lecture-structure",
     "title": "Lecture Structure",
     "section": "Lecture Structure",
-    "text": "Lecture Structure\n\nFirst 10 minutes of class: Q&A about ethics, computing, and logistics of the course. No question is too silly, naive, controversial, basic, or advanced. Curiosities are fine as well and you can ask my opinions about things.\nPriming: Brief direct instruction on concepts, scenarios, frameworks, etc.\nDiscussion: We will practice what Freire called “dialogic” methods, using discussion and dialogue to help develop our collective critical conscious of computing.\nReflective Journal Writing: After each discussion, you will reflect on what you liked and disliked about the discussion, what you learned, and what you wished you’d learned.\nThe previous three steps might repeat depending of the topic."
+    "text": "Lecture Structure\n\nFirst 10 minutes of class: Q&A\nPriming: Brief direct instruction on concepts, scenarios, frameworks, etc.\nDiscussion\nReflective Journal Writing\nThe previous three steps might repeat depending of the topic\n\nDiscussion might be used as priming for instruction"
   },
   {
     "objectID": "syllabus.html",
@@ -341,5 +341,236 @@
     "title": "Syllabus",
     "section": "Excused Absences and Makeup Work",
     "text": "Excused Absences and Makeup Work\nIf you run into any other challenges that require you to miss a class or miss an assignment, please contact me AS SOON AS POSSIBLE. Contact me before the assignment is due, before you miss a quiz or an exam, so we can make arrangements for you to make-up the missed work."
+  },
+  {
+    "objectID": "slides/slides-01-02.html#philosophies-of-technology",
+    "href": "slides/slides-01-02.html#philosophies-of-technology",
+    "title": "Philosophies of Technology",
+    "section": "Philosophies of technology",
+    "text": "Philosophies of technology\n\ninstrumentalism (naive)\ntechnological determinism (hard, soft)"
+  },
+  {
+    "objectID": "slides/slides-01-02.html#instrumentalism",
+    "href": "slides/slides-01-02.html#instrumentalism",
+    "title": "Philosophies of Technology",
+    "section": "Instrumentalism",
+    "text": "Instrumentalism\n\nTechnology is a neutral tool – it is neither good nor bad\nTechnology does not contain inherent moral values\nHumans have complete control over how it is used\nHigh human agency – society decides whether technology is used for good or bad\n\n\n“Guns don’t kill people, people kill people.”"
+  },
+  {
+    "objectID": "slides/slides-01-02.html#technological-determinism",
+    "href": "slides/slides-01-02.html#technological-determinism",
+    "title": "Philosophies of Technology",
+    "section": "Technological determinism",
+    "text": "Technological determinism\n\nTechnology causes/drives social changes\nTechnology shapes human behavior and society\nLow human agency – humans adapt to technology (we cannot easily stop its trajectory)\nDeterminism (technology is autonomous and neutral) vs. Substantivism (technology is autonomous and value-laden)\n\n\n“Cellphones have ruined face-to-face interactions”"
+  },
+  {
+    "objectID": "slides/slides-01-02.html#soft-technological-determinism",
+    "href": "slides/slides-01-02.html#soft-technological-determinism",
+    "title": "Philosophies of Technology",
+    "section": "Soft technological determinism",
+    "text": "Soft technological determinism\n\nTechnology is both determining society and determined by it\nSome room for human agency – engineers can inscribe their intentions within technology to shape human behaviour\nAwareness of unintended social or environmental consequences"
+  },
+  {
+    "objectID": "slides/slides-01-02.html#discussion",
+    "href": "slides/slides-01-02.html#discussion",
+    "title": "Philosophies of Technology",
+    "section": "Discussion",
+    "text": "Discussion\n\nDo humans control technology?\nDoes technology have built-in values?"
+  },
+  {
+    "objectID": "slides/slides-01-02.html#policies",
+    "href": "slides/slides-01-02.html#policies",
+    "title": "Philosophies of Technology",
+    "section": "Policies",
+    "text": "Policies\n\nSolutionism – lawmakers believe technology will solve all the world’s problems\nFatalism – lawmakers have resigned themselves to the consequences of technology\nRegulation – lawmaker belive technology should be regulated"
+  },
+  {
+    "objectID": "slides/slides-01-02.html#soft-technological-determinism-critical-theory",
+    "href": "slides/slides-01-02.html#soft-technological-determinism-critical-theory",
+    "title": "Philosophies of Technology",
+    "section": "Soft technological determinism (Critical theory)",
+    "text": "Soft technological determinism (Critical theory)\n\nTechnology is both determining society and determined by it\nSome room for human agency – engineers can inscribe their intentions within technology to shape human behaviour\nAwareness of unintended social or environmental consequences"
+  },
+  {
+    "objectID": "slides/slides-00-00.html#first-discussion",
+    "href": "slides/slides-00-00.html#first-discussion",
+    "title": "Lecture Structure",
+    "section": "First Discussion",
+    "text": "First Discussion\nIn your small group, each person should:\n\nIntroduce yourself by giving your (i) name and (ii) major\nExplain why you are taking this class and what you expect to learn in this class\nMention something you are looking forward to this Fall (doesn’t have to be related to school)"
+  },
+  {
+    "objectID": "slides/slides-00-00.html#about-the-class",
+    "href": "slides/slides-00-00.html#about-the-class",
+    "title": "Lecture Structure",
+    "section": "About the Class",
+    "text": "About the Class\n\nThis course will cover topics in social, legal, and ethical aspects of computing. It will cover a breadth of topics rather than only a few.\nIt fulfills an ethics and computing requirement for CS B.A., CS B.S., and DS B.S. students, but students from other majors are also welcome."
+  },
+  {
+    "objectID": "slides/slides-00-00.html#about-the-class-1",
+    "href": "slides/slides-00-00.html#about-the-class-1",
+    "title": "Lecture Structure",
+    "section": "About the Class",
+    "text": "About the Class\nThis is a “doing things” class:\n\nSome of the things are in-class activities, so expect to come to class and participate\nIf you do the all or almost all the work you should not have trouble passing the class.\nThis is a writing intensive class – writing in class and as assignments"
+  },
+  {
+    "objectID": "slides/slides-00-00.html#writing-to-learn",
+    "href": "slides/slides-00-00.html#writing-to-learn",
+    "title": "Lecture Structure",
+    "section": "Writing to Learn",
+    "text": "Writing to Learn\nWriting is a way to not only communicate ideas but also to organize thought.\nIn this class, we are using writing a a tool for processing, understanding, critically examining, reflecting, and making connections.\n\nIf you’re a writer, you think by writing. And thinking is the job. If you let your brain get used to the idea that there’s a shortcut, I really think it will get progressively harder to come up with new ideas, thoughts and observations. The muscles just atrophy. – Naomi Alderman"
+  },
+  {
+    "objectID": "slides/slides-00-00.html#journal-writing",
+    "href": "slides/slides-00-00.html#journal-writing",
+    "title": "Lecture Structure",
+    "section": "Journal Writing",
+    "text": "Journal Writing\nAfter each discussion/lecture, you will be asked reflect on what you learned. Here are the instruction for your first journal entry:\n\nCreate a Google doc, and share it with me (apicoral@umn.edu)\nAnswer these questions (10-15 minutes):\n\nWhat is the (i) name of one other person in your small discussion group from today? (You can ask them if needed.)\nWhat is one important thing you learned in class today?\nWhat is one question you have about today’s material, the class in general, or anything about ethics and computing?"
+  },
+  {
+    "objectID": "slides/slides-00-00.html#discussion",
+    "href": "slides/slides-00-00.html#discussion",
+    "title": "Lecture Structure",
+    "section": "Discussion",
+    "text": "Discussion\n\nWhat has been your experience with learning to write?\nHow often do you write? Why do you write?\nDo you enjoy writing? Do you avoid writing?\n\nBe prepared to summarize your discussion (what do you all have in common, where do you differ) to a TA or the instructor"
+  },
+  {
+    "objectID": "slides/slides-00-00.html#discussion-1",
+    "href": "slides/slides-00-00.html#discussion-1",
+    "title": "Lecture Structure",
+    "section": "Discussion",
+    "text": "Discussion\nWe will practice what Freire called “dialogic” methods, using discussion and dialogue to help develop our collective critical conscious of computing."
+  },
+  {
+    "objectID": "slides/slides-01-01.html#discussion-1",
+    "href": "slides/slides-01-01.html#discussion-1",
+    "title": "Intro to Technology Philosophies",
+    "section": "Discussion 1",
+    "text": "Discussion 1\n\nIn your opinion, what technology has historically changed humanity the most?\n\nThis is a brainstorming activity – there is no right or wrong answer. This is meant to prime you to think about different perspectives on technology the its impact on our past and present"
+  },
+  {
+    "objectID": "slides/slides-01-01.html#journal-entry",
+    "href": "slides/slides-01-01.html#journal-entry",
+    "title": "Intro to Technology Philosophies",
+    "section": "Journal Entry",
+    "text": "Journal Entry\nTake a couple of minutes to reflect on the discussion you just had – this can be a list of technologies mentioned in your group + your personal opinion about the topic (use the same google document you have already shared with me)"
+  },
+  {
+    "objectID": "slides/slides-01-01.html#discussion-2",
+    "href": "slides/slides-01-01.html#discussion-2",
+    "title": "Intro to Technology Philosophies",
+    "section": "Discussion 2",
+    "text": "Discussion 2\n\nDo humans control technology?\nDoes technology have built-in values?"
+  },
+  {
+    "objectID": "slides/slides-01-01.html#philosophies-of-technology",
+    "href": "slides/slides-01-01.html#philosophies-of-technology",
+    "title": "Intro to Technology Philosophies",
+    "section": "Philosophies of technology",
+    "text": "Philosophies of technology\n\ninstrumentalism (naive)\ntechnological determinism (hard, soft, substantivism)"
+  },
+  {
+    "objectID": "slides/slides-01-01.html#instrumentalism",
+    "href": "slides/slides-01-01.html#instrumentalism",
+    "title": "Intro to Technology Philosophies",
+    "section": "Instrumentalism",
+    "text": "Instrumentalism\n\nTechnology is a neutral tool – it is neither good nor bad\nTechnology does not contain inherent moral values\nHumans have complete control over how it is used\nHigh human agency – society decides whether technology is used for good or bad\n\n\n“Guns don’t kill people, people kill people.”"
+  },
+  {
+    "objectID": "slides/slides-01-01.html#technological-determinism",
+    "href": "slides/slides-01-01.html#technological-determinism",
+    "title": "Technology and our Past, Present, and Future",
+    "section": "Technological determinism",
+    "text": "Technological determinism\n\nTechnology causes/drives social changes\nTechnology shapes human behavior and society\nLow human agency – humans adapt to technology (we cannot easily stop its trajectory)\nDeterminism (technology is autonomous and neutral) vs. Substantivism (technology is autonomous and value-laden)\n\n\n“Cellphones have ruined face-to-face interactions”"
+  },
+  {
+    "objectID": "slides/slides-01-01.html#soft-technological-determinism-critical-theory",
+    "href": "slides/slides-01-01.html#soft-technological-determinism-critical-theory",
+    "title": "Intro to Technology Philosophies",
+    "section": "Soft technological determinism (Critical theory)",
+    "text": "Soft technological determinism (Critical theory)\n\nTechnology is both shaping society and shaped by it\nTechnology and social practices develop in tandem and influence one another\nTechnology is the means, human purposes are the end/goal\nSome room for human agency – engineers can inscribe their intentions within technology to shape human behavior\nAwareness of unintended social or environmental consequences"
+  },
+  {
+    "objectID": "slides/slides-01-01.html#policies",
+    "href": "slides/slides-01-01.html#policies",
+    "title": "Intro to Technology Philosophies",
+    "section": "Policies",
+    "text": "Policies\n\nSolutionism – lawmakers believe technology will solve all the world’s problems\nFatalism – lawmakers have resigned themselves to the consequences of technology\nRegulation – lawmaker believe technology should be regulated\n\n\nThinking and acting more critically towards technology enables societies to escape merely adapting to technological advances asserted as inevitable. – Andrew Smith (2026)"
+  },
+  {
+    "objectID": "slides/slides-01-01.html#determinism",
+    "href": "slides/slides-01-01.html#determinism",
+    "title": "Intro to Technology Philosophies",
+    "section": "Determinism",
+    "text": "Determinism\n\nTechnology causes/drives social changes\nTechnology shapes human behavior and society\nLow human agency – humans adapt to technology (we cannot easily stop its trajectory)\nDeterminism (technology is autonomous and neutral) vs. Substantivism (technology is autonomous and value-laden)\n\n\n“Cellphones have ruined face-to-face interactions”"
+  },
+  {
+    "objectID": "slides/slides-01-01.html#instrumentalism-vs.-determinism",
+    "href": "slides/slides-01-01.html#instrumentalism-vs.-determinism",
+    "title": "Intro to Technology Philosophies",
+    "section": "Instrumentalism vs. Determinism",
+    "text": "Instrumentalism vs. Determinism\n\n\n\n\n\n\nflowchart LR\n  Instrumentalism &lt;----------&gt; Determinism\n\n\n\n\n\n\n\n\n\nHumans control technology\nTechnology is neutral\n\n\n\nTechnology controls or shapes society"
+  },
+  {
+    "objectID": "slides/slides-01-01.html#technological-constructivism",
+    "href": "slides/slides-01-01.html#technological-constructivism",
+    "title": "Intro to Technology Philosophies",
+    "section": "Technological constructivism",
+    "text": "Technological constructivism\n\nSocial construction of technology (SCOT)\nA response to technological determinism\nTechnology does not determine human action, human action shapes technology\nTechnology is embedded within its respective social context\nHumans accept or reject technology"
+  },
+  {
+    "objectID": "slides/slides-01-01.html#summary",
+    "href": "slides/slides-01-01.html#summary",
+    "title": "Intro to Technology Philosophies",
+    "section": "Summary",
+    "text": "Summary\n\nInstrumentalism: Humans control technology, technology is neutral\nDeterminism: Technology causes/drives social changes\nSoft technological determinism: Technology shapes society and is shaped by it (engineers can imbue their values into technology, unintended consequences)\nTechnological constructivism: social context shapes technology\n\nDiscussion 3: Which philosophy do you ascribe yourself to?"
+  },
+  {
+    "objectID": "slides/slides-01-01.html#referencesfurther-reading",
+    "href": "slides/slides-01-01.html#referencesfurther-reading",
+    "title": "Intro to Technology Philosophies",
+    "section": "References/Further Reading",
+    "text": "References/Further Reading\n\nGrimes, S.M. & Feenberg, Andrew. (2013). Critical theory of technology. 10.4135/9781446282229.n9.\nKranzberg, M. (1986). Technology and History: “Kranzberg’s Laws.” Technology and Culture, 27(3), 544–560. https://doi.org/10.2307/3105385\nSmith, A. (2026). Loosening the grip of technological determinism in futures thinking. UNESCO."
+  },
+  {
+    "objectID": "slides/slides-01-01.html#society",
+    "href": "slides/slides-01-01.html#society",
+    "title": "Intro to Technology Philosophies",
+    "section": "Society?",
+    "text": "Society?\nWhen we say “social context/society/humans shapes technology,” who is “society?”"
+  },
+  {
+    "objectID": "slides/slides-01-01.html#journal-writing",
+    "href": "slides/slides-01-01.html#journal-writing",
+    "title": "Intro to Technology Philosophies",
+    "section": "Journal Writing",
+    "text": "Journal Writing\nWhich philosophy makes more sense to you? Why?"
+  },
+  {
+    "objectID": "slides/slides-01-01.html#basic-philosophies-of-technology",
+    "href": "slides/slides-01-01.html#basic-philosophies-of-technology",
+    "title": "Intro to Technology Philosophies",
+    "section": "(Basic) Philosophies of technology",
+    "text": "(Basic) Philosophies of technology\n\ninstrumentalism (naive)\ntechnological determinism (hard, soft, substantivism)"
+  },
+  {
+    "objectID": "slides/slides-01-01.html#journal-writing-1",
+    "href": "slides/slides-01-01.html#journal-writing-1",
+    "title": "Intro to Technology Philosophies",
+    "section": "Journal Writing",
+    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked of disliked (were the discussions helpful? were the contents of the slides clear?)"
+  },
+  {
+    "objectID": "index.html#slides",
+    "href": "index.html#slides",
+    "title": "CSCI 3921W - Social, Legal, and Ethical Issues in Computing",
+    "section": "Slides",
+    "text": "Slides\n\nLecture Structure\nIntro to Technology Philosophies"
+  },
+  {
+    "objectID": "slides/slides-00-00.html#reading",
+    "href": "slides/slides-00-00.html#reading",
+    "title": "Lecture Structure",
+    "section": "Reading",
+    "text": "Reading\nReading assignments are meant to help you to engage in productive and critical discussions (and help with your writing as well).\nReadings are available as links on the course assignments page, and on canvas as interactive social reading activities. (I’ll demonstrate this on Canvas)"
   }
 ]
