@@ -241,8 +241,8 @@
     "objectID": "slides/slides-00-00.html#outline",
     "href": "slides/slides-00-00.html#outline",
     "title": "Lecture Structure",
-    "section": "Outline",
-    "text": "Outline\n\nAbout me and our staff\nClass overview"
+    "section": "",
+    "text": "About me and our staff\nClass overview"
   },
   {
     "objectID": "slides/slides-00-00.html#who-am-i",
@@ -291,7 +291,7 @@
     "href": "slides/slides-00-00.html#writing-to-learn",
     "title": "Lecture Structure",
     "section": "Writing to Learn",
-    "text": "Writing to Learn\nWriting is a way to not only communicate ideas but also to organize thought.\nIn this class, we are using writing a a tool for processing, understanding, critically examining, reflecting, and making connections.\n\nIf you’re a writer, you think by writing. And thinking is the job. If you let your brain get used to the idea that there’s a shortcut, I really think it will get progressively harder to come up with new ideas, thoughts and observations. The muscles just atrophy. – Naomi Alderman"
+    "text": "Writing to Learn\nWriting is a way to not only communicate ideas but also to organize thought.\nIn this class, we are using writing a tool for processing, understanding, critically examining, reflecting, and making connections.\n\nIf you’re a writer, you think by writing. And thinking is the job. If you let your brain get used to the idea that there’s a shortcut, I really think it will get progressively harder to come up with new ideas, thoughts and observations. The muscles just atrophy. – Naomi Alderman"
   },
   {
     "objectID": "slides/slides-00-00.html#lecture-structure",
@@ -333,7 +333,7 @@
     "href": "slides/slides-01-01.html#discussion-1",
     "title": "Intro to Technology Philosophies",
     "section": "Discussion 1",
-    "text": "Discussion 1\n\nIn your opinion, what technology has historically changed humanity the most?\n\nThis is a brainstorming activity – there is no right or wrong answer. This is meant to prime you to think about different perspectives on technology the its impact on our past and present"
+    "text": "Discussion 1\n\nIn your opinion, what technology has historically changed humanity the most?\n\nThis is a brainstorming activity – there is no right or wrong answer. This is meant to prime you to think about different perspectives on technology and its impact on our past and present (and future)"
   },
   {
     "objectID": "slides/slides-01-01.html#journal-entry",
@@ -347,14 +347,14 @@
     "href": "slides/slides-01-01.html#discussion-2",
     "title": "Intro to Technology Philosophies",
     "section": "Discussion 2",
-    "text": "Discussion 2\n\nDo humans control technology?\nDoes technology have built-in values?"
+    "text": "Discussion 2\n\nDo humans control technology?\nDoes technology have built-in values (is it good or bad)?"
   },
   {
     "objectID": "slides/slides-01-01.html#basic-philosophies-of-technology",
     "href": "slides/slides-01-01.html#basic-philosophies-of-technology",
     "title": "Intro to Technology Philosophies",
     "section": "(Basic) Philosophies of technology",
-    "text": "(Basic) Philosophies of technology\n\ninstrumentalism (naive)\ntechnological determinism (hard, soft, substantivism)"
+    "text": "(Basic) Philosophies of technology\n\ninstrumentalism (naive)\ndeterminism (hard, soft, substantivism)"
   },
   {
     "objectID": "slides/slides-01-01.html#instrumentalism",
@@ -382,7 +382,7 @@
     "href": "slides/slides-01-01.html#soft-technological-determinism-critical-theory",
     "title": "Intro to Technology Philosophies",
     "section": "Soft technological determinism (Critical theory)",
-    "text": "Soft technological determinism (Critical theory)\n\nTechnology is both shaping society and shaped by it\nTechnology and social practices develop in tandem and influence one another\nTechnology is the means, human purposes are the end/goal\nSome room for human agency – engineers can inscribe their intentions within technology to shape human behavior\nAwareness of unintended social or environmental consequences"
+    "text": "Soft technological determinism (Critical theory)\n\nTechnology both shapes society and is shaped by it\nTechnology and social practices develop in tandem and influence one another\nTechnology is the means, human purposes are the end/goal\nSome room for human agency – engineers can inscribe their intentions within technology to shape human behavior\nAwareness of unintended social or environmental consequences"
   },
   {
     "objectID": "slides/slides-01-01.html#technological-constructivism",
@@ -473,7 +473,7 @@
     "href": "index.html#slides",
     "title": "CSCI 3921W - Social, Legal, and Ethical Issues in Computing",
     "section": "Slides",
-    "text": "Slides\n\nLecture Structure\nIntro to Technology Philosophies"
+    "text": "Slides\n\nLecture Structure\nIntro to Technology Philosophies\nPositionality and Values"
   },
   {
     "objectID": "slides/slides-01-02.html#qa-10-minutes",
@@ -572,5 +572,12 @@
     "title": "Positionality and Values",
     "section": "Discussion",
     "text": "Discussion\nHow would you define these terms (provide examples):\n\nvalues\nnorms\nsystems\nprocesses\n\n\n\nvalues — fundamental beliefs, principles, or priorities that guide judgment and decision-making (privacy, honesty)\nnorms — expectations and collective behaviors that govern social interaction within a group (politeness)\nsystems — structures, infrastructure, and tools (software, social media platforms, banks)\nprocesses — Step-by-step, repeatable workflows designed to achieve a specific operational outcome (how to file a bug report)"
+  },
+  {
+    "objectID": "slides/slides-00-00.html",
+    "href": "slides/slides-00-00.html",
+    "title": "Lecture Structure",
+    "section": "",
+    "text": "About me and our staff\nClass overview"
   }
 ]
