@@ -49,74 +49,11 @@
     "text": "You have the option to complete this individually or in pairs.\n\nOption 1: science fiction option\nWrite a piece of science fiction that explores the social and ethical implications of a particular socio-technical phenomenon.\n\n\nOption 2: Surveillance, Privacy, and Free Speech\nFor this assignment, you will be asked to come up with a set of requirements for a fictional app that aims to address a given real-world issue concerning the right to privacy and free speech. As part of this assignment, you will conduct at least two interviews with prospective users of the app, paying special attention to the use cases, desired functionality, and concerns brought up by the interviewees.\nYou will summarize the interview findings in a short report, describe the main functional requirements of the app, and provide general recommendations to the app developers on how to implement this functionality while respecting user privacy and the right to free speech.\nIn order to balance the workload, we will form pairs of students to complete this assignment.\n\n\nOption 3: Software Risks and Algorithmic Bias\nIn this assignment, you will obtain experience developing a machine learning algorithm and assessing the resulting model on a number of criteria. Your investigation will include not only being able to transparently see the code for the machine learning algorithm (which is what some lawmakers argue is a necessary safeguard in deploying algorithms for such decision-making), but also assessing the “fairness” of the model produced by the algorithm on a number of criteria. You will be asked to determine what you would do to make the decision-making model produced by the algorithm more “fair,” and justify this position in a short writeup.\nIn order to balance the workload, we will form pairs of students to complete this assignment and ensure that at least one team member has prior programming experience."
   },
   {
-    "objectID": "ref-role-of-writing.html",
-    "href": "ref-role-of-writing.html",
-    "title": "Role of Writing",
+    "objectID": "integrity.html",
+    "href": "integrity.html",
+    "title": "Academic Integrity",
     "section": "",
-    "text": "This is a Writing Intensive course, and written communication is a core learning outcome.\nWriting in CSCI 4970W mirrors the documentation practices of professional software engineering and research: writing is carried out iteratively, collaboratively where appropriate, and always with the goal of producing documentation that is complete, clear, and technically rigorous. Writing in this course takes several forms:\nGitHub Documentation Milestones. The core writing in this course is the staged GitHub documentation of your project across three milestones: (1) design documentation, (2) implementation documentation, and (3) testing documentation. Each milestone is submitted as a pull request, reviewed by the instructor for completeness, clarity, and technical rigor, and then revised and merged. This staged, feedback-and-revision structure is the heart of Writing Intensive pedagogy in this course: you are expected to take instructor feedback seriously and to produce substantially improved revised documentation in response to it.\nIndividually Authored Pull Requests. For team projects, each student is expected to lead a distinct portion of the documentation for each milestone and to submit that portion as their own pull request. This allows writing to be assessed individually even when the underlying project work is collaborative. Revisions to the initial submissions may be made by the full team, but all teammates are expected to contribute approximately equally across the three milestones.\nLab Notebooks. Each student maintains an individual lab notebook throughout the semester, beginning in Week 1. The lab notebook is an ongoing written record of your technical work: what you tried, what you learned, what decisions you made, and why. Lab notebooks are reviewed during the Implementation Clinic phase and contribute to individual written communication assessment. Lab notebooks must be the student’s own work.\nArchitecture Presentation. A 20-minute oral presentation delivered to the instructor in Week 7 serves as a companion communication assessment. You will identify the specific technical challenge your project addresses and present your proposed system architecture, connecting your design to prior work and existing systems.\nUse of AI tools. Because this is a project course, you are allowed and encouraged to use AI tools, forums, code repositories, and other external resources to help solve technical problems, as long as you appropriately credit those sources. However, because written communication is a learning outcome of this course, the content of your individually authored documentation pull requests and lab notebook entries must be your own writing. AI tools may be used for grammar and clarity editing of your own prose, but not to generate the substance of the writing that forms the basis of the Writing Intensive assessment. All AI assistance must be acknowledged and cited."
-  },
-  {
-    "objectID": "rules-of-engagement.html",
-    "href": "rules-of-engagement.html",
-    "title": "Rules of Engagement",
-    "section": "",
-    "text": "It is expected that everyone will participate in a mature and respectful fashion.\nParticipate actively in the discussions, having completed the pre-review material and thought about the issues.\nThrow sunlight, not shade. Like beautiful flowers, we are here to learn and grow together. This will involve discussing difficult topics and challenging some of our deepest held beliefs and assumptions with curiosity and respect. In order to do that, your actions and behavior should support the growth and learning of others. You should find ways to acknowledge disagreement while also supporting the growth and dignity of your colleagues. This means that hostile reactions such as eye-rolls, yelling, teasing, or otherwise throwing shade will not be accepted.\nDisagree with ideas, but do not make personal attacks. Do not demean or embarrass others. Do not make sexist, racist, xenophobic, homophobic, transphobic, or victim-blaming comments. Immature, aggressive, or disrespectful behavior (i.e., the various ways we can throw shade and hate on one another) will not be tolerated.\nBe cautious of how you use humor. Tone is often difficult to gauge when you don’t know people very well (not as well as you do at a friendship level). Some common forms of humor such as sarcasm can be interpreted as hurtful and demeaning by others. Be aware of the potential impact of your words, regardless of the intentions. Think through your comments before you say them.\nBe open to be challenged or confronted on your pre-conceived ideas. The academic classroom is a place where we learn to examine social issues through scientific inquiry. It is no place for uninformed biases.\nCommunicate in “I” statements. Don’t tell others what to do or think as if it is a command. Instead, describe your own perspective or experience. Speak for yourself; don’t volunteer other people to speak. Consider when it is appropriate to speak from your own experience and when it is better to consider the text or listen to others.\nStudy and avoid engaging in rhetorical fallacies.\nAvoid making broad generalizations you can’t back up with evidence (e.g.,“everyone everywhere always does x”). Acknowledge when your personal experience is too limited or privileged to be generalized.\n\nBased on the 3C Fellows rules of engagement"
-  },
-  {
-    "objectID": "slides/slides-01-01.html#critical-consciousness",
-    "href": "slides/slides-01-01.html#critical-consciousness",
-    "title": "Positionality",
-    "section": "Critical Consciousness",
-    "text": "Critical Consciousness\nAwareness of the systems, values, norms, and processes that limit and potentially oppress one’s life and community.\nPaulo Freire (1968). Pedagogy of the oppressed. Bloomsbury Publishing."
-  },
-  {
-    "objectID": "slides/slides-01-01.html#oppression",
-    "href": "slides/slides-01-01.html#oppression",
-    "title": "Positionality",
-    "section": "Oppression",
-    "text": "Oppression\n\n“how a design is built can impose their own forms of oppression, and programmers often do this unknowingly, because they do not verify that programs work for all possible people who might use them.”\n\nAmy J. Ko, Anne Beitlers, Brett Wortzman, Matt Davidson, Alannah Oleson, Mara Kirdani-Ryan, Stefania Druga, Jayne Everson (2026). Critically Conscious Computing: Methods for Secondary Education. https://criticallyconsciouscomputing.org/, retrieved 3/4/2026.\nThe goal is to name injustices, critique systems, and alter the world we inhabit"
-  },
-  {
-    "objectID": "assignments.html",
-    "href": "assignments.html",
-    "title": "Assignments",
-    "section": "",
-    "text": "You are expected to complete assigned readings in advance of in-class discussion so that you come prepared. Discussions require a much deeper engagement with a topic – reading about a topic in advance will help you to engage in productive and critical discussions. We’ll spend the bulk of the time discussing the concepts/ideas presented in the readings, so if you haven’t read it, it will be hard to discuss them as a group.\n\n\nThis list will be updated as the semester progresses. These readings are available on Canvas (where you are expected to put some of your notes).\n\nPeter C Baker. “Teacher v chatbot: my journey into the classroom in the age of AI” The Guardian, March 3, 2026.\nOffice of the Mayor. “Mayor Mamdani and Chancellor Samuels Put Students First with Nation’s Broadest Generative AI Moratorium in Schools” NYC Office Website, September 2, 2026.\nAmy J. Ko. “That time I wanted to be an AI researcher” Bits and Behavior, Jul 17, 2023.\nPope Leo XIV. “Chapter 3. Technology and Dominance. The Grandeur of Humanity in Light of the Promises of AI” Encyclical Letter, 2026.\nApryl Williams. “Two. Automating Sexual Racism”. Not My Type: Automating Sexual Racism in Online Dating, Redwood City: Stanford University Press, 2024, pp. 50-81. https://doi.org/10.1515/9781503637610-005 pdf"
-  },
-  {
-    "objectID": "assignments.html#list-of-readings",
-    "href": "assignments.html#list-of-readings",
-    "title": "Assignments",
-    "section": "",
-    "text": "This list will be updated as the semester progresses. These readings are available on Canvas (where you are expected to put some of your notes).\n\nPeter C Baker. “Teacher v chatbot: my journey into the classroom in the age of AI” The Guardian, March 3, 2026.\nOffice of the Mayor. “Mayor Mamdani and Chancellor Samuels Put Students First with Nation’s Broadest Generative AI Moratorium in Schools” NYC Office Website, September 2, 2026.\nAmy J. Ko. “That time I wanted to be an AI researcher” Bits and Behavior, Jul 17, 2023.\nPope Leo XIV. “Chapter 3. Technology and Dominance. The Grandeur of Humanity in Light of the Promises of AI” Encyclical Letter, 2026.\nApryl Williams. “Two. Automating Sexual Racism”. Not My Type: Automating Sexual Racism in Online Dating, Redwood City: Stanford University Press, 2024, pp. 50-81. https://doi.org/10.1515/9781503637610-005 pdf"
-  },
-  {
-    "objectID": "assignments.html#reflective-journal",
-    "href": "assignments.html#reflective-journal",
-    "title": "Assignments",
-    "section": "Reflective Journal",
-    "text": "Reflective Journal\nIn-class Discussions There is a lot of nuance, context, values, tensions, and complexity in general when it comes to social, legal, and ethical issues in computing. We are going to be discussing the different ways that people view these issues. For that reason, classroom discussion is a central tool to help build awareness about these diverse, complex phenomena.\nLecture time will be arranged around discussions. After each in-class discussion you will have 10 minutes to write down your reflection on what was discussed. You should reflect on 1) What you learned from the discussion (something that surprised you, something you had not considered before, a new way of thinking of something, etc.), 2) What you wish you’d learned from the discussion (what questions you have). You will be doing that in a Google doc that you will share with me only (your classmates will not have access to this).\nThis journal will be a personalized space for you to keep track of how core concepts and topics of the class relate directly to your own lived experiences, identities, and perspectives. It will also serve as an artifact of your learning that will be useful to you when writing major assignments."
-  },
-  {
-    "objectID": "patents-list.html",
-    "href": "patents-list.html",
-    "title": "Patents List",
-    "section": "",
-    "text": "Patent Public Search Basic\n\nSYSTEMS AND METHODS FOR IDENTIFYING INTERESTS BASED ON SOCIAL MEDIA ACTIVITY – US-20260087464-A1\nAUTOMATED QUOTE COMPARISON AND GRAPHICAL RISK STRUCTURE GENERATION FROM UNSTRUCTURED INSURANCE QUOTATION DOCUMENTS – US-20260080480-A1\nGENERATION OF DATA-GROUNDED EMAILS FOR AUTO-RESPONSE – US-20260081881-A1\nDEVICE, METHOD AND SYSTEM FOR LOGGING SMOKING DATA – US-20260083925-A1\nPERSONALIZED AVATAR RESPONSIVE TO USER PHYSICAL STATE AND CONTEXT – US-20260088164-A1\nSYSTEM AND METHOD TO DETERMINE RESPONSIVENESS OF A DRIVER OF A VEHICLE TO FEEDBACK REGARDING DRIVING BEHAVIORS – US-20260084702-A1"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "CSCI 3921W - Social, Legal, and Ethical Issues in Computing",
-    "section": "",
-    "text": "Course description: Impact of computers on society. Computer science perspective of ethical, legal, social, philosophical, political, and economic aspects of computing."
-  },
-  {
-    "objectID": "slides/slides-00-00.html#lecture-structure",
-    "href": "slides/slides-00-00.html#lecture-structure",
-    "title": "Lecture Structure",
-    "section": "Lecture Structure",
-    "text": "Lecture Structure\n\nFirst 10 minutes of class: Q&A\nPriming: Brief direct instruction on concepts, scenarios, frameworks, etc.\nDiscussion\nReflective Journal Writing\nThe previous three steps might repeat depending of the topic\n\nDiscussion might be used as priming for instruction"
+    "text": "Cheating Questionnaire\nQuestions adapted from Bowers, W. J. (1964). Student Dishonesty and Its Control in College. New York: Columbia University Press.\n\nWorking on the same assignment with several students when the teacher does not allow it\n“Padding” a few items on a bibliography\nCopying answers from a text or other source instead of doing the work independently\nPlagiarizing (copying without citation) from published material on papers\nTurning in a paper done entirely or in part by other students/sources\nSending your solution for an assignment to another student\nGetting questions or answers from someone who has already taken the same exam\nGiving questions or answers to someone when you have already taken the same exam\nUsing notes during an exam when notes are not allowed\nArranging with other student(s) to give or receive answers by use of signals\nArranging to sit next to someone who will let you copy from them during a test or exam\nCopying from someone’s assignment, test or exam paper without their knowing about it\nCopying from someone’s assignment, test or exam paper with that person’s knowledge\nWriting an assignment for another student\nTaking an exam for another student\nHaving another student take an exam for you"
   },
   {
     "objectID": "syllabus.html",
@@ -173,6 +110,13 @@
     "title": "Syllabus",
     "section": "Modality",
     "text": "Modality\nThis course is scheduled as an in-person course. I intend to hold all class ses- sions in-person except if situational factors arise, such as personal illness of the instructor or inclement weather, when the class may be held synchronously via Zoom or recorded for later viewing.\nThere will be no outside regularly-scheduled-class meetings."
+  },
+  {
+    "objectID": "syllabus.html#workload",
+    "href": "syllabus.html#workload",
+    "title": "Syllabus",
+    "section": "Workload",
+    "text": "Workload\nAccording to University guidelines, one course credit represents an average of three hours of academic work per week. This is a 3-credit class, so the expected workload (lecture, reading and written assignments) to succeed in this course is 9 hours a week (3 hours for lecture participation, and approximately 6 hours a week that you should dedicate to course readings and written assignments)."
   },
   {
     "objectID": "syllabus.html#textbook",
@@ -238,6 +182,13 @@
     "text": "In-class Assignments\nTo be absolutely clear, assignments marked as “in-class” assignments are to be done while in the classroom or immediately after attending (if you need accommodations, reach out to me)."
   },
   {
+    "objectID": "syllabus.html#use-of-ai-tools",
+    "href": "syllabus.html#use-of-ai-tools",
+    "title": "Syllabus",
+    "section": "Use of AI tools",
+    "text": "Use of AI tools\nSince written communication is a learning outcome of this course, the content of your individually authored papers and journal entries must be your own writing. AI tools may be used for grammar and clarity editing of your own prose, but not to generate the substance of the writing that forms the basis of the Writing Intensive assessment. All AI assistance must be acknowledged and cited.\nAI tools should also NOT be used to summarize readings. You should train your brain to read and reflect on what you are reading, and make connections. We will be using a social reading tool where you can interact with your classmates, so that hopefully the reading will be more meaningful.\nIn this class, the ability to write is essential for understanding and communicating your perspectives on social, legal and ethical issues in computing. As such using Generative AI tools for summarizing the readings and generating any part of your written assignments is NOT permitted.\nGenAI tools are not substitutes for your intellectual effort or scholarly expression. Active engagement with course materials, critical thinking and judgment, and expression of original ideas should never be outsourced to technology.\nAny violation of this is subject to the UMN’s Scholastic Dishonesty policy included in the Board of Regents: Student Conduct Code. This includes incorporating any part of an AI-generated text in an assignment.\nViolations will be subject to a zero grade on the assignment in question and a letter grade reduction in the final grade. In addition, the incident will be reported to the Office for Community Standards.\nThe Board of Regents Student Conduct Code states the following in Section IV, Subd.1: Scholastic Dishonesty:\n“Scholastic dishonesty means plagiarism; cheating on assignments or examinations, including the unauthorized use of online learning support and testing platforms; engaging in unauthorized collaboration on academic work, including the posting of student-generated coursework on online learning support and testing platforms not approved for the specific course in question; taking, acquiring, or using course materials without faculty permission, including the posting of faculty-provided course materials on online learning and testing platforms; …”\nIf you are in doubt as to whether you are using an online learning support platform appropriately in this course, I encourage you to discuss your situation with me.\nAny assignment content composed by any resource other than you, regardless of whether that resource is human or digital, must be attributed to the source through proper citation.\nUnattributed use of online learning support platforms and unauthorized sharing of instructional property are forms of scholastic dishonesty and will be treated as such.\nI do provide guidance to you in your assignment descriptions on when the use of AI is appropriate (and permitted). In these LIMITED instances, when using AI tools, you are going to be asked to:\n\nInclude proper citation for any AI-generated text, images, or other media. An example citation might look like this:\n\nCopilot, Microsoft Copilot, accessed [Month] [Day], [Year], cloud.copilot.microsoft.com\n\nInclude an AI disclosure statement. For example:\n\n“For this assignment, I used [list of AI tools used in assignment] for [specific purpose, e.g., generating an outline, summarizing sources, grammar revision] but not for [list of student contribution, e.g., direct content creation.]”\n\n\nYou may be asked to show proper documentation of your process as required by the assignment. Students are responsible for any data input into AI tools and the AI-generated outputs they choose to include in their coursework.\nDo not enter private, sensitive, or copyrighted information into AI systems, including personal information, research data, or any instructional or peer-generated materials from this course. The Student Conduct Code and University copyright policies prohibit students from uploading or sharing instructor or peer course materials (e.g., lecture notes, assessments, readings, discussion posts) with AI tools or external platforms. I will never upload your work to any GenAI tools for teaching or research purposes. Tools may generate false, misleading, biased outputs and illicitly reproduce copyrighted materials. You are responsible for vetting all generated responses before using them in your work. Any violation of this course policy, including failure to disclose or adequately cite AI use when required may be considered Scholastic Dishonesty in accordance with the Student Conduct Code and the Office for Community Standards Consequences & Outcomes. Violations will be subject to a final grade penalty, and failing the assignment. In addition, the incident will be reported to the Office for Community Standards. As the AI landscape evolves globally and at the UMN, this policy is subject to revision at any point throughout the semester. Students will be alerted to any changes via a Canvas announcement."
+  },
+  {
     "objectID": "syllabus.html#preferred-names",
     "href": "syllabus.html#preferred-names",
     "title": "Syllabus",
@@ -257,6 +208,13 @@
     "title": "Syllabus",
     "section": "Caregiver Responsibilities Policy",
     "text": "Caregiver Responsibilities Policy\nI have great respect for students who are balancing their pursuit of education with the responsibilities of caring for children or other family members. If you run into challenges that require you to miss a class, or if your caregiving responsibilities are interfering with your ability to engage in remote learning, please contact me. There may be some instances of flexibility we can offer to support your learning."
+  },
+  {
+    "objectID": "syllabus.html#excused-absences-and-makeup-work",
+    "href": "syllabus.html#excused-absences-and-makeup-work",
+    "title": "Syllabus",
+    "section": "Excused Absences and Makeup Work",
+    "text": "Excused Absences and Makeup Work\nIf you run into any other challenges that require you to miss a class or miss an assignment, please contact me AS SOON AS POSSIBLE. Contact me before the assignment is due, before you miss a quiz or an exam, so we can make arrangements for you to make-up the missed work."
   },
   {
     "objectID": "syllabus.html#disability-accommodations",
@@ -280,116 +238,25 @@
     "text": "Footnotes\n\n\nhooks, b. (1994). Teaching to transgress: Education as the practice of freedom. Routledge.↩︎"
   },
   {
-    "objectID": "integrity.html",
-    "href": "integrity.html",
-    "title": "Academic Integrity",
-    "section": "",
-    "text": "Cheating Questionnaire\nQuestions adapted from Bowers, W. J. (1964). Student Dishonesty and Its Control in College. New York: Columbia University Press.\n\nWorking on the same assignment with several students when the teacher does not allow it\n“Padding” a few items on a bibliography\nCopying answers from a text or other source instead of doing the work independently\nPlagiarizing (copying without citation) from published material on papers\nTurning in a paper done entirely or in part by other students/sources\nSending your solution for an assignment to another student\nGetting questions or answers from someone who has already taken the same exam\nGiving questions or answers to someone when you have already taken the same exam\nUsing notes during an exam when notes are not allowed\nArranging with other student(s) to give or receive answers by use of signals\nArranging to sit next to someone who will let you copy from them during a test or exam\nCopying from someone’s assignment, test or exam paper without their knowing about it\nCopying from someone’s assignment, test or exam paper with that person’s knowledge\nWriting an assignment for another student\nTaking an exam for another student\nHaving another student take an exam for you"
+    "objectID": "slides/slides-00-00.html#outline",
+    "href": "slides/slides-00-00.html#outline",
+    "title": "Lecture Structure",
+    "section": "Outline",
+    "text": "Outline\n\nAbout me and our staff\nClass overview"
   },
   {
-    "objectID": "assignment-3.html",
-    "href": "assignment-3.html",
-    "title": "Final Reflection",
-    "section": "",
-    "text": "In this assignment you will be asked to write a final reflection essay using the provided prompt.\nYou will need to complete this assignment individually."
+    "objectID": "slides/slides-00-00.html#who-am-i",
+    "href": "slides/slides-00-00.html#who-am-i",
+    "title": "Lecture Structure",
+    "section": "Who am I?",
+    "text": "Who am I?\n\nAdriana Picoral (PhD) - you can call me Adriana\nAssistant Teaching Professor\napicoral@umn.edu\nOffice: 300A Lind Hall\n\noffice hours (drop in):\n\nMonday 12pm to 2pm\nTuesday 1pm to 3pm"
   },
   {
-    "objectID": "assignment-1.html",
-    "href": "assignment-1.html",
-    "title": "Technology Analysis",
-    "section": "",
-    "text": "Using at least 3 of the academic sources we have read so far, develop a conceptual framework that articulates your unique perspective on technology. Your conceptual framework should integrate theoretical arguments from the readings covered thus far and your own personal identity and experience in the world. Ultimately, your conceptual framework should be useful, and productive. You will draw upon it to conduct an in-depth analysis of your chosen technology. Your analysis should address the following questions:\n\nWhat values do this technology reflect, embrace, reject, or encourage?\nWho is affected by its design?\nHow was its design affected by society?\nWho reaps the benefits, and who suffers the costs of its creation and use?\n\nYou must pick an article that describes a computer technology (e.g. a platform, an app, an algorithm, etc.) that presents a moral dilemma when considering its intended or unintended use cases. In your paper, you will be asked to identify the moral dilemma and the ethical considerations of using this technology, explaining its benefits and dangers. You will then provide 2-3 independent, persuasive arguments for using the technology and 2-3 arguments against its use. Based on your arguments, you will provide a recommendation as to whether this technology should be used (explaining how to mitigate the potential dangers) or not (explaining how to achieve similar benefits in another way). In drawing your conclusion, be sure to explain which actors should have a say in how this technology is distributed, employed, and regulated.\nYou will need to complete this assignment individually."
-  },
-  {
-    "objectID": "syllabus.html#use-of-ai-tools",
-    "href": "syllabus.html#use-of-ai-tools",
-    "title": "Syllabus",
-    "section": "Use of AI tools",
-    "text": "Use of AI tools\nSince written communication is a learning outcome of this course, the content of your individually authored papers and journal entries must be your own writing. AI tools may be used for grammar and clarity editing of your own prose, but not to generate the substance of the writing that forms the basis of the Writing Intensive assessment. All AI assistance must be acknowledged and cited.\nAI tools should also NOT be used to summarize readings. You should train your brain to read and reflect on what you are reading, and make connections. We will be using a social reading tool where you can interact with your classmates, so that hopefully the reading will be more meaningful.\nIn this class, the ability to write is essential for understanding and communicating your perspectives on social, legal and ethical issues in computing. As such using Generative AI tools for summarizing the readings and generating any part of your written assignments is NOT permitted.\nGenAI tools are not substitutes for your intellectual effort or scholarly expression. Active engagement with course materials, critical thinking and judgment, and expression of original ideas should never be outsourced to technology.\nAny violation of this is subject to the UMN’s Scholastic Dishonesty policy included in the Board of Regents: Student Conduct Code. This includes incorporating any part of an AI-generated text in an assignment.\nViolations will be subject to a zero grade on the assignment in question and a letter grade reduction in the final grade. In addition, the incident will be reported to the Office for Community Standards.\nThe Board of Regents Student Conduct Code states the following in Section IV, Subd.1: Scholastic Dishonesty:\n“Scholastic dishonesty means plagiarism; cheating on assignments or examinations, including the unauthorized use of online learning support and testing platforms; engaging in unauthorized collaboration on academic work, including the posting of student-generated coursework on online learning support and testing platforms not approved for the specific course in question; taking, acquiring, or using course materials without faculty permission, including the posting of faculty-provided course materials on online learning and testing platforms; …”\nIf you are in doubt as to whether you are using an online learning support platform appropriately in this course, I encourage you to discuss your situation with me.\nAny assignment content composed by any resource other than you, regardless of whether that resource is human or digital, must be attributed to the source through proper citation.\nUnattributed use of online learning support platforms and unauthorized sharing of instructional property are forms of scholastic dishonesty and will be treated as such.\nI do provide guidance to you in your assignment descriptions on when the use of AI is appropriate (and permitted). In these LIMITED instances, when using AI tools, you are going to be asked to:\n\nInclude proper citation for any AI-generated text, images, or other media. An example citation might look like this:\n\nCopilot, Microsoft Copilot, accessed [Month] [Day], [Year], cloud.copilot.microsoft.com\n\nInclude an AI disclosure statement. For example:\n\n“For this assignment, I used [list of AI tools used in assignment] for [specific purpose, e.g., generating an outline, summarizing sources, grammar revision] but not for [list of student contribution, e.g., direct content creation.]”\n\n\nYou may be asked to show proper documentation of your process as required by the assignment. Students are responsible for any data input into AI tools and the AI-generated outputs they choose to include in their coursework.\nDo not enter private, sensitive, or copyrighted information into AI systems, including personal information, research data, or any instructional or peer-generated materials from this course. The Student Conduct Code and University copyright policies prohibit students from uploading or sharing instructor or peer course materials (e.g., lecture notes, assessments, readings, discussion posts) with AI tools or external platforms. I will never upload your work to any GenAI tools for teaching or research purposes. Tools may generate false, misleading, biased outputs and illicitly reproduce copyrighted materials. You are responsible for vetting all generated responses before using them in your work. Any violation of this course policy, including failure to disclose or adequately cite AI use when required may be considered Scholastic Dishonesty in accordance with the Student Conduct Code and the Office for Community Standards Consequences & Outcomes. Violations will be subject to a final grade penalty, and failing the assignment. In addition, the incident will be reported to the Office for Community Standards. As the AI landscape evolves globally and at the UMN, this policy is subject to revision at any point throughout the semester. Students will be alerted to any changes via a Canvas announcement."
-  },
-  {
-    "objectID": "assignment-0.html#grading-rubric-100-points",
-    "href": "assignment-0.html#grading-rubric-100-points",
-    "title": "Positionality Statement",
-    "section": "Grading Rubric (100 points)",
-    "text": "Grading Rubric (100 points)\n\n\n\n\n\n\n\n\n\n\nCriteria\nExcellent\nProficient\nDeveloping\nPoints\n\n\n\n\nDepth of reflection — goes beyond surface description to examine why you hold your perspective, including tensions and blind spots\n27–30\n21–26\n0–20\n/30\n\n\nSpecificity & honesty — uses concrete personal examples; shows genuine self-examination rather than clichés\n23–25\n18–22\n0–17\n/25\n\n\nConnection to course — meaningfully links positionality to at least one course concept, reading, or case\n18–20\n14–17\n0–13\n/20\n\n\nAnalysis of influence — explains how your standpoint could shape your interpretation of ethical/legal/social issues\n14–15\n11–13\n0–10\n/15\n\n\nWriting & mechanics — clear organization, correct citation, meets length and format requirements\n9–10\n7–8\n0–6\n/10\n\n\nTotal\n\n\n\n/100"
-  },
-  {
-    "objectID": "assignment-0.html#getting-started-suggested-steps",
-    "href": "assignment-0.html#getting-started-suggested-steps",
-    "title": "Positionality Statement",
-    "section": "Getting Started (Suggested Steps)",
-    "text": "Getting Started (Suggested Steps)\n\nFreewrite for 15 minutes using two or three of the prompts above. Don’t edit—just get ideas down.\nFind your thread. Look for a recurring theme or a moment of tension in your freewrite. That’s often the heart of a good statement.\nDraft a focused essay around that thread, weaving in a course connection.\nRevise for specificity. Replace every vague generalization with a concrete example.\nProofread and check formatting and citations before submitting."
-  },
-  {
-    "objectID": "assignment-0.html#academic-integrity-use-of-ai",
-    "href": "assignment-0.html#academic-integrity-use-of-ai",
-    "title": "Positionality Statement",
-    "section": "Academic Integrity & Use of AI",
-    "text": "Academic Integrity & Use of AI\nThis assignment is about your perspective, so it must be written by you in your own words. [State your policy here—e.g., “Generative AI tools may be used for brainstorming and proofreading but not to generate the substance of your reflection; disclose any use in a note at the end.” OR “No AI-generated text is permitted for this assignment.”]\n\nQuestions? Post in [forum] or come to office hours ([times])."
-  },
-  {
-    "objectID": "syllabus.html#workload",
-    "href": "syllabus.html#workload",
-    "title": "Syllabus",
-    "section": "Workload",
-    "text": "Workload\nAccording to University guidelines, one course credit represents an average of three hours of academic work per week. This is a 3-credit class, so the expected workload (lecture, reading and written assignments) to succeed in this course is 9 hours a week (3 hours for lecture participation, and approximately 6 hours a week that you should dedicate to course readings and written assignments)."
-  },
-  {
-    "objectID": "syllabus.html#excused-absences-and-makeup-work",
-    "href": "syllabus.html#excused-absences-and-makeup-work",
-    "title": "Syllabus",
-    "section": "Excused Absences and Makeup Work",
-    "text": "Excused Absences and Makeup Work\nIf you run into any other challenges that require you to miss a class or miss an assignment, please contact me AS SOON AS POSSIBLE. Contact me before the assignment is due, before you miss a quiz or an exam, so we can make arrangements for you to make-up the missed work."
-  },
-  {
-    "objectID": "slides/slides-01-02.html#philosophies-of-technology",
-    "href": "slides/slides-01-02.html#philosophies-of-technology",
-    "title": "Philosophies of Technology",
-    "section": "Philosophies of technology",
-    "text": "Philosophies of technology\n\ninstrumentalism (naive)\ntechnological determinism (hard, soft)"
-  },
-  {
-    "objectID": "slides/slides-01-02.html#instrumentalism",
-    "href": "slides/slides-01-02.html#instrumentalism",
-    "title": "Philosophies of Technology",
-    "section": "Instrumentalism",
-    "text": "Instrumentalism\n\nTechnology is a neutral tool – it is neither good nor bad\nTechnology does not contain inherent moral values\nHumans have complete control over how it is used\nHigh human agency – society decides whether technology is used for good or bad\n\n\n“Guns don’t kill people, people kill people.”"
-  },
-  {
-    "objectID": "slides/slides-01-02.html#technological-determinism",
-    "href": "slides/slides-01-02.html#technological-determinism",
-    "title": "Philosophies of Technology",
-    "section": "Technological determinism",
-    "text": "Technological determinism\n\nTechnology causes/drives social changes\nTechnology shapes human behavior and society\nLow human agency – humans adapt to technology (we cannot easily stop its trajectory)\nDeterminism (technology is autonomous and neutral) vs. Substantivism (technology is autonomous and value-laden)\n\n\n“Cellphones have ruined face-to-face interactions”"
-  },
-  {
-    "objectID": "slides/slides-01-02.html#soft-technological-determinism",
-    "href": "slides/slides-01-02.html#soft-technological-determinism",
-    "title": "Philosophies of Technology",
-    "section": "Soft technological determinism",
-    "text": "Soft technological determinism\n\nTechnology is both determining society and determined by it\nSome room for human agency – engineers can inscribe their intentions within technology to shape human behaviour\nAwareness of unintended social or environmental consequences"
-  },
-  {
-    "objectID": "slides/slides-01-02.html#discussion",
-    "href": "slides/slides-01-02.html#discussion",
-    "title": "Philosophies of Technology",
-    "section": "Discussion",
-    "text": "Discussion\n\nDo humans control technology?\nDoes technology have built-in values?"
-  },
-  {
-    "objectID": "slides/slides-01-02.html#policies",
-    "href": "slides/slides-01-02.html#policies",
-    "title": "Philosophies of Technology",
-    "section": "Policies",
-    "text": "Policies\n\nSolutionism – lawmakers believe technology will solve all the world’s problems\nFatalism – lawmakers have resigned themselves to the consequences of technology\nRegulation – lawmaker belive technology should be regulated"
-  },
-  {
-    "objectID": "slides/slides-01-02.html#soft-technological-determinism-critical-theory",
-    "href": "slides/slides-01-02.html#soft-technological-determinism-critical-theory",
-    "title": "Philosophies of Technology",
-    "section": "Soft technological determinism (Critical theory)",
-    "text": "Soft technological determinism (Critical theory)\n\nTechnology is both determining society and determined by it\nSome room for human agency – engineers can inscribe their intentions within technology to shape human behaviour\nAwareness of unintended social or environmental consequences"
+    "objectID": "slides/slides-00-00.html#staff",
+    "href": "slides/slides-00-00.html#staff",
+    "title": "Lecture Structure",
+    "section": "Staff",
+    "text": "Staff\nIn this course we have a graduate TA and two undergraduate TAs:\n\nRisako Owan\nAmvi Dwivedi\nSarah Peng\n\nThe TAs are responsible for: helping you succeed. They will check-in with you during discussions and grade assignments."
   },
   {
     "objectID": "slides/slides-00-00.html#first-discussion",
@@ -413,20 +280,6 @@
     "text": "About the Class\nThis is a “doing things” class:\n\nSome of the things are in-class activities, so expect to come to class and participate\nIf you do the all or almost all the work you should not have trouble passing the class.\nThis is a writing intensive class – writing in class and as assignments"
   },
   {
-    "objectID": "slides/slides-00-00.html#writing-to-learn",
-    "href": "slides/slides-00-00.html#writing-to-learn",
-    "title": "Lecture Structure",
-    "section": "Writing to Learn",
-    "text": "Writing to Learn\nWriting is a way to not only communicate ideas but also to organize thought.\nIn this class, we are using writing a a tool for processing, understanding, critically examining, reflecting, and making connections.\n\nIf you’re a writer, you think by writing. And thinking is the job. If you let your brain get used to the idea that there’s a shortcut, I really think it will get progressively harder to come up with new ideas, thoughts and observations. The muscles just atrophy. – Naomi Alderman"
-  },
-  {
-    "objectID": "slides/slides-00-00.html#journal-writing",
-    "href": "slides/slides-00-00.html#journal-writing",
-    "title": "Lecture Structure",
-    "section": "Journal Writing",
-    "text": "Journal Writing\nAfter each discussion/lecture, you will be asked reflect on what you learned. Here are the instruction for your first journal entry:\n\nCreate a Google doc, and share it with me (apicoral@umn.edu)\nAnswer these questions (10-15 minutes):\n\nWhat is the (i) name of one other person in your small discussion group from today? (You can ask them if needed.)\nWhat is one important thing you learned in class today?\nWhat is one question you have about today’s material, the class in general, or anything about ethics and computing?"
-  },
-  {
     "objectID": "slides/slides-00-00.html#discussion",
     "href": "slides/slides-00-00.html#discussion",
     "title": "Lecture Structure",
@@ -434,11 +287,46 @@
     "text": "Discussion\n\nWhat has been your experience with learning to write?\nHow often do you write? Why do you write?\nDo you enjoy writing? Do you avoid writing?\n\nBe prepared to summarize your discussion (what do you all have in common, where do you differ) to a TA or the instructor"
   },
   {
+    "objectID": "slides/slides-00-00.html#writing-to-learn",
+    "href": "slides/slides-00-00.html#writing-to-learn",
+    "title": "Lecture Structure",
+    "section": "Writing to Learn",
+    "text": "Writing to Learn\nWriting is a way to not only communicate ideas but also to organize thought.\nIn this class, we are using writing a a tool for processing, understanding, critically examining, reflecting, and making connections.\n\nIf you’re a writer, you think by writing. And thinking is the job. If you let your brain get used to the idea that there’s a shortcut, I really think it will get progressively harder to come up with new ideas, thoughts and observations. The muscles just atrophy. – Naomi Alderman"
+  },
+  {
+    "objectID": "slides/slides-00-00.html#lecture-structure",
+    "href": "slides/slides-00-00.html#lecture-structure",
+    "title": "Lecture Structure",
+    "section": "Lecture Structure",
+    "text": "Lecture Structure\n\nFirst 10 minutes of class: Q&A\nPriming: Brief direct instruction on concepts, scenarios, frameworks, etc.\nDiscussion\nReflective Journal Writing\nThe previous three steps might repeat depending of the topic\n\nDiscussion might be used as priming for instruction"
+  },
+  {
     "objectID": "slides/slides-00-00.html#discussion-1",
     "href": "slides/slides-00-00.html#discussion-1",
     "title": "Lecture Structure",
     "section": "Discussion",
     "text": "Discussion\nWe will practice what Freire called “dialogic” methods, using discussion and dialogue to help develop our collective critical conscious of computing."
+  },
+  {
+    "objectID": "slides/slides-00-00.html#reading",
+    "href": "slides/slides-00-00.html#reading",
+    "title": "Lecture Structure",
+    "section": "Reading",
+    "text": "Reading\nReading assignments are meant to help you to engage in productive and critical discussions (and help with your writing as well).\nReadings are available as links on the course assignments page, and on canvas as interactive social reading activities. (I’ll demonstrate this on Canvas)"
+  },
+  {
+    "objectID": "slides/slides-00-00.html#journal-writing",
+    "href": "slides/slides-00-00.html#journal-writing",
+    "title": "Lecture Structure",
+    "section": "Journal Writing",
+    "text": "Journal Writing\nAfter each discussion/lecture, you will be asked reflect on what you learned.\n\nCreate a Google doc, and share it with me (apicoral@umn.edu)"
+  },
+  {
+    "objectID": "slides/slides-00-00.html#journal-writing-1",
+    "href": "slides/slides-00-00.html#journal-writing-1",
+    "title": "Lecture Structure",
+    "section": "Journal Writing",
+    "text": "Journal Writing\nHere are some questions for your first journal entry(10-15 minutes):\n\nWhat is the (i) name of one other person in your small discussion group from today? (You can ask them if needed.)\nWhat is one important thing you learned in class today?\nWhat is one question you have about today’s material, the class in general, or anything about ethics and computing?"
   },
   {
     "objectID": "slides/slides-01-01.html#discussion-1",
@@ -462,11 +350,11 @@
     "text": "Discussion 2\n\nDo humans control technology?\nDoes technology have built-in values?"
   },
   {
-    "objectID": "slides/slides-01-01.html#philosophies-of-technology",
-    "href": "slides/slides-01-01.html#philosophies-of-technology",
+    "objectID": "slides/slides-01-01.html#basic-philosophies-of-technology",
+    "href": "slides/slides-01-01.html#basic-philosophies-of-technology",
     "title": "Intro to Technology Philosophies",
-    "section": "Philosophies of technology",
-    "text": "Philosophies of technology\n\ninstrumentalism (naive)\ntechnological determinism (hard, soft, substantivism)"
+    "section": "(Basic) Philosophies of technology",
+    "text": "(Basic) Philosophies of technology\n\ninstrumentalism (naive)\ntechnological determinism (hard, soft, substantivism)"
   },
   {
     "objectID": "slides/slides-01-01.html#instrumentalism",
@@ -474,27 +362,6 @@
     "title": "Intro to Technology Philosophies",
     "section": "Instrumentalism",
     "text": "Instrumentalism\n\nTechnology is a neutral tool – it is neither good nor bad\nTechnology does not contain inherent moral values\nHumans have complete control over how it is used\nHigh human agency – society decides whether technology is used for good or bad\n\n\n“Guns don’t kill people, people kill people.”"
-  },
-  {
-    "objectID": "slides/slides-01-01.html#technological-determinism",
-    "href": "slides/slides-01-01.html#technological-determinism",
-    "title": "Technology and our Past, Present, and Future",
-    "section": "Technological determinism",
-    "text": "Technological determinism\n\nTechnology causes/drives social changes\nTechnology shapes human behavior and society\nLow human agency – humans adapt to technology (we cannot easily stop its trajectory)\nDeterminism (technology is autonomous and neutral) vs. Substantivism (technology is autonomous and value-laden)\n\n\n“Cellphones have ruined face-to-face interactions”"
-  },
-  {
-    "objectID": "slides/slides-01-01.html#soft-technological-determinism-critical-theory",
-    "href": "slides/slides-01-01.html#soft-technological-determinism-critical-theory",
-    "title": "Intro to Technology Philosophies",
-    "section": "Soft technological determinism (Critical theory)",
-    "text": "Soft technological determinism (Critical theory)\n\nTechnology is both shaping society and shaped by it\nTechnology and social practices develop in tandem and influence one another\nTechnology is the means, human purposes are the end/goal\nSome room for human agency – engineers can inscribe their intentions within technology to shape human behavior\nAwareness of unintended social or environmental consequences"
-  },
-  {
-    "objectID": "slides/slides-01-01.html#policies",
-    "href": "slides/slides-01-01.html#policies",
-    "title": "Intro to Technology Philosophies",
-    "section": "Policies",
-    "text": "Policies\n\nSolutionism – lawmakers believe technology will solve all the world’s problems\nFatalism – lawmakers have resigned themselves to the consequences of technology\nRegulation – lawmaker believe technology should be regulated\n\n\nThinking and acting more critically towards technology enables societies to escape merely adapting to technological advances asserted as inevitable. – Andrew Smith (2026)"
   },
   {
     "objectID": "slides/slides-01-01.html#determinism",
@@ -511,6 +378,13 @@
     "text": "Instrumentalism vs. Determinism\n\n\n\n\n\n\nflowchart LR\n  Instrumentalism &lt;----------&gt; Determinism\n\n\n\n\n\n\n\n\n\nHumans control technology\nTechnology is neutral\n\n\n\nTechnology controls or shapes society"
   },
   {
+    "objectID": "slides/slides-01-01.html#soft-technological-determinism-critical-theory",
+    "href": "slides/slides-01-01.html#soft-technological-determinism-critical-theory",
+    "title": "Intro to Technology Philosophies",
+    "section": "Soft technological determinism (Critical theory)",
+    "text": "Soft technological determinism (Critical theory)\n\nTechnology is both shaping society and shaped by it\nTechnology and social practices develop in tandem and influence one another\nTechnology is the means, human purposes are the end/goal\nSome room for human agency – engineers can inscribe their intentions within technology to shape human behavior\nAwareness of unintended social or environmental consequences"
+  },
+  {
     "objectID": "slides/slides-01-01.html#technological-constructivism",
     "href": "slides/slides-01-01.html#technological-constructivism",
     "title": "Intro to Technology Philosophies",
@@ -523,6 +397,20 @@
     "title": "Intro to Technology Philosophies",
     "section": "Summary",
     "text": "Summary\n\nInstrumentalism: Humans control technology, technology is neutral\nDeterminism: Technology causes/drives social changes\nSoft technological determinism: Technology shapes society and is shaped by it (engineers can imbue their values into technology, unintended consequences)\nTechnological constructivism: social context shapes technology\n\nDiscussion 3: Which philosophy do you ascribe yourself to?"
+  },
+  {
+    "objectID": "slides/slides-01-01.html#journal-writing",
+    "href": "slides/slides-01-01.html#journal-writing",
+    "title": "Intro to Technology Philosophies",
+    "section": "Journal Writing",
+    "text": "Journal Writing\nWhich philosophy makes more sense to you? Why?"
+  },
+  {
+    "objectID": "slides/slides-01-01.html#policies",
+    "href": "slides/slides-01-01.html#policies",
+    "title": "Intro to Technology Philosophies",
+    "section": "Policies",
+    "text": "Policies\n\nSolutionism – lawmakers believe technology will solve all the world’s problems\nFatalism – lawmakers have resigned themselves to the consequences of technology\nRegulation – lawmaker believe technology should be regulated\n\n\nThinking and acting more critically towards technology enables societies to escape merely adapting to technological advances asserted as inevitable. – Andrew Smith (2026)"
   },
   {
     "objectID": "slides/slides-01-01.html#referencesfurther-reading",
@@ -539,25 +427,46 @@
     "text": "Society?\nWhen we say “social context/society/humans shapes technology,” who is “society?”"
   },
   {
-    "objectID": "slides/slides-01-01.html#journal-writing",
-    "href": "slides/slides-01-01.html#journal-writing",
-    "title": "Intro to Technology Philosophies",
-    "section": "Journal Writing",
-    "text": "Journal Writing\nWhich philosophy makes more sense to you? Why?"
-  },
-  {
-    "objectID": "slides/slides-01-01.html#basic-philosophies-of-technology",
-    "href": "slides/slides-01-01.html#basic-philosophies-of-technology",
-    "title": "Intro to Technology Philosophies",
-    "section": "(Basic) Philosophies of technology",
-    "text": "(Basic) Philosophies of technology\n\ninstrumentalism (naive)\ntechnological determinism (hard, soft, substantivism)"
-  },
-  {
     "objectID": "slides/slides-01-01.html#journal-writing-1",
     "href": "slides/slides-01-01.html#journal-writing-1",
     "title": "Intro to Technology Philosophies",
     "section": "Journal Writing",
     "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked of disliked (were the discussions helpful? were the contents of the slides clear?)"
+  },
+  {
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "Assignments",
+    "section": "",
+    "text": "You are expected to complete assigned readings in advance of in-class discussion so that you come prepared. Discussions require a much deeper engagement with a topic – reading about a topic in advance will help you to engage in productive and critical discussions. We’ll spend the bulk of the time discussing the concepts/ideas presented in the readings, so if you haven’t read it, it will be hard to discuss them as a group.\n\n\nThis list will be updated as the semester progresses. These readings are available on Canvas (where you are expected to put some of your notes).\n\nPeter C Baker. “Teacher v chatbot: my journey into the classroom in the age of AI” The Guardian, March 3, 2026.\nOffice of the Mayor. “Mayor Mamdani and Chancellor Samuels Put Students First with Nation’s Broadest Generative AI Moratorium in Schools” NYC Office Website, September 2, 2026.\nAmy J. Ko. “That time I wanted to be an AI researcher” Bits and Behavior, Jul 17, 2023.\nPope Leo XIV. “Chapter 3. Technology and Dominance. The Grandeur of Humanity in Light of the Promises of AI” Encyclical Letter, 2026.\nApryl Williams. “Two. Automating Sexual Racism”. Not My Type: Automating Sexual Racism in Online Dating, Redwood City: Stanford University Press, 2024, pp. 50-81. https://doi.org/10.1515/9781503637610-005 pdf"
+  },
+  {
+    "objectID": "assignments.html#list-of-readings",
+    "href": "assignments.html#list-of-readings",
+    "title": "Assignments",
+    "section": "",
+    "text": "This list will be updated as the semester progresses. These readings are available on Canvas (where you are expected to put some of your notes).\n\nPeter C Baker. “Teacher v chatbot: my journey into the classroom in the age of AI” The Guardian, March 3, 2026.\nOffice of the Mayor. “Mayor Mamdani and Chancellor Samuels Put Students First with Nation’s Broadest Generative AI Moratorium in Schools” NYC Office Website, September 2, 2026.\nAmy J. Ko. “That time I wanted to be an AI researcher” Bits and Behavior, Jul 17, 2023.\nPope Leo XIV. “Chapter 3. Technology and Dominance. The Grandeur of Humanity in Light of the Promises of AI” Encyclical Letter, 2026.\nApryl Williams. “Two. Automating Sexual Racism”. Not My Type: Automating Sexual Racism in Online Dating, Redwood City: Stanford University Press, 2024, pp. 50-81. https://doi.org/10.1515/9781503637610-005 pdf"
+  },
+  {
+    "objectID": "assignments.html#reflective-journal",
+    "href": "assignments.html#reflective-journal",
+    "title": "Assignments",
+    "section": "Reflective Journal",
+    "text": "Reflective Journal\nIn-class Discussions There is a lot of nuance, context, values, tensions, and complexity in general when it comes to social, legal, and ethical issues in computing. We are going to be discussing the different ways that people view these issues. For that reason, classroom discussion is a central tool to help build awareness about these diverse, complex phenomena.\nLecture time will be arranged around discussions. After each in-class discussion you will have 10 minutes to write down your reflection on what was discussed. You should reflect on 1) What you learned from the discussion (something that surprised you, something you had not considered before, a new way of thinking of something, etc.), 2) What you wish you’d learned from the discussion (what questions you have). You will be doing that in a Google doc that you will share with me only (your classmates will not have access to this).\nThis journal will be a personalized space for you to keep track of how core concepts and topics of the class relate directly to your own lived experiences, identities, and perspectives. It will also serve as an artifact of your learning that will be useful to you when writing major assignments."
+  },
+  {
+    "objectID": "patents-list.html",
+    "href": "patents-list.html",
+    "title": "Patents List",
+    "section": "",
+    "text": "Patent Public Search Basic\n\nSYSTEMS AND METHODS FOR IDENTIFYING INTERESTS BASED ON SOCIAL MEDIA ACTIVITY – US-20260087464-A1\nAUTOMATED QUOTE COMPARISON AND GRAPHICAL RISK STRUCTURE GENERATION FROM UNSTRUCTURED INSURANCE QUOTATION DOCUMENTS – US-20260080480-A1\nGENERATION OF DATA-GROUNDED EMAILS FOR AUTO-RESPONSE – US-20260081881-A1\nDEVICE, METHOD AND SYSTEM FOR LOGGING SMOKING DATA – US-20260083925-A1\nPERSONALIZED AVATAR RESPONSIVE TO USER PHYSICAL STATE AND CONTEXT – US-20260088164-A1\nSYSTEM AND METHOD TO DETERMINE RESPONSIVENESS OF A DRIVER OF A VEHICLE TO FEEDBACK REGARDING DRIVING BEHAVIORS – US-20260084702-A1"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CSCI 3921W - Social, Legal, and Ethical Issues in Computing",
+    "section": "",
+    "text": "Course description: Impact of computers on society. Computer science perspective of ethical, legal, social, philosophical, political, and economic aspects of computing."
   },
   {
     "objectID": "index.html#slides",
@@ -567,10 +476,101 @@
     "text": "Slides\n\nLecture Structure\nIntro to Technology Philosophies"
   },
   {
-    "objectID": "slides/slides-00-00.html#reading",
-    "href": "slides/slides-00-00.html#reading",
-    "title": "Lecture Structure",
-    "section": "Reading",
-    "text": "Reading\nReading assignments are meant to help you to engage in productive and critical discussions (and help with your writing as well).\nReadings are available as links on the course assignments page, and on canvas as interactive social reading activities. (I’ll demonstrate this on Canvas)"
+    "objectID": "slides/slides-01-02.html#qa-10-minutes",
+    "href": "slides/slides-01-02.html#qa-10-minutes",
+    "title": "Positionality and Values",
+    "section": "Q&A (10 minutes)",
+    "text": "Q&A (10 minutes)\nQ&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/slides-01-02.html#society",
+    "href": "slides/slides-01-02.html#society",
+    "title": "Positionality and Values",
+    "section": "Society?",
+    "text": "Society?\nWhen we say “social context/society/humans shapes technology,” who is included in “society?”"
+  },
+  {
+    "objectID": "slides/slides-01-02.html#critical-consciousness",
+    "href": "slides/slides-01-02.html#critical-consciousness",
+    "title": "Positionality and Values",
+    "section": "Critical Consciousness",
+    "text": "Critical Consciousness\nOne of the goals of this course is to develop an awareness of the values, norms, systems, and processes that limit or render possible our reality."
+  },
+  {
+    "objectID": "slides/slides-01-02.html#human-values",
+    "href": "slides/slides-01-02.html#human-values",
+    "title": "Positionality and Values",
+    "section": "Human Values",
+    "text": "Human Values\nOur activities reflect our values:\n\nDo you drink tea or soda? Why?\nDo you prefer to go to a museum or a ball game? Why?\n\nWe all carry our personal values, that are shaped by how we were raised, our socioeconomic context, etc.\n\nWhat is important to people in their lifes, with a focus on ethics and morality. – Friedman & Hendry (2026)"
+  },
+  {
+    "objectID": "slides/slides-01-02.html#small-group-activity",
+    "href": "slides/slides-01-02.html#small-group-activity",
+    "title": "Positionality and Values",
+    "section": "Small Group Activity",
+    "text": "Small Group Activity\nI’ll give you some values and their definitions – in your groups:\n\nMatch the human value name with its description\nRank them from most important (at the top) to least important – what are the top 5 most important human values to be taken into account?"
+  },
+  {
+    "objectID": "slides/slides-01-02.html#journal-writing",
+    "href": "slides/slides-01-02.html#journal-writing",
+    "title": "Positionality and Values",
+    "section": "Journal Writing",
+    "text": "Journal Writing\nWhich of these values are relevant to you?"
+  },
+  {
+    "objectID": "slides/slides-01-02.html#stakeholders",
+    "href": "slides/slides-01-02.html#stakeholders",
+    "title": "Positionality and Values",
+    "section": "Stakeholders",
+    "text": "Stakeholders\n\nWhose values are to be taken into account?"
+  },
+  {
+    "objectID": "slides/slides-01-02.html#references",
+    "href": "slides/slides-01-02.html#references",
+    "title": "Positionality and Values",
+    "section": "References",
+    "text": "References\n\nPaulo Freire (1968). Pedagogy of the oppressed. Bloomsbury Publishing.\nFriedman, B., & Hendry, D. G. (2026). Value sensitive design: Shaping technology with moral imagination. The MIT Press."
+  },
+  {
+    "objectID": "rules-of-engagement.html",
+    "href": "rules-of-engagement.html",
+    "title": "Rules of Engagement",
+    "section": "",
+    "text": "It is expected that everyone will participate in a mature and respectful fashion.\nParticipate actively in the discussions, having completed the pre-review material and thought about the issues.\nThrow sunlight, not shade. Like beautiful flowers, we are here to learn and grow together. This will involve discussing difficult topics and challenging some of our deepest held beliefs and assumptions with curiosity and respect. In order to do that, your actions and behavior should support the growth and learning of others. You should find ways to acknowledge disagreement while also supporting the growth and dignity of your colleagues. This means that hostile reactions such as eye-rolls, yelling, teasing, or otherwise throwing shade will not be accepted.\nDisagree with ideas, but do not make personal attacks. Do not demean or embarrass others. Do not make sexist, racist, xenophobic, homophobic, transphobic, or victim-blaming comments. Immature, aggressive, or disrespectful behavior (i.e., the various ways we can throw shade and hate on one another) will not be tolerated.\nBe cautious of how you use humor. Tone is often difficult to gauge when you don’t know people very well (not as well as you do at a friendship level). Some common forms of humor such as sarcasm can be interpreted as hurtful and demeaning by others. Be aware of the potential impact of your words, regardless of the intentions. Think through your comments before you say them.\nBe open to be challenged or confronted on your pre-conceived ideas. The academic classroom is a place where we learn to examine social issues through scientific inquiry. It is no place for uninformed biases.\nCommunicate in “I” statements. Don’t tell others what to do or think as if it is a command. Instead, describe your own perspective or experience. Speak for yourself; don’t volunteer other people to speak. Consider when it is appropriate to speak from your own experience and when it is better to consider the text or listen to others.\nStudy and avoid engaging in rhetorical fallacies.\nAvoid making broad generalizations you can’t back up with evidence (e.g.,“everyone everywhere always does x”). Acknowledge when your personal experience is too limited or privileged to be generalized.\n\nBased on the 3C Fellows rules of engagement"
+  },
+  {
+    "objectID": "ref-role-of-writing.html",
+    "href": "ref-role-of-writing.html",
+    "title": "Role of Writing",
+    "section": "",
+    "text": "This is a Writing Intensive course, and written communication is a core learning outcome.\nWriting in CSCI 4970W mirrors the documentation practices of professional software engineering and research: writing is carried out iteratively, collaboratively where appropriate, and always with the goal of producing documentation that is complete, clear, and technically rigorous. Writing in this course takes several forms:\nGitHub Documentation Milestones. The core writing in this course is the staged GitHub documentation of your project across three milestones: (1) design documentation, (2) implementation documentation, and (3) testing documentation. Each milestone is submitted as a pull request, reviewed by the instructor for completeness, clarity, and technical rigor, and then revised and merged. This staged, feedback-and-revision structure is the heart of Writing Intensive pedagogy in this course: you are expected to take instructor feedback seriously and to produce substantially improved revised documentation in response to it.\nIndividually Authored Pull Requests. For team projects, each student is expected to lead a distinct portion of the documentation for each milestone and to submit that portion as their own pull request. This allows writing to be assessed individually even when the underlying project work is collaborative. Revisions to the initial submissions may be made by the full team, but all teammates are expected to contribute approximately equally across the three milestones.\nLab Notebooks. Each student maintains an individual lab notebook throughout the semester, beginning in Week 1. The lab notebook is an ongoing written record of your technical work: what you tried, what you learned, what decisions you made, and why. Lab notebooks are reviewed during the Implementation Clinic phase and contribute to individual written communication assessment. Lab notebooks must be the student’s own work.\nArchitecture Presentation. A 20-minute oral presentation delivered to the instructor in Week 7 serves as a companion communication assessment. You will identify the specific technical challenge your project addresses and present your proposed system architecture, connecting your design to prior work and existing systems.\nUse of AI tools. Because this is a project course, you are allowed and encouraged to use AI tools, forums, code repositories, and other external resources to help solve technical problems, as long as you appropriately credit those sources. However, because written communication is a learning outcome of this course, the content of your individually authored documentation pull requests and lab notebook entries must be your own writing. AI tools may be used for grammar and clarity editing of your own prose, but not to generate the substance of the writing that forms the basis of the Writing Intensive assessment. All AI assistance must be acknowledged and cited."
+  },
+  {
+    "objectID": "current-events.html",
+    "href": "current-events.html",
+    "title": "Happening Now",
+    "section": "",
+    "text": "Hugging Face AI Hacking\n\nHard Fork Podcast: Why the Hugging Face Attack Was Worse Than We Thought\nOpen AI (August, 2026). The Hugging Face incident and the road ahead"
+  },
+  {
+    "objectID": "assignment-3.html",
+    "href": "assignment-3.html",
+    "title": "Final Reflection",
+    "section": "",
+    "text": "In this assignment you will be asked to write a final reflection essay using the provided prompt.\nYou will need to complete this assignment individually."
+  },
+  {
+    "objectID": "assignment-1.html",
+    "href": "assignment-1.html",
+    "title": "Technology Analysis",
+    "section": "",
+    "text": "Using at least 3 of the academic sources we have read so far, develop a conceptual framework that articulates your unique perspective on technology. Your conceptual framework should integrate theoretical arguments from the readings covered thus far and your own personal identity and experience in the world. Ultimately, your conceptual framework should be useful, and productive. You will draw upon it to conduct an in-depth analysis of your chosen technology. Your analysis should address the following questions:\n\nWhat values do this technology reflect, embrace, reject, or encourage?\nWho is affected by its design?\nHow was its design affected by society?\nWho reaps the benefits, and who suffers the costs of its creation and use?\n\nYou must pick an article that describes a computer technology (e.g. a platform, an app, an algorithm, etc.) that presents a moral dilemma when considering its intended or unintended use cases. In your paper, you will be asked to identify the moral dilemma and the ethical considerations of using this technology, explaining its benefits and dangers. You will then provide 2-3 independent, persuasive arguments for using the technology and 2-3 arguments against its use. Based on your arguments, you will provide a recommendation as to whether this technology should be used (explaining how to mitigate the potential dangers) or not (explaining how to achieve similar benefits in another way). In drawing your conclusion, be sure to explain which actors should have a say in how this technology is distributed, employed, and regulated.\nYou will need to complete this assignment individually."
+  },
+  {
+    "objectID": "slides/slides-01-02.html#discussion",
+    "href": "slides/slides-01-02.html#discussion",
+    "title": "Positionality and Values",
+    "section": "Discussion",
+    "text": "Discussion\nHow would you define these terms (provide examples):\n\nvalues\nnorms\nsystems\nprocesses\n\n\n\nvalues — fundamental beliefs, principles, or priorities that guide judgment and decision-making (privacy, honesty)\nnorms — expectations and collective behaviors that govern social interaction within a group (politeness)\nsystems — structures, infrastructure, and tools (software, social media platforms, banks)\nprocesses — Step-by-step, repeatable workflows designed to achieve a specific operational outcome (how to file a bug report)"
   }
 ]
