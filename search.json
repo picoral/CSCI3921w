@@ -241,8 +241,8 @@
     "objectID": "slides/slides-00-00.html#outline",
     "href": "slides/slides-00-00.html#outline",
     "title": "Lecture Structure",
-    "section": "",
-    "text": "About me and our staff\nClass overview"
+    "section": "Outline",
+    "text": "Outline\n\nAbout me and our staff\nClass overview"
   },
   {
     "objectID": "slides/slides-00-00.html#who-am-i",
@@ -347,7 +347,7 @@
     "href": "slides/slides-01-01.html#discussion-2",
     "title": "Intro to Technology Philosophies",
     "section": "Discussion 2",
-    "text": "Discussion 2\n\nDo humans control technology?\nDoes technology have built-in values (is it good or bad)?"
+    "text": "Discussion 2\n\nDo humans control technology?\nDoes technology have built-in values (is it good or bad)?\n\nBe prepared to share your group ideas with the entire class/instructor"
   },
   {
     "objectID": "slides/slides-01-01.html#basic-philosophies-of-technology",
@@ -389,35 +389,35 @@
     "href": "slides/slides-01-01.html#technological-constructivism",
     "title": "Intro to Technology Philosophies",
     "section": "Technological constructivism",
-    "text": "Technological constructivism\n\nSocial construction of technology (SCOT)\nA response to technological determinism\nTechnology does not determine human action, human action shapes technology\nTechnology is embedded within its respective social context\nHumans accept or reject technology"
+    "text": "Technological constructivism\n\nSocial construction of technology (SCOT)\nTechnology does not determine human action, human action shapes technology\nTechnology is embedded within its respective social context\nHumans accept or reject technology"
   },
   {
     "objectID": "slides/slides-01-01.html#summary",
     "href": "slides/slides-01-01.html#summary",
     "title": "Intro to Technology Philosophies",
     "section": "Summary",
-    "text": "Summary\n\nInstrumentalism: Humans control technology, technology is neutral\nDeterminism: Technology causes/drives social changes\nSoft technological determinism: Technology shapes society and is shaped by it (engineers can imbue their values into technology, unintended consequences)\nTechnological constructivism: social context shapes technology\n\nDiscussion 3: Which philosophy do you ascribe yourself to?"
+    "text": "Summary\n\nInstrumentalism: Humans control technology, technology is neutral\nDeterminism: Technology causes/drives social changes\nSoft technological determinism: Technology shapes society and is shaped by it (engineers can imbue their values into technology, unintended consequences are often present)\nTechnological constructivism: social context shapes technology\n\nJournal Writing: Which philosophy makes more sense to you? Why?"
   },
   {
     "objectID": "slides/slides-01-01.html#journal-writing",
     "href": "slides/slides-01-01.html#journal-writing",
     "title": "Intro to Technology Philosophies",
     "section": "Journal Writing",
-    "text": "Journal Writing\nWhich philosophy makes more sense to you? Why?"
+    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked of disliked (were the discussions helpful? were the contents of the slides clear?)"
   },
   {
     "objectID": "slides/slides-01-01.html#policies",
     "href": "slides/slides-01-01.html#policies",
     "title": "Intro to Technology Philosophies",
     "section": "Policies",
-    "text": "Policies\n\nSolutionism – lawmakers believe technology will solve all the world’s problems\nFatalism – lawmakers have resigned themselves to the consequences of technology\nRegulation – lawmaker believe technology should be regulated\n\n\nThinking and acting more critically towards technology enables societies to escape merely adapting to technological advances asserted as inevitable. – Andrew Smith (2026)"
+    "text": "Policies\nWhere lawmakers fall in the deterministic and instrumentalist spectrum reflects in their (our) policies:\n\nSolutionism – lawmakers believe technology will solve all the world’s problems\nFatalism – lawmakers have resigned themselves to the consequences of technology\nRegulation – lawmaker believe technology should be regulated"
   },
   {
     "objectID": "slides/slides-01-01.html#referencesfurther-reading",
     "href": "slides/slides-01-01.html#referencesfurther-reading",
     "title": "Intro to Technology Philosophies",
     "section": "References/Further Reading",
-    "text": "References/Further Reading\n\nGrimes, S.M. & Feenberg, Andrew. (2013). Critical theory of technology. 10.4135/9781446282229.n9.\nKranzberg, M. (1986). Technology and History: “Kranzberg’s Laws.” Technology and Culture, 27(3), 544–560. https://doi.org/10.2307/3105385\nSmith, A. (2026). Loosening the grip of technological determinism in futures thinking. UNESCO."
+    "text": "References/Further Reading\n\nFriedman, B., & Hendry, D. G. (2026). Value sensitive design: Shaping technology with moral imagination. The MIT Press.\nGrimes, S.M. & Feenberg, Andrew. (2013). Critical theory of technology. 10.4135/9781446282229.n9.\nKranzberg, M. (1986). Technology and History: “Kranzberg’s Laws.” Technology and Culture, 27(3), 544–560. https://doi.org/10.2307/3105385\nSmith, A. (2026). Loosening the grip of technological determinism in futures thinking. UNESCO."
   },
   {
     "objectID": "slides/slides-01-01.html#society",
@@ -473,7 +473,7 @@
     "href": "index.html#slides",
     "title": "CSCI 3921W - Social, Legal, and Ethical Issues in Computing",
     "section": "Slides",
-    "text": "Slides\n\nLecture Structure\nIntro to Technology Philosophies\nPositionality and Values"
+    "text": "Slides\n\nLecture Structure\nAcademic Use of LLMs\nIntro to Technology Philosophies\nPositionality and Values"
   },
   {
     "objectID": "slides/slides-01-02.html#qa-10-minutes",
@@ -501,7 +501,7 @@
     "href": "slides/slides-01-02.html#human-values",
     "title": "Positionality and Values",
     "section": "Human Values",
-    "text": "Human Values\nOur activities reflect our values:\n\nDo you drink tea or soda? Why?\nDo you prefer to go to a museum or a ball game? Why?\n\nWe all carry our personal values, that are shaped by how we were raised, our socioeconomic context, etc.\n\nWhat is important to people in their lifes, with a focus on ethics and morality. – Friedman & Hendry (2026)"
+    "text": "Human Values\nOur activities might reflect our values:\n\nDo you drink tea or soda? Why?\nDo you prefer to go to a museum or a ball game? Why?\n\nWe all carry our personal values, that are shaped by how we were raised, our socioeconomic context, etc.\n\nWhat is important to people in their lifes, with a focus on ethics and morality. – Friedman & Hendry (2026)"
   },
   {
     "objectID": "slides/slides-01-02.html#small-group-activity",
@@ -579,5 +579,425 @@
     "title": "Lecture Structure",
     "section": "",
     "text": "About me and our staff\nClass overview"
+  },
+  {
+    "objectID": "slides/slides-01-01.html#qa-10-minutes",
+    "href": "slides/slides-01-01.html#qa-10-minutes",
+    "title": "Academic Use of LLMs",
+    "section": "Q&A (10 minutes)",
+    "text": "Q&A (10 minutes)\nQ&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/slides-02-01.html#some-different-ethics-frameworks",
+    "href": "slides/slides-02-01.html#some-different-ethics-frameworks",
+    "title": "Ethics Frameworks",
+    "section": "Some Different Ethics Frameworks",
+    "text": "Some Different Ethics Frameworks\nEthic Frameworks are used in analyzing ethical situations or making decisions. They help us focus our analysis.\n\nConsequentialist/utilitarianism. Focus is on effects: what will produce the greatest good, for the most people? How is “good” counted?\nDeontology. Focus on duty and rights. What duties and obligations are involved? What do we owe people regardless of the payoff?"
+  },
+  {
+    "objectID": "slides/slides-02-01.html#ethics-frameworks",
+    "href": "slides/slides-02-01.html#ethics-frameworks",
+    "title": "Ethics Frameworks",
+    "section": "Ethics Frameworks",
+    "text": "Ethics Frameworks\n\nFrameworks generate reasoning, they don’t output verdicts.\nNone of the frameworks is perfect, each has advantages and disadvantages.\nBeware of framework shopping: when a framework is selected to yield the conclusion already held. (confirmation bias)"
+  },
+  {
+    "objectID": "slides/slides-02-01.html#group-discussion",
+    "href": "slides/slides-02-01.html#group-discussion",
+    "title": "Ethics Frameworks",
+    "section": "Group Discussion",
+    "text": "Group Discussion\n\nWho’s to say what’s ethical?"
+  },
+  {
+    "objectID": "slides/slides-02-01.html#some-different-ethics-frameworks-1",
+    "href": "slides/slides-02-01.html#some-different-ethics-frameworks-1",
+    "title": "Ethics Frameworks",
+    "section": "Some Different Ethics Frameworks",
+    "text": "Some Different Ethics Frameworks\nEthic Frameworks are used in analyzing ethical situations or making decisions. They help us focus our analysis.\n\nContractualism. Focus on justice as fairness (Human Rights). How to ensure everyone is treated in a way that respects their rights, and is just and fair. Could this be justified to everyone it affects, including the people it affects worst?\nVirtue ethics. Focus on character. What virtues should a good person have? What kind of practitioner does building this make me?\nCare ethics. Who is dependent on whom here, and who is attending to them?"
+  },
+  {
+    "objectID": "slides/slides-01-02.html#in-class-activity",
+    "href": "slides/slides-01-02.html#in-class-activity",
+    "title": "Positionality and Values",
+    "section": "In-class activity",
+    "text": "In-class activity\nIn groups, identify which values are present in ACM’s code of Ethics and Professional Conduct"
+  },
+  {
+    "objectID": "slides/slides-01-01.html#group-activity",
+    "href": "slides/slides-01-01.html#group-activity",
+    "title": "Intro to Technology Philosophies",
+    "section": "Group Activity",
+    "text": "Group Activity\nThe paragraph below describes a type of (systems) design that takes an interactional stance on technology (Value Sensitive Design, Friedman & Hendry, 2026):\n\nOne implication of the interactional stance is that “technology is neither good nor bad; nor is it neutral” (Kranzberg, 1986). Thus, design matters. That is, values can be embodied, at least to some extent, within the features of a tool or technology."
+  },
+  {
+    "objectID": "slides/slides-01-01.html#group-activity-1",
+    "href": "slides/slides-01-01.html#group-activity-1",
+    "title": "Intro to Technology Philosophies",
+    "section": "Group Activity",
+    "text": "Group Activity\nThe paragraph below describes a type of (systems) design that takes an interactional stance on technology (Value Sensitive Design, Friedman & Hendry, 2026):\n\nElectronic document readers, for example, can make text accessible to both blind and sighted people; information systems that allow for legal names, nicknames, and preferred names might enable people to better represent their identities; multiplayer online games can be competitive or cooperative, thereby reflecting or resisting the values of certain groups of people."
+  },
+  {
+    "objectID": "slides/slides-01-01.html#group-activity-2",
+    "href": "slides/slides-01-01.html#group-activity-2",
+    "title": "Intro to Technology Philosophies",
+    "section": "Group Activity",
+    "text": "Group Activity\nValue Sensitive Design (Friedman & Hendry, 2026):\n\nAt the same time, designers do not have complete control. Norms, practices, and incentives, perhaps originating from different stakeholders in a complex social ecology, can have a major influence on technology’s effects.\n\nDiscussion: Which ethical frame does this perspective align most with?"
+  },
+  {
+    "objectID": "slides/slides-01-01.html#policies-1",
+    "href": "slides/slides-01-01.html#policies-1",
+    "title": "Intro to Technology Philosophies",
+    "section": "Policies",
+    "text": "Policies\n\nThinking and acting more critically towards technology enables societies to escape merely adapting to technological advances asserted as inevitable. – Andrew Smith (2026)\n\nWhat policies should we adopt about AI use in this course?"
+  },
+  {
+    "objectID": "slides/slides-01-02.html#stakeholders-1",
+    "href": "slides/slides-01-02.html#stakeholders-1",
+    "title": "Positionality and Values",
+    "section": "Stakeholders",
+    "text": "Stakeholders\n\nWhose values are to be taken into account?\n\nPeople, groups of people, neighborhoods, communities, organizations, institutions, societies, past and future generations, nonhuman species (other animals), the Earth, (AI agents?)"
+  },
+  {
+    "objectID": "slides/slides-02-01.html#some-ethics-frameworks",
+    "href": "slides/slides-02-01.html#some-ethics-frameworks",
+    "title": "Ethics Frameworks",
+    "section": "(Some) Ethics Frameworks",
+    "text": "(Some) Ethics Frameworks\nEthic Frameworks are used in analyzing ethical situations or making decisions. They help us focus our analysis.\n\nConsequentialist/utilitarianism. Focus is on effects: what will produce the greatest good, for the most people? How is “good” counted?\nDeontology. Focus on duty and rights. What duties and obligations are involved? What do we owe people regardless of the payoff?"
+  },
+  {
+    "objectID": "slides/slides-02-01.html#some-ethics-frameworks-1",
+    "href": "slides/slides-02-01.html#some-ethics-frameworks-1",
+    "title": "Ethics Frameworks",
+    "section": "(Some) Ethics Frameworks",
+    "text": "(Some) Ethics Frameworks\nEthic Frameworks are used in analyzing ethical situations or making decisions. They help us focus our analysis.\n\nContractualism. Focus on justice as fairness (Human Rights). How to ensure everyone is treated in a way that respects their rights, and is just and fair. Could this be justified to everyone it affects, including the people it affects worst?\nVirtue ethics. Focus on character. What virtues should a good person have? What kind of practitioner does building this make me?\nCare ethics. Who is dependent on whom here, and who is attending to them?"
+  },
+  {
+    "objectID": "slides/slides-02-01.html#more-ethics-frameworks",
+    "href": "slides/slides-02-01.html#more-ethics-frameworks",
+    "title": "Ethics Frameworks",
+    "section": "(More) Ethics Frameworks",
+    "text": "(More) Ethics Frameworks\n\nCapability approach: evaluate a technology by what it enables people to do and be.\nPolitical economy: evaluate who owns and profits from the means of computation\nIntersectionality: how technologies reinforce sexism/racism"
+  },
+  {
+    "objectID": "slides/slides-02-01.html#references",
+    "href": "slides/slides-02-01.html#references",
+    "title": "Ethics Frameworks",
+    "section": "References",
+    "text": "References\n\nNoble, Safiya Umoja (2018). Algorithms of oppression: how search engines reinforce racism. New York University Press. ISBN 9781479837243. OCLC 1029007986."
+  },
+  {
+    "objectID": "slides/slides-02-02.html",
+    "href": "slides/slides-02-02.html",
+    "title": "Positionality and Values",
+    "section": "",
+    "text": "Q&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/slides-02-02.html#qa-10-minutes",
+    "href": "slides/slides-02-02.html#qa-10-minutes",
+    "title": "Positionality and Values",
+    "section": "",
+    "text": "Q&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/slides-02-02.html#society",
+    "href": "slides/slides-02-02.html#society",
+    "title": "Positionality and Values",
+    "section": "Society?",
+    "text": "Society?\nWhen we say “social context/society/humans shapes technology,” who is included in “society?”"
+  },
+  {
+    "objectID": "slides/slides-02-02.html#critical-consciousness",
+    "href": "slides/slides-02-02.html#critical-consciousness",
+    "title": "Positionality and Values",
+    "section": "Critical Consciousness",
+    "text": "Critical Consciousness\nOne of the goals of this course is to develop an awareness of the values, norms, systems, and processes that limit or render possible our reality."
+  },
+  {
+    "objectID": "slides/slides-02-02.html#discussion",
+    "href": "slides/slides-02-02.html#discussion",
+    "title": "Positionality and Values",
+    "section": "Discussion",
+    "text": "Discussion\nHow would you define these terms (provide examples):\n\nvalues\nnorms\nsystems\nprocesses\n\n\n\nvalues — fundamental beliefs, principles, or priorities that guide judgment and decision-making (privacy, honesty)\nnorms — expectations and collective behaviors that govern social interaction within a group (politeness)\nsystems — structures, infrastructure, and tools (software, social media platforms, banks)\nprocesses — Step-by-step, repeatable workflows designed to achieve a specific operational outcome (how to file a bug report)"
+  },
+  {
+    "objectID": "slides/slides-02-02.html#human-values",
+    "href": "slides/slides-02-02.html#human-values",
+    "title": "Positionality and Values",
+    "section": "Human Values",
+    "text": "Human Values\nOur activities might reflect our values:\n\nDo you drink tea or soda? Why?\nDo you prefer to go to a museum or a ball game? Why?\n\nWe all carry our personal values, that are shaped by how we were raised, our socioeconomic context, etc.\n\nWhat is important to people in their lifes, with a focus on ethics and morality. – Friedman & Hendry (2026)"
+  },
+  {
+    "objectID": "slides/slides-02-02.html#small-group-activity",
+    "href": "slides/slides-02-02.html#small-group-activity",
+    "title": "Positionality and Values",
+    "section": "Small Group Activity",
+    "text": "Small Group Activity\nI’ll give you some values and their definitions – in your groups:\n\nMatch the human value name with its description\nRank them from most important (at the top) to least important – what are the top 5 most important human values to be taken into account?"
+  },
+  {
+    "objectID": "slides/slides-02-02.html#journal-writing",
+    "href": "slides/slides-02-02.html#journal-writing",
+    "title": "Positionality and Values",
+    "section": "Journal Writing",
+    "text": "Journal Writing\nWhich of these values are relevant to you?"
+  },
+  {
+    "objectID": "slides/slides-02-02.html#stakeholders",
+    "href": "slides/slides-02-02.html#stakeholders",
+    "title": "Positionality and Values",
+    "section": "Stakeholders",
+    "text": "Stakeholders\n\nWhose values are to be taken into account?"
+  },
+  {
+    "objectID": "slides/slides-02-02.html#stakeholders-1",
+    "href": "slides/slides-02-02.html#stakeholders-1",
+    "title": "Positionality and Values",
+    "section": "Stakeholders",
+    "text": "Stakeholders\n\nWhose values are to be taken into account?\n\nPeople, groups of people, neighborhoods, communities, organizations, institutions, societies, past and future generations, nonhuman species (other animals), the Earth, (AI agents?)"
+  },
+  {
+    "objectID": "slides/slides-02-02.html#in-class-activity",
+    "href": "slides/slides-02-02.html#in-class-activity",
+    "title": "Positionality and Values",
+    "section": "In-class activity",
+    "text": "In-class activity\nIn groups, identify which values are present in ACM’s code of Ethics and Professional Conduct"
+  },
+  {
+    "objectID": "slides/slides-02-02.html#references",
+    "href": "slides/slides-02-02.html#references",
+    "title": "Positionality and Values",
+    "section": "References",
+    "text": "References\n\nPaulo Freire (1968). Pedagogy of the oppressed. Bloomsbury Publishing.\nFriedman, B., & Hendry, D. G. (2026). Value sensitive design: Shaping technology with moral imagination. The MIT Press."
+  },
+  {
+    "objectID": "slides/slides-01-01.html",
+    "href": "slides/slides-01-01.html",
+    "title": "Academic Use of LLMs",
+    "section": "",
+    "text": "Q&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/slides-01-01.html#reading",
+    "href": "slides/slides-01-01.html#reading",
+    "title": "Academic Use of LLMs",
+    "section": "Reading",
+    "text": "Reading\nTeacher v chatbot: my journey into theclassroom in the age of AI"
+  },
+  {
+    "objectID": "slides/slides-03-01.html",
+    "href": "slides/slides-03-01.html",
+    "title": "Ethics Frameworks",
+    "section": "",
+    "text": "Ethic Frameworks are used in analyzing ethical situations or making decisions. They help us focus our analysis.\n\nConsequentialist/utilitarianism. Focus is on effects: what will produce the greatest good, for the most people? How is “good” counted?\nDeontology. Focus on duty and rights. What duties and obligations are involved? What do we owe people regardless of the payoff?"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#some-ethics-frameworks",
+    "href": "slides/slides-03-01.html#some-ethics-frameworks",
+    "title": "Ethics Frameworks",
+    "section": "",
+    "text": "Ethic Frameworks are used in analyzing ethical situations or making decisions. They help us focus our analysis.\n\nConsequentialist/utilitarianism. Focus is on effects: what will produce the greatest good, for the most people? How is “good” counted?\nDeontology. Focus on duty and rights. What duties and obligations are involved? What do we owe people regardless of the payoff?"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#some-ethics-frameworks-1",
+    "href": "slides/slides-03-01.html#some-ethics-frameworks-1",
+    "title": "Ethics Frameworks",
+    "section": "(Some) Ethics Frameworks",
+    "text": "(Some) Ethics Frameworks\nEthic Frameworks are used in analyzing ethical situations or making decisions. They help us focus our analysis.\n\nContractualism. Focus on justice as fairness (Human Rights). How to ensure everyone is treated in a way that respects their rights, and is just and fair. Could this be justified to everyone it affects, including the people it affects worst?\nVirtue ethics. Focus on character. What virtues should a good person have? What kind of practitioner does building this make me?\nCare ethics. Who is dependent on whom here, and who is attending to them?"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#more-ethics-frameworks",
+    "href": "slides/slides-03-01.html#more-ethics-frameworks",
+    "title": "Ethics Frameworks",
+    "section": "(More) Ethics Frameworks",
+    "text": "(More) Ethics Frameworks\n\nCapability approach: evaluate a technology by what it enables people to do and be.\nPolitical economy: evaluate who owns and profits from the means of computation\nIntersectionality: how technologies reinforce sexism/racism"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#ethics-frameworks",
+    "href": "slides/slides-03-01.html#ethics-frameworks",
+    "title": "Ethics Frameworks",
+    "section": "Ethics Frameworks",
+    "text": "Ethics Frameworks\n\nFrameworks generate reasoning, they don’t output verdicts.\nNone of the frameworks is perfect, each has advantages and disadvantages.\nBeware of framework shopping: when a framework is selected to yield the conclusion already held. (confirmation bias)"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#group-discussion",
+    "href": "slides/slides-03-01.html#group-discussion",
+    "title": "Ethics Frameworks",
+    "section": "Group Discussion",
+    "text": "Group Discussion\n\nWho’s to say what’s ethical?"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#references",
+    "href": "slides/slides-03-01.html#references",
+    "title": "Ethics Frameworks",
+    "section": "References",
+    "text": "References\n\nNoble, Safiya Umoja (2018). Algorithms of oppression: how search engines reinforce racism. New York University Press. ISBN 9781479837243. OCLC 1029007986."
+  },
+  {
+    "objectID": "slides/slides-02-01.html",
+    "href": "slides/slides-02-01.html",
+    "title": "Intro to Technology Philosophies",
+    "section": "",
+    "text": "Q&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/slides-02-01.html#qa-10-minutes",
+    "href": "slides/slides-02-01.html#qa-10-minutes",
+    "title": "Intro to Technology Philosophies",
+    "section": "",
+    "text": "Q&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/slides-02-01.html#discussion-1",
+    "href": "slides/slides-02-01.html#discussion-1",
+    "title": "Intro to Technology Philosophies",
+    "section": "Discussion 1",
+    "text": "Discussion 1\n\nIn your opinion, what technology has historically changed humanity the most?\n\nThis is a brainstorming activity – there is no right or wrong answer. This is meant to prime you to think about different perspectives on technology and its impact on our past and present (and future)"
+  },
+  {
+    "objectID": "slides/slides-02-01.html#journal-entry",
+    "href": "slides/slides-02-01.html#journal-entry",
+    "title": "Intro to Technology Philosophies",
+    "section": "Journal Entry",
+    "text": "Journal Entry\nTake a couple of minutes to reflect on the discussion you just had – this can be a list of technologies mentioned in your group + your personal opinion about the topic (use the same google document you have already shared with me)"
+  },
+  {
+    "objectID": "slides/slides-02-01.html#discussion-2",
+    "href": "slides/slides-02-01.html#discussion-2",
+    "title": "Intro to Technology Philosophies",
+    "section": "Discussion 2",
+    "text": "Discussion 2\n\nDo humans control technology?\nDoes technology have built-in values (is it good or bad)?\n\nBe prepared to share your group ideas with the entire class/instructor"
+  },
+  {
+    "objectID": "slides/slides-02-01.html#basic-philosophies-of-technology",
+    "href": "slides/slides-02-01.html#basic-philosophies-of-technology",
+    "title": "Intro to Technology Philosophies",
+    "section": "(Basic) Philosophies of technology",
+    "text": "(Basic) Philosophies of technology\n\ninstrumentalism (naive)\ndeterminism (hard, soft, substantivism)"
+  },
+  {
+    "objectID": "slides/slides-02-01.html#instrumentalism",
+    "href": "slides/slides-02-01.html#instrumentalism",
+    "title": "Intro to Technology Philosophies",
+    "section": "Instrumentalism",
+    "text": "Instrumentalism\n\nTechnology is a neutral tool – it is neither good nor bad\nTechnology does not contain inherent moral values\nHumans have complete control over how it is used\nHigh human agency – society decides whether technology is used for good or bad\n\n\n“Guns don’t kill people, people kill people.”"
+  },
+  {
+    "objectID": "slides/slides-02-01.html#determinism",
+    "href": "slides/slides-02-01.html#determinism",
+    "title": "Intro to Technology Philosophies",
+    "section": "Determinism",
+    "text": "Determinism\n\nTechnology causes/drives social changes\nTechnology shapes human behavior and society\nLow human agency – humans adapt to technology (we cannot easily stop its trajectory)\nDeterminism (technology is autonomous and neutral) vs. Substantivism (technology is autonomous and value-laden)\n\n\n“Cellphones have ruined face-to-face interactions”"
+  },
+  {
+    "objectID": "slides/slides-02-01.html#instrumentalism-vs.-determinism",
+    "href": "slides/slides-02-01.html#instrumentalism-vs.-determinism",
+    "title": "Intro to Technology Philosophies",
+    "section": "Instrumentalism vs. Determinism",
+    "text": "Instrumentalism vs. Determinism\n\n\n\n\n\n\nflowchart LR\n  Instrumentalism &lt;----------&gt; Determinism\n\n\n\n\n\n\n\n\n\nHumans control technology\nTechnology is neutral\n\n\n\nTechnology controls or shapes society"
+  },
+  {
+    "objectID": "slides/slides-02-01.html#soft-technological-determinism-critical-theory",
+    "href": "slides/slides-02-01.html#soft-technological-determinism-critical-theory",
+    "title": "Intro to Technology Philosophies",
+    "section": "Soft technological determinism (Critical theory)",
+    "text": "Soft technological determinism (Critical theory)\n\nTechnology both shapes society and is shaped by it\nTechnology and social practices develop in tandem and influence one another\nTechnology is the means, human purposes are the end/goal\nSome room for human agency – engineers can inscribe their intentions within technology to shape human behavior\nAwareness of unintended social or environmental consequences"
+  },
+  {
+    "objectID": "slides/slides-02-01.html#technological-constructivism",
+    "href": "slides/slides-02-01.html#technological-constructivism",
+    "title": "Intro to Technology Philosophies",
+    "section": "Technological constructivism",
+    "text": "Technological constructivism\n\nSocial construction of technology (SCOT)\nTechnology does not determine human action, human action shapes technology\nTechnology is embedded within its respective social context\nHumans accept or reject technology"
+  },
+  {
+    "objectID": "slides/slides-02-01.html#summary",
+    "href": "slides/slides-02-01.html#summary",
+    "title": "Intro to Technology Philosophies",
+    "section": "Summary",
+    "text": "Summary\n\nInstrumentalism: Humans control technology, technology is neutral\nDeterminism: Technology causes/drives social changes\nSoft technological determinism: Technology shapes society and is shaped by it (engineers can imbue their values into technology, unintended consequences are often present)\nTechnological constructivism: social context shapes technology\n\nJournal Writing: Which philosophy makes more sense to you? Why?"
+  },
+  {
+    "objectID": "slides/slides-02-01.html#group-activity",
+    "href": "slides/slides-02-01.html#group-activity",
+    "title": "Intro to Technology Philosophies",
+    "section": "Group Activity",
+    "text": "Group Activity\nThe paragraph below describes a type of (systems) design that takes an interactional stance on technology (Value Sensitive Design, Friedman & Hendry, 2026):\n\nOne implication of the interactional stance is that “technology is neither good nor bad; nor is it neutral” (Kranzberg, 1986). Thus, design matters. That is, values can be embodied, at least to some extent, within the features of a tool or technology."
+  },
+  {
+    "objectID": "slides/slides-02-01.html#group-activity-1",
+    "href": "slides/slides-02-01.html#group-activity-1",
+    "title": "Intro to Technology Philosophies",
+    "section": "Group Activity",
+    "text": "Group Activity\nThe paragraph below describes a type of (systems) design that takes an interactional stance on technology (Value Sensitive Design, Friedman & Hendry, 2026):\n\nElectronic document readers, for example, can make text accessible to both blind and sighted people; information systems that allow for legal names, nicknames, and preferred names might enable people to better represent their identities; multiplayer online games can be competitive or cooperative, thereby reflecting or resisting the values of certain groups of people."
+  },
+  {
+    "objectID": "slides/slides-02-01.html#group-activity-2",
+    "href": "slides/slides-02-01.html#group-activity-2",
+    "title": "Intro to Technology Philosophies",
+    "section": "Group Activity",
+    "text": "Group Activity\nValue Sensitive Design (Friedman & Hendry, 2026):\n\nAt the same time, designers do not have complete control. Norms, practices, and incentives, perhaps originating from different stakeholders in a complex social ecology, can have a major influence on technology’s effects.\n\nDiscussion: Which ethical frame does this perspective align most with?"
+  },
+  {
+    "objectID": "slides/slides-02-01.html#policies",
+    "href": "slides/slides-02-01.html#policies",
+    "title": "Intro to Technology Philosophies",
+    "section": "Policies",
+    "text": "Policies\nWhere lawmakers fall in the deterministic and instrumentalist spectrum reflects in their (our) policies:\n\nSolutionism – lawmakers believe technology will solve all the world’s problems\nFatalism – lawmakers have resigned themselves to the consequences of technology\nRegulation – lawmaker believe technology should be regulated"
+  },
+  {
+    "objectID": "slides/slides-02-01.html#policies-1",
+    "href": "slides/slides-02-01.html#policies-1",
+    "title": "Intro to Technology Philosophies",
+    "section": "Policies",
+    "text": "Policies\n\nThinking and acting more critically towards technology enables societies to escape merely adapting to technological advances asserted as inevitable. – Andrew Smith (2026)\n\nWhat policies should we adopt about AI use in this course?"
+  },
+  {
+    "objectID": "slides/slides-02-01.html#referencesfurther-reading",
+    "href": "slides/slides-02-01.html#referencesfurther-reading",
+    "title": "Intro to Technology Philosophies",
+    "section": "References/Further Reading",
+    "text": "References/Further Reading\n\nFriedman, B., & Hendry, D. G. (2026). Value sensitive design: Shaping technology with moral imagination. The MIT Press.\nGrimes, S.M. & Feenberg, Andrew. (2013). Critical theory of technology. 10.4135/9781446282229.n9.\nKranzberg, M. (1986). Technology and History: “Kranzberg’s Laws.” Technology and Culture, 27(3), 544–560. https://doi.org/10.2307/3105385\nSmith, A. (2026). Loosening the grip of technological determinism in futures thinking. UNESCO."
+  },
+  {
+    "objectID": "slides/slides-02-01.html#society",
+    "href": "slides/slides-02-01.html#society",
+    "title": "Intro to Technology Philosophies",
+    "section": "Society?",
+    "text": "Society?\nWhen we say “social context/society/humans shapes technology,” who is “society?”"
+  },
+  {
+    "objectID": "slides/slides-02-01.html#journal-writing",
+    "href": "slides/slides-02-01.html#journal-writing",
+    "title": "Intro to Technology Philosophies",
+    "section": "Journal Writing",
+    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked of disliked (were the discussions helpful? were the contents of the slides clear?)"
+  },
+  {
+    "objectID": "slides/slides-01-01.html#discussion-of-the-reading",
+    "href": "slides/slides-01-01.html#discussion-of-the-reading",
+    "title": "Academic Use of LLMs",
+    "section": "Discussion of the Reading",
+    "text": "Discussion of the Reading\nTeacher v chatbot: my journey into theclassroom in the age of AI\n\nWhat did you think of the reading in terms of how easy/difficult it was to read it? Was it challenging?\nIf you used the social reading tool, did it enhance or hinder your reading process? Did you like it or hate it?"
+  },
+  {
+    "objectID": "slides/slides-01-01.html#discussion-of-the-reading-1",
+    "href": "slides/slides-01-01.html#discussion-of-the-reading-1",
+    "title": "Academic Use of LLMs",
+    "section": "Discussion of the Reading",
+    "text": "Discussion of the Reading\nTeacher v chatbot: my journey into theclassroom in the age of AI\n\nInstead of cheating machines, chatbots could be powerful TAs/tutors\n\n\nAI was an evilscam vs AI is the future of everything\n\n\nMake a list of pros and cons of using AI for reading and writing"
+  },
+  {
+    "objectID": "slides/slides-01-01.html#reading-first-person-account",
+    "href": "slides/slides-01-01.html#reading-first-person-account",
+    "title": "Academic Use of LLMs",
+    "section": "Reading – first person account",
+    "text": "Reading – first person account\nThis assigned reading was written in the first person:\n\nthe “I” pronoun was used throughout the text\nthe author narrated events, and offered personal reflections\nthe writing includes “tension” – at times the author is against AI, but then in other parts of the text the author expresses ideas that are pro AI."
+  },
+  {
+    "objectID": "slides/slides-01-01.html#written-assignment-positionality",
+    "href": "slides/slides-01-01.html#written-assignment-positionality",
+    "title": "Academic Use of LLMs",
+    "section": "Written assignment – positionality",
+    "text": "Written assignment – positionality\n\ninstructions\nexample"
   }
 ]
