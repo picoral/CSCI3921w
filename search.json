@@ -564,7 +564,7 @@
     "href": "assignment-1.html",
     "title": "Technology Analysis",
     "section": "",
-    "text": "Using at least 3 of the academic sources we have read so far, develop a conceptual framework that articulates your unique perspective on technology. Your conceptual framework should integrate theoretical arguments from the readings covered thus far and your own personal identity and experience in the world. Ultimately, your conceptual framework should be useful, and productive. You will draw upon it to conduct an in-depth analysis of your chosen technology. Your analysis should address the following questions:\n\nWhat values do this technology reflect, embrace, reject, or encourage?\nWho is affected by its design?\nHow was its design affected by society?\nWho reaps the benefits, and who suffers the costs of its creation and use?\n\nYou must pick an article that describes a computer technology (e.g. a platform, an app, an algorithm, etc.) that presents a moral dilemma when considering its intended or unintended use cases. In your paper, you will be asked to identify the moral dilemma and the ethical considerations of using this technology, explaining its benefits and dangers. You will then provide 2-3 independent, persuasive arguments for using the technology and 2-3 arguments against its use. Based on your arguments, you will provide a recommendation as to whether this technology should be used (explaining how to mitigate the potential dangers) or not (explaining how to achieve similar benefits in another way). In drawing your conclusion, be sure to explain which actors should have a say in how this technology is distributed, employed, and regulated.\nYou will need to complete this assignment individually."
+    "text": "Length: 1,000–1,500 words (approx. 4–6 double-spaced pages)\nFirst draft is due Oct 7, end of the day\nFinal draft is due Oct 21, end of the day\nYou will complete this assignment individually."
   },
   {
     "objectID": "slides/slides-01-02.html#discussion",
@@ -1034,5 +1034,40 @@
     "title": "Ethics Frameworks",
     "section": "References and Further Readings",
     "text": "References and Further Readings\n\nShea, M. (2025). Hobbes, Locke, and the Social Contract\nNoble, S. (2018). Algorithms of oppression: how search engines reinforce racism. New York University Press. ISBN 9781479837243. OCLC 1029007986.\nMangena, F. (2026). Towards an AI for Africa"
+  },
+  {
+    "objectID": "assignment-1.html#what-makes-a-good-choice",
+    "href": "assignment-1.html#what-makes-a-good-choice",
+    "title": "Technology Analysis",
+    "section": "What makes a good choice",
+    "text": "What makes a good choice\nA good choice is a technology where thoughtful people genuinely disagree. If you can write the “against” section in two minutes and the “for” section is a strawman, pick something else. Look for a technology where:\n\nThere is a real, identifiable benefit that someone would miss if it disappeared.\nThere is a real, identifiable harm that falls on someone.\nThe benefit and the harm often land on different people.\nThe dilemma survives good intentions — it is not simply a case of a company behaving badly, but a case where even a careful, well-meaning designer faces a hard tradeoff.\n\nExamples of the shape of a workable dilemma (do not feel limited to these): proctoring software that detects cheating and also flags disabled students; a predictive model that allocates scarce medical care; content moderation at a scale that requires automation; a dating app’s matching algorithm; smoking- or driving-behavior logging that lowers insurance premiums for some and raises them for others."
+  },
+  {
+    "objectID": "assignment-1.html#where-to-look",
+    "href": "assignment-1.html#where-to-look",
+    "title": "Technology Analysis",
+    "section": "Where to look",
+    "text": "Where to look\n\nThe course readings — several describe technologies you could analyze directly.\nThe Happening Now page.\nThe Patents List page, or a patent you find yourself through Patent Public Search. Patents are useful because they state, in the applicants’ own words, what the technology is for — which is often revealing.\nReporting from an outlet with an accountable editorial process. A vendor’s own marketing page or blog post is a primary source about the vendor’s claims, not a description of the technology; you may cite it as evidence of what the company says, but it cannot be your only source.\n\nYou do not need to get your article approved, but if you are unsure whether your choice presents a real dilemma, ask me or a TA before the first draft. Discovering at the final-draft stage that your technology has no genuine second side is an expensive problem to fix."
+  },
+  {
+    "objectID": "assignment-1.html#suggested-structure",
+    "href": "assignment-1.html#suggested-structure",
+    "title": "Technology Analysis",
+    "section": "Suggested structure",
+    "text": "Suggested structure\nYou are not required to use these headings, and you may reorganize if your argument flows better another way. But every element below must appear somewhere in the paper. The word counts are suggestions to help you budget 1,000–1,500 words, which is tighter than it looks.\n\n\n\n\n\n\n\n\nSection\nWhat it does\nApprox. words\n\n\n\n\nIntroduction\nIntroduce the technology and the article; state the moral dilemma in one or two sentences; preview your recommendation\n100–150\n\n\nYour framework\nThe framework you build on, what your version centers, why (positionality), and what it does not see\n200–300\n\n\nThe technology and its values\nWhat the technology does, what values it embeds, who its design affects, how society shaped its design, who benefits and who bears the costs\n250–350\n\n\nArguments for use\n2–3 independent, persuasive arguments\n150–250\n\n\nArguments against use\n2–3 independent, persuasive arguments\n150–250\n\n\nRecommendation\nYour position, with mitigations (if yes) or alternatives (if no)\n150–250\n\n\nWho decides\nWhich actors should have a say in distribution, use, and regulation, and why they have standing\n100–150"
+  },
+  {
+    "objectID": "assignment-1.html#what-independent-arguments-means",
+    "href": "assignment-1.html#what-independent-arguments-means",
+    "title": "Technology Analysis",
+    "section": "What “independent” arguments means",
+    "text": "What “independent” arguments means\nTwo arguments are independent if knocking one down leaves the other standing. “This tool saves teachers time” and “this tool lets teachers spend more hours with students” are the same argument wearing two hats. “This tool saves teachers time” and “this tool gives students feedback at 11pm when no teacher is available” are independent — they would appeal to different people and rest on different evidence.\nWrite the arguments you disagree with at their strongest. Steelman, don’t strawman. A reader should not be able to tell from your “against” section which way you are going to land."
+  },
+  {
+    "objectID": "assignment-1.html#what-who-decides-means",
+    "href": "assignment-1.html#what-who-decides-means",
+    "title": "Technology Analysis",
+    "section": "What “who decides” means",
+    "text": "What “who decides” means\nDon’t rush this part, it carries real weight in the rubric. It is not enough to say “the government should regulate it” or “stakeholders should be consulted.” Be specific about which actors, on what question, and why that actor rather than another. Candidates include: the engineers who build it, the company that owns it, the people it is used on, the people it is used by, professional bodies (recall the ACM Code of Ethics, regulators at the city, state, or federal level, courts, unions, affected communities who were never consulted. Different actors have specific standing over different decisions. For example, who deploys the technology might be a different question from who governs the data it collects."
   }
 ]
