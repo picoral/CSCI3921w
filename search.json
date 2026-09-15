@@ -473,7 +473,7 @@
     "href": "index.html#slides",
     "title": "CSCI 3921W - Social, Legal, and Ethical Issues in Computing",
     "section": "Slides",
-    "text": "Slides\n\nLecture Structure\nAcademic Use of LLMs\nIntro to Technology Philosophies\nHuman Values"
+    "text": "Slides\n\nLecture Structure\nAcademic Use of LLMs"
   },
   {
     "objectID": "slides/slides-01-02.html#qa-10-minutes",
@@ -795,42 +795,42 @@
     "href": "slides/slides-03-01.html#some-ethics-frameworks",
     "title": "Ethics Frameworks",
     "section": "(Some) Ethics Frameworks",
-    "text": "(Some) Ethics Frameworks\nEthic Frameworks are used in analyzing ethical situations or making decisions. They help us focus our analysis.\n\nConsequentialist/utilitarianism. Focus is on effects: what will produce the greatest good, for the most people? How is “good” counted?\nDeontology. Focus on duty and rights. What duties and obligations are involved? What do we owe people regardless of the payoff?"
+    "text": "(Some) Ethics Frameworks\nEthic Frameworks are used in analyzing ethical situations or making decisions. They help us focus our analysis.\n\nVirtue ethics - Focus on character. What virtues should a good person have? What kind of practitioner does building this make me?\nConsequentialist/utilitarianism - Focus is on effects: what will produce the greatest good, for the most people? How is “good” counted?\nDeontology - Focus on duty and rights. What duties and obligations are involved? What do we owe people regardless of the payoff?"
   },
   {
     "objectID": "slides/slides-03-01.html#some-ethics-frameworks-1",
     "href": "slides/slides-03-01.html#some-ethics-frameworks-1",
     "title": "Ethics Frameworks",
     "section": "(Some) Ethics Frameworks",
-    "text": "(Some) Ethics Frameworks\nEthic Frameworks are used in analyzing ethical situations or making decisions. They help us focus our analysis.\n\nContractualism. Focus on justice as fairness (Human Rights). How to ensure everyone is treated in a way that respects their rights, and is just and fair. Could this be justified to everyone it affects, including the people it affects worst?\nVirtue ethics. Focus on character. What virtues should a good person have? What kind of practitioner does building this make me?\nCare ethics. Who is dependent on whom here, and who is attending to them?"
+    "text": "(Some) Ethics Frameworks\nEthic Frameworks are used in analyzing ethical situations or making decisions. They help us focus our analysis.\n\nContractualism - Focus on justice as fairness (Human Rights). How to ensure everyone is treated in a way that respects their rights, and is just and fair. Could this be justified to everyone it affects, including the people it affects worst?\nCare ethics - Focus on who is dependent on whom, and who is attending to them"
   },
   {
     "objectID": "slides/slides-03-01.html#more-ethics-frameworks",
     "href": "slides/slides-03-01.html#more-ethics-frameworks",
     "title": "Ethics Frameworks",
     "section": "(More) Ethics Frameworks",
-    "text": "(More) Ethics Frameworks\n\nCapability approach: evaluate a technology by what it enables people to do and be.\nPolitical economy: evaluate who owns and profits from the means of computation\nIntersectionality: how technologies reinforce sexism/racism"
+    "text": "(More) Ethics Frameworks\n\nCapability approach - Focus on what a technology enables people to do and be.\nPolitical economy - Focus on who owns and profits from the means of computation\nIntersectionality - Focus on how technologies reinforce sexism/racism"
   },
   {
     "objectID": "slides/slides-03-01.html#ethics-frameworks",
     "href": "slides/slides-03-01.html#ethics-frameworks",
     "title": "Ethics Frameworks",
     "section": "Ethics Frameworks",
-    "text": "Ethics Frameworks\n\nFrameworks generate reasoning, they don’t output verdicts.\nNone of the frameworks is perfect, each has advantages and disadvantages.\nBeware of framework shopping: when a framework is selected to yield the conclusion already held. (confirmation bias)"
+    "text": "Ethics Frameworks\n\nFrameworks generate reasoning, they don’t output verdicts.\nNone of these (and other) frameworks is perfect, each has advantages and disadvantages.\nBeware of framework shopping: when a framework is selected to yield the conclusion already held. (confirmation bias)"
   },
   {
     "objectID": "slides/slides-03-01.html#group-discussion",
     "href": "slides/slides-03-01.html#group-discussion",
     "title": "Ethics Frameworks",
     "section": "Group Discussion",
-    "text": "Group Discussion\n\nWho’s to say what’s ethical?"
+    "text": "Group Discussion\n\nWho’s to say what’s ethical? Who decides ethical norms in a profession? (think back to the ACM’s code of Ethics and Professional Conduct) Who decides what’s ethical in a company? Who decides what’s ethical in a country?\nWhich of the listed frameworks (or others you know about) would you base your design decisions?"
   },
   {
     "objectID": "slides/slides-03-01.html#references",
     "href": "slides/slides-03-01.html#references",
     "title": "Ethics Frameworks",
     "section": "References",
-    "text": "References\n\nNoble, Safiya Umoja (2018). Algorithms of oppression: how search engines reinforce racism. New York University Press. ISBN 9781479837243. OCLC 1029007986."
+    "text": "References\n\nShea, M. (2025). Hobbes, Locke, and the Social Contract\nNoble, S. (2018). Algorithms of oppression: how search engines reinforce racism. New York University Press. ISBN 9781479837243. OCLC 1029007986.\nMangena, F. (2026). Towards an AI for Africa"
   },
   {
     "objectID": "slides/slides-02-01.html",
@@ -935,14 +935,14 @@
     "href": "slides/slides-02-01.html#group-activity-2",
     "title": "Intro to Technology Philosophies",
     "section": "Group Activity",
-    "text": "Group Activity\nValue Sensitive Design (Friedman & Hendry, 2026):\n\nAt the same time, designers do not have complete control. Norms, practices, and incentives, perhaps originating from different stakeholders in a complex social ecology, can have a major influence on technology’s effects.\n\nDiscussion: Which ethical frame does this perspective align most with? Think and discuss one or two more examples (the authors mention electronic document readers, name representation, multiplayer online games) that allow designers to make choices."
+    "text": "Group Activity\nValue Sensitive Design (Friedman & Hendry, 2026):\n\nAt the same time, designers do not have complete control. Norms, practices, and incentives, perhaps originating from different stakeholders in a complex social ecology, can have a major influence on technology’s effects.\n\nDiscussion: Which ethical philosophy does this perspective align most with? Think and discuss one or two more examples (the authors mention electronic document readers, name representation, multiplayer online games) that allow designers to make choices."
   },
   {
     "objectID": "slides/slides-02-01.html#policies",
     "href": "slides/slides-02-01.html#policies",
     "title": "Intro to Technology Philosophies",
     "section": "Policies",
-    "text": "Policies\nWhere lawmakers fall in the deterministic and instrumentalist spectrum reflects in their (our) policies:\n\nSolutionism – lawmakers believe technology will solve all the world’s problems\nFatalism – lawmakers have resigned themselves to the consequences of technology\nRegulation – lawmaker believe technology should be regulated\n\nJournal writing: which of these three do you vote for?"
+    "text": "Policies\nWhere lawmakers fall in the deterministic and instrumentalist spectrum reflects in their (our) policies:\n\nSolutionism – lawmakers believe technology will solve all the world’s problems\nFatalism – lawmakers have resigned themselves to the consequences of technology\nRegulation – lawmaker believe technology should be regulated\n\nWhich of these three do you vote for?"
   },
   {
     "objectID": "slides/slides-02-01.html#policies-1",
@@ -999,5 +999,40 @@
     "title": "Academic Use of LLMs",
     "section": "Written assignment – positionality",
     "text": "Written assignment – positionality\n\ninstructions – no need to double space it, but it does make it easier to read. Give me editor access (apicoral@umn.edu).\nexample – history"
+  },
+  {
+    "objectID": "slides/slides-02-02.html#journal-writing-1",
+    "href": "slides/slides-02-02.html#journal-writing-1",
+    "title": "Human Values",
+    "section": "Journal Writing",
+    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked of disliked (were the discussions helpful? were the contents of the slides clear?)"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#journal-writing",
+    "href": "slides/slides-03-01.html#journal-writing",
+    "title": "Ethics Frameworks",
+    "section": "Journal Writing",
+    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked of disliked (were the discussions helpful? were the contents of the slides clear?)"
+  },
+  {
+    "objectID": "index.html#slides-1",
+    "href": "index.html#slides-1",
+    "title": "CSCI 3921W - Social, Legal, and Ethical Issues in Computing",
+    "section": "Slides",
+    "text": "Slides\n\nIntro to Technology Philosophies\nHuman Values\nEthics Frameworks"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#more-ethics-frameworks-1",
+    "href": "slides/slides-03-01.html#more-ethics-frameworks-1",
+    "title": "Ethics Frameworks",
+    "section": "(More) Ethics Frameworks",
+    "text": "(More) Ethics Frameworks\n\nIndigenous data governance - Focus on the ability of a nation to govern the collection, ownership, and application of its own data\nConfucian tech ethics - Focus on how the technology promotes social harmony, relational obligations, and moral self-cultivation"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#references-and-further-readings",
+    "href": "slides/slides-03-01.html#references-and-further-readings",
+    "title": "Ethics Frameworks",
+    "section": "References and Further Readings",
+    "text": "References and Further Readings\n\nShea, M. (2025). Hobbes, Locke, and the Social Contract\nNoble, S. (2018). Algorithms of oppression: how search engines reinforce racism. New York University Press. ISBN 9781479837243. OCLC 1029007986.\nMangena, F. (2026). Towards an AI for Africa"
   }
 ]
