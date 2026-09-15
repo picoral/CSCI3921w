@@ -1,0 +1,148 @@
+---
+title: "Positionality Statement"
+format:
+  html:
+    df-print: kable
+    toc: true
+    toc-location: right
+    embed-resources: true
+---
+
+```{r}
+#| echo: false
+#| eval: true
+#| warning: false
+library(tidyverse)
+schedule <- read_csv("CSCI 3921W Fall 2026 tentative schedule - Sheet1.csv")
+```
+
+**Length:** 750–1,000 words (approx. 3–4 double-spaced pages)
+
+This assignment is due `r schedule |> filter(Assessment == "Paper 0 (positionality)") |> pull("Due Date")`
+
+* [Example written by the instructor](https://docs.google.com/document/d/1s7yzTElgN08aSlh5VJomD_I6STH1cXxad-cbMo3ZRWY/edit?usp=sharing)
+* Create a google doc, make sure you shared it with me (as editor, apicoral@umn.edu), and then submit
+* Submit your google doc url to the canvas assignment
+
+# Overview
+
+Throughout this course we examine how computing systems shape and are shaped
+by human values, power, and social context. A recurring theme is that
+technology is never neutral: the people who design, build, regulate, and study
+computing bring their own perspectives, assumptions, and blind spots to that
+work. Recognizing your own perspective is the first step toward reasoning
+carefully about ethics.
+
+A **positionality statement** is a short piece of reflective writing in which
+you articulate who you are in relation to the issues we study—your background,
+identities, experiences, values, and the vantage point from which you see
+technology and society. Scholars, researchers, and practitioners
+write positionality statements to make their assumptions visible, both to
+themselves and to their readers.
+
+This is a *reflective* assignment. There are no right or wrong answers about who
+you are. You will be graded on the depth, honesty, and clarity of your
+reflection—not on holding any particular view. You can be honest. Your work will not be shared with your classmates.
+
+
+# Learning Objectives
+
+By completing this assignment, you will be able to:
+
+1. **Identify** the personal, social, and cultural factors that shape your own
+   perspective on computing and its consequences.
+2. **Analyze** how your positionality might influence the way you interpret
+   ethical, legal, and social issues in technology.
+3. **Connect** your lived experience to course concepts (e.g., bias in
+   algorithms, privacy, access and the digital divide, labor, power, what it means to be human).
+4. **Practice** reflective, first-person academic writing with specificity and
+   intellectual honesty.
+
+# What to Write About
+
+Your statement should be a cohesive, first-person essay (do not write a list of answers to the prompts).
+Use the prompts below to generate ideas, then select the threads (main topics) that matter most to you. **You do not need to address every prompt.** Some prompts will be a little repetitve. Choose the ones that lead to the most honest and specific reflection.
+
+## 1. Background and identity
+
+- What aspects of your background (e.g., where you grew up, your family, your culture, language, socioeconomic context, education) shape how you see technology's role in society?
+- Which of your identities or communities feel relevant to how you experience computing systems? (You decide what is relevant and what you are comfortable sharing.)
+
+## 2. Relationship to computing
+
+- How and when did you first get access to computers and the internet? Was access easy, limited, or somewhere in between?
+- What has been your own experience with technology (e.g., when did you get your first computer, why did you decide to pursue a career in computing)?
+- What has your experience with technology been—as a user, a student, a worker, a creator? Where do you feel like an insider, and where an outsider?
+- What has been your experience with computing in school (middle school, high school, college)?
+
+## 3. Values and assumptions
+
+- What do you tend to *assume* is true about technology. For example, do you believe that technology makes life better, that it's inevitable, that regulation stifles innovation, that data access should be free for companies and/or individuals, or something else? Where might those assumptions come from?
+- Which social, legal, or ethical issues in computing do you care about most, and why?
+
+## 4. Blind spots and standpoint
+
+- Whose experiences with technology are you least familiar with? What might you fail to notice because of your particular vantage point? (this is a tough question, since we failed to realize what our own biases are)
+- How might someone with a very different background reasonably disagree with you?
+
+# Requirements
+
+- **Length:** 750–1,000 words.
+- **Voice:** First person ("I"). This is a personal, reflective essay.
+- **Specificity:** Ground claims in concrete examples from your own life rather than generic statements. "I grew up in a rural area where our home internet was too slow for video, so I did homework at the public library" is stronger than "access can be a challenge for some people."
+
+# What This Assignment Is *Not*
+
+- It is **not** an autobiography. Remember to stay focused on how your perspective relates to computing and its social, legal, and ethical dimensions.
+- It is **not** a place to perform "correct" opinions. Honest reflection about uncertainty or discomfort is more valuable than tidy conclusions.
+- It is **not** graded on your identity or your views. It is graded on the quality of your reflection and writing.
+
+# A Note on Privacy and Safety
+
+Reflective writing can surface personal material. Please share only what you are
+comfortable sharing. You are always free to:
+
+- Choose which experiences and identities to include or leave out
+- Write about a topic at whatever level of detail feels safe to you (but remember that examples are helpful to make your point -- you can leave out details you are not comfortable sharing)
+- Speak with me privately if any part of this assignment feels difficult
+
+Your statement will be read only by me and course staff and will be kept
+confidential. It will not be shared with the class.
+
+# Grading Rubric 
+
+We will be grading your paper based on:
+
+* **Depth of reflection** (6 points) — go beyond surface description to examine why you hold your perspective, including tensions and blind spots:
+  * describe your identity (race/ethnicity, gender, socioeconomic status, geographic place in which you were raised, your family structure)
+  * provide a perspective/opinion you hold and explain why you hold that perspective/opinion (you should connect this with your identity)
+  * include some tension/different points to consider (provide at least one counterpoint to a position/perspective/opinion you hold, or explain the challenged of accomplishing/holding/putting in practice that perspective)
+  * provide examples on how your opinion might not be others' opinion (others might disagree)
+  * explain how your position in society is different from other people's -- mention privileges that you hold that other people do not have
+* **Specificity and honesty** (4 points) — use concrete personal examples, and show genuine self-examination rather than clichés:
+  * use concrete personal examples (narratives, telling short stories about how you experienced computing in you lives)
+  * demonstrate self-examination rather than clichés (think of events/perspectives that are unique to yourself)
+*  **Analysis of influence** (4 points) — explain how your standpoint could shape your interpretation of ethical, legal and social issues:
+   * Bring examples of specific technologies and how you view them (positively or with skepticism)
+*  **Writing and mechanics** (1 point) — clear organization, clear structure (easy to read, not convoluted), meets length and format requirements 
+
+# Getting Started 
+
+Here are some suggested steps to get you started:
+
+1. **Freewrite** for 15 minutes using two or three of the prompts above. Don't
+   edit—just get ideas down. (hopefully you've done some of this already in your journal -- so go back to your journal and see what you can reuse from there)
+2. **Find your thread.** Look for a recurring theme or a moment of tension in
+   your freewrite. That's often the heart of a good statement.
+3. **Draft** a focused essay around that thread, weaving in a course connection.
+4. **Revise for specificity.** Replace every vague generalization with a
+   concrete example.
+5. **Proofread** and check formatting and grammar before submitting.
+
+# Academic Integrity & Use of AI
+
+This assignment is about *your* perspective, so it must be written by you in your
+own words. Generative AI tools may be used for brainstorming (make sure you are bringing into this process your own ideas) and proofreading (checking grammar, etc.) but not to generate the substance of your reflection. You can ask a LLM tool to ask questions about your experience with technology (some of the questions that are provided in the prompts above) -- but again, most of the writing should be originally yours.
+
+If you opt to use an LLM tool, disclose any use in a note at the end of your paper.
+
