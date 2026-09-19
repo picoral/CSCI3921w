@@ -459,7 +459,7 @@
     "href": "patents-list.html",
     "title": "Patents List",
     "section": "",
-    "text": "Patent Public Search Basic\n\nSYSTEMS AND METHODS FOR IDENTIFYING INTERESTS BASED ON SOCIAL MEDIA ACTIVITY – US-20260087464-A1\nAUTOMATED QUOTE COMPARISON AND GRAPHICAL RISK STRUCTURE GENERATION FROM UNSTRUCTURED INSURANCE QUOTATION DOCUMENTS – US-20260080480-A1\nGENERATION OF DATA-GROUNDED EMAILS FOR AUTO-RESPONSE – US-20260081881-A1\nDEVICE, METHOD AND SYSTEM FOR LOGGING SMOKING DATA – US-20260083925-A1\nPERSONALIZED AVATAR RESPONSIVE TO USER PHYSICAL STATE AND CONTEXT – US-20260088164-A1\nSYSTEM AND METHOD TO DETERMINE RESPONSIVENESS OF A DRIVER OF A VEHICLE TO FEEDBACK REGARDING DRIVING BEHAVIORS – US-20260084702-A1"
+    "text": "Patent Public Search Basic\n\nSYSTEMS AND METHODS FOR IDENTIFYING INTERESTS BASED ON SOCIAL MEDIA ACTIVITY – US-20260087464-A1\nAUTOMATED QUOTE COMPARISON AND GRAPHICAL RISK STRUCTURE GENERATION FROM UNSTRUCTURED INSURANCE QUOTATION DOCUMENTS – US-20260080480-A1\nGENERATION OF DATA-GROUNDED EMAILS FOR AUTO-RESPONSE – US-20260081881-A1\nDEVICE, METHOD AND SYSTEM FOR LOGGING SMOKING DATA – US-20260083925-A1\nPERSONALIZED AVATAR RESPONSIVE TO USER PHYSICAL STATE AND CONTEXT – US-20260088164-A1\nSYSTEM AND METHOD TO DETERMINE RESPONSIVENESS OF A DRIVER OF A VEHICLE TO FEEDBACK REGARDING DRIVING BEHAVIORS – US-20260084702-A1\nBIOMETRIC-BASED TRANSACTION AUTHORIZATION AND FRAUD PREVENTION\nSYSTEM AND METHOD FOR PROCTORING OF EXAMINATIONS USING A 3D PROCTOR VIDEO GENERATED FROM MULTIPLE VIDEO FEEDS\nHYBRID AI-POWERED DIGITAL CLONE FOR REAL-TIME HEALTH MONITORING AND LEGACY PRESERVATION\nALZHEIMER’S DETECTION AND PATIENT PROTECTION"
   },
   {
     "objectID": "index.html",
@@ -788,21 +788,21 @@
     "href": "slides/slides-03-01.html",
     "title": "Ethics Frameworks",
     "section": "",
-    "text": "Ethic Frameworks are used in analyzing ethical situations or making decisions. They help us focus our analysis.\n\nConsequentialist/utilitarianism. Focus is on effects: what will produce the greatest good, for the most people? How is “good” counted?\nDeontology. Focus on duty and rights. What duties and obligations are involved? What do we owe people regardless of the payoff?"
+    "text": "Ethic Frameworks are used in analyzing ethical situations or making decisions. They help us focus our analysis.\n\nVirtue ethics - Focus on character. What virtues should a good person have? What kind of practitioner does building this make me?\nConsequentialist/utilitarianism - Focus is on effects: what will produce the greatest good, for the most people? How is “good” counted?\nDeontology - Focus on rules (duty and rights). What duties and obligations are involved? What do we owe people regardless of the payoff?"
   },
   {
     "objectID": "slides/slides-03-01.html#some-ethics-frameworks",
     "href": "slides/slides-03-01.html#some-ethics-frameworks",
     "title": "Ethics Frameworks",
     "section": "(Some) Ethics Frameworks",
-    "text": "(Some) Ethics Frameworks\nEthic Frameworks are used in analyzing ethical situations or making decisions. They help us focus our analysis.\n\nVirtue ethics - Focus on character. What virtues should a good person have? What kind of practitioner does building this make me?\nConsequentialist/utilitarianism - Focus is on effects: what will produce the greatest good, for the most people? How is “good” counted?\nDeontology - Focus on duty and rights. What duties and obligations are involved? What do we owe people regardless of the payoff?"
+    "text": "(Some) Ethics Frameworks\nEthic Frameworks are used in analyzing ethical situations or making decisions. They help us focus our analysis.\n\nVirtue ethics - Focus on character. What virtues should a good person have? What kind of practitioner does building this make me?\nConsequentialist/utilitarianism - Focus is on effects: what will produce the greatest good, for the most people? How is “good” counted?\nDeontology - Focus on rules (duty and rights). What duties and obligations are involved? What do we owe people regardless of the payoff?"
   },
   {
     "objectID": "slides/slides-03-01.html#some-ethics-frameworks-1",
     "href": "slides/slides-03-01.html#some-ethics-frameworks-1",
     "title": "Ethics Frameworks",
     "section": "(Some) Ethics Frameworks",
-    "text": "(Some) Ethics Frameworks\nEthic Frameworks are used in analyzing ethical situations or making decisions. They help us focus our analysis.\n\nContractualism - Focus on justice as fairness (Human Rights). How to ensure everyone is treated in a way that respects their rights, and is just and fair. Could this be justified to everyone it affects, including the people it affects worst?\nCare ethics - Focus on who is dependent on whom, and who is attending to them"
+    "text": "(Some) Ethics Frameworks\nEthic Frameworks are used in analyzing ethical situations or making decisions. They help us focus our analysis.\n\nContractualism - Focus on justice as fairness. How to ensure everyone is treated in a way that respects their rights, and is just and fair. Could this be justified to everyone it affects, including the people it affects worst?\nCare ethics - Focus on who is dependent on whom, and who is attending to them"
   },
   {
     "objectID": "slides/slides-03-01.html#more-ethics-frameworks",
@@ -823,7 +823,7 @@
     "href": "slides/slides-03-01.html#group-discussion",
     "title": "Ethics Frameworks",
     "section": "Group Discussion",
-    "text": "Group Discussion\n\nWho’s to say what’s ethical? Who decides ethical norms in a profession? (think back to the ACM’s code of Ethics and Professional Conduct) Who decides what’s ethical in a company? Who decides what’s ethical in a country?\nWhich of the listed frameworks (or others you know about) would you base your design decisions?"
+    "text": "Group Discussion\n\nWho’s to say what’s ethical? Who decides ethical norms in a profession? (think back to the ACM’s code of Ethics and Professional Conduct) Who decides what’s ethical in a company? Who decides what’s ethical in a country?"
   },
   {
     "objectID": "slides/slides-03-01.html#references",
@@ -1026,14 +1026,14 @@
     "href": "slides/slides-03-01.html#more-ethics-frameworks-1",
     "title": "Ethics Frameworks",
     "section": "(More) Ethics Frameworks",
-    "text": "(More) Ethics Frameworks\n\nIndigenous data governance - Focus on the ability of a nation to govern the collection, ownership, and application of its own data\nConfucian tech ethics - Focus on how the technology promotes social harmony, relational obligations, and moral self-cultivation"
+    "text": "(More) Ethics Frameworks\n\nIndigenous data governance - Focus on the ability of a nation to govern the collection, ownership, and application of its own data\nConfucian ethics - Focus on how the technology promotes social harmony, relational obligations, and moral self-cultivation"
   },
   {
     "objectID": "slides/slides-03-01.html#references-and-further-readings",
     "href": "slides/slides-03-01.html#references-and-further-readings",
     "title": "Ethics Frameworks",
     "section": "References and Further Readings",
-    "text": "References and Further Readings\n\nShea, M. (2025). Hobbes, Locke, and the Social Contract\nNoble, S. (2018). Algorithms of oppression: how search engines reinforce racism. New York University Press. ISBN 9781479837243. OCLC 1029007986.\nMangena, F. (2026). Towards an AI for Africa"
+    "text": "References and Further Readings\n\nShea, M. (2025). Hobbes, Locke, and the Social Contract\nNoble, S. (2018). Algorithms of oppression: how search engines reinforce racism. New York University Press. ISBN 9781479837243. OCLC 1029007986.\nMangena, F. (2026). Towards an AI for Africa\nDesigning a Future Worth Wanting: Applying Virtue Ethics to HCI\nZhu, Q. (2020). Ethics, society, and technology: A Confucian role ethics perspective. Technology in society, 63, 101424."
   },
   {
     "objectID": "assignment-1.html#what-makes-a-good-choice",
@@ -1069,5 +1069,40 @@
     "title": "Technology Analysis",
     "section": "What “who decides” means",
     "text": "What “who decides” means\nDon’t rush this part, it carries real weight in the rubric. It is not enough to say “the government should regulate it” or “stakeholders should be consulted.” Be specific about which actors, on what question, and why that actor rather than another. Candidates include: the engineers who build it, the company that owns it, the people it is used on, the people it is used by, professional bodies (recall the ACM Code of Ethics, regulators at the city, state, or federal level, courts, unions, affected communities who were never consulted. Different actors have specific standing over different decisions. For example, who deploys the technology might be a different question from who governs the data it collects."
+  },
+  {
+    "objectID": "slides/slides-03-01.html#group-activity",
+    "href": "slides/slides-03-01.html#group-activity",
+    "title": "Ethics Frameworks",
+    "section": "Group Activity",
+    "text": "Group Activity\nEach group will get a different instrument to analyze the same technology.\nIn your group, answer the questions under your assigned framework. Be prepared to share your analysis with the class.\nTechnology: ONLINE LEARNING WITH FACIAL EMOTION ANALYSIS"
+  },
+  {
+    "objectID": "frame-digital_humanism.html",
+    "href": "frame-digital_humanism.html",
+    "title": "Digital Humanism",
+    "section": "",
+    "text": "Provide a description of the technology\nWhat is the ultimate purpose or intention (finality) of this digital technology?\nWhat are the means used (how) for its development?\nWhat are the most important principles and values taken into account for its creation?\nWhat are the desired or positive consequences (goods) expected with the use of this technology?\nWhat are the risks and undesired negative consequences (evils) that could not be avoided?\nWhat is the vision of the ideal human being (anthropological model) underlying this technological proposal?\nWhat is the vision of the ideal society (sociological model) underlying this technological proposal?\n\nDíaz de la Cruz, C., Fernández Fernández, J. L., & Villegas-Galaviz, C. (2025). Model of ethical analysis of digital technologies: towards true digital humanism. AI & SOCIETY, 40(7), 5743-5754."
+  },
+  {
+    "objectID": "frame-constractualist.html",
+    "href": "frame-constractualist.html",
+    "title": "Contractualist Framework",
+    "section": "",
+    "text": "Who is the owner of the information exchanged?\nWho is receives the information exchanged?\nWho consents to the information exchange?\n(privacy concern)\n\nMarcos-Vidal, L., Abbo, G. A., & Belpaeme, T. (2026). A Contractualist Argumentation Framework for Moral Decision-Making. arXiv preprint arXiv:2608.01937."
+  },
+  {
+    "objectID": "frame-toolkit.html",
+    "href": "frame-toolkit.html",
+    "title": "An Ethical Toolkit for Engineering/Design Practice",
+    "section": "",
+    "text": "Who/which groups and individuals (stakeholders) will be indirectly affected in significant ways?\nWhat are their interests?\nHow have their interests been protected?\nWho might use this product that we didn’t expect to use it, or for purposes we didn’t initially intend?\nWho is at substantial risk of harm from our product, and how?\nHow has this risk justified and mitigated?\nWhat have been done to procure the informed and meaningful consent of those at risk?\n\nAn Ethical Toolkit for Engineering/Design Practice"
+  },
+  {
+    "objectID": "ethics-frames.html",
+    "href": "ethics-frames.html",
+    "title": "Ethics Analysis",
+    "section": "",
+    "text": "Virtue Ethics\n\nHow does this technology cultivate positive human traits (like empathy, patience, honesty, and wisdom)?\nHow does this technology feed vices (like impatience, arrogance, superficiality, or cruelty)?\nHow does this technology support genuine human excellence and connection?\nHow does this technology elevate or degrade our capacity for deep thought, physical presence, and self-reliance? (add here any other relevant virtues)\n\n\n\nDeontology\n\nHow does this technology sustain or violate fundamental human rights? Some human rights: privacy, informed consent, bodily autonomy, or dignity)? You can consult the UN’s Universal Declaration of Human Rights for a more complete list\nHow does this technology sustain or violate other societal norms and rules?\n\n\n\nConsequentialism\n\nWho (individuals/groups of people) will be affected?\nWho might use this product that we didn’t expect to use it, or for purposes we didn’t initially intend?\nWho receives the benefits of this technology, and who bears the brunt of the negative side effects or risks?\nWould a different technological design or abstaining from the technology altogether yield a better overall outcome for society?\n\n\n\nReferences\nAn Ethical Toolkit for Engineering/Design Practice\nEthics & Algorithms Toolkit: A risk management framework for governments (and other people too!)\nUnesco’s Ethical Impact Assessment"
   }
 ]
