@@ -760,7 +760,7 @@
     "href": "slides/slides-02-02.html#in-class-activity",
     "title": "Human Values",
     "section": "In-class activity",
-    "text": "In-class activity\nIn groups, identify which values are present in ACM’s code of Ethics and Professional Conduct"
+    "text": "In-class activity\nIn groups, identify which values are present in ACM’s code of Ethics and Professional Conduct\nHere’s the list of values that we worked with last week"
   },
   {
     "objectID": "slides/slides-02-02.html#references",
@@ -823,7 +823,7 @@
     "href": "slides/slides-03-01.html#group-discussion",
     "title": "Ethics Frameworks",
     "section": "Group Discussion",
-    "text": "Group Discussion\n\nWho’s to say what’s ethical? Who decides ethical norms in a profession? (think back to the ACM’s code of Ethics and Professional Conduct) Who decides what’s ethical in a company? Who decides what’s ethical in a country?"
+    "text": "Group Discussion\n\n“We can acknowledge the difference in values among people and among cultures and still engage in rational discussions about the best policies for using computer technology.” – James H. Moor\n\n\nWho’s to say what’s ethical/moral?\nWho decides ethical norms in a profession?\nWho decides what’s ethical in a company?\nWho decides what’s ethical in a country?"
   },
   {
     "objectID": "slides/slides-03-01.html#references",
@@ -1104,5 +1104,173 @@
     "title": "Ethics Analysis",
     "section": "",
     "text": "Virtue Ethics\n\nHow does this technology cultivate positive human traits (like empathy, patience, honesty, and wisdom)?\nHow does this technology feed vices (like impatience, arrogance, superficiality, or cruelty)?\nHow does this technology support genuine human excellence and connection?\nHow does this technology elevate or degrade our capacity for deep thought, physical presence, and self-reliance? (add here any other relevant virtues)\n\n\n\nDeontology\n\nHow does this technology sustain or violate fundamental human rights? Some human rights: privacy, informed consent, bodily autonomy, or dignity)? You can consult the UN’s Universal Declaration of Human Rights for a more complete list\nHow does this technology sustain or violate other societal norms and rules?\n\n\n\nConsequentialism\n\nWho (individuals/groups of people) will be affected?\nWho might use this product that we didn’t expect to use it, or for purposes we didn’t initially intend?\nWho receives the benefits of this technology, and who bears the brunt of the negative side effects or risks?\nWould a different technological design or abstaining from the technology altogether yield a better overall outcome for society?\n\n\n\nReferences\nAn Ethical Toolkit for Engineering/Design Practice\nEthics & Algorithms Toolkit: A risk management framework for governments (and other people too!)\nUnesco’s Ethical Impact Assessment"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#moral-decisions",
+    "href": "slides/slides-03-01.html#moral-decisions",
+    "title": "Ethics Frameworks",
+    "section": "Moral Decisions",
+    "text": "Moral Decisions\n\nDifferent people make moral decisions in different ways and based on different values.\n\nThis means that if you want to convince people a certain moral decision is appropriate, you need to justify it not only based on your own values and how you make moral decisions, but also on others’ values and how they make moral decision."
+  },
+  {
+    "objectID": "slides/slides-03-01.html#in-class-exercise",
+    "href": "slides/slides-03-01.html#in-class-exercise",
+    "title": "Ethics Frameworks",
+    "section": "In-class exercise",
+    "text": "In-class exercise\nWhich ethical framework mentioned previously is best reflected in each of the following arguments?\n\nCompanies developing generative AI have a responsibility to create products with appropriate safeguards.\nAlthough generative AI will have some benefits, the probable negative effects are too large, and therefore generative AI development and use should be greatly restricted.\nVoice cloning should require the speaker’s ongoing permission, revocable at any time, because a voice belongs to the person it came from."
+  },
+  {
+    "objectID": "slides/slides-03-01.html#in-class-exercise-1",
+    "href": "slides/slides-03-01.html#in-class-exercise-1",
+    "title": "Ethics Frameworks",
+    "section": "In-class exercise",
+    "text": "In-class exercise\nWhich ethical framework mentioned previously is best reflected in each of the following arguments?\n\nCompanies developing generative AI have a responsibility to create products with appropriate safeguards. Deontology since it focuses on duties and obligations (i.e., responsibility).\nAlthough generative AI will have some benefits, the probable negative effects are too large, and therefore generative AI development and use should be greatly restricted. Utilitarianism since it focuses on effects.\nVoice cloning should require the speaker’s ongoing permission, revocable at any time, because a voice belongs to the person it came from. Deontology"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#in-class-exercise-2",
+    "href": "slides/slides-03-01.html#in-class-exercise-2",
+    "title": "Ethics Frameworks",
+    "section": "In-class exercise",
+    "text": "In-class exercise\nWhich ethical framework mentioned previously is best reflected in each of the following arguments?\n\nAn elder-care robot may keep someone safe and still fail them, if it replaces the visits of people who knew them.\nPredictive policing software fails differently for Black people than for other communities."
+  },
+  {
+    "objectID": "slides/slides-03-01.html#in-class-exercise-3",
+    "href": "slides/slides-03-01.html#in-class-exercise-3",
+    "title": "Ethics Frameworks",
+    "section": "In-class exercise",
+    "text": "In-class exercise\nWhich ethical framework mentioned previously is best reflected in each of the following arguments?\n\nAn elder-care robot may keep someone safe and still fail them, if it replaces the visits of people who knew them. Care ethics\nPredictive policing software fails differently for Black people than for other communities. Intersectionality\n\nTake the canvas quiz (multiple attempts are allowed)"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#journal-writing-1",
+    "href": "slides/slides-03-01.html#journal-writing-1",
+    "title": "Ethics Frameworks",
+    "section": "Journal Writing",
+    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked of disliked (were the discussions helpful? were the contents of the slides clear?)"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#subjectivism-and-relativism",
+    "href": "slides/slides-03-01.html#subjectivism-and-relativism",
+    "title": "Ethics Frameworks",
+    "section": "Subjectivism and Relativism",
+    "text": "Subjectivism and Relativism\nMany philosophers – especially those involved in computing and ethics – find subjectivism and relativism problematic. For example, if each person or culture can decide what is morally acceptable, how can we ever agree at all on norms, policies, and appropriate behavior?"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#subjectivism-and-relativism-1",
+    "href": "slides/slides-03-01.html#subjectivism-and-relativism-1",
+    "title": "Ethics Frameworks",
+    "section": "Subjectivism and Relativism",
+    "text": "Subjectivism and Relativism\nMany philosophers – especially those involved in computing and ethics – find subjectivism and relativism problematic. For example, if each person or culture can decide what is morally acceptable, how can we ever agree at all on norms, policies, and appropriate behavior?"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#who-decides-whats-moral",
+    "href": "slides/slides-03-01.html#who-decides-whats-moral",
+    "title": "Ethics Frameworks",
+    "section": "Who decides what’s moral?",
+    "text": "Who decides what’s moral?\n\nMurder is wrong because …\n\n\nMoral subjectivism: … I disapprove of it (individual, each person decides for themself what is right)\nCultural relativism: .. my society disapproves of it (society, each culture decides for itself what is right.)"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#subjectivism-and-relativism-and-objectivism",
+    "href": "slides/slides-03-01.html#subjectivism-and-relativism-and-objectivism",
+    "title": "Ethics Frameworks",
+    "section": "Subjectivism and Relativism and Objectivism",
+    "text": "Subjectivism and Relativism and Objectivism\n\nMoral subjectivism: each person decides for themself what is right.\nMoral relativism: “Most often it [moral relativism]… is associated with an empirical thesis that there are deep and widespread moral disagreements and … that the truth or justification of moral judgments is not absolute, but relative to the moral standard of some person or group of persons.” (Stanford Encyclopedia of Philosophy)\nCultural relativism: each culture decides for itself what is right."
+  },
+  {
+    "objectID": "slides/slides-03-01.html#moral-relativism",
+    "href": "slides/slides-03-01.html#moral-relativism",
+    "title": "Ethics Frameworks",
+    "section": "Moral Relativism",
+    "text": "Moral Relativism\n\nMost often it moral relativism… is associated with an empirical thesis that there are deep and widespread moral disagreements and … that the truth or justification of moral judgments is not absolute, but relative to the moral standard of some person or group of persons. – Stanford Encyclopedia of Philosophy"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#moral-disagreement-becomes-impossible",
+    "href": "slides/slides-03-01.html#moral-disagreement-becomes-impossible",
+    "title": "Ethics Frameworks",
+    "section": "Moral disagreement becomes impossible",
+    "text": "Moral disagreement becomes impossible\nMany philosophers – especially those involved in computing and ethics – find subjectivism and relativism problematic. For example, if each person or culture can decide what is morally acceptable, how can we ever agree at all on norms, policies, and appropriate behavior?"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#moral-disagreement-becomes-impossible-1",
+    "href": "slides/slides-03-01.html#moral-disagreement-becomes-impossible-1",
+    "title": "Ethics Frameworks",
+    "section": "Moral disagreement becomes impossible",
+    "text": "Moral disagreement becomes impossible\n\nIf I say “abortion is wrong” (= I disapprove) and you say “abortion is permissible” (= I don’t disapprove), we’ve both spoken truly and we aren’t actually contradicting each other. We’re doing the equivalent of me saying “I like cilantro” and you saying “I don’t.” That’s not a disagreement; it’s a pair of biographical reports."
+  },
+  {
+    "objectID": "slides/slides-03-01.html#not-a-matter-of-taste-or-opinion",
+    "href": "slides/slides-03-01.html#not-a-matter-of-taste-or-opinion",
+    "title": "Ethics Frameworks",
+    "section": "Not a matter of taste or opinion",
+    "text": "Not a matter of taste or opinion\n\nIf the culture’s code defines right, then abolitionists in 1830s America, suffragists, and dissidents in any repressive regime were wrong at the time\nCultures aren’t discrete. Who counts as “the culture”? A country, a religion, a generation, a subreddit? Everyone belongs to many overlapping groups with conflicting norms.\nCultural relativism is often adopted to support tolerance. But “you ought to tolerate other cultures” is itself a universal moral claim, which relativism can’t underwrite. And if a culture’s norms are intolerant, relativism says that intolerance is right for them."
+  },
+  {
+    "objectID": "slides/slides-03-01.html#moral-objectivism",
+    "href": "slides/slides-03-01.html#moral-objectivism",
+    "title": "Ethics Frameworks",
+    "section": "Moral objectivism",
+    "text": "Moral objectivism\n\nThere are values that hold regardless of what anyone believes\nObjectivism doesn’t require absolutism (the view that rules hold without exception).\n\n\nAn objectivist can say “the right action depends on context”"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#other-positions",
+    "href": "slides/slides-03-01.html#other-positions",
+    "title": "Ethics Frameworks",
+    "section": "Other positions",
+    "text": "Other positions\n\nNihilism: nothing is morally right or wrong, full stop.\nPluralism: there are multiple irreducible, objectively valid values (liberty, welfare, fairness, dignity) that can conflict without one always trumping the others.\nUniversalism: ACM and IEEE codes are explicitly universalist — they assert obligations that hold regardless of local norms or employer expectations"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#moral-relativism-1",
+    "href": "slides/slides-03-01.html#moral-relativism-1",
+    "title": "Ethics Frameworks",
+    "section": "Moral Relativism",
+    "text": "Moral Relativism\nElder-care robot scenario: the care-ethics objection there was that being cared about matters intrinsically. A relativist would have to say that holds only in cultures that happen to value it"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#journal-question",
+    "href": "slides/slides-03-01.html#journal-question",
+    "title": "Ethics Frameworks",
+    "section": "Journal Question",
+    "text": "Journal Question\nGo back to the question you discussed in groups, and answer it individually in your journal: Who’s to say what’s ethical/moral?"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#policy-vacuum",
+    "href": "slides/slides-03-01.html#policy-vacuum",
+    "title": "Ethics Frameworks",
+    "section": "Policy Vacuum",
+    "text": "Policy Vacuum\nFrom James Moor’s “What Is Computer Ethics?” (1985) — one of the founding papers of the field\n\nWhen a new technology makes an action possible, but we have no policy governing it\nPolicy can be understood as laws, and professional or moral norms/rules\nThe moral question is new, and nobody has ever had to answer it before"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#group-discussion-1",
+    "href": "slides/slides-03-01.html#group-discussion-1",
+    "title": "Ethics Frameworks",
+    "section": "Group Discussion",
+    "text": "Group Discussion\nEU’s General Data Protection Regulation treats privacy as a fundamental right, yet the US lacks a single equivalent federal law\n\nHow do we weigh values such as privacy, ownership and property, informed consent, confidentiality and security when developing new technologies?"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#policy-vacuum-1",
+    "href": "slides/slides-03-01.html#policy-vacuum-1",
+    "title": "Ethics Frameworks",
+    "section": "Policy Vacuum",
+    "text": "Policy Vacuum\n\nThe moral question is new, and nobody has ever had to answer it before\nA vacuum: nobody has yet determined what the rule should be\nRegulatory lag: we know what the rule should be but institutions haven’t caught up\n\nThat means that “There’s no law against it” is not a good argument ## Group Discussion\n\nWho is liable when an autonomous vehicle kills someone — a driver who wasn’t driving, a manufacturer, a training-data curator?"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#vacuum-vs.-lag",
+    "href": "slides/slides-03-01.html#vacuum-vs.-lag",
+    "title": "Ethics Frameworks",
+    "section": "Vacuum vs. Lag",
+    "text": "Vacuum vs. Lag\n\nA vacuum: nobody has yet determined what the rule should be\nRegulatory lag: we know what the rule should be but institutions haven’t caught up\n\nThat means that “There’s no law against it” is not a good argument.\nDevelopers/designers see new capabilities before regulators do."
+  },
+  {
+    "objectID": "slides/slides-03-01.html#group-discussion-2",
+    "href": "slides/slides-03-01.html#group-discussion-2",
+    "title": "Ethics Frameworks",
+    "section": "Group Discussion",
+    "text": "Group Discussion\nHow do we weigh values such as privacy, ownership and property, informed consent, confidentiality and security when developing new technologies?\nThings to consider:\n\nWe have FERPA, and HIPPA, and state-level regulations like the California Consumer Privacy Act)\nOn the other hand, we have federal laws such as Clarifying Lawful Overseas Use of Data Act and the Patriot Act"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#group-discussion-3",
+    "href": "slides/slides-03-01.html#group-discussion-3",
+    "title": "Ethics Frameworks",
+    "section": "Group Discussion",
+    "text": "Group Discussion\nWho is held responsible when an autonomous vehicle kills someone? (a remote operator, the vehicle manufacturer, the owner of the vehicle?)\n\nElaine Herzberg was the first recorded case of a person killed by a self-driving car (2018)\nUber’s self-driving operator charged over fatal crash\nSelf-Driving Vehicles Enacted Legislation"
   }
 ]
