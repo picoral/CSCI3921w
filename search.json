@@ -74,7 +74,7 @@
     "href": "syllabus.html#teaching-assistants",
     "title": "Syllabus",
     "section": "Teaching Assistants",
-    "text": "Teaching Assistants\nWhen you have questions about the course material, questions about the subject more broadly, concerns to discuss, accommodations you need, or thoughts you want to share, please start by going to office hours. Me and my staff care about students’ success and we all have expertise to share.\nTAs can review the course material, and assignments with you, and suggest study strategies. They can also give you tips about the resources that the campus offers, and can provide insights into how to succeed in college more broadly.\nThe following teaching assistants are affiliated with this course and may be responsible for grading:\n\nRisako Owan\nAmvi Dwivedi\nSarah Peng\n\nTA assignments and contact information will be updated at the start of the semester."
+    "text": "Teaching Assistants\nWhen you have questions about the course material, questions about the subject more broadly, concerns to discuss, accommodations you need, or thoughts you want to share, please start by going to office hours. Me and my staff care about students’ success and we all have expertise to share.\nTAs can review the course material, and assignments with you, and suggest study strategies. They can also give you tips about the resources that the campus offers, and can provide insights into how to succeed in college more broadly.\nThe following teaching assistants are affiliated with this course and may be responsible for grading:\n\nRisako Owan (schedule office hours)\nAmvi Dwivedi (schedule office hours)\nSarah Peng (schedule office hours)\n\nTA assignments and contact information will be updated at the start of the semester."
   },
   {
     "objectID": "syllabus.html#general-course-description",
@@ -438,14 +438,14 @@
     "href": "assignments.html",
     "title": "Assignments",
     "section": "",
-    "text": "You are expected to complete assigned readings in advance of in-class discussion so that you come prepared. Discussions require a much deeper engagement with a topic – reading about a topic in advance will help you to engage in productive and critical discussions. We’ll spend the bulk of the time discussing the concepts/ideas presented in the readings, so if you haven’t read it, it will be hard to discuss them as a group.\n\n\nThis list will be updated as the semester progresses. These readings are available on Canvas (where you are expected to put some of your notes).\n\nPeter C Baker. “Teacher v chatbot: my journey into the classroom in the age of AI” The Guardian, March 3, 2026.\nOffice of the Mayor. “Mayor Mamdani and Chancellor Samuels Put Students First with Nation’s Broadest Generative AI Moratorium in Schools” NYC Office Website, September 2, 2026.\nAmy J. Ko. “That time I wanted to be an AI researcher” Bits and Behavior, Jul 17, 2023.\nPope Leo XIV. “Chapter 3. Technology and Dominance. The Grandeur of Humanity in Light of the Promises of AI” Encyclical Letter, 2026.\nApryl Williams. “Two. Automating Sexual Racism”. Not My Type: Automating Sexual Racism in Online Dating, Redwood City: Stanford University Press, 2024, pp. 50-81. https://doi.org/10.1515/9781503637610-005 pdf"
+    "text": "You are expected to complete assigned readings in advance of in-class discussion so that you come prepared. Discussions require a much deeper engagement with a topic – reading about a topic in advance will help you to engage in productive and critical discussions. We’ll spend the bulk of the time discussing the concepts/ideas presented in the readings, so if you haven’t read it, it will be hard to discuss them as a group.\n\n\nThis list will be updated as the semester progresses. These readings are available on Canvas (where you are expected to put some of your notes).\n\nPeter C Baker. “Teacher v chatbot: my journey into the classroom in the age of AI” The Guardian, March 3, 2026.\nOffice of the Mayor. “Mayor Mamdani and Chancellor Samuels Put Students First with Nation’s Broadest Generative AI Moratorium in Schools” NYC Office Website, September 2, 2026.\nAmy J. Ko. “That time I wanted to be an AI researcher” Bits and Behavior, Jul 17, 2023.\nPope Leo XIV. “Chapter 3. Technology and Dominance. The Grandeur of Humanity in Light of the Promises of AI” Encyclical Letter, 2026.\nApryl Williams. “Two. Automating Sexual Racism”. Not My Type: Automating Sexual Racism in Online Dating, Redwood City: Stanford University Press, 2024, pp. 50-81. https://doi.org/10.1515/9781503637610-005 pdf\nTherac-25"
   },
   {
     "objectID": "assignments.html#list-of-readings",
     "href": "assignments.html#list-of-readings",
     "title": "Assignments",
     "section": "",
-    "text": "This list will be updated as the semester progresses. These readings are available on Canvas (where you are expected to put some of your notes).\n\nPeter C Baker. “Teacher v chatbot: my journey into the classroom in the age of AI” The Guardian, March 3, 2026.\nOffice of the Mayor. “Mayor Mamdani and Chancellor Samuels Put Students First with Nation’s Broadest Generative AI Moratorium in Schools” NYC Office Website, September 2, 2026.\nAmy J. Ko. “That time I wanted to be an AI researcher” Bits and Behavior, Jul 17, 2023.\nPope Leo XIV. “Chapter 3. Technology and Dominance. The Grandeur of Humanity in Light of the Promises of AI” Encyclical Letter, 2026.\nApryl Williams. “Two. Automating Sexual Racism”. Not My Type: Automating Sexual Racism in Online Dating, Redwood City: Stanford University Press, 2024, pp. 50-81. https://doi.org/10.1515/9781503637610-005 pdf"
+    "text": "This list will be updated as the semester progresses. These readings are available on Canvas (where you are expected to put some of your notes).\n\nPeter C Baker. “Teacher v chatbot: my journey into the classroom in the age of AI” The Guardian, March 3, 2026.\nOffice of the Mayor. “Mayor Mamdani and Chancellor Samuels Put Students First with Nation’s Broadest Generative AI Moratorium in Schools” NYC Office Website, September 2, 2026.\nAmy J. Ko. “That time I wanted to be an AI researcher” Bits and Behavior, Jul 17, 2023.\nPope Leo XIV. “Chapter 3. Technology and Dominance. The Grandeur of Humanity in Light of the Promises of AI” Encyclical Letter, 2026.\nApryl Williams. “Two. Automating Sexual Racism”. Not My Type: Automating Sexual Racism in Online Dating, Redwood City: Stanford University Press, 2024, pp. 50-81. https://doi.org/10.1515/9781503637610-005 pdf\nTherac-25"
   },
   {
     "objectID": "assignments.html#reflective-journal",
@@ -1272,5 +1272,152 @@
     "title": "Ethics Frameworks",
     "section": "Group Discussion",
     "text": "Group Discussion\nWho is held responsible when an autonomous vehicle kills someone? (a remote operator, the vehicle manufacturer, the owner of the vehicle?)\n\nElaine Herzberg was the first recorded case of a person killed by a self-driving car (2018)\nUber’s self-driving operator charged over fatal crash\nSelf-Driving Vehicles Enacted Legislation"
+  },
+  {
+    "objectID": "slides/case-ariane5.html#qa-10-minutes",
+    "href": "slides/case-ariane5.html#qa-10-minutes",
+    "title": "Case Study: Ariane 5 Flight 501",
+    "section": "Q&A (10 minutes)",
+    "text": "Q&A (10 minutes)\nQ&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/case-ariane5.html#warm-up",
+    "href": "slides/case-ariane5.html#warm-up",
+    "title": "Case Study: Ariane 5 Flight 501",
+    "section": "Warm-up",
+    "text": "Warm-up\nBefore we start, answer in your journal:\nThink of a time you used existing code (a function, a library, a Stack Overflow snippet, AI-generated code) without fully checking it.\n\nWhat assumptions did that code make?\nHow did you know they held in your context?"
+  },
+  {
+    "objectID": "slides/case-ariane5.html#what-happened",
+    "href": "slides/case-ariane5.html#what-happened",
+    "title": "Case Study: Ariane 5 Flight 501",
+    "section": "What happened",
+    "text": "What happened\n\nJune 4, 1996, Kourou, French Guiana: maiden flight of the European Space Agency’s (ESA) new Ariane 5 rocket\nAbout 37 seconds after lift-off, the rocket veered off course, began to break apart, and self-destructed\nPayload: the four Cluster satellites, a scientific mission to study Earth’s magnetosphere\nCost: roughly US$370 million in rocket and payload (commonly cited figure), on top of a decade of development\nNo one was killed"
+  },
+  {
+    "objectID": "slides/case-ariane5.html#why-study-a-failure-where-no-one-died",
+    "href": "slides/case-ariane5.html#why-study-a-failure-where-no-one-died",
+    "title": "Case Study: Ariane 5 Flight 501",
+    "section": "Why study a failure where no one died?",
+    "text": "Why study a failure where no one died?\n\nIt is one of the most expensive software bugs in history\nThe bug itself was small and well understood\nThe failure was not really about one line of code; it was about assumptions, reuse, testing, and organizational decisions\nIt raises a question we will keep returning to: who is responsible when a complex system fails?"
+  },
+  {
+    "objectID": "slides/case-ariane5.html#the-technical-cause-in-plain-terms",
+    "href": "slides/case-ariane5.html#the-technical-cause-in-plain-terms",
+    "title": "Case Study: Ariane 5 Flight 501",
+    "section": "The technical cause (in plain terms)",
+    "text": "The technical cause (in plain terms)\n\nThe rocket’s Inertial Reference System (SRI) tells the flight computer where the rocket is and how it’s moving\nIts software was reused from Ariane 4, which had flown successfully for years\nOne calculation converted a 64-bit floating-point number (related to horizontal velocity) into a 16-bit signed integer (max value 32,767)\nAriane 5 was faster than Ariane 4: horizontal velocity built up about five times more rapidly\nThe value was too big to fit → operand error (overflow) → exception not handled"
+  },
+  {
+    "objectID": "slides/case-ariane5.html#the-technical-cause-simplified-code",
+    "href": "slides/case-ariane5.html#the-technical-cause-simplified-code",
+    "title": "Case Study: Ariane 5 Flight 501",
+    "section": "The technical cause (simplified code)",
+    "text": "The technical cause (simplified code)\n// Simplified illustration -- not the actual flight code (which was in Ada)\ndouble horizontal_bias = compute_bias(sensor_data);  // 64-bit float\n\n// Protected conversions checked the range first.\n// This one was left unprotected:\nint16_t bh = (int16_t) horizontal_bias;  // fine on Ariane 4 trajectories,\n                                         // overflows on Ariane 5\n\nSeven variables were at risk of overflow; four were protected, three were not\nWhy? To keep the SRI computer’s workload under a target of 80%, and because analysis showed those values were physically limited for Ariane 4"
+  },
+  {
+    "objectID": "slides/case-ariane5.html#the-cascade",
+    "href": "slides/case-ariane5.html#the-cascade",
+    "title": "Case Study: Ariane 5 Flight 501",
+    "section": "The cascade",
+    "text": "The cascade\n\nThe backup SRI hit the error and shut down (it ran the same software)\n72 milliseconds later, the primary SRI hit the same error and shut down\nThe primary SRI sent a diagnostic bit pattern to the flight computer\nThe flight computer read the diagnostic data as if it were flight data\nIt commanded full nozzle deflection → extreme angle of attack → aerodynamic forces tore the rocket apart → self-destruct"
+  },
+  {
+    "objectID": "slides/case-ariane5.html#the-twist",
+    "href": "slides/case-ariane5.html#the-twist",
+    "title": "Case Study: Ariane 5 Flight 501",
+    "section": "The twist",
+    "text": "The twist\nThe calculation that failed served no purpose after lift-off.\n\nIt was part of an alignment function only needed before launch\nOn Ariane 4, it kept running for ~40 seconds after lift-off, a feature that allowed a quick restart if the countdown was held\nAriane 5 did not need this feature, but it was kept because “it worked” and changing it was seen as a risk"
+  },
+  {
+    "objectID": "slides/case-ariane5.html#why-wasnt-it-caught",
+    "href": "slides/case-ariane5.html#why-wasnt-it-caught",
+    "title": "Case Study: Ariane 5 Flight 501",
+    "section": "Why wasn’t it caught?",
+    "text": "Why wasn’t it caught?\nFrom the Inquiry Board report (Lions et al., 1996):\n\nThe SRI specifications did not include Ariane 5 trajectory data\nNo full system test was run with the real SRI in the loop; simulations used a simulated SRI\nThe design philosophy treated any exception as a random hardware failure: shut down, switch to backup\nBut a software error is not random; the backup failed in exactly the same way"
+  },
+  {
+    "objectID": "slides/case-ariane5.html#key-quote",
+    "href": "slides/case-ariane5.html#key-quote",
+    "title": "Case Study: Ariane 5 Flight 501",
+    "section": "Key quote",
+    "text": "Key quote\n\n“The exception which occurred was not due to random failure but a design error. […] The Board is in favour of the opposite view, that software should be assumed to be faulty until applying the currently accepted best practice methods can demonstrate that it is correct.”\n– Ariane 501 Inquiry Board Report, 1996"
+  },
+  {
+    "objectID": "slides/case-ariane5.html#aftermath",
+    "href": "slides/case-ariane5.html#aftermath",
+    "title": "Case Study: Ariane 5 Flight 501",
+    "section": "Aftermath",
+    "text": "Aftermath\n\nThe Inquiry Board issued 14 recommendations (e.g., turn off functions not needed in flight, test with real equipment, have sensors send best-effort data instead of stopping)\nThe Cluster mission was rebuilt (Cluster II) and launched in 2000 on Russian Soyuz rockets\nAriane 5 went on to become one of the most reliable launchers, including launching the James Webb Space Telescope (2021)\nScientists lost years of work; European taxpayers paid for the loss"
+  },
+  {
+    "objectID": "slides/case-ariane5.html#who-dunnit",
+    "href": "slides/case-ariane5.html#who-dunnit",
+    "title": "Case Study: Ariane 5 Flight 501",
+    "section": "Who dunnit?",
+    "text": "Who dunnit?\nComputer scientists disagreed about what the “real” lesson was:\n\nProgramming view (Jézéquel & Meyer, 1997): it was a reuse error; explicit preconditions (design by contract) would have documented the assumption and caught it\nSystems engineering view (Nuseibeh, 1997): the problem was requirements and specification; no single person or practice is to blame\nThe Inquiry Board pointed to the whole development and testing process"
+  },
+  {
+    "objectID": "slides/case-ariane5.html#the-problem-of-many-hands",
+    "href": "slides/case-ariane5.html#the-problem-of-many-hands",
+    "title": "Case Study: Ariane 5 Flight 501",
+    "section": "The problem of many hands",
+    "text": "The problem of many hands\nHelen Nissenbaum (1996), written the same year as Flight 501, identifies barriers to accountability in computing:\n\nMany hands: so many people contribute that no one feels responsible\nBugs: treating software errors as inevitable, “just how software is”\nThe computer as scapegoat: “the computer did it”\nOwnership without liability: vendors disclaim responsibility\n\nWhich of these do you see in Ariane 5?"
+  },
+  {
+    "objectID": "slides/case-ariane5.html#connection-to-professional-codes",
+    "href": "slides/case-ariane5.html#connection-to-professional-codes",
+    "title": "Case Study: Ariane 5 Flight 501",
+    "section": "Connection to professional codes",
+    "text": "Connection to professional codes\nACM Code of Ethics:\n\n2.1 Strive to achieve high quality in both the processes and products of professional work\n2.5 Give comprehensive and thorough evaluations of computer systems and their impacts, including analysis of possible risks\n2.6 Perform work only in areas of competence"
+  },
+  {
+    "objectID": "slides/case-ariane5.html#group-discussion-1-responsibility",
+    "href": "slides/case-ariane5.html#group-discussion-1-responsibility",
+    "title": "Case Study: Ariane 5 Flight 501",
+    "section": "Group Discussion 1: Responsibility",
+    "text": "Group Discussion 1: Responsibility\n\nWho is responsible for the failure of Flight 501? List every person or group you can think of (the original Ariane 4 programmers, the Ariane 5 team, managers, testers, ESA, the contractors…).\nIs it fair to blame the programmers who wrote correct code for Ariane 4?\nDoes “no single person is to blame” mean “no one is responsible”?"
+  },
+  {
+    "objectID": "slides/case-ariane5.html#group-discussion-2-reuse-and-assumptions",
+    "href": "slides/case-ariane5.html#group-discussion-2-reuse-and-assumptions",
+    "title": "Case Study: Ariane 5 Flight 501",
+    "section": "Group Discussion 2: Reuse and assumptions",
+    "text": "Group Discussion 2: Reuse and assumptions\n\nThe code was reused because it was proven reliable. When does reuse make systems safer, and when does it make them more dangerous?\nThe overflow protection was removed for performance reasons. How should engineers weigh efficiency against safety margins?\nToday we routinely use open-source libraries, APIs, and pre-trained models built for other contexts. What is the “Ariane 5 risk” in modern software?"
+  },
+  {
+    "objectID": "slides/case-ariane5.html#group-discussion-3-testing-and-culture",
+    "href": "slides/case-ariane5.html#group-discussion-3-testing-and-culture",
+    "title": "Case Study: Ariane 5 Flight 501",
+    "section": "Group Discussion 3: Testing and culture",
+    "text": "Group Discussion 3: Testing and culture\n\n“It worked on Ariane 4” was treated as evidence of correctness. What is the difference between a system that has not failed and a system that is correct?\nThe full system was never tested with real equipment, partly because of cost. Who should decide how much testing is “enough,” and on what basis?\nWould you speak up if you noticed an untested assumption close to a launch deadline? What would make it easier or harder?"
+  },
+  {
+    "objectID": "slides/case-ariane5.html#group-discussion-4-ethics-frameworks",
+    "href": "slides/case-ariane5.html#group-discussion-4-ethics-frameworks",
+    "title": "Case Study: Ariane 5 Flight 501",
+    "section": "Group Discussion 4: Ethics frameworks",
+    "text": "Group Discussion 4: Ethics frameworks\nEach group takes one framework:\n\nConsequentialism: Who bore the costs of the failure? Would the outcome judgment change if the payoff had been astronauts instead of satellites?\nDeontology: What duties did engineers and managers have, regardless of the outcome? Which ACM principles were violated, if any?\nVirtue ethics: Which of Vallor’s technomoral virtues (e.g., humility, perspective, technomoral wisdom) were missing?\nContractualism: Could the decision to skip full system testing be justified to everyone affected?"
+  },
+  {
+    "objectID": "slides/case-ariane5.html#bringing-it-forward",
+    "href": "slides/case-ariane5.html#bringing-it-forward",
+    "title": "Case Study: Ariane 5 Flight 501",
+    "section": "Bringing it forward",
+    "text": "Bringing it forward\nAriane 5 is not an isolated case. Compare:\n\nPatriot missile, Dhahran (1991): a floating-point rounding error accumulated over time; 28 soldiers killed\nTherac-25 (1985–87): reused software from an earlier machine, with the hardware safety interlocks removed\nBoeing 737 MAX (2018–19): software designed around assumptions about a single sensor and about pilot response\n\nWhat patterns do you see across these cases?"
+  },
+  {
+    "objectID": "slides/case-ariane5.html#references-and-further-readings",
+    "href": "slides/case-ariane5.html#references-and-further-readings",
+    "title": "Case Study: Ariane 5 Flight 501",
+    "section": "References and Further Readings",
+    "text": "References and Further Readings\n\nLions, J. L. et al. (1996). Ariane 5 Flight 501 Failure: Report by the Inquiry Board\nJézéquel, J.-M., & Meyer, B. (1997). Design by contract: The lessons of Ariane. IEEE Computer, 30(1), 129–130.\nNuseibeh, B. (1997). Ariane 5: Who dunnit? IEEE Software, 14(3), 15–16.\nNissenbaum, H. (1996). Accountability in a computerized society. Science and Engineering Ethics, 2(1), 25–42.\nArnold, D. N. Some disasters attributable to bad numerical computing (UMN)\nACM Code of Ethics and Professional Conduct"
+  },
+  {
+    "objectID": "slides/case-ariane5.html#journal-writing",
+    "href": "slides/case-ariane5.html#journal-writing",
+    "title": "Case Study: Ariane 5 Flight 501",
+    "section": "Journal Writing",
+    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked of disliked (were the discussions helpful? were the contents of the slides clear?)"
   }
 ]
