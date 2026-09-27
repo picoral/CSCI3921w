@@ -1,0 +1,74 @@
+---
+title: "CSCI 3921W - Social, Legal, and Ethical Issues in Computing"
+subtitle: "Fall 2026</br>Adriana Picoral"
+format:
+  html:
+    df-print: kable
+    toc: true
+    toc-location: right
+    embed-resources: true
+---
+
+**Course description:** Impact of computers on society. Computer science perspective of ethical, legal, social, philosophical, political, and economic aspects of computing.
+
+* [Syllabus](syllabus.html)
+* [Rules of Engagement](rules-of-engagement.html)
+* [Assignments](assignments.html)
+
+# Intro to the course
+
+For this module we will focus first-and-foremost on getting the class started. We'll be seeing the basic class design, learning what are the parts of the class, and how they will help us learn. We will also start our discussions on the relationship between technology and society, and your position/identity in relation to technology and society.
+
+By the end of this module you should be able to:
+
+* Decide whether CSCI 3921W is a course for you
+* Prepare for what we will do to learn, and why
+
+## Slides
+
+* [Lecture Structure](slides/slides-00-00.html)
+* [Academic Use of LLMs](slides/slides-01-01.html)
+
+# Foundations: Concepts and Frameworks in Ethics
+
+This module gives us the vocabulary we will use for the rest of the semester. We start with competing philosophies of technology -- is technology a neutral tool, an autonomous force, or something in between? We then ask whose values get built into computing systems, and who has to live with the results. We also start looking at several ethics frameworks as different questions you can ask about the impact of technology on society.
+
+By the end of this module you should be able to:
+
+* Define and distinguish different technology philosophies such as instrumentalism, hard and soft determinism, substantivism, constructivism, and place a claim about technology on the spectrum between human and technological agency
+* Identify the philosophy of technology implicit in a news article, a product launch, a policy proposal, or your own writing, and state what it assumes about human agency and technological neutrality
+* Explain how a position on that spectrum translates into a policy stance (solutionism, fatalism, or regulation) and assess what each stance implies about who bears the risks and costs of a technology
+* Argue why framing a technology's trajectory as inevitable is itself a political choice, and describe at least one alternative to adapting to that trajectory
+* Distinguish values, norms, systems, and processes, and give a computing example of each
+* Define human values relevant to computing (e.g., wellbeing, freedom from bias, privacy, autonomy, accountability, informed consent) and identify which of them are the focus and which are at stake in a specific system
+* Identify the direct and indirect stakeholders of a computing system -- including those who cannot opt out, and those not yet born -- and explain whose values a design privileges and whose it leaves out
+* Articulate your own values and position in relation to technology and society, and recognize how that position shapes the ethical judgments you make
+* State the central question each framework asks: utilitarianism/consequentialism, deontology, contractualism, virtue ethics, care ethics, and at least one critical framework (capability approach, political economy, or intersectionality)
+* Apply two or more frameworks to the same computing case and show how they generate different lines of reasoning, and sometimes different conclusions
+* Explain the limits of each framework, and recognize framework shopping (choosing a framework to justify a conclusion you already hold)
+* Take a position on "who's to say what's ethical?" that treats the question as one about power and standing, not only about reasoning
+
+## Slides
+
+* [Intro to Technology Philosophies](slides/slides-02-01.html)
+* [Human Values](slides/slides-02-02.html)
+* [Ethics Frameworks](slides/slides-03-01.html)
+
+# Social, Legal, and Ethical challenges in computing in the past 
+
+By the end of this module, students will be able to:
+
+1. Describe the social, legal, and ethical effects of major transformative technologies including who benefited and who was harmed.
+2. Reconstruct the timeline of a technology failure, identifying the warnings that came before the harm, the harm itself, and the institutional response afterward.
+3. Explain recurring patterns in technology failures and identify them in historical cases. These include automation bias, harms falling mostly on marginalized groups, and regulation that arrives only after a disaster.
+4. Analyze a historical case study (e.g., the Post Office Horizon scandal, Therac-25, Ariane 5) through at least two ethical frameworks, and explain where the frameworks agree or disagree.
+5. Evaluate how responsibility was distributed among engineers, managers, organizations, and regulators in a technology failure, using concepts such as the problem of many hands and professional codes of ethics (ACM).
+6. Assess how laws and regulations have responded to technological harm, and use concepts such as the policy vacuum and the Collingridge dilemma to explain why that response often comes late.
+7. Connect lessons from past technologies to present-day computing practice, such as code reuse, AI systems, and algorithmic decision-making, and to their own future work as computing professionals.
+8. Write a well-supported technology analysis (Paper 1) that uses ethical reasoning to make an argument about a technology's ethical impact.
+
+## Slides
+
+* [History of transformative technologies: Automation bias](slides/slides-04-01.html)
+* [History of transformative technologies: Unequal harms](slides/slides-04-02.html)
+* [History of transformative technologies: Reactive regulation](slides/slides-04-03.html)
