@@ -442,7 +442,7 @@
   <meta name="generator" content="quarto-1.6.39">
 
   <meta name="author" content="CSCI 3921w Social, Legal, and Ethical Issues in ComputingAdriana Picoral">
-  <title>CSCI3921 – History of transformative technologies: Automation bias</title>
+  <title>CSCI3921 – Case Study: Ariane Flight V88</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -986,7 +986,7 @@ margin-right: 0; }
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">History of transformative technologies: Automation bias</h1>
+  <h1 class="title">Case Study: Ariane Flight V88</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -1004,95 +1004,133 @@ margin-right: 0; }
 </section>
 <section id="warm-up" class="slide level2">
 <h2>Warm-up</h2>
-<p>Answer in your journal:</p>
+<p>Before we start, answer in your journal:</p>
+<p>Think of a time you used existing code (a function, a library, a Stack Overflow snippet, AI-generated code) without fully checking it.</p>
 <ul>
-<li>Think of a time a computer told you something (a GPS route, a grade in Canvas, a bank balance, an AI answer) that turned out to be wrong. Did you believe it at first? Why? How did you feel when that technology failed you?</li>
+<li>What assumptions did that code make?</li>
+<li>How did you know they held in your context?</li>
 </ul>
 </section>
-<section id="three-recurring-patterns" class="slide level2">
-<h2>Three recurring patterns</h2>
-<p>When we look back at the history of transformative technologies, some patterns keep repeating:</p>
+<section id="what-happened" class="slide level2">
+<h2>What happened</h2>
+<ul>
+<li><strong>1996</strong> flight of the European Space Agency’s (ESA) new Ariane 5 rocket</li>
+<li>About <strong>37 seconds</strong> after lift-off, the rocket veered off course, began to break apart, and self-destructed</li>
+<li>Payload: the four <strong>Cluster</strong> satellites, a scientific mission to study Earth’s magnetosphere</li>
+<li>Cost: roughly <strong>US$370 million</strong> in rocket and payload (commonly cited figure), on top of a decade of development</li>
+<li>No one was killed</li>
+</ul>
+</section>
+<section id="what-happened-1" class="slide level2">
+<h2>What happened</h2>
+<ul>
+<li>The bug itself was <strong>small and well understood</strong></li>
+<li>The failure was not really about one line of code; it was about <strong>assumptions, reuse, testing, and organizational decisions</strong></li>
+<li>It raises a question we will keep returning to: <em>who is responsible when a complex system fails?</em></li>
+</ul>
+</section>
+<section id="the-technical-cause" class="slide level2">
+<h2>The technical cause</h2>
 <ol type="1">
-<li><strong>Automation bias</strong>: trusting software more than people, including ourselves</li>
-<li><strong>Unequal harms</strong>: the costs fall mostly on marginalized groups</li>
-<li><strong>Reactive regulation</strong>: regulation/laws arrive only after a disaster</li>
+<li>The rocket’s <strong>Inertial Reference System (SRI)</strong> tells the flight computer where the rocket is and how it’s moving</li>
+<li>Code from a previous successful Ariane version was <strong>reused</strong></li>
+<li>One calculation converted a <strong>64-bit floating-point</strong> number (related to horizontal velocity) into a <strong>16-bit signed integer</strong></li>
+<li>Ariane 5 was faster than Ariane 4</li>
+<li>The value was too big to fit which caused an <strong>operand error</strong> (overflow) with the exception not handled</li>
 </ol>
-<p>We will look at each pattern through historical cases and timelines.</p>
 </section>
-<section>
-<section id="pattern-1-automation-bias" class="title-slide slide level1 center">
-<h1>Pattern 1: Automation bias</h1>
-
-</section>
-<section id="what-is-automation-bias" class="slide level2">
-<h2>What is automation bias?</h2>
-<p>Two kinds of errors <a href="https://doi.org/10.1006/ijhc.1999.0252">(Skitka, Mosier, &amp; Burdick, 1999)</a>:</p>
+<section id="the-technical-cause-1" class="slide level2">
+<h2>The technical cause</h2>
+<p>The calculation that failed <strong>served no purpose after lift-off</strong>.</p>
 <ul>
-<li><strong>Omission</strong>: failing to act because the system didn’t flag a problem (missed events when not explicitly prompted about them by the aid)</li>
-<li><strong>Commission</strong>: following the system’s recommendation even when other evidence contradicts it (did what an automated aid recommended, even when it contradicted their training and other 100% valid and available indicators)</li>
+<li>It was part of an <strong>alignment function</strong> only needed <em>before</em> launch</li>
+<li>On Ariane 4, it kept running for ~40 seconds after lift-off, a feature that allowed a quick restart if the countdown was held</li>
+<li>Ariane 5 <strong>did not need this feature</strong>, but it was kept because “it worked” and changing it was seen as a risk</li>
 </ul>
 </section>
-<section id="why-does-it-happen" class="slide level2">
-<h2>Why does it happen?</h2>
+<section id="why-wasnt-it-caught" class="slide level2">
+<h2>Why wasn’t it caught?</h2>
+<p>From the <a href="https://www-users.cse.umn.edu/~arnold/disasters/ariane5rep.html">Inquiry Board report</a> (Lions et al., 1996):</p>
 <ul>
-<li>Software seems <strong>objective</strong> and <strong>neutral</strong></li>
-<li>Checking the system takes <strong>time and effort</strong></li>
-<li>Trusting the system becomes the default</li>
-<li>When the system says the person is wrong, the person has to prove the system is wrong</li>
+<li>The specifications did not include Ariane 5 trajectory data</li>
+<li>No full system test was run</li>
 </ul>
 </section>
-<section id="case-horizon-it-scandal" class="slide level2">
-<h2>Case: Horizon IT scandal</h2>
+<section id="key-quote" class="slide level2">
+<h2>Key quote</h2>
+<blockquote>
+<p>“The exception which occurred was not due to random failure but a design error. The exception was detected, but inappropriately handled because the view had been taken that software should be considered correct until it is shown to be at fault. […] The Board is in favour of the opposite view, that software should be assumed to be faulty until applying the currently accepted best practice methods can demonstrate that it is correct.”</p>
+<p>– Ariane 501 Inquiry Board Report, 1996</p>
+</blockquote>
+</section>
+<section id="aftermath" class="slide level2">
+<h2>Aftermath</h2>
 <ul>
-<li>Accounting software showed cash shortfalls at British post offices.</li>
-<li>The British Post Office wrongfully pursued thousands of innocent subpostmasters for financial shortfalls.</li>
-<li>People went to prison and lost homes, and the scandal has been linked to suicides.</li>
+<li>The Inquiry Board issued <strong>14 recommendations</strong> (e.g., turn off functions not needed in flight, test with real equipment, have sensors send best-effort data instead of stopping)</li>
+<li>The Cluster mission was <strong>rebuilt</strong> (Cluster II) and launched in 2000 on Russian Soyuz rockets</li>
+<li>Ariane 5 went on to become one of the most reliable launchers, including launching the <strong>James Webb Space Telescope</strong> (2021)</li>
+<li>Scientists lost years of work</li>
+<li>European taxpayers paid for the loss</li>
 </ul>
 </section>
-<section id="case-horizon-it-scandal-1" class="slide level2">
-<h2>Case: Horizon IT scandal</h2>
-<p>Some of the bugs in Fujitsu’s <em>Horizon</em> system</p>
-<ul>
-<li>“Dalmellington bug”: the system would enter repeated withdrawals in the ledger every time the user pressed “enter” at a frozen interface screen</li>
-<li>“Callendar Square bug”: the system would create duplicate database entries in the ledger</li>
-</ul>
-<p>Subpostmasters used the available helpline to report balancing errors within weeks of the Horizon system being installed.</p>
+<section id="the-problem-of-many-hands" class="slide level2">
+<h2>The problem of many hands</h2>
+<p><a href="https://doi.org/10.1007/BF02639315">Helen Nissenbaum (1996)</a>, written the same year as Flight 501, identifies barriers to accountability in computing:</p>
+<ol type="1">
+<li>the problem of many hands: so many people contribute that no one feels responsible</li>
+<li>the problem of bugs: treating software errors as inevitable, “just how software is”</li>
+<li>blaming the computer: “the computer did it”</li>
+<li>software ownership without liability: vendors disclaim responsibility</li>
+</ol>
+<p>Which of these do you see in Ariane 5?</p>
 </section>
-<section id="case-horizon-it-scandal-2" class="slide level2 smaller">
-<h2>Case: Horizon IT scandal</h2>
+<section id="connection-to-professional-codes" class="slide level2">
+<h2>Connection to professional codes</h2>
+<p><a href="https://www.acm.org/code-of-ethics">ACM Code of Ethics</a>:</p>
 <ul>
-<li>1999: Fujitsu’s <em>Horizon</em> system rolled out. Fujitsu was aware that <em>Horizon</em> contained software bugs. The Post Office insisted that <em>Horizon</em> was robust</li>
-<li>1999–2015: <strong>Over 900</strong> sub-postmasters convicted of theft, fraud, and false accounting based on Horizon data</li>
-<li>2009: <em>Computer Weekly</em> reports on the problems with <em>Horizon</em></li>
-<li>2012: Forensic accountants begin an investigation into <em>Horizon</em></li>
-<li>2019: High Court rules <em>Horizon</em> had “bugs, errors and defects”</li>
-<li>2020-2024: Courts/Parliament revert the subpostmasters’ convictions</li>
+<li><strong>2.1</strong> Strive to achieve high quality in both the processes and products of professional work</li>
+<li><strong>2.5</strong> Give comprehensive and thorough evaluations of computer systems and their impacts, including analysis of possible risks</li>
+<li><strong>2.6</strong> Perform work only in areas of competence</li>
+</ul>
+</section>
+<section id="group-discussion" class="slide level2">
+<h2>Group Discussion</h2>
+<ul>
+<li>Who is responsible for the failure of Flight 501?</li>
+<li>What is the difference between “no single person is to blame” versus “no one is responsible”?</li>
+<li>The code was reused <em>because</em> it was proven reliable. When does reuse make systems safer, and when does it make them more dangerous?</li>
+<li>“It worked on Ariane 4” was treated as evidence of correctness. What is the difference between <em>a system that has not failed</em> and <em>a system that is correct</em>?</li>
+<li>The full system was never tested with real equipment, partly because of cost. Who should decide how much testing is “enough,” and on what basis?</li>
 </ul>
 </section>
 <section id="group-discussion-ethics-frameworks" class="slide level2">
 <h2>Group Discussion: Ethics frameworks</h2>
+<p>Each group takes one framework:</p>
 <ul>
-<li><strong>Deontology</strong>: What duties did engineers and managers have, regardless of the outcome? Which ACM values were violated?</li>
-<li><strong>Consequentialism</strong>: What are the usual benefits of using accounting software? Did the benefits outweigh the harm in this case study?</li>
-<li><strong>Political economy</strong>: Who bore the costs of the “bugs, errors and defects” in this case study? Who profited from it?</li>
-<li><strong>Contractualism</strong>: Could the Post Office’s decision to keep using <em>Horizon</em> despite reported problems be justified to everyone affected?</li>
+<li><strong>Consequentialism</strong>: Who bore the costs of the failure? Would the outcome judgment change if the payoff had been astronauts instead of satellites?</li>
+<li><strong>Deontology</strong>: What duties did engineers and managers have, regardless of the outcome? Which ACM principles were violated?</li>
+<li><strong>Contractualism</strong>: Could the decision to skip full system testing be justified to everyone affected?</li>
 </ul>
 </section>
-<section id="group-discussion-automation-bias" class="slide level2">
-<h2>Group Discussion: Automation bias</h2>
+<section id="bringing-it-forward" class="slide level2">
+<h2>Bringing it forward</h2>
+<p>Ariane 5 is not an isolated case. Compare:</p>
 <ul>
-<li>One of Fujitsu’s employee testified in court that <em>“you can never say there are no more bugs in the system.”</em> As a software developer, can you sympathize with this statement? Whose job is to guarantee software reliability?</li>
-<li>Was the continued use of the accounting system despite reports of balancing errors an failure of <strong>omission</strong> or <strong>commission</strong>?</li>
-<li>Why do authorities so often presume that computers work correctly (over reports from their own employees)? What would the alternative look like?</li>
+<li><strong>Patriot missile, Dhahran (1991)</strong>: a floating-point rounding error accumulated over time; 28 soldiers killed</li>
+<li><strong>Therac-25 (1985–87)</strong>: reused software from an earlier machine, with the hardware safety interlocks removed</li>
+<li><strong>Boeing 737 MAX (2018–19)</strong>: software designed around assumptions about a single sensor and about pilot response</li>
 </ul>
+<p>What patterns do you see across these cases?</p>
 </section>
 <section id="references-and-further-readings" class="slide level2">
 <h2>References and Further Readings</h2>
 <ul>
-<li><a href="https://doi.org/10.1006/ijhc.1999.0252">Skitka, L. J., Mosier, K. L., &amp; Burdick, M. (1999). Does automation bias decision-making? <em>International Journal of Human-Computer Studies</em>, 51(5), 991–1006.</a></li>
-<li><a href="https://doi.org/10.1109/MC.1993.274940">Leveson, N. G., &amp; Turner, C. S. (1993). An investigation of the Therac-25 accidents. <em>IEEE Computer</em>, 26(7), 18–41.</a></li>
-<li><a href="https://www.postofficehorizoninquiry.org.uk/">Post Office Horizon IT Inquiry</a></li>
-<li><a href="https://www.ftc.gov/business-guidance/privacy-security/tech">FTC Tech Guidance</a></li>
+<li><a href="https://www-users.cse.umn.edu/~arnold/disasters/ariane5rep.html">Lions, J. L. et al. (1996). Ariane 5 Flight 501 Failure: Report by the Inquiry Board</a></li>
+<li><a href="https://doi.org/10.1109/2.562936">Jézéquel, J.-M., &amp; Meyer, B. (1997). Design by contract: The lessons of Ariane. <em>IEEE Computer</em>, 30(1), 129–130.</a></li>
+<li><a href="https://doi.org/10.1109/52.589224">Nuseibeh, B. (1997). Ariane 5: Who dunnit? <em>IEEE Software</em>, 14(3), 15–16.</a></li>
+<li><a href="https://doi.org/10.1007/BF02639315">Nissenbaum, H. (1996). Accountability in a computerized society. <em>Science and Engineering Ethics</em>, 2(1), 25–42.</a></li>
+<li><a href="https://www-users.cse.umn.edu/~arnold/disasters/">Arnold, D. N. Some disasters attributable to bad numerical computing (UMN)</a></li>
+<li><a href="https://www.acm.org/code-of-ethics">ACM Code of Ethics and Professional Conduct</a></li>
 </ul>
 </section>
 <section id="journal-writing" class="slide level2">
@@ -1103,16 +1141,9 @@ margin-right: 0; }
 <li>What you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further</li>
 <li>Anything you liked of disliked</li>
 </ol>
+
+
 </section>
-<section id="some-concepts" class="slide level2">
-<h2>Some concepts</h2>
-<ul>
-<li><a href="https://www.ebsco.com/research-starters/social-sciences-and-humanities/incrementalism/">Incrementalism</a>: progress through small, continuous steps rather than massive, sweeping overhauls</li>
-<li><a href="https://pubmed.ncbi.nlm.nih.gov/15968832/">Precautionary principle</a>: When an activity raises threats of harm to human health or the environment, precautionary measures should be taken even if some cause-and-effect relationships are not fully established scientifically</li>
-</ul>
-
-
-</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
