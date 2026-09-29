@@ -1276,148 +1276,1072 @@
   {
     "objectID": "slides/case-ariane5.html#qa-10-minutes",
     "href": "slides/case-ariane5.html#qa-10-minutes",
-    "title": "Case Study: Ariane 5 Flight 501",
+    "title": "Case Study: Ariane Flight V88",
     "section": "Q&A (10 minutes)",
     "text": "Q&A (10 minutes)\nQ&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
   },
   {
     "objectID": "slides/case-ariane5.html#warm-up",
     "href": "slides/case-ariane5.html#warm-up",
-    "title": "Case Study: Ariane 5 Flight 501",
+    "title": "Case Study: Ariane Flight V88",
     "section": "Warm-up",
     "text": "Warm-up\nBefore we start, answer in your journal:\nThink of a time you used existing code (a function, a library, a Stack Overflow snippet, AI-generated code) without fully checking it.\n\nWhat assumptions did that code make?\nHow did you know they held in your context?"
   },
   {
     "objectID": "slides/case-ariane5.html#what-happened",
     "href": "slides/case-ariane5.html#what-happened",
-    "title": "Case Study: Ariane 5 Flight 501",
+    "title": "Case Study: Ariane Flight V88",
     "section": "What happened",
-    "text": "What happened\n\nJune 4, 1996, Kourou, French Guiana: maiden flight of the European Space Agency’s (ESA) new Ariane 5 rocket\nAbout 37 seconds after lift-off, the rocket veered off course, began to break apart, and self-destructed\nPayload: the four Cluster satellites, a scientific mission to study Earth’s magnetosphere\nCost: roughly US$370 million in rocket and payload (commonly cited figure), on top of a decade of development\nNo one was killed"
+    "text": "What happened\n\n1996 flight of the European Space Agency’s (ESA) new Ariane 5 rocket\nAbout 37 seconds after lift-off, the rocket veered off course, began to break apart, and self-destructed\nPayload: the four Cluster satellites, a scientific mission to study Earth’s magnetosphere\nCost: roughly US$370 million in rocket and payload (commonly cited figure), on top of a decade of development\nNo one was killed"
   },
   {
     "objectID": "slides/case-ariane5.html#why-study-a-failure-where-no-one-died",
     "href": "slides/case-ariane5.html#why-study-a-failure-where-no-one-died",
-    "title": "Case Study: Ariane 5 Flight 501",
+    "title": "Case Study: Ariane Flight V88",
     "section": "Why study a failure where no one died?",
     "text": "Why study a failure where no one died?\n\nIt is one of the most expensive software bugs in history\nThe bug itself was small and well understood\nThe failure was not really about one line of code; it was about assumptions, reuse, testing, and organizational decisions\nIt raises a question we will keep returning to: who is responsible when a complex system fails?"
   },
   {
     "objectID": "slides/case-ariane5.html#the-technical-cause-in-plain-terms",
     "href": "slides/case-ariane5.html#the-technical-cause-in-plain-terms",
-    "title": "Case Study: Ariane 5 Flight 501",
+    "title": "Case Study: Ariane Flight V88",
     "section": "The technical cause (in plain terms)",
-    "text": "The technical cause (in plain terms)\n\nThe rocket’s Inertial Reference System (SRI) tells the flight computer where the rocket is and how it’s moving\nIts software was reused from Ariane 4, which had flown successfully for years\nOne calculation converted a 64-bit floating-point number (related to horizontal velocity) into a 16-bit signed integer (max value 32,767)\nAriane 5 was faster than Ariane 4: horizontal velocity built up about five times more rapidly\nThe value was too big to fit → operand error (overflow) → exception not handled"
+    "text": "The technical cause (in plain terms)\n\nThe rocket’s Inertial Reference System (SRI) tells the flight computer where the rocket is and how it’s moving\nCode from a previous successful Ariane version was reused\nOne calculation converted a 64-bit floating-point number (related to horizontal velocity) into a 16-bit signed integer\nAriane 5 was faster than Ariane 4\nThe value was too big to fit which caused an operand error (overflow) with the exception not handled"
   },
   {
     "objectID": "slides/case-ariane5.html#the-technical-cause-simplified-code",
     "href": "slides/case-ariane5.html#the-technical-cause-simplified-code",
-    "title": "Case Study: Ariane 5 Flight 501",
+    "title": "Case Study: Ariane Flight V88",
     "section": "The technical cause (simplified code)",
     "text": "The technical cause (simplified code)\n// Simplified illustration -- not the actual flight code (which was in Ada)\ndouble horizontal_bias = compute_bias(sensor_data);  // 64-bit float\n\n// Protected conversions checked the range first.\n// This one was left unprotected:\nint16_t bh = (int16_t) horizontal_bias;  // fine on Ariane 4 trajectories,\n                                         // overflows on Ariane 5\n\nSeven variables were at risk of overflow; four were protected, three were not\nWhy? To keep the SRI computer’s workload under a target of 80%, and because analysis showed those values were physically limited for Ariane 4"
   },
   {
     "objectID": "slides/case-ariane5.html#the-cascade",
     "href": "slides/case-ariane5.html#the-cascade",
-    "title": "Case Study: Ariane 5 Flight 501",
+    "title": "Case Study: Ariane Flight V88",
     "section": "The cascade",
     "text": "The cascade\n\nThe backup SRI hit the error and shut down (it ran the same software)\n72 milliseconds later, the primary SRI hit the same error and shut down\nThe primary SRI sent a diagnostic bit pattern to the flight computer\nThe flight computer read the diagnostic data as if it were flight data\nIt commanded full nozzle deflection → extreme angle of attack → aerodynamic forces tore the rocket apart → self-destruct"
   },
   {
     "objectID": "slides/case-ariane5.html#the-twist",
     "href": "slides/case-ariane5.html#the-twist",
-    "title": "Case Study: Ariane 5 Flight 501",
+    "title": "Case Study: Ariane Flight V88",
     "section": "The twist",
     "text": "The twist\nThe calculation that failed served no purpose after lift-off.\n\nIt was part of an alignment function only needed before launch\nOn Ariane 4, it kept running for ~40 seconds after lift-off, a feature that allowed a quick restart if the countdown was held\nAriane 5 did not need this feature, but it was kept because “it worked” and changing it was seen as a risk"
   },
   {
     "objectID": "slides/case-ariane5.html#why-wasnt-it-caught",
     "href": "slides/case-ariane5.html#why-wasnt-it-caught",
-    "title": "Case Study: Ariane 5 Flight 501",
+    "title": "Case Study: Ariane Flight V88",
     "section": "Why wasn’t it caught?",
-    "text": "Why wasn’t it caught?\nFrom the Inquiry Board report (Lions et al., 1996):\n\nThe SRI specifications did not include Ariane 5 trajectory data\nNo full system test was run with the real SRI in the loop; simulations used a simulated SRI\nThe design philosophy treated any exception as a random hardware failure: shut down, switch to backup\nBut a software error is not random; the backup failed in exactly the same way"
+    "text": "Why wasn’t it caught?\nFrom the Inquiry Board report (Lions et al., 1996):\n\nThe specifications did not include Ariane 5 trajectory data\nNo full system test was run"
   },
   {
     "objectID": "slides/case-ariane5.html#key-quote",
     "href": "slides/case-ariane5.html#key-quote",
-    "title": "Case Study: Ariane 5 Flight 501",
+    "title": "Case Study: Ariane Flight V88",
     "section": "Key quote",
-    "text": "Key quote\n\n“The exception which occurred was not due to random failure but a design error. […] The Board is in favour of the opposite view, that software should be assumed to be faulty until applying the currently accepted best practice methods can demonstrate that it is correct.”\n– Ariane 501 Inquiry Board Report, 1996"
+    "text": "Key quote\n\n“The exception which occurred was not due to random failure but a design error. The exception was detected, but inappropriately handled because the view had been taken that software should be considered correct until it is shown to be at fault. […] The Board is in favour of the opposite view, that software should be assumed to be faulty until applying the currently accepted best practice methods can demonstrate that it is correct.”\n– Ariane 501 Inquiry Board Report, 1996"
   },
   {
     "objectID": "slides/case-ariane5.html#aftermath",
     "href": "slides/case-ariane5.html#aftermath",
-    "title": "Case Study: Ariane 5 Flight 501",
+    "title": "Case Study: Ariane Flight V88",
     "section": "Aftermath",
-    "text": "Aftermath\n\nThe Inquiry Board issued 14 recommendations (e.g., turn off functions not needed in flight, test with real equipment, have sensors send best-effort data instead of stopping)\nThe Cluster mission was rebuilt (Cluster II) and launched in 2000 on Russian Soyuz rockets\nAriane 5 went on to become one of the most reliable launchers, including launching the James Webb Space Telescope (2021)\nScientists lost years of work; European taxpayers paid for the loss"
+    "text": "Aftermath\n\nThe Inquiry Board issued 14 recommendations (e.g., turn off functions not needed in flight, test with real equipment, have sensors send best-effort data instead of stopping)\nThe Cluster mission was rebuilt (Cluster II) and launched in 2000 on Russian Soyuz rockets\nAriane 5 went on to become one of the most reliable launchers, including launching the James Webb Space Telescope (2021)\nScientists lost years of work\nEuropean taxpayers paid for the loss"
   },
   {
     "objectID": "slides/case-ariane5.html#who-dunnit",
     "href": "slides/case-ariane5.html#who-dunnit",
-    "title": "Case Study: Ariane 5 Flight 501",
+    "title": "Case Study: Ariane Flight V88",
     "section": "Who dunnit?",
     "text": "Who dunnit?\nComputer scientists disagreed about what the “real” lesson was:\n\nProgramming view (Jézéquel & Meyer, 1997): it was a reuse error; explicit preconditions (design by contract) would have documented the assumption and caught it\nSystems engineering view (Nuseibeh, 1997): the problem was requirements and specification; no single person or practice is to blame\nThe Inquiry Board pointed to the whole development and testing process"
   },
   {
     "objectID": "slides/case-ariane5.html#the-problem-of-many-hands",
     "href": "slides/case-ariane5.html#the-problem-of-many-hands",
-    "title": "Case Study: Ariane 5 Flight 501",
+    "title": "Case Study: Ariane Flight V88",
     "section": "The problem of many hands",
-    "text": "The problem of many hands\nHelen Nissenbaum (1996), written the same year as Flight 501, identifies barriers to accountability in computing:\n\nMany hands: so many people contribute that no one feels responsible\nBugs: treating software errors as inevitable, “just how software is”\nThe computer as scapegoat: “the computer did it”\nOwnership without liability: vendors disclaim responsibility\n\nWhich of these do you see in Ariane 5?"
+    "text": "The problem of many hands\nHelen Nissenbaum (1996), written the same year as Flight 501, identifies barriers to accountability in computing:\n\nthe problem of many hands: so many people contribute that no one feels responsible\nthe problem of bugs: treating software errors as inevitable, “just how software is”\nblaming the computer: “the computer did it”\nsoftware ownership without liability: vendors disclaim responsibility\n\nWhich of these do you see in Ariane 5?"
   },
   {
     "objectID": "slides/case-ariane5.html#connection-to-professional-codes",
     "href": "slides/case-ariane5.html#connection-to-professional-codes",
-    "title": "Case Study: Ariane 5 Flight 501",
+    "title": "Case Study: Ariane Flight V88",
     "section": "Connection to professional codes",
     "text": "Connection to professional codes\nACM Code of Ethics:\n\n2.1 Strive to achieve high quality in both the processes and products of professional work\n2.5 Give comprehensive and thorough evaluations of computer systems and their impacts, including analysis of possible risks\n2.6 Perform work only in areas of competence"
   },
   {
     "objectID": "slides/case-ariane5.html#group-discussion-1-responsibility",
     "href": "slides/case-ariane5.html#group-discussion-1-responsibility",
-    "title": "Case Study: Ariane 5 Flight 501",
+    "title": "Case Study: Ariane Flight V88",
     "section": "Group Discussion 1: Responsibility",
     "text": "Group Discussion 1: Responsibility\n\nWho is responsible for the failure of Flight 501? List every person or group you can think of (the original Ariane 4 programmers, the Ariane 5 team, managers, testers, ESA, the contractors…).\nIs it fair to blame the programmers who wrote correct code for Ariane 4?\nDoes “no single person is to blame” mean “no one is responsible”?"
   },
   {
     "objectID": "slides/case-ariane5.html#group-discussion-2-reuse-and-assumptions",
     "href": "slides/case-ariane5.html#group-discussion-2-reuse-and-assumptions",
-    "title": "Case Study: Ariane 5 Flight 501",
+    "title": "Case Study: Ariane Flight V88",
     "section": "Group Discussion 2: Reuse and assumptions",
-    "text": "Group Discussion 2: Reuse and assumptions\n\nThe code was reused because it was proven reliable. When does reuse make systems safer, and when does it make them more dangerous?\nThe overflow protection was removed for performance reasons. How should engineers weigh efficiency against safety margins?\nToday we routinely use open-source libraries, APIs, and pre-trained models built for other contexts. What is the “Ariane 5 risk” in modern software?"
+    "text": "Group Discussion 2: Reuse and assumptions\n\nThe code was reused because it was proven reliable. When does reuse make systems safer, and when does it make them more dangerous?\nThe overflow protection was removed for performance reasons. How should engineers weigh efficiency against safety margins?\nToday we routinely use open-source libraries, APIs, pre-trained models built for other contexts, and LLM-generated code. What are the risks in modern software?"
   },
   {
     "objectID": "slides/case-ariane5.html#group-discussion-3-testing-and-culture",
     "href": "slides/case-ariane5.html#group-discussion-3-testing-and-culture",
-    "title": "Case Study: Ariane 5 Flight 501",
+    "title": "Case Study: Ariane Flight V88",
     "section": "Group Discussion 3: Testing and culture",
     "text": "Group Discussion 3: Testing and culture\n\n“It worked on Ariane 4” was treated as evidence of correctness. What is the difference between a system that has not failed and a system that is correct?\nThe full system was never tested with real equipment, partly because of cost. Who should decide how much testing is “enough,” and on what basis?\nWould you speak up if you noticed an untested assumption close to a launch deadline? What would make it easier or harder?"
   },
   {
     "objectID": "slides/case-ariane5.html#group-discussion-4-ethics-frameworks",
     "href": "slides/case-ariane5.html#group-discussion-4-ethics-frameworks",
-    "title": "Case Study: Ariane 5 Flight 501",
+    "title": "Case Study: Ariane Flight V88",
     "section": "Group Discussion 4: Ethics frameworks",
     "text": "Group Discussion 4: Ethics frameworks\nEach group takes one framework:\n\nConsequentialism: Who bore the costs of the failure? Would the outcome judgment change if the payoff had been astronauts instead of satellites?\nDeontology: What duties did engineers and managers have, regardless of the outcome? Which ACM principles were violated, if any?\nVirtue ethics: Which of Vallor’s technomoral virtues (e.g., humility, perspective, technomoral wisdom) were missing?\nContractualism: Could the decision to skip full system testing be justified to everyone affected?"
   },
   {
     "objectID": "slides/case-ariane5.html#bringing-it-forward",
     "href": "slides/case-ariane5.html#bringing-it-forward",
-    "title": "Case Study: Ariane 5 Flight 501",
+    "title": "Case Study: Ariane Flight V88",
     "section": "Bringing it forward",
     "text": "Bringing it forward\nAriane 5 is not an isolated case. Compare:\n\nPatriot missile, Dhahran (1991): a floating-point rounding error accumulated over time; 28 soldiers killed\nTherac-25 (1985–87): reused software from an earlier machine, with the hardware safety interlocks removed\nBoeing 737 MAX (2018–19): software designed around assumptions about a single sensor and about pilot response\n\nWhat patterns do you see across these cases?"
   },
   {
     "objectID": "slides/case-ariane5.html#references-and-further-readings",
     "href": "slides/case-ariane5.html#references-and-further-readings",
-    "title": "Case Study: Ariane 5 Flight 501",
+    "title": "Case Study: Ariane Flight V88",
     "section": "References and Further Readings",
     "text": "References and Further Readings\n\nLions, J. L. et al. (1996). Ariane 5 Flight 501 Failure: Report by the Inquiry Board\nJézéquel, J.-M., & Meyer, B. (1997). Design by contract: The lessons of Ariane. IEEE Computer, 30(1), 129–130.\nNuseibeh, B. (1997). Ariane 5: Who dunnit? IEEE Software, 14(3), 15–16.\nNissenbaum, H. (1996). Accountability in a computerized society. Science and Engineering Ethics, 2(1), 25–42.\nArnold, D. N. Some disasters attributable to bad numerical computing (UMN)\nACM Code of Ethics and Professional Conduct"
   },
   {
     "objectID": "slides/case-ariane5.html#journal-writing",
     "href": "slides/case-ariane5.html#journal-writing",
-    "title": "Case Study: Ariane 5 Flight 501",
+    "title": "Case Study: Ariane Flight V88",
     "section": "Journal Writing",
     "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked of disliked (were the discussions helpful? were the contents of the slides clear?)"
+  },
+  {
+    "objectID": "slides/case-ariane5.html#the-technical-cause",
+    "href": "slides/case-ariane5.html#the-technical-cause",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "The technical cause",
+    "text": "The technical cause\n\nThe rocket’s Inertial Reference System (SRI) tells the flight computer where the rocket is and how it’s moving\nCode from a previous successful Ariane version was reused\nOne calculation converted a 64-bit floating-point number (related to horizontal velocity) into a 16-bit signed integer\nAriane 5 was faster than Ariane 4\nThe value was too big to fit which caused an operand error (overflow) with the exception not handled"
+  },
+  {
+    "objectID": "slides/case-ariane5.html#the-technical-cause-1",
+    "href": "slides/case-ariane5.html#the-technical-cause-1",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "The technical cause",
+    "text": "The technical cause\nThe calculation that failed served no purpose after lift-off.\n\nIt was part of an alignment function only needed before launch\nOn Ariane 4, it kept running for ~40 seconds after lift-off, a feature that allowed a quick restart if the countdown was held\nAriane 5 did not need this feature, but it was kept because “it worked” and changing it was seen as a risk"
+  },
+  {
+    "objectID": "slides/slides-04-02.html#qa-10-minutes",
+    "href": "slides/slides-04-02.html#qa-10-minutes",
+    "title": "History of transformative technologies: Unequal harms",
+    "section": "Q&A (10 minutes)",
+    "text": "Q&A (10 minutes)\nQ&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/slides-04-02.html#warm-up",
+    "href": "slides/slides-04-02.html#warm-up",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Warm-up",
+    "text": "Warm-up\nBefore we start, answer in your journal:\nThink of a time you used existing code (a function, a library, a Stack Overflow snippet, AI-generated code) without fully checking it.\n\nWhat assumptions did that code make?\nHow did you know they held in your context?"
+  },
+  {
+    "objectID": "slides/slides-04-02.html#what-happened",
+    "href": "slides/slides-04-02.html#what-happened",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "What happened",
+    "text": "What happened\n\n1996 flight of the European Space Agency’s (ESA) new Ariane 5 rocket\nAbout 37 seconds after lift-off, the rocket veered off course, began to break apart, and self-destructed\nPayload: the four Cluster satellites, a scientific mission to study Earth’s magnetosphere\nCost: roughly US$370 million in rocket and payload (commonly cited figure), on top of a decade of development\nNo one was killed"
+  },
+  {
+    "objectID": "slides/slides-04-02.html#why-study-a-failure-where-no-one-died",
+    "href": "slides/slides-04-02.html#why-study-a-failure-where-no-one-died",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Why study a failure where no one died?",
+    "text": "Why study a failure where no one died?\n\nIt is one of the most expensive software bugs in history\nThe bug itself was small and well understood\nThe failure was not really about one line of code; it was about assumptions, reuse, testing, and organizational decisions\nIt raises a question we will keep returning to: who is responsible when a complex system fails?"
+  },
+  {
+    "objectID": "slides/slides-04-02.html#the-technical-cause",
+    "href": "slides/slides-04-02.html#the-technical-cause",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "The technical cause",
+    "text": "The technical cause\n\nThe rocket’s Inertial Reference System (SRI) tells the flight computer where the rocket is and how it’s moving\nCode from a previous successful Ariane version was reused\nOne calculation converted a 64-bit floating-point number (related to horizontal velocity) into a 16-bit signed integer\nAriane 5 was faster than Ariane 4\nThe value was too big to fit which caused an operand error (overflow) with the exception not handled"
+  },
+  {
+    "objectID": "slides/slides-04-02.html#the-technical-cause-1",
+    "href": "slides/slides-04-02.html#the-technical-cause-1",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "The technical cause",
+    "text": "The technical cause\nThe calculation that failed served no purpose after lift-off.\n\nIt was part of an alignment function only needed before launch\nOn Ariane 4, it kept running for ~40 seconds after lift-off, a feature that allowed a quick restart if the countdown was held\nAriane 5 did not need this feature, but it was kept because “it worked” and changing it was seen as a risk"
+  },
+  {
+    "objectID": "slides/slides-04-02.html#why-wasnt-it-caught",
+    "href": "slides/slides-04-02.html#why-wasnt-it-caught",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Why wasn’t it caught?",
+    "text": "Why wasn’t it caught?\nFrom the Inquiry Board report (Lions et al., 1996):\n\nThe specifications did not include Ariane 5 trajectory data\nNo full system test was run"
+  },
+  {
+    "objectID": "slides/slides-04-02.html#key-quote",
+    "href": "slides/slides-04-02.html#key-quote",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Key quote",
+    "text": "Key quote\n\n“The exception which occurred was not due to random failure but a design error. The exception was detected, but inappropriately handled because the view had been taken that software should be considered correct until it is shown to be at fault. […] The Board is in favour of the opposite view, that software should be assumed to be faulty until applying the currently accepted best practice methods can demonstrate that it is correct.”\n– Ariane 501 Inquiry Board Report, 1996"
+  },
+  {
+    "objectID": "slides/slides-04-02.html#aftermath",
+    "href": "slides/slides-04-02.html#aftermath",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Aftermath",
+    "text": "Aftermath\n\nThe Inquiry Board issued 14 recommendations (e.g., turn off functions not needed in flight, test with real equipment, have sensors send best-effort data instead of stopping)\nThe Cluster mission was rebuilt (Cluster II) and launched in 2000 on Russian Soyuz rockets\nAriane 5 went on to become one of the most reliable launchers, including launching the James Webb Space Telescope (2021)\nScientists lost years of work\nEuropean taxpayers paid for the loss"
+  },
+  {
+    "objectID": "slides/slides-04-02.html#the-problem-of-many-hands",
+    "href": "slides/slides-04-02.html#the-problem-of-many-hands",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "The problem of many hands",
+    "text": "The problem of many hands\nHelen Nissenbaum (1996), written the same year as Flight 501, identifies barriers to accountability in computing:\n\nthe problem of many hands: so many people contribute that no one feels responsible\nthe problem of bugs: treating software errors as inevitable, “just how software is”\nblaming the computer: “the computer did it”\nsoftware ownership without liability: vendors disclaim responsibility\n\nWhich of these do you see in Ariane 5?"
+  },
+  {
+    "objectID": "slides/slides-04-02.html#connection-to-professional-codes",
+    "href": "slides/slides-04-02.html#connection-to-professional-codes",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Connection to professional codes",
+    "text": "Connection to professional codes\nACM Code of Ethics:\n\n2.1 Strive to achieve high quality in both the processes and products of professional work\n2.5 Give comprehensive and thorough evaluations of computer systems and their impacts, including analysis of possible risks\n2.6 Perform work only in areas of competence"
+  },
+  {
+    "objectID": "slides/slides-04-02.html#group-discussion-1-responsibility",
+    "href": "slides/slides-04-02.html#group-discussion-1-responsibility",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Group Discussion 1: Responsibility",
+    "text": "Group Discussion 1: Responsibility\n\nWho is responsible for the failure of Flight 501? List every person or group you can think of (the original Ariane 4 programmers, the Ariane 5 team, managers, testers, ESA, the contractors…).\nIs it fair to blame the programmers who wrote correct code for Ariane 4?\nDoes “no single person is to blame” mean “no one is responsible”?"
+  },
+  {
+    "objectID": "slides/slides-04-02.html#group-discussion-2-reuse-and-assumptions",
+    "href": "slides/slides-04-02.html#group-discussion-2-reuse-and-assumptions",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Group Discussion 2: Reuse and assumptions",
+    "text": "Group Discussion 2: Reuse and assumptions\n\nThe code was reused because it was proven reliable. When does reuse make systems safer, and when does it make them more dangerous?\nThe overflow protection was removed for performance reasons. How should engineers weigh efficiency against safety margins?\nToday we routinely use open-source libraries, APIs, pre-trained models built for other contexts, and LLM-generated code. What are the risks in modern software?"
+  },
+  {
+    "objectID": "slides/slides-04-02.html#group-discussion-3-testing-and-culture",
+    "href": "slides/slides-04-02.html#group-discussion-3-testing-and-culture",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Group Discussion 3: Testing and culture",
+    "text": "Group Discussion 3: Testing and culture\n\n“It worked on Ariane 4” was treated as evidence of correctness. What is the difference between a system that has not failed and a system that is correct?\nThe full system was never tested with real equipment, partly because of cost. Who should decide how much testing is “enough,” and on what basis?\nWould you speak up if you noticed an untested assumption close to a launch deadline? What would make it easier or harder?"
+  },
+  {
+    "objectID": "slides/slides-04-02.html#group-discussion-4-ethics-frameworks",
+    "href": "slides/slides-04-02.html#group-discussion-4-ethics-frameworks",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Group Discussion 4: Ethics frameworks",
+    "text": "Group Discussion 4: Ethics frameworks\nEach group takes one framework:\n\nConsequentialism: Who bore the costs of the failure? Would the outcome judgment change if the payoff had been astronauts instead of satellites?\nDeontology: What duties did engineers and managers have, regardless of the outcome? Which ACM principles were violated, if any?\nVirtue ethics: Which of Vallor’s technomoral virtues (e.g., humility, perspective, technomoral wisdom) were missing?\nContractualism: Could the decision to skip full system testing be justified to everyone affected?"
+  },
+  {
+    "objectID": "slides/slides-04-02.html#bringing-it-forward",
+    "href": "slides/slides-04-02.html#bringing-it-forward",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Bringing it forward",
+    "text": "Bringing it forward\nAriane 5 is not an isolated case. Compare:\n\nPatriot missile, Dhahran (1991): a floating-point rounding error accumulated over time; 28 soldiers killed\nTherac-25 (1985–87): reused software from an earlier machine, with the hardware safety interlocks removed\nBoeing 737 MAX (2018–19): software designed around assumptions about a single sensor and about pilot response\n\nWhat patterns do you see across these cases?"
+  },
+  {
+    "objectID": "slides/slides-04-02.html#references-and-further-readings",
+    "href": "slides/slides-04-02.html#references-and-further-readings",
+    "title": "History of transformative technologies: Unequal harms",
+    "section": "References and Further Readings",
+    "text": "References and Further Readings\n\nAngwin, J., et al. (2016). Machine Bias. ProPublica.\nAmnesty International (2021). Xenophobic Machines.\nBenjamin, R. (2019). Race After Technology: Abolitionist Tools for the New Jim Code. Polity\nBuolamwini, J., & Gebru, T. (2018). Gender Shades.\nEubanks, V. (2018). Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor. St. Martin’s Press."
+  },
+  {
+    "objectID": "slides/slides-04-02.html#journal-writing",
+    "href": "slides/slides-04-02.html#journal-writing",
+    "title": "History of transformative technologies: Unequal harms",
+    "section": "Journal Writing",
+    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked of disliked"
+  },
+  {
+    "objectID": "slides/slides-04-01.html#warm-up",
+    "href": "slides/slides-04-01.html#warm-up",
+    "title": "History of transformative technologies: Automation bias",
+    "section": "Warm-up",
+    "text": "Warm-up\nAnswer in your journal:\n\nThink of a time a computer told you something (a GPS route, a grade in Canvas, a bank balance, an AI answer) that turned out to be wrong. Did you believe it at first? Why? How did you feel when that technology failed you?"
+  },
+  {
+    "objectID": "slides/slides-04-01.html#three-recurring-patterns",
+    "href": "slides/slides-04-01.html#three-recurring-patterns",
+    "title": "History of transformative technologies: Automation bias",
+    "section": "Three recurring patterns",
+    "text": "Three recurring patterns\nWhen we look back at the history of transformative technologies, some patterns keep repeating:\n\nAutomation bias: trusting software more than people, including ourselves\nUnequal harms: the costs fall mostly on marginalized groups\nReactive regulation: regulation/laws arrive only after a disaster\n\nWe will look at each pattern through historical cases and timelines."
+  },
+  {
+    "objectID": "slides/slides-04-01.html#what-is-automation-bias",
+    "href": "slides/slides-04-01.html#what-is-automation-bias",
+    "title": "History of transformative technologies: Automation bias",
+    "section": "What is automation bias?",
+    "text": "What is automation bias?\nTwo kinds of errors (Skitka, Mosier, & Burdick, 1999):\n\nOmission: failing to act because the system didn’t flag a problem (missed events when not explicitly prompted about them by the aid)\nCommission: following the system’s recommendation even when other evidence contradicts it (did what an automated aid recommended, even when it contradicted their training and other 100% valid and available indicators)"
+  },
+  {
+    "objectID": "slides/slides-04-01.html#why-does-it-happen",
+    "href": "slides/slides-04-01.html#why-does-it-happen",
+    "title": "History of transformative technologies: Automation bias",
+    "section": "Why does it happen?",
+    "text": "Why does it happen?\n\nSoftware seems objective and neutral\nChecking the system takes time and effort\nTrusting the system becomes the default\nWhen the system says the person is wrong, the person has to prove the system is wrong"
+  },
+  {
+    "objectID": "slides/slides-04-01.html#case-therac-25-19851987",
+    "href": "slides/slides-04-01.html#case-therac-25-19851987",
+    "title": "History of transformative technologies",
+    "section": "Case: Therac-25 (1985–1987)",
+    "text": "Case: Therac-25 (1985–1987)\nA computer-controlled radiation therapy machine that gave massive overdoses to patients.\n\n\n\nYear\nEvent\n\n\n\n\n1982\nTherac-25 introduced; hardware safety interlocks from earlier models replaced by software checks\n\n\n1985\nFirst overdoses (Georgia, Ontario, Washington); manufacturer insists an overdose is impossible\n\n\n1986\nTwo overdoses in Tyler, Texas; the machine shows a cryptic “Malfunction 54” and operators press P to proceed\n\n\n1986\nFDA declares the machine defective and requires a corrective action plan\n\n\n1987\nAnother overdose in Washington; machines taken out of routine use\n\n\n1993\nLeveson & Turner publish the full investigation\n\n\n\nSix known accidents, at least three deaths."
+  },
+  {
+    "objectID": "slides/slides-04-01.html#case-uk-post-office-horizon-scandal",
+    "href": "slides/slides-04-01.html#case-uk-post-office-horizon-scandal",
+    "title": "History of transformative technologies",
+    "section": "Case: UK Post Office Horizon scandal",
+    "text": "Case: UK Post Office Horizon scandal\nAccounting software showed cash shortfalls at local post offices. The Post Office blamed the sub-postmasters who ran them.\n\n\n\n\n\n\n\nYear\nEvent\n\n\n\n\n1999\nFujitsu’s Horizon system rolled out; courts in England and Wales now presume computers work correctly unless shown otherwise\n\n\n1999–2015\nOver 900 sub-postmasters convicted of theft, fraud, and false accounting based on Horizon data\n\n\n2009\nComputer Weekly reports on sub-postmasters’ claims\n\n\n2019\nHigh Court rules Horizon had “bugs, errors and defects” (Bates v Post Office)\n\n\n2021\nCourt of Appeal quashes 39 convictions\n\n\n2024\nTV drama Mr Bates vs The Post Office sparks public outrage; Parliament passes a law quashing convictions\n\n\n\nPeople went to prison and lost homes, and the scandal has been linked to suicides."
+  },
+  {
+    "objectID": "slides/slides-04-01.html#case-robodebt-australia-20162019",
+    "href": "slides/slides-04-01.html#case-robodebt-australia-20162019",
+    "title": "History of transformative technologies",
+    "section": "Case: Robodebt (Australia, 2016–2019)",
+    "text": "Case: Robodebt (Australia, 2016–2019)\nAn automated system that calculated welfare “overpayments” and sent debt notices.\n\n\n\nYear\nEvent\n\n\n\n\n2016\nSystem launched: it averaged annual tax income across fortnights, which assumed steady income\n\n\n2016–2019\nAbout 470,000 debts wrongly issued; recipients had to prove they did not owe the money\n\n\n2019\nGovernment concedes in Federal Court that income averaging was unlawful\n\n\n2020–21\nClass action settled: about A$1.8 billion in refunds, cancelled debts, and compensation\n\n\n2023\nRoyal Commission calls it a “crude and cruel mechanism, neither fair nor legal”"
+  },
+  {
+    "objectID": "slides/slides-04-01.html#group-discussion-automation-bias",
+    "href": "slides/slides-04-01.html#group-discussion-automation-bias",
+    "title": "History of transformative technologies: Automation bias",
+    "section": "Group Discussion: Automation bias",
+    "text": "Group Discussion: Automation bias\n\nOne of Fujitsu’s employee testified in court that “you can never say there are no more bugs in the system.” As a software developer, can you sympathize with this statement? Whose job is to guarantee software reliability?\nWas the continued use of the accounting system despite reports of balancing errors an failure of omission or commission?\nWhy do authorities so often presume that computers work correctly (over reports from their own employees)? What would the alternative look like?"
+  },
+  {
+    "objectID": "slides/slides-04-01.html#who-bears-the-risk",
+    "href": "slides/slides-04-01.html#who-bears-the-risk",
+    "title": "History of transformative technologies",
+    "section": "Who bears the risk?",
+    "text": "Who bears the risk?\n\nTechnologies are often tested on and deployed first on people with the least power to refuse (welfare recipients, immigrants, prisoners, poor neighborhoods)\nWhen the system fails, those groups have the fewest resources to fight back\nTheir complaints are often less likely to be believed\n\n\nAutomated systems “manage the poor so that we do not have to” – Virginia Eubanks, Automating Inequality (2018)"
+  },
+  {
+    "objectID": "slides/slides-04-01.html#case-facial-recognition",
+    "href": "slides/slides-04-01.html#case-facial-recognition",
+    "title": "History of transformative technologies",
+    "section": "Case: Facial recognition",
+    "text": "Case: Facial recognition\n\n\n\nYear\nEvent\n\n\n\n\n2018\nGender Shades (Buolamwini & Gebru): error rates up to 34.7% for darker-skinned women vs 0.8% for lighter-skinned men\n\n\n2019\nNIST study finds many algorithms have much higher false positive rates for Asian and Black faces\n\n\n2020\nRobert Williams wrongfully arrested in Detroit in front of his family, based on a facial recognition match\n\n\n2020\nIBM exits facial recognition; Amazon and Microsoft pause sales to police\n\n\n2023\nPorcha Woodruff, eight months pregnant, wrongfully arrested in Detroit\n\n\n2024\nWilliams settlement: Detroit police can no longer arrest based on facial recognition alone\n\n\n\nNearly all publicly known US wrongful arrests from facial recognition involve Black people."
+  },
+  {
+    "objectID": "slides/slides-04-01.html#case-compas-risk-scores-2016",
+    "href": "slides/slides-04-01.html#case-compas-risk-scores-2016",
+    "title": "History of transformative technologies",
+    "section": "Case: COMPAS risk scores (2016)",
+    "text": "Case: COMPAS risk scores (2016)\n\nCOMPAS predicts whether a defendant will reoffend; judges use the score in bail and sentencing decisions\nProPublica (2016): Black defendants who did not reoffend were almost twice as likely as white defendants to be labeled high-risk (45% vs 23%)\nThe company responded that the scores were equally accurate across groups\nBoth can be true at once: different definitions of “fair” can be mathematically incompatible (more on this in Week 7)\n2016: Wisconsin Supreme Court (State v. Loomis) allows COMPAS in sentencing, with warnings"
+  },
+  {
+    "objectID": "slides/slides-04-01.html#case-dutch-childcare-benefits-scandal",
+    "href": "slides/slides-04-01.html#case-dutch-childcare-benefits-scandal",
+    "title": "History of transformative technologies",
+    "section": "Case: Dutch childcare benefits scandal",
+    "text": "Case: Dutch childcare benefits scandal\n\n\n\nYear\nEvent\n\n\n\n\n2013\nDutch Tax Administration increases fraud checks on childcare benefits, using a risk model\n\n\n2013–2019\nTens of thousands of families wrongly accused of fraud and ordered to repay benefits; dual nationality used as a risk factor\n\n\n2019\nJournalists expose the scandal\n\n\n2020\nParliamentary report titled Unprecedented Injustice\n\n\n2021\nThe entire Dutch government resigns (January)\n\n\n2021\nDutch Data Protection Authority fines the Tax Administration €2.75 million for discriminatory data processing; Amnesty publishes Xenophobic Machines\n\n\n\nFamilies were pushed into debt, and more than a thousand children were placed in out-of-home care."
+  },
+  {
+    "objectID": "slides/slides-04-01.html#a-historical-parallel-bhopal-1984",
+    "href": "slides/slides-04-01.html#a-historical-parallel-bhopal-1984",
+    "title": "History of transformative technologies",
+    "section": "A historical parallel: Bhopal (1984)",
+    "text": "A historical parallel: Bhopal (1984)\n\nA gas leak at a Union Carbide pesticide plant in Bhopal, India, killed thousands of people and injured hundreds of thousands\nThe plant’s safety systems were weaker than those at the company’s similar plant in West Virginia\nVictims were mostly poor residents of the slums around the plant\nThe 1989 settlement: US$470 million, about US$500 per victim in many cases\n\nThe same pattern shows up in physical and digital technologies."
+  },
+  {
+    "objectID": "slides/slides-04-01.html#group-discussion-unequal-harms",
+    "href": "slides/slides-04-01.html#group-discussion-unequal-harms",
+    "title": "History of transformative technologies",
+    "section": "Group Discussion: Unequal harms",
+    "text": "Group Discussion: Unequal harms\n\nWhy are new automated systems often deployed first on welfare, immigration, and policing?\nRobert Williams and the Dutch families were told “the system flagged you.” How does automation bias make unequal harms worse?\nWho should be in the room when a system like COMPAS or the Dutch risk model is designed?\nUsing an intersectional lens: whose experiences would Gender Shades have missed if it had only looked at race or only at gender?"
+  },
+  {
+    "objectID": "slides/slides-04-01.html#tombstone-regulation",
+    "href": "slides/slides-04-01.html#tombstone-regulation",
+    "title": "History of transformative technologies",
+    "section": "Tombstone regulation",
+    "text": "Tombstone regulation\n\nIn aviation safety, “tombstone mentality” means waiting for deaths before fixing a known problem\nLaws and regulators usually react to disasters rather than prevent them\nRecall Moor’s policy vacuum and regulatory lag from last week"
+  },
+  {
+    "objectID": "slides/slides-04-01.html#the-collingridge-dilemma",
+    "href": "slides/slides-04-01.html#the-collingridge-dilemma",
+    "title": "History of transformative technologies",
+    "section": "The Collingridge dilemma",
+    "text": "The Collingridge dilemma\nDavid Collingridge, The Social Control of Technology (1980):\n\nEarly on, a technology is easy to change, but we don’t know its harms yet\nLater, the harms are clear, but the technology is entrenched and hard to change\n\n\nBy the time we know enough to regulate, it may be too late to regulate easily."
+  },
+  {
+    "objectID": "slides/slides-04-01.html#timeline-disaster-regulation",
+    "href": "slides/slides-04-01.html#timeline-disaster-regulation",
+    "title": "History of transformative technologies",
+    "section": "Timeline: Disaster → regulation",
+    "text": "Timeline: Disaster → regulation\n\n\n\n\n\n\n\nDisaster\nRegulation\n\n\n\n\n1912: Titanic sinks (1,500+ deaths)\n1914: International Convention for the Safety of Life at Sea (SOLAS)\n\n\n1937: Elixir Sulfanilamide poisoning (100+ deaths)\n1938: Federal Food, Drug, and Cosmetic Act (drugs must be proven safe)\n\n\n1957–1961: Thalidomide (10,000+ children with birth defects)\n1962: Kefauver–Harris Amendment (drugs must be proven effective; informed consent)\n\n\n1984: Bhopal gas leak\n1986: US Emergency Planning and Community Right-to-Know Act\n\n\n1985–1987: Therac-25\n1990: Safe Medical Devices Act; later, software standards for medical devices (IEC 62304, 2006)\n\n\n2018: Cambridge Analytica\n2019: FTC fines Facebook US$5 billion\n\n\n2018–2019: Boeing 737 MAX crashes (346 deaths)\n2020: Aircraft Certification, Safety, and Accountability Act"
+  },
+  {
+    "objectID": "slides/slides-04-01.html#case-thalidomide-and-frances-kelsey",
+    "href": "slides/slides-04-01.html#case-thalidomide-and-frances-kelsey",
+    "title": "History of transformative technologies",
+    "section": "Case: Thalidomide and Frances Kelsey",
+    "text": "Case: Thalidomide and Frances Kelsey\n\n1957: Thalidomide sold in West Germany as a safe sedative, also taken for morning sickness\n1960: At the US FDA, reviewer Frances Kelsey refuses to approve it, asking for more safety data despite pressure from the manufacturer\n1961: The drug is linked to severe birth defects and withdrawn\nThe US mostly avoided the disaster, but the law changed only after the harm abroad became visible\n\nWhat does Kelsey’s story say about the role of individuals within institutions?"
+  },
+  {
+    "objectID": "slides/slides-04-01.html#case-boeing-737-max",
+    "href": "slides/slides-04-01.html#case-boeing-737-max",
+    "title": "History of transformative technologies",
+    "section": "Case: Boeing 737 MAX",
+    "text": "Case: Boeing 737 MAX\n\n\n\n\n\n\n\nDate\nEvent\n\n\n\n\n2011\nBoeing launches the 737 MAX to compete with Airbus; goal is to avoid expensive pilot retraining\n\n\n2017\nAircraft certified; much of the safety assessment delegated to Boeing employees; MCAS software barely mentioned in pilot manuals\n\n\nOct 2018\nLion Air Flight 610 crashes (189 deaths); MCAS relied on a single faulty sensor\n\n\nMar 2019\nEthiopian Airlines Flight 302 crashes (157 deaths); worldwide grounding\n\n\nDec 2020\nUS Congress passes the Aircraft Certification, Safety, and Accountability Act"
+  },
+  {
+    "objectID": "slides/slides-04-01.html#is-proactive-regulation-possible",
+    "href": "slides/slides-04-01.html#is-proactive-regulation-possible",
+    "title": "History of transformative technologies",
+    "section": "Is proactive regulation possible?",
+    "text": "Is proactive regulation possible?\nSome counterexamples:\n\n1975, Asilomar: scientists paused and set guidelines for recombinant DNA research before any harm\n1987, Montreal Protocol: countries phased out CFCs soon after the ozone hole was discovered, before the worst damage\n2024, EU AI Act: bans some AI uses (e.g., social scoring) and sets rules by risk level before most harms occur\n2025, Australia: minimum age of 16 for social media accounts\n\nCritics argue proactive regulation can slow innovation or target the wrong risks. Supporters point to the precautionary principle (Rio Declaration, 1992, Principle 15)."
+  },
+  {
+    "objectID": "slides/slides-04-01.html#group-discussion-reactive-regulation",
+    "href": "slides/slides-04-01.html#group-discussion-reactive-regulation",
+    "title": "History of transformative technologies",
+    "section": "Group Discussion: Reactive regulation",
+    "text": "Group Discussion: Reactive regulation\n\nWhy do laws usually come after disasters? Think about who has information, money, and power before and after.\nIn most of our cases, someone warned about the problem before the disaster. Why weren’t they heard?\nIs the EU AI Act a solution to the Collingridge dilemma, or does it just move the problem?\nIf you could pass one proactive law about AI today, what would it be? What disaster would it be trying to prevent?"
+  },
+  {
+    "objectID": "slides/slides-04-01.html#the-patterns-overlap",
+    "href": "slides/slides-04-01.html#the-patterns-overlap",
+    "title": "History of transformative technologies",
+    "section": "The patterns overlap",
+    "text": "The patterns overlap\nRobodebt shows all three:\n\nAutomation bias: the government trusted the algorithm over the people receiving welfare\nUnequal harms: the targets were people on welfare, many of them in financial crisis\nReactive regulation: action came only after court cases, a class action, and a Royal Commission"
+  },
+  {
+    "objectID": "slides/slides-04-01.html#group-activity",
+    "href": "slides/slides-04-01.html#group-activity",
+    "title": "History of transformative technologies",
+    "section": "Group Activity",
+    "text": "Group Activity\nIn your group, pick one case from today (or another transformative technology you know) and build a short timeline:\n\nBefore: What warnings existed? Who raised them?\nHarm: Who was harmed? Who was not?\nAfter: What changed (law, policy, practice, nothing)?\n\nThen answer:\n\nWhich of the three patterns show up in your case?\nAt which point on the timeline could an engineer have changed the outcome?\n\nBe prepared to share with the class."
+  },
+  {
+    "objectID": "slides/slides-04-01.html#connection-to-paper-1",
+    "href": "slides/slides-04-01.html#connection-to-paper-1",
+    "title": "History of transformative technologies",
+    "section": "Connection to Paper 1",
+    "text": "Connection to Paper 1\nYour technology analysis (first draft due Oct 7) can use these patterns as lenses:\n\nDoes the technology invite automation bias?\nWho bears its risks, and who gets its benefits?\nIs there a policy vacuum, or has regulation lagged behind?"
+  },
+  {
+    "objectID": "slides/slides-04-01.html#references-and-further-readings",
+    "href": "slides/slides-04-01.html#references-and-further-readings",
+    "title": "History of transformative technologies: Automation bias",
+    "section": "References and Further Readings",
+    "text": "References and Further Readings\n\nSkitka, L. J., Mosier, K. L., & Burdick, M. (1999). Does automation bias decision-making? International Journal of Human-Computer Studies, 51(5), 991–1006.\nLeveson, N. G., & Turner, C. S. (1993). An investigation of the Therac-25 accidents. IEEE Computer, 26(7), 18–41.\nPost Office Horizon IT Inquiry\nFTC Tech Guidance"
+  },
+  {
+    "objectID": "slides/slides-04-01.html#journal-writing",
+    "href": "slides/slides-04-01.html#journal-writing",
+    "title": "History of transformative technologies: Automation bias",
+    "section": "Journal Writing",
+    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked of disliked"
+  },
+  {
+    "objectID": "slides/slides-04-01.html#case-horizon-it-scandal",
+    "href": "slides/slides-04-01.html#case-horizon-it-scandal",
+    "title": "History of transformative technologies: Automation bias",
+    "section": "Case: Horizon IT scandal",
+    "text": "Case: Horizon IT scandal\n\nAccounting software showed cash shortfalls at British post offices.\nThe British Post Office wrongfully pursued thousands of innocent subpostmasters for financial shortfalls.\nPeople went to prison and lost homes, and the scandal has been linked to suicides."
+  },
+  {
+    "objectID": "slides/slides-04-01.html#case-horizon-it-scandal-1",
+    "href": "slides/slides-04-01.html#case-horizon-it-scandal-1",
+    "title": "History of transformative technologies: Automation bias",
+    "section": "Case: Horizon IT scandal",
+    "text": "Case: Horizon IT scandal\nSome of the bugs in Fujitsu’s Horizon system\n\n“Dalmellington bug”: the system would enter repeated withdrawals in the ledger every time the user pressed “enter” at a frozen interface screen\n“Callendar Square bug”: the system would create duplicate database entries in the ledger\n\nSubpostmasters used the available helpline to report balancing errors within weeks of the Horizon system being installed."
+  },
+  {
+    "objectID": "slides/slides-04-01.html#case-horizon-it-scandal-2",
+    "href": "slides/slides-04-01.html#case-horizon-it-scandal-2",
+    "title": "History of transformative technologies: Automation bias",
+    "section": "Case: Horizon IT scandal",
+    "text": "Case: Horizon IT scandal\n\n1999: Fujitsu’s Horizon system rolled out. Fujitsu was aware that Horizon contained software bugs. The Post Office insisted that Horizon was robust\n1999–2015: Over 900 sub-postmasters convicted of theft, fraud, and false accounting based on Horizon data\n2009: Computer Weekly reports on the problems with Horizon\n2012: Forensic accountants begin an investigation into Horizon\n2019: High Court rules Horizon had “bugs, errors and defects”\n2020-2024: Courts/Parliament revert the subpostmasters’ convictions"
+  },
+  {
+    "objectID": "slides/slides-04-01.html#group-discussion-ethics-frameworks",
+    "href": "slides/slides-04-01.html#group-discussion-ethics-frameworks",
+    "title": "History of transformative technologies: Automation bias",
+    "section": "Group Discussion: Ethics frameworks",
+    "text": "Group Discussion: Ethics frameworks\n\nDeontology: What duties did engineers and managers have, regardless of the outcome? Which ACM values were violated?\nConsequentialism: What are the usual benefits of using accounting software? Did the benefits outweigh the harm in this case study?\nPolitical economy: Who bore the costs of the “bugs, errors and defects” in this case study? Who profited from it?\nContractualism: Could the Post Office’s decision to keep using Horizon despite reported problems be justified to everyone affected?"
+  },
+  {
+    "objectID": "index.html#slides-2",
+    "href": "index.html#slides-2",
+    "title": "CSCI 3921W - Social, Legal, and Ethical Issues in Computing",
+    "section": "Slides",
+    "text": "Slides\n\nHistory of transformative technologies: Automation bias\nHistory of transformative technologies: Unequal harms\nHistory of transformative technologies: Reactive regulation\nCase Study: Ariane Flight V88\nCase Studies"
+  },
+  {
+    "objectID": "slides/slides-04-04.html",
+    "href": "slides/slides-04-04.html",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "",
+    "text": "Q&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/slides-04-04.html#qa-10-minutes",
+    "href": "slides/slides-04-04.html#qa-10-minutes",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Q&A (10 minutes)",
+    "text": "Q&A (10 minutes)\nQ&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/slides-04-04.html#warm-up",
+    "href": "slides/slides-04-04.html#warm-up",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Warm-up",
+    "text": "Warm-up\nBefore we start, answer in your journal:\nThink of a time you used existing code (a function, a library, a Stack Overflow snippet, AI-generated code) without fully checking it.\n\nWhat assumptions did that code make?\nHow did you know they held in your context?"
+  },
+  {
+    "objectID": "slides/slides-04-04.html#what-happened",
+    "href": "slides/slides-04-04.html#what-happened",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "What happened",
+    "text": "What happened\n\n1996 flight of the European Space Agency’s (ESA) new Ariane 5 rocket\nAbout 37 seconds after lift-off, the rocket veered off course, began to break apart, and self-destructed\nPayload: the four Cluster satellites, a scientific mission to study Earth’s magnetosphere\nCost: roughly US$370 million in rocket and payload (commonly cited figure), on top of a decade of development\nNo one was killed"
+  },
+  {
+    "objectID": "slides/slides-04-04.html#why-study-a-failure-where-no-one-died",
+    "href": "slides/slides-04-04.html#why-study-a-failure-where-no-one-died",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Why study a failure where no one died?",
+    "text": "Why study a failure where no one died?\n\nIt is one of the most expensive software bugs in history\nThe bug itself was small and well understood\nThe failure was not really about one line of code; it was about assumptions, reuse, testing, and organizational decisions\nIt raises a question we will keep returning to: who is responsible when a complex system fails?"
+  },
+  {
+    "objectID": "slides/slides-04-04.html#the-technical-cause",
+    "href": "slides/slides-04-04.html#the-technical-cause",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "The technical cause",
+    "text": "The technical cause\n\nThe rocket’s Inertial Reference System (SRI) tells the flight computer where the rocket is and how it’s moving\nCode from a previous successful Ariane version was reused\nOne calculation converted a 64-bit floating-point number (related to horizontal velocity) into a 16-bit signed integer\nAriane 5 was faster than Ariane 4\nThe value was too big to fit which caused an operand error (overflow) with the exception not handled"
+  },
+  {
+    "objectID": "slides/slides-04-04.html#the-technical-cause-1",
+    "href": "slides/slides-04-04.html#the-technical-cause-1",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "The technical cause",
+    "text": "The technical cause\nThe calculation that failed served no purpose after lift-off.\n\nIt was part of an alignment function only needed before launch\nOn Ariane 4, it kept running for ~40 seconds after lift-off, a feature that allowed a quick restart if the countdown was held\nAriane 5 did not need this feature, but it was kept because “it worked” and changing it was seen as a risk"
+  },
+  {
+    "objectID": "slides/slides-04-04.html#why-wasnt-it-caught",
+    "href": "slides/slides-04-04.html#why-wasnt-it-caught",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Why wasn’t it caught?",
+    "text": "Why wasn’t it caught?\nFrom the Inquiry Board report (Lions et al., 1996):\n\nThe specifications did not include Ariane 5 trajectory data\nNo full system test was run"
+  },
+  {
+    "objectID": "slides/slides-04-04.html#key-quote",
+    "href": "slides/slides-04-04.html#key-quote",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Key quote",
+    "text": "Key quote\n\n“The exception which occurred was not due to random failure but a design error. The exception was detected, but inappropriately handled because the view had been taken that software should be considered correct until it is shown to be at fault. […] The Board is in favour of the opposite view, that software should be assumed to be faulty until applying the currently accepted best practice methods can demonstrate that it is correct.”\n– Ariane 501 Inquiry Board Report, 1996"
+  },
+  {
+    "objectID": "slides/slides-04-04.html#aftermath",
+    "href": "slides/slides-04-04.html#aftermath",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Aftermath",
+    "text": "Aftermath\n\nThe Inquiry Board issued 14 recommendations (e.g., turn off functions not needed in flight, test with real equipment, have sensors send best-effort data instead of stopping)\nThe Cluster mission was rebuilt (Cluster II) and launched in 2000 on Russian Soyuz rockets\nAriane 5 went on to become one of the most reliable launchers, including launching the James Webb Space Telescope (2021)\nScientists lost years of work\nEuropean taxpayers paid for the loss"
+  },
+  {
+    "objectID": "slides/slides-04-04.html#the-problem-of-many-hands",
+    "href": "slides/slides-04-04.html#the-problem-of-many-hands",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "The problem of many hands",
+    "text": "The problem of many hands\nHelen Nissenbaum (1996), written the same year as Flight 501, identifies barriers to accountability in computing:\n\nthe problem of many hands: so many people contribute that no one feels responsible\nthe problem of bugs: treating software errors as inevitable, “just how software is”\nblaming the computer: “the computer did it”\nsoftware ownership without liability: vendors disclaim responsibility\n\nWhich of these do you see in Ariane 5?"
+  },
+  {
+    "objectID": "slides/slides-04-04.html#connection-to-professional-codes",
+    "href": "slides/slides-04-04.html#connection-to-professional-codes",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Connection to professional codes",
+    "text": "Connection to professional codes\nACM Code of Ethics:\n\n2.1 Strive to achieve high quality in both the processes and products of professional work\n2.5 Give comprehensive and thorough evaluations of computer systems and their impacts, including analysis of possible risks\n2.6 Perform work only in areas of competence"
+  },
+  {
+    "objectID": "slides/slides-04-04.html#group-discussion-1-responsibility",
+    "href": "slides/slides-04-04.html#group-discussion-1-responsibility",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Group Discussion 1: Responsibility",
+    "text": "Group Discussion 1: Responsibility\n\nWho is responsible for the failure of Flight 501?\nWhat is the difference between “no single person is to blame” versus “no one is responsible”?\nThe code was reused because it was proven reliable. When does reuse make systems safer, and when does it make them more dangerous?\n“It worked on Ariane 4” was treated as evidence of correctness. What is the difference between a system that has not failed and a system that is correct?\nThe full system was never tested with real equipment, partly because of cost. Who should decide how much testing is “enough,” and on what basis?"
+  },
+  {
+    "objectID": "slides/slides-04-04.html#group-discussion-2-reuse-and-assumptions",
+    "href": "slides/slides-04-04.html#group-discussion-2-reuse-and-assumptions",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Group Discussion 2: Reuse and assumptions",
+    "text": "Group Discussion 2: Reuse and assumptions\n\nThe code was reused because it was proven reliable. When does reuse make systems safer, and when does it make them more dangerous?\nThe overflow protection was removed for performance reasons. How should engineers weigh efficiency against safety margins?\nToday we routinely use open-source libraries, APIs, pre-trained models built for other contexts, and LLM-generated code. What are the risks in modern software?"
+  },
+  {
+    "objectID": "slides/slides-04-04.html#group-discussion-3-testing-and-culture",
+    "href": "slides/slides-04-04.html#group-discussion-3-testing-and-culture",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Group Discussion 3: Testing and culture",
+    "text": "Group Discussion 3: Testing and culture\n\n“It worked on Ariane 4” was treated as evidence of correctness. What is the difference between a system that has not failed and a system that is correct?\nThe full system was never tested with real equipment, partly because of cost. Who should decide how much testing is “enough,” and on what basis?\nWould you speak up if you noticed an untested assumption close to a launch deadline? What would make it easier or harder?"
+  },
+  {
+    "objectID": "slides/slides-04-04.html#group-discussion-4-ethics-frameworks",
+    "href": "slides/slides-04-04.html#group-discussion-4-ethics-frameworks",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Group Discussion 4: Ethics frameworks",
+    "text": "Group Discussion 4: Ethics frameworks\nEach group takes one framework:\n\nConsequentialism: Who bore the costs of the failure? Would the outcome judgment change if the payoff had been astronauts instead of satellites?\nDeontology: What duties did engineers and managers have, regardless of the outcome? Which ACM principles were violated, if any?\nVirtue ethics: Which of Vallor’s technomoral virtues (e.g., humility, perspective, technomoral wisdom) were missing?\nContractualism: Could the decision to skip full system testing be justified to everyone affected?"
+  },
+  {
+    "objectID": "slides/slides-04-04.html#bringing-it-forward",
+    "href": "slides/slides-04-04.html#bringing-it-forward",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Bringing it forward",
+    "text": "Bringing it forward\nAriane 5 is not an isolated case. Compare:\n\nPatriot missile, Dhahran (1991): a floating-point rounding error accumulated over time; 28 soldiers killed\nTherac-25 (1985–87): reused software from an earlier machine, with the hardware safety interlocks removed\nBoeing 737 MAX (2018–19): software designed around assumptions about a single sensor and about pilot response\n\nWhat patterns do you see across these cases?"
+  },
+  {
+    "objectID": "slides/slides-04-04.html#references-and-further-readings",
+    "href": "slides/slides-04-04.html#references-and-further-readings",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "References and Further Readings",
+    "text": "References and Further Readings\n\nLions, J. L. et al. (1996). Ariane 5 Flight 501 Failure: Report by the Inquiry Board\nJézéquel, J.-M., & Meyer, B. (1997). Design by contract: The lessons of Ariane. IEEE Computer, 30(1), 129–130.\nNuseibeh, B. (1997). Ariane 5: Who dunnit? IEEE Software, 14(3), 15–16.\nNissenbaum, H. (1996). Accountability in a computerized society. Science and Engineering Ethics, 2(1), 25–42.\nArnold, D. N. Some disasters attributable to bad numerical computing (UMN)\nACM Code of Ethics and Professional Conduct"
+  },
+  {
+    "objectID": "slides/slides-04-04.html#journal-writing",
+    "href": "slides/slides-04-04.html#journal-writing",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Journal Writing",
+    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked of disliked"
+  },
+  {
+    "objectID": "slides/slides-04-case_studies-2.html",
+    "href": "slides/slides-04-case_studies-2.html",
+    "title": "Untitled",
+    "section": "",
+    "text": "Technologies are often tested on and deployed first on people with the least power to refuse (welfare recipients, immigrants, prisoners, poor neighborhoods)\nWhen the system fails, those groups have the fewest resources to fight back\nTheir complaints are often less likely to be believed\n\n\nAutomated systems “manage the poor so that we do not have to” – Virginia Eubanks, Automating Inequality (2018)\n\n\n\n\n\n\n\nYear\nEvent\n\n\n\n\n2018\nGender Shades (Buolamwini & Gebru): error rates up to 34.7% for darker-skinned women vs 0.8% for lighter-skinned men\n\n\n2019\nNIST study finds many algorithms have much higher false positive rates for Asian and Black faces\n\n\n2020\nRobert Williams wrongfully arrested in Detroit in front of his family, based on a facial recognition match\n\n\n2020\nIBM exits facial recognition; Amazon and Microsoft pause sales to police\n\n\n2023\nPorcha Woodruff, eight months pregnant, wrongfully arrested in Detroit\n\n\n2024\nWilliams settlement: Detroit police can no longer arrest based on facial recognition alone\n\n\n\nNearly all publicly known US wrongful arrests from facial recognition involve Black people.\n\n\n\n\nCOMPAS predicts whether a defendant will reoffend; judges use the score in bail and sentencing decisions\nProPublica (2016): Black defendants who did not reoffend were almost twice as likely as white defendants to be labeled high-risk (45% vs 23%)\nThe company responded that the scores were equally accurate across groups\nBoth can be true at once: different definitions of “fair” can be mathematically incompatible (more on this in Week 7)\n2016: Wisconsin Supreme Court (State v. Loomis) allows COMPAS in sentencing, with warnings\n\n\n\n\n\n\n\nYear\nEvent\n\n\n\n\n2013\nDutch Tax Administration increases fraud checks on childcare benefits, using a risk model\n\n\n2013–2019\nTens of thousands of families wrongly accused of fraud and ordered to repay benefits; dual nationality used as a risk factor\n\n\n2019\nJournalists expose the scandal\n\n\n2020\nParliamentary report titled Unprecedented Injustice\n\n\n2021\nThe entire Dutch government resigns (January)\n\n\n2021\nDutch Data Protection Authority fines the Tax Administration €2.75 million for discriminatory data processing; Amnesty publishes Xenophobic Machines\n\n\n\nFamilies were pushed into debt, and more than a thousand children were placed in out-of-home care.\n\n\n\n\nA gas leak at a Union Carbide pesticide plant in Bhopal, India, killed thousands of people and injured hundreds of thousands\nThe plant’s safety systems were weaker than those at the company’s similar plant in West Virginia\nVictims were mostly poor residents of the slums around the plant\nThe 1989 settlement: US$470 million, about US$500 per victim in many cases\n\nThe same pattern shows up in physical and digital technologies.\n\n\n\n\nWhy are new automated systems often deployed first on welfare, immigration, and policing?\nRobert Williams and the Dutch families were told “the system flagged you.” How does automation bias make unequal harms worse?\nWho should be in the room when a system like COMPAS or the Dutch risk model is designed?\nUsing an intersectional lens: whose experiences would Gender Shades have missed if it had only looked at race or only at gender?"
+  },
+  {
+    "objectID": "slides/slides-04-case_studies-2.html#who-bears-the-risk",
+    "href": "slides/slides-04-case_studies-2.html#who-bears-the-risk",
+    "title": "Untitled",
+    "section": "",
+    "text": "Technologies are often tested on and deployed first on people with the least power to refuse (welfare recipients, immigrants, prisoners, poor neighborhoods)\nWhen the system fails, those groups have the fewest resources to fight back\nTheir complaints are often less likely to be believed\n\n\nAutomated systems “manage the poor so that we do not have to” – Virginia Eubanks, Automating Inequality (2018)"
+  },
+  {
+    "objectID": "slides/slides-04-case_studies-2.html#case-facial-recognition",
+    "href": "slides/slides-04-case_studies-2.html#case-facial-recognition",
+    "title": "Untitled",
+    "section": "",
+    "text": "Year\nEvent\n\n\n\n\n2018\nGender Shades (Buolamwini & Gebru): error rates up to 34.7% for darker-skinned women vs 0.8% for lighter-skinned men\n\n\n2019\nNIST study finds many algorithms have much higher false positive rates for Asian and Black faces\n\n\n2020\nRobert Williams wrongfully arrested in Detroit in front of his family, based on a facial recognition match\n\n\n2020\nIBM exits facial recognition; Amazon and Microsoft pause sales to police\n\n\n2023\nPorcha Woodruff, eight months pregnant, wrongfully arrested in Detroit\n\n\n2024\nWilliams settlement: Detroit police can no longer arrest based on facial recognition alone\n\n\n\nNearly all publicly known US wrongful arrests from facial recognition involve Black people."
+  },
+  {
+    "objectID": "slides/slides-04-case_studies-2.html#case-compas-risk-scores-2016",
+    "href": "slides/slides-04-case_studies-2.html#case-compas-risk-scores-2016",
+    "title": "Untitled",
+    "section": "",
+    "text": "COMPAS predicts whether a defendant will reoffend; judges use the score in bail and sentencing decisions\nProPublica (2016): Black defendants who did not reoffend were almost twice as likely as white defendants to be labeled high-risk (45% vs 23%)\nThe company responded that the scores were equally accurate across groups\nBoth can be true at once: different definitions of “fair” can be mathematically incompatible (more on this in Week 7)\n2016: Wisconsin Supreme Court (State v. Loomis) allows COMPAS in sentencing, with warnings"
+  },
+  {
+    "objectID": "slides/slides-04-case_studies-2.html#case-dutch-childcare-benefits-scandal",
+    "href": "slides/slides-04-case_studies-2.html#case-dutch-childcare-benefits-scandal",
+    "title": "Untitled",
+    "section": "",
+    "text": "Year\nEvent\n\n\n\n\n2013\nDutch Tax Administration increases fraud checks on childcare benefits, using a risk model\n\n\n2013–2019\nTens of thousands of families wrongly accused of fraud and ordered to repay benefits; dual nationality used as a risk factor\n\n\n2019\nJournalists expose the scandal\n\n\n2020\nParliamentary report titled Unprecedented Injustice\n\n\n2021\nThe entire Dutch government resigns (January)\n\n\n2021\nDutch Data Protection Authority fines the Tax Administration €2.75 million for discriminatory data processing; Amnesty publishes Xenophobic Machines\n\n\n\nFamilies were pushed into debt, and more than a thousand children were placed in out-of-home care."
+  },
+  {
+    "objectID": "slides/slides-04-case_studies-2.html#a-historical-parallel-bhopal-1984",
+    "href": "slides/slides-04-case_studies-2.html#a-historical-parallel-bhopal-1984",
+    "title": "Untitled",
+    "section": "",
+    "text": "A gas leak at a Union Carbide pesticide plant in Bhopal, India, killed thousands of people and injured hundreds of thousands\nThe plant’s safety systems were weaker than those at the company’s similar plant in West Virginia\nVictims were mostly poor residents of the slums around the plant\nThe 1989 settlement: US$470 million, about US$500 per victim in many cases\n\nThe same pattern shows up in physical and digital technologies."
+  },
+  {
+    "objectID": "slides/slides-04-case_studies-2.html#group-discussion-unequal-harms",
+    "href": "slides/slides-04-case_studies-2.html#group-discussion-unequal-harms",
+    "title": "Untitled",
+    "section": "",
+    "text": "Why are new automated systems often deployed first on welfare, immigration, and policing?\nRobert Williams and the Dutch families were told “the system flagged you.” How does automation bias make unequal harms worse?\nWho should be in the room when a system like COMPAS or the Dutch risk model is designed?\nUsing an intersectional lens: whose experiences would Gender Shades have missed if it had only looked at race or only at gender?"
+  },
+  {
+    "objectID": "slides/slides-04-case_studies-2.html#tombstone-regulation",
+    "href": "slides/slides-04-case_studies-2.html#tombstone-regulation",
+    "title": "Untitled",
+    "section": "Tombstone regulation",
+    "text": "Tombstone regulation\n\nIn aviation safety, “tombstone mentality” means waiting for deaths before fixing a known problem\nLaws and regulators usually react to disasters rather than prevent them\nRecall Moor’s policy vacuum and regulatory lag from last week"
+  },
+  {
+    "objectID": "slides/slides-04-case_studies-2.html#the-collingridge-dilemma",
+    "href": "slides/slides-04-case_studies-2.html#the-collingridge-dilemma",
+    "title": "Untitled",
+    "section": "The Collingridge dilemma",
+    "text": "The Collingridge dilemma\nDavid Collingridge, The Social Control of Technology (1980):\n\nEarly on, a technology is easy to change, but we don’t know its harms yet\nLater, the harms are clear, but the technology is entrenched and hard to change\n\n\nBy the time we know enough to regulate, it may be too late to regulate easily."
+  },
+  {
+    "objectID": "slides/slides-04-case_studies-2.html#timeline-disaster-regulation",
+    "href": "slides/slides-04-case_studies-2.html#timeline-disaster-regulation",
+    "title": "Untitled",
+    "section": "Timeline: Disaster → regulation",
+    "text": "Timeline: Disaster → regulation\n\n\n\n\n\n\n\nDisaster\nRegulation\n\n\n\n\n1912: Titanic sinks (1,500+ deaths)\n1914: International Convention for the Safety of Life at Sea (SOLAS)\n\n\n1937: Elixir Sulfanilamide poisoning (100+ deaths)\n1938: Federal Food, Drug, and Cosmetic Act (drugs must be proven safe)\n\n\n1957–1961: Thalidomide (10,000+ children with birth defects)\n1962: Kefauver–Harris Amendment (drugs must be proven effective; informed consent)\n\n\n1984: Bhopal gas leak\n1986: US Emergency Planning and Community Right-to-Know Act\n\n\n1985–1987: Therac-25\n1990: Safe Medical Devices Act; later, software standards for medical devices (IEC 62304, 2006)\n\n\n2018: Cambridge Analytica\n2019: FTC fines Facebook US$5 billion\n\n\n2018–2019: Boeing 737 MAX crashes (346 deaths)\n2020: Aircraft Certification, Safety, and Accountability Act"
+  },
+  {
+    "objectID": "slides/slides-04-case_studies-2.html#case-thalidomide-and-frances-kelsey",
+    "href": "slides/slides-04-case_studies-2.html#case-thalidomide-and-frances-kelsey",
+    "title": "Untitled",
+    "section": "Case: Thalidomide and Frances Kelsey",
+    "text": "Case: Thalidomide and Frances Kelsey\n\n1957: Thalidomide sold in West Germany as a safe sedative, also taken for morning sickness\n1960: At the US FDA, reviewer Frances Kelsey refuses to approve it, asking for more safety data despite pressure from the manufacturer\n1961: The drug is linked to severe birth defects and withdrawn\nThe US mostly avoided the disaster, but the law changed only after the harm abroad became visible\n\nWhat does Kelsey’s story say about the role of individuals within institutions?"
+  },
+  {
+    "objectID": "slides/slides-04-case_studies-2.html#case-boeing-737-max",
+    "href": "slides/slides-04-case_studies-2.html#case-boeing-737-max",
+    "title": "Untitled",
+    "section": "Case: Boeing 737 MAX",
+    "text": "Case: Boeing 737 MAX\n\n\n\n\n\n\n\nDate\nEvent\n\n\n\n\n2011\nBoeing launches the 737 MAX to compete with Airbus; goal is to avoid expensive pilot retraining\n\n\n2017\nAircraft certified; much of the safety assessment delegated to Boeing employees; MCAS software barely mentioned in pilot manuals\n\n\nOct 2018\nLion Air Flight 610 crashes (189 deaths); MCAS relied on a single faulty sensor\n\n\nMar 2019\nEthiopian Airlines Flight 302 crashes (157 deaths); worldwide grounding\n\n\nDec 2020\nUS Congress passes the Aircraft Certification, Safety, and Accountability Act"
+  },
+  {
+    "objectID": "slides/slides-04-case_studies-2.html#is-proactive-regulation-possible",
+    "href": "slides/slides-04-case_studies-2.html#is-proactive-regulation-possible",
+    "title": "Untitled",
+    "section": "Is proactive regulation possible?",
+    "text": "Is proactive regulation possible?\nSome counterexamples:\n\n1975, Asilomar: scientists paused and set guidelines for recombinant DNA research before any harm\n1987, Montreal Protocol: countries phased out CFCs soon after the ozone hole was discovered, before the worst damage\n2024, EU AI Act: bans some AI uses (e.g., social scoring) and sets rules by risk level before most harms occur\n2025, Australia: minimum age of 16 for social media accounts\n\nCritics argue proactive regulation can slow innovation or target the wrong risks. Supporters point to the precautionary principle (Rio Declaration, 1992, Principle 15)."
+  },
+  {
+    "objectID": "slides/slides-04-case_studies-2.html#group-discussion-reactive-regulation",
+    "href": "slides/slides-04-case_studies-2.html#group-discussion-reactive-regulation",
+    "title": "Untitled",
+    "section": "Group Discussion: Reactive regulation",
+    "text": "Group Discussion: Reactive regulation\n\nWhy do laws usually come after disasters? Think about who has information, money, and power before and after.\nIn most of our cases, someone warned about the problem before the disaster. Why weren’t they heard?\nIs the EU AI Act a solution to the Collingridge dilemma, or does it just move the problem?\nIf you could pass one proactive law about AI today, what would it be? What disaster would it be trying to prevent?"
+  },
+  {
+    "objectID": "slides/slides-04-case_studies-2.html#the-patterns-overlap",
+    "href": "slides/slides-04-case_studies-2.html#the-patterns-overlap",
+    "title": "Untitled",
+    "section": "The patterns overlap",
+    "text": "The patterns overlap\nRobodebt shows all three:\n\nAutomation bias: the government trusted the algorithm over the people receiving welfare\nUnequal harms: the targets were people on welfare, many of them in financial crisis\nReactive regulation: action came only after court cases, a class action, and a Royal Commission"
+  },
+  {
+    "objectID": "slides/slides-04-case_studies-2.html#group-activity",
+    "href": "slides/slides-04-case_studies-2.html#group-activity",
+    "title": "Untitled",
+    "section": "Group Activity",
+    "text": "Group Activity\nIn your group, pick one case from today (or another transformative technology you know) and build a short timeline:\n\nBefore: What warnings existed? Who raised them?\nHarm: Who was harmed? Who was not?\nAfter: What changed (law, policy, practice, nothing)?\n\nThen answer:\n\nWhich of the three patterns show up in your case?\nAt which point on the timeline could an engineer have changed the outcome?\n\nBe prepared to share with the class."
+  },
+  {
+    "objectID": "slides/slides-04-case_studies-2.html#connection-to-paper-1",
+    "href": "slides/slides-04-case_studies-2.html#connection-to-paper-1",
+    "title": "Untitled",
+    "section": "Connection to Paper 1",
+    "text": "Connection to Paper 1\nYour technology analysis (first draft due Oct 7) can use these patterns as lenses:\n\nDoes the technology invite automation bias?\nWho bears its risks, and who gets its benefits?\nIs there a policy vacuum, or has regulation lagged behind?"
+  },
+  {
+    "objectID": "slides/slides-04-case_studies-2.html#references-and-further-readings",
+    "href": "slides/slides-04-case_studies-2.html#references-and-further-readings",
+    "title": "Untitled",
+    "section": "References and Further Readings",
+    "text": "References and Further Readings\n\nSkitka, L. J., Mosier, K. L., & Burdick, M. (1999). Does automation bias decision-making? International Journal of Human-Computer Studies, 51(5), 991–1006.\nLeveson, N. G., & Turner, C. S. (1993). An investigation of the Therac-25 accidents. IEEE Computer, 26(7), 18–41.\nPost Office Horizon IT Inquiry\nRoyal Commission into the Robodebt Scheme (2023)\nBuolamwini, J., & Gebru, T. (2018). Gender Shades.\nAngwin, J., et al. (2016). Machine Bias. ProPublica.\nAmnesty International (2021). Xenophobic Machines.\nEubanks, V. (2018). Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor. St. Martin’s Press.\nBenjamin, R. (2019). Race After Technology: Abolitionist Tools for the New Jim Code. Polity.\nCollingridge, D. (1980). The Social Control of Technology. Frances Pinter."
+  },
+  {
+    "objectID": "slides/sllides-04-case_studies-1.html",
+    "href": "slides/sllides-04-case_studies-1.html",
+    "title": "Untitled",
+    "section": "",
+    "text": "A computer-controlled radiation therapy machine that gave massive overdoses to patients.\n\n\n\nYear\nEvent\n\n\n\n\n1982\nTherac-25 introduced; hardware safety interlocks from earlier models replaced by software checks\n\n\n1985\nFirst overdoses (Georgia, Ontario, Washington); manufacturer insists an overdose is impossible\n\n\n1986\nTwo overdoses in Tyler, Texas; the machine shows a cryptic “Malfunction 54” and operators press P to proceed\n\n\n1986\nFDA declares the machine defective and requires a corrective action plan\n\n\n1987\nAnother overdose in Washington; machines taken out of routine use\n\n\n1993\nLeveson & Turner publish the full investigation\n\n\n\nSix known accidents, at least three deaths.\n\nTherac-25 operators saw “Malfunction 54” many times a day. What happens when a system gives so many warnings that people learn to ignore them?"
+  },
+  {
+    "objectID": "slides/sllides-04-case_studies-1.html#case-therac-25-19851987",
+    "href": "slides/sllides-04-case_studies-1.html#case-therac-25-19851987",
+    "title": "Untitled",
+    "section": "",
+    "text": "A computer-controlled radiation therapy machine that gave massive overdoses to patients.\n\n\n\nYear\nEvent\n\n\n\n\n1982\nTherac-25 introduced; hardware safety interlocks from earlier models replaced by software checks\n\n\n1985\nFirst overdoses (Georgia, Ontario, Washington); manufacturer insists an overdose is impossible\n\n\n1986\nTwo overdoses in Tyler, Texas; the machine shows a cryptic “Malfunction 54” and operators press P to proceed\n\n\n1986\nFDA declares the machine defective and requires a corrective action plan\n\n\n1987\nAnother overdose in Washington; machines taken out of routine use\n\n\n1993\nLeveson & Turner publish the full investigation\n\n\n\nSix known accidents, at least three deaths.\n\nTherac-25 operators saw “Malfunction 54” many times a day. What happens when a system gives so many warnings that people learn to ignore them?"
+  },
+  {
+    "objectID": "slides/sllides-04-case_studies-1.html#case-robodebt-australia-20162019",
+    "href": "slides/sllides-04-case_studies-1.html#case-robodebt-australia-20162019",
+    "title": "Untitled",
+    "section": "Case: Robodebt (Australia, 2016–2019)",
+    "text": "Case: Robodebt (Australia, 2016–2019)\nAn automated system that calculated welfare “overpayments” and sent debt notices.\n\n\n\nYear\nEvent\n\n\n\n\n2016\nSystem launched: it averaged annual tax income across fortnights, which assumed steady income\n\n\n2016–2019\nAbout 470,000 debts wrongly issued; recipients had to prove they did not owe the money\n\n\n2019\nGovernment concedes in Federal Court that income averaging was unlawful\n\n\n2020–21\nClass action settled: about A$1.8 billion in refunds, cancelled debts, and compensation\n\n\n2023\nRoyal Commission calls it a “crude and cruel mechanism, neither fair nor legal”\n\n\n\n\nWhere do you see automation bias today (e.g., AI-generated code, AI detectors in education, credit scores)?"
+  },
+  {
+    "objectID": "slides/slides-04-02.html",
+    "href": "slides/slides-04-02.html",
+    "title": "History of transformative technologies: Unequal harms",
+    "section": "",
+    "text": "When we look back at the history of transformative technologies, some patterns keep repeating:\n\nAutomation bias: trusting software more than people, including ourselves\nUnequal harms: the costs fall mostly on marginalized groups\nReactive regulation: regulation/layws arrive only after a disaster\n\nWe will look at each pattern through historical cases and timelines."
+  },
+  {
+    "objectID": "slides/slides-04-02.html#three-recurring-patterns",
+    "href": "slides/slides-04-02.html#three-recurring-patterns",
+    "title": "History of transformative technologies: Unequal harms",
+    "section": "Three recurring patterns",
+    "text": "Three recurring patterns\nWhen we look back at the history of transformative technologies, some patterns keep repeating:\n\nAutomation bias: trusting software more than people, including ourselves\nUnequal harms: the costs fall mostly on marginalized groups\nReactive regulation: regulation/laws arrive only after a disaster\n\nWe are looking at each pattern through historical cases and timelines. We covered Automation bias and now we will address Unequal harms"
+  },
+  {
+    "objectID": "slides/slides-04-02.html#who-bears-the-risk",
+    "href": "slides/slides-04-02.html#who-bears-the-risk",
+    "title": "History of transformative technologies: Unequal harms",
+    "section": "Who bears the risk?",
+    "text": "Who bears the risk?\n\nTechnologies are often tested on and deployed first on people with the least power to refuse (welfare recipients, immigrants, prisoners, poor neighborhoods)\nWhen the system fails, those groups have the fewest resources to fight back\nTheir complaints are often less likely to be believed\n\n\nAutomated systems “manage the poor so that we do not have to” – Virginia Eubanks, Automating Inequality (2018)"
+  },
+  {
+    "objectID": "slides/slides-04-02.html#case-facial-recognition",
+    "href": "slides/slides-04-02.html#case-facial-recognition",
+    "title": "History of transformative technologies: Unequal harms",
+    "section": "Case: Facial recognition",
+    "text": "Case: Facial recognition\n\n\n\nYear\nEvent\n\n\n\n\n2018\nGender Shades (Buolamwini & Gebru): error rates up to 34.7% for darker-skinned women vs 0.8% for lighter-skinned men\n\n\n2019\nNIST study finds many algorithms have much higher false positive rates for Asian and Black faces\n\n\n2020\nRobert Williams wrongfully arrested in Detroit in front of his family, based on a facial recognition match\n\n\n2021\nKimberlee Williams wrongfully arrested based on a facial recognition match\n\n\n2023\nPorcha Woodruff wrongfully arrested in Detroit\n\n\n2024\nWilliams settlement: Detroit Police Department is required to back up face recognition results with independent and reliable evidence\n\n\n\nNearly all publicly known US wrongful arrests from facial recognition involve Black people."
+  },
+  {
+    "objectID": "slides/slides-04-02.html#case-compas-risk-scores-2016",
+    "href": "slides/slides-04-02.html#case-compas-risk-scores-2016",
+    "title": "History of transformative technologies: Unequal harms",
+    "section": "Case: COMPAS risk scores (2016)",
+    "text": "Case: COMPAS risk scores (2016)\n\nCOMPAS (Correctional Offender Management Profiling for Alternative Sanctions) predicts whether a defendant will reoffend. Judges use the score in bail and sentencing decisions\nProPublica (2016): Black defendants who did not reoffend were almost twice as likely as white defendants to be labeled high-risk (45% vs 23%)\nThe company responded that the scores were equally accurate across groups\n2016: Wisconsin Supreme Court (State v. Loomis) allows COMPAS in sentencing, with warnings"
+  },
+  {
+    "objectID": "slides/slides-04-02.html#case-dutch-childcare-benefits-scandal",
+    "href": "slides/slides-04-02.html#case-dutch-childcare-benefits-scandal",
+    "title": "History of transformative technologies: Unequal harms",
+    "section": "Case: Dutch childcare benefits scandal",
+    "text": "Case: Dutch childcare benefits scandal\n\n\n\nYear\nEvent\n\n\n\n\n2013\nDutch Tax Administration increases fraud checks on childcare benefits, using a risk model\n\n\n2013–2019\nTens of thousands of families wrongly accused of fraud and ordered to repay benefits; dual nationality used as a risk factor\n\n\n2019\nJournalists expose the scandal\n\n\n2020\nParliamentary report titled Unprecedented Injustice\n\n\n2021\nThe entire Dutch government resigns (January)\n\n\n2021\nDutch Data Protection Authority fines the Tax Administration €2.75 million for discriminatory data processing; Amnesty publishes Xenophobic Machines\n\n\n\nFamilies were pushed into debt, and more than a thousand children were placed in out-of-home care."
+  },
+  {
+    "objectID": "slides/slides-04-02.html#a-historical-parallel-bhopal-1984",
+    "href": "slides/slides-04-02.html#a-historical-parallel-bhopal-1984",
+    "title": "History of transformative technologies: Unequal harms",
+    "section": "A historical parallel: Bhopal (1984)",
+    "text": "A historical parallel: Bhopal (1984)\n\nA gas leak at a Union Carbide pesticide plant in Bhopal, India, killed thousands of people and injured hundreds of thousands\nThe plant’s safety systems were weaker than those at the company’s similar plant in West Virginia\nVictims were mostly poor residents of the slums around the plant\nThe 1989 settlement: US$470 million, about US$500 per victim in many cases\n\nThe same pattern shows up in physical and digital technologies."
+  },
+  {
+    "objectID": "slides/slides-04-02.html#group-discussion-unequal-harms",
+    "href": "slides/slides-04-02.html#group-discussion-unequal-harms",
+    "title": "History of transformative technologies: Unequal harms",
+    "section": "Group Discussion: Unequal harms",
+    "text": "Group Discussion: Unequal harms\n\nWhy are newly developed automated systems often deployed first by police and the incarceration system? (and immigration)\nWho should be in the room when system like face recognition and COMPAS is designed?\nWhat type of error can the use of COMPAS cause (think back to automation bias errors: omission or commission)\nWhy do authorities so often presume that computers work correctly (even when affected people tell them that is not the case)? What would the alternative look like?"
+  },
+  {
+    "objectID": "slides/slides-04-02.html#group-discussion-ethics-frameworks",
+    "href": "slides/slides-04-02.html#group-discussion-ethics-frameworks",
+    "title": "History of transformative technologies: Unequal harms",
+    "section": "Group Discussion: Ethics frameworks",
+    "text": "Group Discussion: Ethics frameworks\n\nConsequentialism: What are the consequences of recidivism/reoffence? What are the consequences of judges’ inability to evaluate risk assessment tools? Intersectionality: Are the consequences of COMPAS the same across gender, race, and etnic background?\nPolitical economy: “The methodology behind COMPAS is a trade secret.” Who bears the costs of this lack of transparency? Who profits from it?\nContractualism: Could the use of opaque predictive systems be justified to everyone affected?"
+  },
+  {
+    "objectID": "slides/slides-04-03.html#three-recurring-patterns",
+    "href": "slides/slides-04-03.html#three-recurring-patterns",
+    "title": "History of transformative technologies: Reactive regulation",
+    "section": "Three recurring patterns",
+    "text": "Three recurring patterns\nWhen we look back at the history of transformative technologies, some patterns keep repeating:\n\nAutomation bias: trusting software more than people, including ourselves\nUnequal harms: the costs fall mostly on marginalized groups\nReactive regulation: regulation/laws arrive only after a disaster\n\nWe covered the first two through historical cases and timelines, in this lecture we will address Reactive regulation."
+  },
+  {
+    "objectID": "slides/slides-04-03.html#tombstone-regulation",
+    "href": "slides/slides-04-03.html#tombstone-regulation",
+    "title": "History of transformative technologies: Reactive regulation",
+    "section": "Tombstone regulation",
+    "text": "Tombstone regulation\n\nIn aviation safety, tombstone mentality means waiting for deaths before fixing a known problem\nLaws and regulators usually react to disasters rather than prevent them\nRecall Moor’s policy vacuum and regulatory lag"
+  },
+  {
+    "objectID": "slides/slides-04-03.html#the-collingridge-dilemma",
+    "href": "slides/slides-04-03.html#the-collingridge-dilemma",
+    "title": "History of transformative technologies: Reactive regulation",
+    "section": "The Collingridge dilemma",
+    "text": "The Collingridge dilemma\nDavid Collingridge, The Social Control of Technology (1980):\n\nEarly on, a technology is easy to change, but we don’t know its harms yet\nLater, the harms are clear, but the technology is entrenched and hard to change\n\n\nBy the time we know enough to regulate, it may be too late to regulate easily."
+  },
+  {
+    "objectID": "slides/slides-04-03.html#timeline-disaster-regulation",
+    "href": "slides/slides-04-03.html#timeline-disaster-regulation",
+    "title": "History of transformative technologies: Unequal harms",
+    "section": "Timeline: Disaster → regulation",
+    "text": "Timeline: Disaster → regulation\n\n\n\n\n\n\n\nDisaster\nRegulation\n\n\n\n\n1985–1987: Therac-25\n1990: Safe Medical Devices Act; later, software standards for medical devices (IEC 62304, 2006)\n\n\n2018: Cambridge Analytica\n2019: FTC fines Facebook US$5 billion"
+  },
+  {
+    "objectID": "slides/slides-04-03.html#case-thalidomide-and-frances-kelsey",
+    "href": "slides/slides-04-03.html#case-thalidomide-and-frances-kelsey",
+    "title": "History of transformative technologies: Unequal harms",
+    "section": "Case: Thalidomide and Frances Kelsey",
+    "text": "Case: Thalidomide and Frances Kelsey\n\n1957: Thalidomide sold in West Germany as a safe sedative, also taken for morning sickness\n1960: At the US FDA, reviewer Frances Kelsey refuses to approve it, asking for more safety data despite pressure from the manufacturer\n1961: The drug is linked to severe birth defects and withdrawn\nThe US mostly avoided the disaster, but the law changed only after the harm abroad became visible\n\nWhat does Kelsey’s story say about the role of individuals within institutions?"
+  },
+  {
+    "objectID": "slides/slides-04-03.html#case-boeing-737-max",
+    "href": "slides/slides-04-03.html#case-boeing-737-max",
+    "title": "History of transformative technologies: Unequal harms",
+    "section": "Case: Boeing 737 MAX",
+    "text": "Case: Boeing 737 MAX\n\n\n\n\n\n\n\nDate\nEvent\n\n\n\n\n2011\nBoeing launches the 737 MAX to compete with Airbus; goal is to avoid expensive pilot retraining\n\n\n2017\nAircraft certified; much of the safety assessment delegated to Boeing employees; MCAS software barely mentioned in pilot manuals\n\n\nOct 2018\nLion Air Flight 610 crashes (189 deaths); MCAS relied on a single faulty sensor\n\n\nMar 2019\nEthiopian Airlines Flight 302 crashes (157 deaths); worldwide grounding\n\n\nDec 2020\nUS Congress passes the Aircraft Certification, Safety, and Accountability Act"
+  },
+  {
+    "objectID": "slides/slides-04-03.html#is-proactive-regulation-possible",
+    "href": "slides/slides-04-03.html#is-proactive-regulation-possible",
+    "title": "History of transformative technologies: Unequal harms",
+    "section": "Is proactive regulation possible?",
+    "text": "Is proactive regulation possible?\n\n1975: Asilomar: scientists paused and set guidelines for recombinant DNA research before any harm\n1987: Montreal Protocol: countries phased out CFCs soon after the ozone hole was discovered, before the worst damage\n2024: EU AI Act: bans some AI uses and sets rules by risk level before most harms occur"
+  },
+  {
+    "objectID": "slides/slides-04-03.html#group-discussion-reactive-regulation",
+    "href": "slides/slides-04-03.html#group-discussion-reactive-regulation",
+    "title": "History of transformative technologies: Reactive regulation",
+    "section": "Group Discussion: Reactive regulation",
+    "text": "Group Discussion: Reactive regulation\n\nWhy does regulation usually come after computing technology has caused harm?\nIn most of our cases, someone warned about the problem before the harm was done. Why weren’t they heard?"
+  },
+  {
+    "objectID": "slides/slides-03-01.html#qa-10-minutes",
+    "href": "slides/slides-03-01.html#qa-10-minutes",
+    "title": "Ethics Frameworks",
+    "section": "Q&A (10 minutes)",
+    "text": "Q&A (10 minutes)\nQ&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/slides-04-01.html#qa-10-minutes",
+    "href": "slides/slides-04-01.html#qa-10-minutes",
+    "title": "History of transformative technologies: Automation bias",
+    "section": "",
+    "text": "Q&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/slides-04-03.html#timeline-technology-regulation",
+    "href": "slides/slides-04-03.html#timeline-technology-regulation",
+    "title": "History of transformative technologies: Unequal harms",
+    "section": "Timeline: Technology → regulation",
+    "text": "Timeline: Technology → regulation\n\n\n\nTechnology\nRegulation\n\n\n\n\n1985–1987: Therac-25\n1990: Safe Medical Devices Act\n\n\n2018: Cambridge Analytica\n2019: FTC fines Facebook US$5 billion"
+  },
+  {
+    "objectID": "slides/slides-04-03.html#timeline-technology-legal-consequences",
+    "href": "slides/slides-04-03.html#timeline-technology-legal-consequences",
+    "title": "History of transformative technologies: Reactive regulation",
+    "section": "Timeline: Technology → legal consequences",
+    "text": "Timeline: Technology → legal consequences\n\n\n\nTechnology\nConsequence\n\n\n\n\n1985–1987: Therac-25\n1990: Safe Medical Devices Act\n\n\n1988: Morris worm, first major computer worm distributed via the Internet\n1989: Morris convicted under a 1986 law\n\n\n1999-2015: UK Post Office Horizon Scandal\n2022:2024: Compensation and Inquiry\n\n\n2016:? Instagram access to device cameras\n2023: $68.5 Million Settlement\n\n\n2018: Cambridge Analytica\n2019: FTC fines Facebook US$5 billion\n\n\n2025: Grok AI-generated sexualized deepfakes of adults and minors\n2026: Take It Down Act"
+  },
+  {
+    "objectID": "slides/slides-04-03.html#references-and-further-reading",
+    "href": "slides/slides-04-03.html#references-and-further-reading",
+    "title": "History of transformative technologies: Reactive regulation",
+    "section": "References and Further Reading",
+    "text": "References and Further Reading\n\nAtkinson, M. M. (2011). Lindblom’s lament: Incrementalism and the persistent pull of the status quo*. Policy and Society, 30(1), 9–18. https://doi.org/10.1016/j.polsoc.2010.12.002\nCollingridge, D. (1980). The Social Control of Technology. Frances Pinter."
+  },
+  {
+    "objectID": "slides/slides-04-03.html#journal-writing",
+    "href": "slides/slides-04-03.html#journal-writing",
+    "title": "History of transformative technologies: Reactive regulation",
+    "section": "Journal Writing",
+    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked of disliked"
+  },
+  {
+    "objectID": "slides/slides-04-04.html#what-happened-1",
+    "href": "slides/slides-04-04.html#what-happened-1",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "What happened",
+    "text": "What happened\n\nThe bug itself was small and well understood\nThe failure was not really about one line of code; it was about assumptions, reuse, testing, and organizational decisions\nIt raises a question we will keep returning to: who is responsible when a complex system fails?"
+  },
+  {
+    "objectID": "slides/slides-04-04.html#group-discussion-2-ethics-frameworks",
+    "href": "slides/slides-04-04.html#group-discussion-2-ethics-frameworks",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Group Discussion 2: Ethics frameworks",
+    "text": "Group Discussion 2: Ethics frameworks\nEach group takes one framework:\n\nConsequentialism: Who bore the costs of the failure? Would the outcome judgment change if the payoff had been astronauts instead of satellites?\nDeontology: What duties did engineers and managers have, regardless of the outcome? Which ACM principles were violated, if any?\nVirtue ethics: Which of Vallor’s technomoral virtues (e.g., humility, perspective, technomoral wisdom) were missing?\nContractualism: Could the decision to skip full system testing be justified to everyone affected?"
+  },
+  {
+    "objectID": "slides/slides-04-04.html#group-discussion",
+    "href": "slides/slides-04-04.html#group-discussion",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Group Discussion",
+    "text": "Group Discussion\n\nWho is responsible for the failure of Flight 501?\nWhat is the difference between “no single person is to blame” versus “no one is responsible”?\nThe code was reused because it was proven reliable. When does reuse make systems safer, and when does it make them more dangerous?\n“It worked on Ariane 4” was treated as evidence of correctness. What is the difference between a system that has not failed and a system that is correct?\nThe full system was never tested with real equipment, partly because of cost. Who should decide how much testing is “enough,” and on what basis?"
+  },
+  {
+    "objectID": "slides/slides-04-04.html#group-discussion-ethics-frameworks",
+    "href": "slides/slides-04-04.html#group-discussion-ethics-frameworks",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Group Discussion: Ethics frameworks",
+    "text": "Group Discussion: Ethics frameworks\nEach group takes one framework:\n\nConsequentialism: Who bore the costs of the failure? Would the outcome judgment change if the payoff had been astronauts instead of satellites?\nDeontology: What duties did engineers and managers have, regardless of the outcome? Which ACM principles were violated?\nContractualism: Could the decision to skip full system testing be justified to everyone affected?"
+  },
+  {
+    "objectID": "slides/slides-04-01.html#some-concepts",
+    "href": "slides/slides-04-01.html#some-concepts",
+    "title": "History of transformative technologies: Automation bias",
+    "section": "Some concepts",
+    "text": "Some concepts\n\nIncrementalism: progress through small, continuous steps rather than massive, sweeping overhauls\nPrecautionary principle: When an activity raises threats of harm to human health or the environment, precautionary measures should be taken even if some cause-and-effect relationships are not fully established scientifically"
+  },
+  {
+    "objectID": "slides/slides-04-03.html#some-concepts",
+    "href": "slides/slides-04-03.html#some-concepts",
+    "title": "History of transformative technologies: Reactive regulation",
+    "section": "Some concepts",
+    "text": "Some concepts\n\nPrecautionary principle: When an activity raises threats of harm to human health or the environment, precautionary measures should be taken even if some cause-and-effect relationships are not fully established scientifically\nIncrementalism: progress through small, continuous steps rather than massive, sweeping overhauls"
+  },
+  {
+    "objectID": "slides/slides-04-03.html#group-discussion",
+    "href": "slides/slides-04-03.html#group-discussion",
+    "title": "History of transformative technologies: Reactive regulation",
+    "section": "Group Discussion",
+    "text": "Group Discussion\n\nCritics of incrementalism argue that this approach 1) protects the status quo and 2) fails to address fast-moving problems\n\n\nCritics of precautionary principle argue that this approach paralyzes technological and economic progress\n\n\nWhat approach do you think makes more sense regarding the regulation of computing technologies, in your opinion?"
+  },
+  {
+    "objectID": "slides/slides-04-03.html#proactive-regulation-is-possible",
+    "href": "slides/slides-04-03.html#proactive-regulation-is-possible",
+    "title": "History of transformative technologies: Reactive regulation",
+    "section": "Proactive regulation is possible",
+    "text": "Proactive regulation is possible\n\n1975: Asilomar: scientists paused and set guidelines for recombinant DNA research before any harm\n1987: Montreal Protocol: countries phased out CFCs soon after the ozone hole was discovered, before the worst damage\n2024: EU AI Act: bans some AI uses and sets rules by risk level before most harms occur"
+  },
+  {
+    "objectID": "slides/slides-04-03.html#group-discussion-1",
+    "href": "slides/slides-04-03.html#group-discussion-1",
+    "title": "History of transformative technologies: Reactive regulation",
+    "section": "Group Discussion",
+    "text": "Group Discussion\n\nCollingridge dilemma: By the time we know enough to regulate, it may be too late to regulate easily.\n\n\nHow do we address the Collingridge dilemma?"
+  },
+  {
+    "objectID": "slides/sllides-04-case_studies-1.html#chose-a-case-study",
+    "href": "slides/sllides-04-case_studies-1.html#chose-a-case-study",
+    "title": "Case Studies",
+    "section": "Chose a case study",
+    "text": "Chose a case study\n\nAT&T Network Collapse, 1990\nClimate Orbiter Crash, 1999\nLAX outage, 2007\nSoftware Error at Knight Capital, 2012\nDutch childcare fraud risk model, 2013\nRobodebt, Australia, 2016–2019\nEquifax miscalculated credit scores, 2022\nCrowdStrike Outage, 2024\n\nOr pick another computing technology you know"
+  },
+  {
+    "objectID": "slides/sllides-04-case_studies-1.html#group-discussion",
+    "href": "slides/sllides-04-case_studies-1.html#group-discussion",
+    "title": "Case Studies",
+    "section": "Group Discussion",
+    "text": "Group Discussion\n\nWhere do you see automation bias and unequal harm today?\nIf you could pass one proactive law about AI today, what would it be? What disaster would it be trying to prevent?"
+  },
+  {
+    "objectID": "slides/sllides-04-case_studies-1.html#group-activity",
+    "href": "slides/sllides-04-case_studies-1.html#group-activity",
+    "title": "Case Studies",
+    "section": "Group Activity",
+    "text": "Group Activity\nIn your group, pick a case study and build a short timeline:\n\nBefore: What warnings existed? Who raised them?\nHarm: Who was harmed? Who was not?\nAfter: What changed (law, policy, practice, nothing)?\n\nThen answer:\n\nWhich of the three patterns show up in your case?\nAt which point on the timeline could an engineer have changed the outcome?"
+  },
+  {
+    "objectID": "slides/sllides-04-case_studies-1.html#group-activity-1",
+    "href": "slides/sllides-04-case_studies-1.html#group-activity-1",
+    "title": "Case Studies",
+    "section": "Group Activity",
+    "text": "Group Activity\nMore questions to answer:\n\nDoes the technology invite automation bias and unequal harms?\nWho bears its risks, and who gets its benefits?\nIs there a policy vacuum, or has regulation lagged behind?\n\nBe prepared to share with the class."
+  },
+  {
+    "objectID": "slides/sllides-04-05.html#group-activity",
+    "href": "slides/sllides-04-05.html#group-activity",
+    "title": "Case Studies",
+    "section": "Group Activity",
+    "text": "Group Activity\nIn your group, pick a case study and build a short timeline:\n\nBefore: What warnings existed? Who raised them?\nHarm: Who was harmed? Who was not?\nAfter: What changed (law, policy, practice, nothing)?\n\nThen answer:\n\nWhich of the three patterns show up in your case?\nAt which point on the timeline could an engineer have changed the outcome?"
+  },
+  {
+    "objectID": "slides/sllides-04-05.html#group-activity-1",
+    "href": "slides/sllides-04-05.html#group-activity-1",
+    "title": "Case Studies",
+    "section": "Group Activity",
+    "text": "Group Activity\nMore questions to answer:\n\nDoes the technology invite automation bias and unequal harms?\nWho bears its risks, and who gets its benefits?\nIs there a policy vacuum, or has regulation lagged behind?\n\nBe prepared to share with the class."
+  },
+  {
+    "objectID": "slides/sllides-04-05.html#chose-a-case-study",
+    "href": "slides/sllides-04-05.html#chose-a-case-study",
+    "title": "Case Studies",
+    "section": "Chose a case study",
+    "text": "Chose a case study\n\nAT&T Network Collapse, 1990\nClimate Orbiter Crash, 1999\nLAX outage, 2007\nSoftware Error at Knight Capital, 2012\nDutch childcare fraud risk model, 2013\nRobodebt, Australia, 2016–2019\nEquifax miscalculated credit scores, 2022\nCrowdStrike Outage, 2024\n\nOr pick another computing technology you know"
+  },
+  {
+    "objectID": "slides/sllides-04-05.html#group-discussion",
+    "href": "slides/sllides-04-05.html#group-discussion",
+    "title": "Case Studies",
+    "section": "Group Discussion",
+    "text": "Group Discussion\n\nWhere do you see automation bias and unequal harm today?\nIf you could pass one proactive law about AI today, what would it be? What disaster would it be trying to prevent?"
+  },
+  {
+    "objectID": "slides/slides-04-01.html",
+    "href": "slides/slides-04-01.html",
+    "title": "History of transformative technologies: Automation bias",
+    "section": "",
+    "text": "Q&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
   }
 ]
