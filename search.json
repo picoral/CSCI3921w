@@ -438,14 +438,14 @@
     "href": "assignments.html",
     "title": "Assignments",
     "section": "",
-    "text": "You are expected to complete assigned readings in advance of in-class discussion so that you come prepared. Discussions require a much deeper engagement with a topic – reading about a topic in advance will help you to engage in productive and critical discussions. We’ll spend the bulk of the time discussing the concepts/ideas presented in the readings, so if you haven’t read it, it will be hard to discuss them as a group.\n\n\nThis list will be updated as the semester progresses. These readings are available on Canvas (where you are expected to put some of your notes).\n\nPeter C Baker. “Teacher v chatbot: my journey into the classroom in the age of AI” The Guardian, March 3, 2026.\nOffice of the Mayor. “Mayor Mamdani and Chancellor Samuels Put Students First with Nation’s Broadest Generative AI Moratorium in Schools” NYC Office Website, September 2, 2026.\nAmy J. Ko. “That time I wanted to be an AI researcher” Bits and Behavior, Jul 17, 2023.\nPope Leo XIV. “Chapter 3. Technology and Dominance. The Grandeur of Humanity in Light of the Promises of AI” Encyclical Letter, 2026.\nApryl Williams. “Two. Automating Sexual Racism”. Not My Type: Automating Sexual Racism in Online Dating, Redwood City: Stanford University Press, 2024, pp. 50-81. https://doi.org/10.1515/9781503637610-005 pdf\nTherac-25"
+    "text": "You are expected to complete assigned readings in advance of in-class discussion so that you come prepared. Discussions require a much deeper engagement with a topic – reading about a topic in advance will help you to engage in productive and critical discussions. We’ll spend the bulk of the time discussing the concepts/ideas presented in the readings, so if you haven’t read it, it will be hard to discuss them as a group.\n\n\nThis list will be updated as the semester progresses. These readings are available on Canvas (where you are expected to put some of your notes).\n\nPeter C Baker. “Teacher v chatbot: my journey into the classroom in the age of AI” The Guardian, March 3, 2026.\nOffice of the Mayor. “Mayor Mamdani and Chancellor Samuels Put Students First with Nation’s Broadest Generative AI Moratorium in Schools” NYC Office Website, September 2, 2026.\nAmy J. Ko. “That time I wanted to be an AI researcher” Bits and Behavior, Jul 17, 2023.\nPope Leo XIV. “Chapter 3. Technology and Dominance. The Grandeur of Humanity in Light of the Promises of AI” Encyclical Letter, 2026.\nApryl Williams. “Two. Automating Sexual Racism”. Not My Type: Automating Sexual Racism in Online Dating, Redwood City: Stanford University Press, 2024, pp. 50-81. https://doi.org/10.1515/9781503637610-005 pdf\nTherac-25\nPerrow, C. (1984). Normal accidents. New York, 19840."
   },
   {
     "objectID": "assignments.html#list-of-readings",
     "href": "assignments.html#list-of-readings",
     "title": "Assignments",
     "section": "",
-    "text": "This list will be updated as the semester progresses. These readings are available on Canvas (where you are expected to put some of your notes).\n\nPeter C Baker. “Teacher v chatbot: my journey into the classroom in the age of AI” The Guardian, March 3, 2026.\nOffice of the Mayor. “Mayor Mamdani and Chancellor Samuels Put Students First with Nation’s Broadest Generative AI Moratorium in Schools” NYC Office Website, September 2, 2026.\nAmy J. Ko. “That time I wanted to be an AI researcher” Bits and Behavior, Jul 17, 2023.\nPope Leo XIV. “Chapter 3. Technology and Dominance. The Grandeur of Humanity in Light of the Promises of AI” Encyclical Letter, 2026.\nApryl Williams. “Two. Automating Sexual Racism”. Not My Type: Automating Sexual Racism in Online Dating, Redwood City: Stanford University Press, 2024, pp. 50-81. https://doi.org/10.1515/9781503637610-005 pdf\nTherac-25"
+    "text": "This list will be updated as the semester progresses. These readings are available on Canvas (where you are expected to put some of your notes).\n\nPeter C Baker. “Teacher v chatbot: my journey into the classroom in the age of AI” The Guardian, March 3, 2026.\nOffice of the Mayor. “Mayor Mamdani and Chancellor Samuels Put Students First with Nation’s Broadest Generative AI Moratorium in Schools” NYC Office Website, September 2, 2026.\nAmy J. Ko. “That time I wanted to be an AI researcher” Bits and Behavior, Jul 17, 2023.\nPope Leo XIV. “Chapter 3. Technology and Dominance. The Grandeur of Humanity in Light of the Promises of AI” Encyclical Letter, 2026.\nApryl Williams. “Two. Automating Sexual Racism”. Not My Type: Automating Sexual Racism in Online Dating, Redwood City: Stanford University Press, 2024, pp. 50-81. https://doi.org/10.1515/9781503637610-005 pdf\nTherac-25\nPerrow, C. (1984). Normal accidents. New York, 19840."
   },
   {
     "objectID": "assignments.html#reflective-journal",
@@ -2223,7 +2223,7 @@
     "href": "slides/slides-04-04.html#what-happened-1",
     "title": "Case Study: Ariane Flight V88",
     "section": "What happened",
-    "text": "What happened\n\nThe bug itself was small and well understood\nThe failure was not really about one line of code; it was about assumptions, reuse, testing, and organizational decisions\nIt raises a question we will keep returning to: who is responsible when a complex system fails?"
+    "text": "What happened\n\nThe bug itself was small and well understood\nThe failure was not really about one line of code\nThe failure was about assumptions, reuse, testing, and organizational decisions\nIt raises a question we will keep returning to: who is responsible when a complex system fails?"
   },
   {
     "objectID": "slides/slides-04-04.html#group-discussion-2-ethics-frameworks",
@@ -2244,7 +2244,7 @@
     "href": "slides/slides-04-04.html#group-discussion-ethics-frameworks",
     "title": "Case Study: Ariane Flight V88",
     "section": "Group Discussion: Ethics frameworks",
-    "text": "Group Discussion: Ethics frameworks\nEach group takes one framework:\n\nConsequentialism: Who bore the costs of the failure? Would the outcome judgment change if the payoff had been astronauts instead of satellites?\nDeontology: What duties did engineers and managers have, regardless of the outcome? Which ACM principles were violated?\nContractualism: Could the decision to skip full system testing be justified to everyone affected?"
+    "text": "Group Discussion: Ethics frameworks\n\nConsequentialism: Who bore the costs of the failure? Would the outcome judgment change if the payoff had been astronauts instead of satellites?\nDeontology: What duties did engineers and managers have, regardless of the outcome? Which ACM principles were violated?\nContractualism: Could the decision to skip full system testing be justified to everyone affected?"
   },
   {
     "objectID": "slides/slides-04-01.html#some-concepts",
@@ -2343,5 +2343,40 @@
     "title": "History of transformative technologies: Automation bias",
     "section": "",
     "text": "Q&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/slides-04-05.html#group-activity",
+    "href": "slides/slides-04-05.html#group-activity",
+    "title": "Case Studies",
+    "section": "Group Activity",
+    "text": "Group Activity\nIn your group, pick a case study and build a short timeline:\n\nBefore: What warnings existed? Who raised them?\nHarm: Who was harmed? Who was not?\nAfter: What changed (law, policy, practice, nothing)?\n\n\nAt which point on the timeline could an engineer have changed the outcome?\nWas the harm caused by automation bias? Did it cause unequal harms?\nWho bore its risks, and who got its benefits?\nHas any regulation been created as a result?\n\nBe prepared to share with the class"
+  },
+  {
+    "objectID": "slides/slides-04-05.html#chose-a-case-study",
+    "href": "slides/slides-04-05.html#chose-a-case-study",
+    "title": "Case Studies",
+    "section": "Chose a case study",
+    "text": "Chose a case study\n\nAT&T Network Collapse, 1990\nPatriot missile, 1991\nClimate Orbiter Crash, 1999\nLAX outage, 2007\nSoftware Error at Knight Capital, 2012\nDutch childcare fraud risk model, 2013\nFacebook amplifies hate, 2012-2017\nRobodebt, Australia, 2016–2019\nBoeing 737 MAX, 2018–19\n\nOr pick another computing technology you know"
+  },
+  {
+    "objectID": "slides/slides-04-05.html#group-discussion",
+    "href": "slides/slides-04-05.html#group-discussion",
+    "title": "Case Studies",
+    "section": "Group Discussion",
+    "text": "Group Discussion\n\nWhere do you see automation bias and unequal harm today?\nIf you could pass one proactive law about current transformative technologies, what would it be? What disaster would it be trying to prevent?"
+  },
+  {
+    "objectID": "slides/slides-04-05.html#journal-writing",
+    "href": "slides/slides-04-05.html#journal-writing",
+    "title": "Case Studies",
+    "section": "Journal Writing",
+    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked of disliked"
+  },
+  {
+    "objectID": "slides/slides-04-05.html#chose-a-case-study-1",
+    "href": "slides/slides-04-05.html#chose-a-case-study-1",
+    "title": "Case Studies",
+    "section": "Chose a case study",
+    "text": "Chose a case study\n\nEquifax miscalculated credit scores, 2022\nCrowdStrike Outage, 2024\nTesla fails its drivers:\n\nWalter Huang, 2018\nAngela Chao, 2024\nBloodHound Q50, 2026\nTesla Deaths website\nList of Tesla Autopilot crashes\n\n\nOr pick another computing technology you know"
   }
 ]
