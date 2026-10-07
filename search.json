@@ -550,7 +550,7 @@
     "href": "current-events.html",
     "title": "Happening Now",
     "section": "",
-    "text": "Hugging Face AI Hacking\n\nHard Fork Podcast: Why the Hugging Face Attack Was Worse Than We Thought\nOpen AI (August, 2026). The Hugging Face incident and the road ahead"
+    "text": "OpenAI Releases Findings on 377 Math Problems\n\n\nHugging Face AI Hacking\n\nHard Fork Podcast: Why the Hugging Face Attack Was Worse Than We Thought\nOpen AI (August, 2026). The Hugging Face incident and the road ahead"
   },
   {
     "objectID": "assignment-3.html",
@@ -1551,7 +1551,7 @@
     "href": "slides/slides-04-02.html#references-and-further-readings",
     "title": "History of transformative technologies: Unequal harms",
     "section": "References and Further Readings",
-    "text": "References and Further Readings\n\nAngwin, J., et al. (2016). Machine Bias. ProPublica.\nAmnesty International (2021). Xenophobic Machines.\nBenjamin, R. (2019). Race After Technology: Abolitionist Tools for the New Jim Code. Polity\nBuolamwini, J., & Gebru, T. (2018). Gender Shades.\nEubanks, V. (2018). Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor. St. Martin’s Press."
+    "text": "References and Further Readings\n\nAngwin, J., et al. (2016). Machine Bias. ProPublica.\nAmnesty International (2021). Xenophobic Machines.\nBenjamin, R. (2019). Race After Technology: Abolitionist Tools for the New Jim Code. Polity\nBuolamwini, J., & Gebru, T. (2018). Gender Shades.\nEubanks, V. (2018). Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor. St. Martin’s Press.\nGreenlining Institute\nAlgorithmic Redlining: How AI Bias Works & How to Stop It"
   },
   {
     "objectID": "slides/slides-04-02.html#journal-writing",
@@ -2378,5 +2378,19 @@
     "title": "Case Studies",
     "section": "Chose a case study",
     "text": "Chose a case study\n\nEquifax miscalculated credit scores, 2022\nCrowdStrike Outage, 2024\nTesla fails its drivers:\n\nWalter Huang, 2018\nAngela Chao, 2024\nBloodHound Q50, 2026\nTesla Deaths website\nList of Tesla Autopilot crashes\n\n\nOr pick another computing technology you know"
+  },
+  {
+    "objectID": "slides/slides-04-04.html#ethics-frameworks-questions",
+    "href": "slides/slides-04-04.html#ethics-frameworks-questions",
+    "title": "Case Study: Ariane Flight V88",
+    "section": "Ethics frameworks – questions",
+    "text": "Ethics frameworks – questions\n\nConsequentialism: Who bore the costs of the failure? Would the outcome judgment change if the payoff had been astronauts instead of satellites?\nDeontology: What duties did engineers and managers have, regardless of the outcome? Which ACM principles were violated?\nContractualism: Could the decision to skip full system testing be justified to everyone affected?"
+  },
+  {
+    "objectID": "slides/slides-04-05.html#review-concepts-in-class-activity",
+    "href": "slides/slides-04-05.html#review-concepts-in-class-activity",
+    "title": "Case Studies",
+    "section": "Review Concepts (In-class Activity)",
+    "text": "Review Concepts (In-class Activity)\nTake canvas quiz"
   }
 ]
