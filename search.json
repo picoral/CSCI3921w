@@ -438,14 +438,14 @@
     "href": "assignments.html",
     "title": "Assignments",
     "section": "",
-    "text": "You are expected to complete assigned readings in advance of in-class discussion so that you come prepared. Discussions require a much deeper engagement with a topic – reading about a topic in advance will help you to engage in productive and critical discussions. We’ll spend the bulk of the time discussing the concepts/ideas presented in the readings, so if you haven’t read it, it will be hard to discuss them as a group.\n\n\nThis list will be updated as the semester progresses. These readings are available on Canvas (where you are expected to put some of your notes).\n\nPeter C Baker. “Teacher v chatbot: my journey into the classroom in the age of AI” The Guardian, March 3, 2026.\nOffice of the Mayor. “Mayor Mamdani and Chancellor Samuels Put Students First with Nation’s Broadest Generative AI Moratorium in Schools” NYC Office Website, September 2, 2026.\nAmy J. Ko. “That time I wanted to be an AI researcher” Bits and Behavior, Jul 17, 2023.\nPope Leo XIV. “Chapter 3. Technology and Dominance. The Grandeur of Humanity in Light of the Promises of AI” Encyclical Letter, 2026.\nApryl Williams. “Two. Automating Sexual Racism”. Not My Type: Automating Sexual Racism in Online Dating, Redwood City: Stanford University Press, 2024, pp. 50-81. https://doi.org/10.1515/9781503637610-005 pdf\nTherac-25\nPerrow, C. (1984). Normal accidents. New York, 19840."
+    "text": "You are expected to complete assigned readings in advance of in-class discussion so that you come prepared. Discussions require a much deeper engagement with a topic – reading about a topic in advance will help you to engage in productive and critical discussions. We’ll spend the bulk of the time discussing the concepts/ideas presented in the readings, so if you haven’t read it, it will be hard to discuss them as a group.\n\n\nThis list will be updated as the semester progresses. These readings are available on Canvas (where you are expected to put some of your notes).\n\nPeter C Baker. “Teacher v chatbot: my journey into the classroom in the age of AI” The Guardian, March 3, 2026.\nOffice of the Mayor. “Mayor Mamdani and Chancellor Samuels Put Students First with Nation’s Broadest Generative AI Moratorium in Schools” NYC Office Website, September 2, 2026.\nAmy J. Ko. “That time I wanted to be an AI researcher” Bits and Behavior, Jul 17, 2023.\nPope Leo XIV. “Chapter 3. Technology and Dominance. The Grandeur of Humanity in Light of the Promises of AI” Encyclical Letter, 2026.\nApryl Williams. “Two. Automating Sexual Racism”. Not My Type: Automating Sexual Racism in Online Dating, Redwood City: Stanford University Press, 2024, pp. 50-81. https://doi.org/10.1515/9781503637610-005 pdf\nTherac-25\nPerrow, C. (1984). Normal accidents. New York, 19840.\nSooth, R. M. D. (2025). Algorithmic Amplification: A Literature Review on Machine Learning Bias and Digital Misinformation. iSCHANNEL, 19(1)."
   },
   {
     "objectID": "assignments.html#list-of-readings",
     "href": "assignments.html#list-of-readings",
     "title": "Assignments",
     "section": "",
-    "text": "This list will be updated as the semester progresses. These readings are available on Canvas (where you are expected to put some of your notes).\n\nPeter C Baker. “Teacher v chatbot: my journey into the classroom in the age of AI” The Guardian, March 3, 2026.\nOffice of the Mayor. “Mayor Mamdani and Chancellor Samuels Put Students First with Nation’s Broadest Generative AI Moratorium in Schools” NYC Office Website, September 2, 2026.\nAmy J. Ko. “That time I wanted to be an AI researcher” Bits and Behavior, Jul 17, 2023.\nPope Leo XIV. “Chapter 3. Technology and Dominance. The Grandeur of Humanity in Light of the Promises of AI” Encyclical Letter, 2026.\nApryl Williams. “Two. Automating Sexual Racism”. Not My Type: Automating Sexual Racism in Online Dating, Redwood City: Stanford University Press, 2024, pp. 50-81. https://doi.org/10.1515/9781503637610-005 pdf\nTherac-25\nPerrow, C. (1984). Normal accidents. New York, 19840."
+    "text": "This list will be updated as the semester progresses. These readings are available on Canvas (where you are expected to put some of your notes).\n\nPeter C Baker. “Teacher v chatbot: my journey into the classroom in the age of AI” The Guardian, March 3, 2026.\nOffice of the Mayor. “Mayor Mamdani and Chancellor Samuels Put Students First with Nation’s Broadest Generative AI Moratorium in Schools” NYC Office Website, September 2, 2026.\nAmy J. Ko. “That time I wanted to be an AI researcher” Bits and Behavior, Jul 17, 2023.\nPope Leo XIV. “Chapter 3. Technology and Dominance. The Grandeur of Humanity in Light of the Promises of AI” Encyclical Letter, 2026.\nApryl Williams. “Two. Automating Sexual Racism”. Not My Type: Automating Sexual Racism in Online Dating, Redwood City: Stanford University Press, 2024, pp. 50-81. https://doi.org/10.1515/9781503637610-005 pdf\nTherac-25\nPerrow, C. (1984). Normal accidents. New York, 19840.\nSooth, R. M. D. (2025). Algorithmic Amplification: A Literature Review on Machine Learning Bias and Digital Misinformation. iSCHANNEL, 19(1)."
   },
   {
     "objectID": "assignments.html#reflective-journal",
@@ -550,7 +550,7 @@
     "href": "current-events.html",
     "title": "Happening Now",
     "section": "",
-    "text": "OpenAI Releases Findings on 377 Math Problems\n\n\nHugging Face AI Hacking\n\nHard Fork Podcast: Why the Hugging Face Attack Was Worse Than We Thought\nOpen AI (August, 2026). The Hugging Face incident and the road ahead"
+    "text": "Seattle mayor signs grocery “fair pricing” into law, bans surveillance\nOpenAI Releases Findings on 377 Math Problems\n\n\nHugging Face AI Hacking\n\nHard Fork Podcast: Why the Hugging Face Attack Was Worse Than We Thought\nOpen AI (August, 2026). The Hugging Face incident and the road ahead"
   },
   {
     "objectID": "assignment-3.html",
@@ -2392,5 +2392,19 @@
     "title": "Case Studies",
     "section": "Review Concepts (In-class Activity)",
     "text": "Review Concepts (In-class Activity)\nTake canvas quiz"
+  },
+  {
+    "objectID": "slides/slides-04-05.html#choose-a-case-study",
+    "href": "slides/slides-04-05.html#choose-a-case-study",
+    "title": "Case Studies",
+    "section": "Choose a case study",
+    "text": "Choose a case study\n\nAT&T Network Collapse, 1990\nPatriot missile, 1991\nClimate Orbiter Crash, 1999\nLAX outage, 2007\nSoftware Error at Knight Capital, 2012\nDutch childcare fraud risk model, 2013\nFacebook amplifies hate, 2012-2017\nRobodebt, Australia, 2016–2019\nBoeing 737 MAX, 2018–19\n\nOr pick another computing technology you know"
+  },
+  {
+    "objectID": "slides/slides-04-05.html#choose-a-case-study-1",
+    "href": "slides/slides-04-05.html#choose-a-case-study-1",
+    "title": "Case Studies",
+    "section": "Choose a case study",
+    "text": "Choose a case study\n\nEquifax miscalculated credit scores, 2022\nCrowdStrike Outage, 2024\nTesla fails its drivers:\n\nWalter Huang, 2018\nAngela Chao, 2024\nBloodHound Q50, 2026\nTesla Deaths website\nList of Tesla Autopilot crashes\n\n\nOr pick another computing technology you know"
   }
 ]
