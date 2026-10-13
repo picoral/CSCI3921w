@@ -46,7 +46,7 @@
     "href": "assignment-2.html",
     "title": "Application",
     "section": "",
-    "text": "You have the option to complete this individually or in pairs.\n\nOption 1: science fiction option\nWrite a piece of science fiction that explores the social and ethical implications of a particular socio-technical phenomenon.\n\n\nOption 2: Surveillance, Privacy, and Free Speech\nFor this assignment, you will be asked to come up with a set of requirements for a fictional app that aims to address a given real-world issue concerning the right to privacy and free speech. As part of this assignment, you will conduct at least two interviews with prospective users of the app, paying special attention to the use cases, desired functionality, and concerns brought up by the interviewees.\nYou will summarize the interview findings in a short report, describe the main functional requirements of the app, and provide general recommendations to the app developers on how to implement this functionality while respecting user privacy and the right to free speech.\nIn order to balance the workload, we will form pairs of students to complete this assignment.\n\n\nOption 3: Software Risks and Algorithmic Bias\nIn this assignment, you will obtain experience developing a machine learning algorithm and assessing the resulting model on a number of criteria. Your investigation will include not only being able to transparently see the code for the machine learning algorithm (which is what some lawmakers argue is a necessary safeguard in deploying algorithms for such decision-making), but also assessing the “fairness” of the model produced by the algorithm on a number of criteria. You will be asked to determine what you would do to make the decision-making model produced by the algorithm more “fair,” and justify this position in a short writeup.\nIn order to balance the workload, we will form pairs of students to complete this assignment and ensure that at least one team member has prior programming experience."
+    "text": "Length: 1,500–2,000 words (approx. 6–8 double-spaced pages), excluding references and appendices\nFirst draft is due Nov 4, end of the day\nFinal draft is due Nov 18, end of the day\nYou have the option to complete this individually or in pairs (see Working in Pairs)."
   },
   {
     "objectID": "integrity.html",
@@ -2411,8 +2411,8 @@
     "objectID": "slides/slides-05-01.html#qa-10-minutes",
     "href": "slides/slides-05-01.html#qa-10-minutes",
     "title": "Algorithmic Bias and Fairness",
-    "section": "",
-    "text": "Q&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+    "section": "Q&A (10 minutes)",
+    "text": "Q&A (10 minutes)\nQ&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
   },
   {
     "objectID": "slides/slides-05-01.html#warm-up",
@@ -2426,14 +2426,14 @@
     "href": "slides/slides-05-01.html#from-past-to-present",
     "title": "Algorithmic Bias and Fairness",
     "section": "From past to present",
-    "text": "From past to present\nIn the last module we saw unequal harms (COMPAS, facial recognition, Robodebt, the Dutch childcare scandal).\nThis module asks:\n\nWhere does bias come from in computing systems?\nWhat does it mean for an algorithm to be fair? Can we measure it?\nWhy can’t we just have all kinds of fairness at once?"
+    "text": "From past to present\nIn the last module we saw unequal harms (COMPAS, facial recognition).\nThis module asks:\n\nWhere does bias come from in computing systems?\nWhat does it mean for an algorithm to be fair? Can we measure it?\nWhy can’t we just have all kinds of fairness at once?"
   },
   {
     "objectID": "slides/slides-05-01.html#bias-in-computer-systems",
     "href": "slides/slides-05-01.html#bias-in-computer-systems",
     "title": "Algorithmic Bias and Fairness",
     "section": "Bias in computer systems",
-    "text": "Bias in computer systems\nFriedman & Nissenbaum (1996) identified three kinds of bias:\n\nPreexisting bias: comes from society, institutions, and the people who build the system (e.g., historical discrimination in the data)\nTechnical bias: comes from technical constraints or decisions (e.g., limited screen space, ranking algorithms, how names are sorted)\nEmergent bias: appears after deployment, when the context of use changes (e.g., new users, new populations, new purposes)\n\nWritten in 1996, decades before modern machine learning."
+    "text": "Bias in computer systems\n\nobservation processes that generate data we use in computer systems are structurally biased\n\n\nwe need to be intentional and explicit about worldviews and value assumptions: the systems we design will always encode some belief about the world\n\nFrom Friedler et al. (2021)"
   },
   {
     "objectID": "slides/slides-05-01.html#bias-across-the-ml-life-cycle",
@@ -2475,7 +2475,7 @@
     "href": "slides/slides-05-01.html#many-definitions-of-fairness",
     "title": "Algorithmic Bias and Fairness",
     "section": "Many definitions of fairness",
-    "text": "Many definitions of fairness\nConsider a model that predicts a “high risk” label (e.g., risk of reoffending, defaulting on a loan):\n\n\n\n\n\n\n\n\nDefinition\nRequirement\nPlain language\n\n\n\n\nDemographic parity\nSame % flagged in each group\nEqual outcomes\n\n\nEqual opportunity\nSame true positive rate in each group\nQualified people have an equal chance\n\n\nEqualized odds\nSame true positive and false positive rates\nEqual error rates\n\n\nPredictive parity / calibration\nSame precision (a “high risk” label means the same thing) in each group\nScores mean the same for everyone\n\n\n\nRecall COMPAS: ProPublica measured false positive rates; the company measured predictive parity. Both were “right.”"
+    "text": "Many definitions of fairness\n\nindividual fairness: the goal of giving similar individuals similar decisions\ngroup fairness: the goal od giving similar decisions across demographic groups\n\nDiscrimination manifests itself in unequal treatment of groups.\nFrom Friedler et al. (2021)"
   },
   {
     "objectID": "slides/slides-05-01.html#a-worked-example",
@@ -2524,7 +2524,7 @@
     "href": "slides/slides-05-01.html#references-and-further-readings",
     "title": "Algorithmic Bias and Fairness",
     "section": "References and Further Readings",
-    "text": "References and Further Readings\n\nFriedman, B., & Nissenbaum, H. (1996). Bias in computer systems. ACM Transactions on Information Systems, 14(3), 330–347.\nSuresh, H., & Guttag, J. (2021). A framework for understanding sources of harm throughout the machine learning life cycle. EAAMO ’21.\nObermeyer, Z., Powers, B., Vogeli, C., & Mullainathan, S. (2019). Dissecting racial bias in an algorithm used to manage the health of populations. Science, 366(6464), 447–453.\nDastin, J. (2018). Amazon scraps secret AI recruiting tool that showed bias against women. Reuters.\nKleinberg, J., Mullainathan, S., & Raghavan, M. (2016). Inherent trade-offs in the fair determination of risk scores.\nChouldechova, A. (2017). Fair prediction with disparate impact. Big Data, 5(2), 153–163.\nBarocas, S., Hardt, M., & Narayanan, A. (2023). Fairness and Machine Learning: Limitations and Opportunities. MIT Press.\nNicoletti, L., & Bass, D. (2023). Humans are biased. Generative AI is even worse. Bloomberg.\nNoble, S. U. (2018). Algorithms of Oppression: How Search Engines Reinforce Racism. NYU Press."
+    "text": "References and Further Readings\n\nFriedler, S. A., Scheidegger, C., & Venkatasubramanian, S. (2021). The (im) possibility of fairness: Different value systems require different mechanisms for fair decision making. Communications of the ACM, 64(4), 136-143.\nFriedman, B., & Nissenbaum, H. (1996). Bias in computer systems. ACM Transactions on Information Systems, 14(3), 330–347.\nSuresh, H., & Guttag, J. (2021). A framework for understanding sources of harm throughout the machine learning life cycle. EAAMO ’21.\nObermeyer, Z., Powers, B., Vogeli, C., & Mullainathan, S. (2019). Dissecting racial bias in an algorithm used to manage the health of populations. Science, 366(6464), 447–453.\nDastin, J. (2018). Amazon scraps secret AI recruiting tool that showed bias against women. Reuters.\nKleinberg, J., Mullainathan, S., & Raghavan, M. (2016). Inherent trade-offs in the fair determination of risk scores.\nChouldechova, A. (2017). Fair prediction with disparate impact. Big Data, 5(2), 153–163.\nBarocas, S., Hardt, M., & Narayanan, A. (2023). Fairness and Machine Learning: Limitations and Opportunities. MIT Press.\nNicoletti, L., & Bass, D. (2023). Humans are biased. Generative AI is even worse. Bloomberg.\nNoble, S. U. (2018). Algorithms of Oppression: How Search Engines Reinforce Racism. NYU Press."
   },
   {
     "objectID": "slides/slides-05-01.html#journal-writing",
@@ -2658,5 +2658,124 @@
     "title": "Algorithmic Bias and Fairness",
     "section": "",
     "text": "Q&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/slides-05-01.html#many-definitions-of-fairness-1",
+    "href": "slides/slides-05-01.html#many-definitions-of-fairness-1",
+    "title": "Algorithmic Bias and Fairness",
+    "section": "Many definitions of fairness",
+    "text": "Many definitions of fairness\nConsider a model that predicts a “high risk” label (e.g., risk of reoffending, defaulting on a loan):\n\n\n\n\n\n\n\n\nDefinition\nRequirement\nPlain language\n\n\n\n\nDemographic parity\nSame % flagged in each group\nEqual outcomes\n\n\nEqual opportunity\nSame true positive rate in each group\nQualified people have an equal chance\n\n\nEqualized odds\nSame true positive and false positive rates\nEqual error rates\n\n\nPredictive parity / calibration\nSame precision (a “high risk” label means the same thing) in each group\nScores mean the same for everyone\n\n\n\nRecall COMPAS: ProPublica measured false positive rates; the company measured predictive parity. Both were “right.”"
+  },
+  {
+    "objectID": "slides/slides-05-01.html#bias-in-data-used-by-computer-systems",
+    "href": "slides/slides-05-01.html#bias-in-data-used-by-computer-systems",
+    "title": "Algorithmic Bias and Fairness",
+    "section": "Bias in data used by computer systems",
+    "text": "Bias in data used by computer systems\n\nobservation processes that generate data we use in computer systems are structurally biased\n\n\nwe need to be intentional and explicit about worldviews and value assumptions: the systems we design will always encode some belief about the world\n\nFrom Friedler et al. (2021)"
+  },
+  {
+    "objectID": "slides/slides-05-01.html#group-discussion",
+    "href": "slides/slides-05-01.html#group-discussion",
+    "title": "Algorithmic Bias and Fairness",
+    "section": "Group Discussion",
+    "text": "Group Discussion\n\nThink back when you were applying to college. What materials did you have to submit? Were the evaluation criteria of these materials clear to you? Did the decisions you receive make sense to you?\nWhat are college admission decisions trying to predict?"
+  },
+  {
+    "objectID": "slides/slides-05-01.html#bias-in-decisions",
+    "href": "slides/slides-05-01.html#bias-in-decisions",
+    "title": "Algorithmic Bias and Fairness",
+    "section": "Bias in decisions",
+    "text": "Bias in decisions\n\nThis college admissions example demonstrates the basic pipeline in human decision-making systems, which is also mimicked in algorithmic systems\n\nFrom Friedler et al. (2021)"
+  },
+  {
+    "objectID": "slides/slides-05-01.html#bias-in-computer-systems-1",
+    "href": "slides/slides-05-01.html#bias-in-computer-systems-1",
+    "title": "Algorithmic Bias and Fairness",
+    "section": "Bias in computer systems",
+    "text": "Bias in computer systems\nFriedman & Nissenbaum (1996) identified three kinds of bias:\n\nPreexisting bias: comes from society, institutions, the people who build the system, and the data used in the system\nTechnical bias: comes from technical constraints or decisions (e.g., limited screen space, ranking algorithms, how names are sorted)\nEmergent bias: appears after deployment, when the context of use changes (e.g., new users, new populations, new purposes)\n\nWritten in 1996, decades before modern machine learning."
+  },
+  {
+    "objectID": "assignment-2.html#requirements",
+    "href": "assignment-2.html#requirements",
+    "title": "Application",
+    "section": "Requirements",
+    "text": "Requirements\n\nGround it in something real. Your story must be anchored in a technology that exists today or is plausibly near (e.g., a patent, a product, a research prototype, a policy proposal). Extrapolate from it, but don’t invent physics. Cite your sources in the author’s note.\nShow, don’t lecture. The ethical issues should emerge through characters, choices, and consequences, not through a character explaining the moral of the story.\nInclude more than one perspective. At least two characters (or groups) should experience the technology differently. Consider including someone who is affected by the technology but never chose to use it.\nLeave room for disagreement. As in paper 1, a story where the technology is purely evil (or purely good) is less interesting than one in which a reasonable person could see it either way."
+  },
+  {
+    "objectID": "assignment-2.html#structure",
+    "href": "assignment-2.html#structure",
+    "title": "Application",
+    "section": "Structure",
+    "text": "Structure\n\n\n\n\n\n\n\n\nPart\nWhat it does\nApprox. words\n\n\n\n\nShort story\nThe fiction itself, with a title\n1,200–1,600\n\n\nAuthor’s note\nThe real technology your story is based on (with citations); the ethical issues you set out to explore; how your ethics framework from Assignment 1 shaped the story (whose experience did it lead you to center?); what a reader should take away\n300–400"
+  },
+  {
+    "objectID": "assignment-2.html#grading-rubric-option-1",
+    "href": "assignment-2.html#grading-rubric-option-1",
+    "title": "Application",
+    "section": "Grading Rubric (Option 1)",
+    "text": "Grading Rubric (Option 1)\nWe will be grading your paper on a 20-point scale:\n\nGrounding in a real technology (4 points)\n\nthe technology is real or plausibly near, and accurately described\nthe extrapolation is believable and supported by cited research\n\nExploration of ethical implications (6 points)\n\nethical issues emerge through the narrative rather than being explained\nmultiple perspectives and stakeholders, including non-users\nthe story illuminates who benefits and who bears the costs\ncomplexity: the story does not reduce to a simple moral\n\nAuthor’s note (5 points)\n\nclearly identifies the technology and its sources\nexplicitly connects the story to your ethics framework and to course concepts\nreflects on the choices you made as a writer and why\n\nCraft and mechanics (5 points)\n\ncoherent narrative with a clear arc, characters, and setting\nprose is clear, purposeful, and proofread\nmeets length and citation requirements"
+  },
+  {
+    "objectID": "assignment-2.html#step-1-define-the-problem-and-the-app",
+    "href": "assignment-2.html#step-1-define-the-problem-and-the-app",
+    "title": "Application",
+    "section": "Step 1: Define the problem and the app",
+    "text": "Step 1: Define the problem and the app\nPick a real-world issue (e.g., food insecurity on campus, finding accessible housing, coordinating care for an aging parent, reporting unsafe working conditions) and sketch an app that addresses it. One paragraph is enough at this stage: who is the app for, and what problem does it solve? Pick an issue where the people most affected have something real at stake. Those are the cases in which privacy, consent, and bias matter most."
+  },
+  {
+    "objectID": "assignment-2.html#step-2-prepare-and-conduct-the-interview",
+    "href": "assignment-2.html#step-2-prepare-and-conduct-the-interview",
+    "title": "Application",
+    "section": "Step 2: Prepare and conduct the interview",
+    "text": "Step 2: Prepare and conduct the interview\n\nWho to interview. Interview at least one person who could realistically use the app. They should be an adult (18+). The best interviewee is someone with direct experience of the problem, not just a friend who is willing to talk to you.\nWrite your questions in advance. Prepare 8–12 open-ended questions covering:\n\ntheir experience with the problem and how they deal with it now\nwhat they would want the app to do (use cases and desired functionality)\nwhat would make them not use it, or worry about using it\nwhat data they would and would not be comfortable sharing, and with whom\nwho else (family members, employers, landlords, etc.) could be affected by the app\n\nAsk follow-up questions. The most useful material usually comes from “Can you tell me more about that?” Don’t just read the list.\nGet consent and protect your interviewee. Before you start, tell them what the interview is for, that it is for a class assignment, and that they can skip any question or stop at any time. Ask before recording or taking notes. Use a pseudonym in your paper and leave out identifying details. Do not ask them to disclose information they would be harmed by if it became public. Include a copy of your questions in an appendix at the end of your paper.\nInterviews should be about 20–30 minutes. Take notes during the interview, and write up your notes right after while they are fresh."
+  },
+  {
+    "objectID": "assignment-2.html#step-3-prompt-an-llm-with-the-same-questions",
+    "href": "assignment-2.html#step-3-prompt-an-llm-with-the-same-questions",
+    "title": "Application",
+    "section": "Step 3: Prompt an LLM with the same questions",
+    "text": "Step 3: Prompt an LLM with the same questions\nUsing one of the university’s LLM tools, ask the same questions you asked your interviewee. Prompt it to answer as a prospective user of the app (e.g., “Imagine you are a … who … Answer the following questions as that person.”). Save the full transcript and include the prompt and an excerpt in an appendix at the end of your paper.\nThen compare the two sets of answers. Useful questions to ask yourself:\n\nWhat did the human raise that the LLM didn’t (and vice versa)?\nWhich answers were more specific? More surprising? More generic?\nDid the LLM reflect any assumptions or stereotypes about the kind of person it was asked to be?\nWhat does this suggest about using LLMs as a substitute for talking to real users, a practice that some companies are adopting?"
+  },
+  {
+    "objectID": "assignment-2.html#step-4-write-the-report",
+    "href": "assignment-2.html#step-4-write-the-report",
+    "title": "Application",
+    "section": "Step 4: Write the report",
+    "text": "Step 4: Write the report\n\n\n\n\n\n\n\n\nSection\nWhat it does\nApprox. words\n\n\n\n\nIntroduction\nThe real-world problem, who it affects, and the app concept\n150–200\n\n\nInterview findings\nKey use cases, desired functionality, and concerns, with short quotes or paraphrases from your interviewee(s)\n350–450\n\n\nHuman vs. LLM comparison\nWhat differed, what was missing, and what that means for design practice\n250–350\n\n\nFunctional requirements\n5–8 concrete requirements, each traceable to something you learned in the interview(s)\n200–300\n\n\nRecommendations to developers\nHow to implement those requirements while respecting privacy, welfare, freedom from bias, ownership and property, and informed consent. Address each of the five, using your ethics framework\n450–600\n\n\nConclusion\nThe most important tradeoff the developers will face, and your advice on it\n100–150\n\n\nAppendices (not counted)\nInterview questions, LLM prompt and transcript excerpt\n—\n\n\n\nA functional requirement describes what the app must do, stated so that a developer could test whether it was done. “The app should be private” is not a requirement. “Users can delete their account and all associated location history from within the app, and deletion completes within 30 days” is."
+  },
+  {
+    "objectID": "assignment-2.html#grading-rubric-option-2",
+    "href": "assignment-2.html#grading-rubric-option-2",
+    "title": "Application",
+    "section": "Grading Rubric (Option 2)",
+    "text": "Grading Rubric (Option 2)\nWe will be grading your paper on a 20-point scale:\n\nInterview design and findings (5 points)\n\nquestions are open-ended and cover use cases, functionality, and concerns\nthe interviewee is a relevant prospective user, and consent and privacy were handled appropriately\nfindings are reported specifically, with evidence from the interview\n\nHuman vs. LLM comparison (3 points)\n\nidentifies concrete differences, not just “the LLM was more generic”\ndraws a reasoned conclusion about what LLMs can and cannot substitute for\n\nRequirements (3 points)\n\nrequirements are concrete and testable\neach is grounded in the interview findings\n\nEthical recommendations (6 points)\n\naddresses all five areas: privacy, welfare, freedom from bias, ownership and property, informed consent\nrecommendations are specific and actionable for a developer\nvisibly applies course concepts\nconsiders people affected by the app who are not its users\nacknowledges tradeoffs between requirements and ethical goals\n\nWriting and mechanics (3 points)\n\nclear organization and structure, appropriate for an audience of developers\nmeets length, appendix, and citation requirements\nproofread"
+  },
+  {
+    "objectID": "assignment-2.html#step-1-define-the-audit",
+    "href": "assignment-2.html#step-1-define-the-audit",
+    "title": "Application",
+    "section": "Step 1: Define the audit",
+    "text": "Step 1: Define the audit\nBefore you start testing, write down:\n\nThe system and what it is used (or could be used) for. Bias matters most when outputs feed into decisions about people.\nThe groups you will compare (e.g., names associated with different genders or ethnicities, different dialects, different age signals) and how you will signal group membership in your inputs. Justify your choices and cite sources where possible (e.g., research on name-based signals).\nYour hypothesis. What disparity do you expect, and why?\nYour measure of bias What counts as “different treatment”? Examples: the rate at which candidates are recommended, the score or tone of a response, the proportion of generated images showing women, error rates. We discussed in class that different definitions of fairness can conflict. Explain why the one you chose fits this system."
+  },
+  {
+    "objectID": "assignment-2.html#step-2-design-and-run-your-tests",
+    "href": "assignment-2.html#step-2-design-and-run-your-tests",
+    "title": "Application",
+    "section": "Step 2: Design and run your tests",
+    "text": "Step 2: Design and run your tests\n\nUse paired (counterfactual) inputs: identical inputs that differ only in the attribute you are testing. For example, the same resume with only the name changed.\nRun at least 30 test cases in total (pairs: at least 60), spread across your groups. Since many systems are non-deterministic, run each input more than once, or in a fresh session, and record whether the outputs vary.\nRecord every input and output in a spreadsheet: date, system and version, exact input, output, and your coding of the output. Include a link to it (shared with me) or a summary table in an appendix.\nDecide how you will code outputs before looking at the results, so you are not tempted to code them in a way that confirms your hypothesis."
+  },
+  {
+    "objectID": "assignment-2.html#step-3-write-the-audit-report",
+    "href": "assignment-2.html#step-3-write-the-audit-report",
+    "title": "Application",
+    "section": "Step 3: Write the audit report",
+    "text": "Step 3: Write the audit report\n\n\n\n\n\n\n\n\nSection\nWhat it does\nApprox. words\n\n\n\n\nIntroduction\nThe system, why its fairness matters, who could be harmed, and your hypothesis\n150–250\n\n\nMethodology\nGroups, bias measure, test design, number of test cases, how outputs were coded\n300–400\n\n\nResults\nWhat you found, with at least one table or chart summarizing outcomes by group, and representative examples\n300–400\n\n\nAnalysis\nInterpret the results: possible sources of the disparity (training data, design choices, deployment context), how downstream decisions could amplify it, and what your ethics framework says about it\n400–500\n\n\nLimitations\nWhat your audit cannot show (sample size, the groups you did not test, intersectionality, your own coding choices)\n150–200\n\n\nRecommendations\nConcrete actions for the people responsible for the system, and who should have the authority to require them\n200–250\n\n\nAppendices (not counted)\nTest inputs, data link or summary table, coding scheme\n—\n\n\n\nReport what you found, even if it isn’t what you expected. “We found no significant difference on this test, and here’s what that does and does not tell us” is a legitimate result. Don’t overstate your findings: 30 test cases from a single system can show a pattern worth investigating, but cannot prove a system is biased in general."
+  },
+  {
+    "objectID": "assignment-2.html#grading-rubric-option-3",
+    "href": "assignment-2.html#grading-rubric-option-3",
+    "title": "Application",
+    "section": "Grading Rubric (Option 3)",
+    "text": "Grading Rubric (Option 3)\nWe will be grading your paper on a 20-point scale:\n\nAudit design (5 points)\n\nclearly defined system, groups, hypothesis, and bias measure, with justification\npaired inputs that isolate the attribute being tested\nmeets the minimum number of test cases\ncoding scheme defined in advance\n\nResults (4 points)\n\nresults reported accurately and completely, with a summary table or chart\nrepresentative examples support the summary\n\nAnalysis (5 points)\n\noffers plausible explanations for the results, tied to course concepts and readings\nconsiders how outputs could affect real decisions and real people\nvisibly applies your ethics framework\nhonest about limitations\nmakes sure claims are proportionate to evidence\n\nRecommendations (3 points)\n\nspecific and actionable\nidentifies who has the responsibility and standing to act\n\nWriting and mechanics (3 points)\n\nclear organization and structure\nmeets length, appendix, and citation requirements\nproofread"
   }
 ]
