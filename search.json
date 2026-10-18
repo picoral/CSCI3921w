@@ -1558,7 +1558,7 @@
     "href": "slides/slides-04-02.html#journal-writing",
     "title": "History of transformative technologies: Unequal harms",
     "section": "Journal Writing",
-    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked of disliked"
+    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked or disliked"
   },
   {
     "objectID": "slides/slides-04-01.html#warm-up",
@@ -2216,7 +2216,7 @@
     "href": "slides/slides-04-03.html#journal-writing",
     "title": "History of transformative technologies: Reactive regulation",
     "section": "Journal Writing",
-    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked of disliked"
+    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked or disliked"
   },
   {
     "objectID": "slides/slides-04-04.html#what-happened-1",
@@ -2370,7 +2370,7 @@
     "href": "slides/slides-04-05.html#journal-writing",
     "title": "Case Studies",
     "section": "Journal Writing",
-    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked of disliked"
+    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked or disliked"
   },
   {
     "objectID": "slides/slides-04-05.html#chose-a-case-study-1",
@@ -2410,72 +2410,72 @@
   {
     "objectID": "slides/slides-05-01.html#qa-10-minutes",
     "href": "slides/slides-05-01.html#qa-10-minutes",
-    "title": "Algorithmic Bias and Fairness",
+    "title": "Algorithmic Bias",
     "section": "Q&A (10 minutes)",
     "text": "Q&A (10 minutes)\nQ&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
   },
   {
     "objectID": "slides/slides-05-01.html#warm-up",
     "href": "slides/slides-05-01.html#warm-up",
-    "title": "Algorithmic Bias and Fairness",
+    "title": "Algorithmic Bias",
     "section": "Warm-up",
     "text": "Warm-up\nBefore we start, answer in your journal:\nThink of an automated system that made a decision about you (a movie or tv show recommendation, an ad, a loan or job application, a content filter, a spam folder).\n\nDid it get you right?\nIf it got you wrong, how would you have known? Could you have contested it?"
   },
   {
     "objectID": "slides/slides-05-01.html#from-past-to-present",
     "href": "slides/slides-05-01.html#from-past-to-present",
-    "title": "Algorithmic Bias and Fairness",
+    "title": "Algorithmic Bias",
     "section": "From past to present",
     "text": "From past to present\nIn the last module we saw unequal harms (COMPAS, facial recognition).\nThis module asks:\n\nWhere does bias come from in computing systems?\nWhat does it mean for an algorithm to be fair? Can we measure it?\nWhy can’t we just have all kinds of fairness at once?"
   },
   {
     "objectID": "slides/slides-05-01.html#bias-in-computer-systems",
     "href": "slides/slides-05-01.html#bias-in-computer-systems",
-    "title": "Algorithmic Bias and Fairness",
+    "title": "Algorithmic Bias",
     "section": "Bias in computer systems",
     "text": "Bias in computer systems\n\nobservation processes that generate data we use in computer systems are structurally biased\n\n\nwe need to be intentional and explicit about worldviews and value assumptions: the systems we design will always encode some belief about the world\n\nFrom Friedler et al. (2021)"
   },
   {
     "objectID": "slides/slides-05-01.html#bias-across-the-ml-life-cycle",
     "href": "slides/slides-05-01.html#bias-across-the-ml-life-cycle",
-    "title": "Algorithmic Bias and Fairness",
+    "title": "Algorithmic Bias",
     "section": "Bias across the ML life cycle",
-    "text": "Bias across the ML life cycle\nSuresh & Guttag (2021) map harms to stages of building a machine learning system:\n\n\n\n\n\n\n\n\nSource\nWhat goes wrong\nExample\n\n\n\n\nHistorical\nThe world the data reflects is already unjust\nPast hiring decisions favored men\n\n\nRepresentation\nSome groups are under-sampled\nFace datasets mostly lighter-skinned faces\n\n\nMeasurement\nThe label or feature is a poor proxy for what we care about\nUsing arrests as a proxy for crime\n\n\nAggregation\nOne model for groups that differ\nOne medical model for all populations\n\n\nEvaluation\nBenchmarks do not represent users\nTesting only on majority group\n\n\nDeployment\nSystem used differently than intended\nA score made for support used for punishment"
+    "text": "Bias across the ML life cycle\nPreexisting bias\n\n[The process of producing data] is long and complex, grounded in historical context and driven by human choices and norms\n\nTechnical bias\n\nnot all problems should be blamed on the data. The ML pipeline involves a series of choices and practices, from model definition to user interfaces used upon deployment.\n\nFrom Suresh & Guttag (2021)"
   },
   {
     "objectID": "slides/slides-05-01.html#case-amazons-hiring-tool-20142017",
     "href": "slides/slides-05-01.html#case-amazons-hiring-tool-20142017",
-    "title": "Algorithmic Bias and Fairness",
+    "title": "Algorithmic Bias",
     "section": "Case: Amazon’s hiring tool (2014–2017)",
-    "text": "Case: Amazon’s hiring tool (2014–2017)\n\nAmazon built a machine learning tool to rate job applicants’ résumés\nTrained on 10 years of résumés submitted to the company, mostly from men\nThe model learned to penalize résumés containing the word “women’s” (e.g., “women’s chess club captain”) and downgraded graduates of two all-women’s colleges\nEngineers removed those terms, but could not guarantee the model would not find other proxies\nProject abandoned (Reuters, 2018)\n\nWhich source(s) of bias do you see here?"
+    "text": "Case: Amazon’s hiring tool (2014–2017)\n\nAmazon built a machine learning tool to rate job applicants’ résumés\nTrained on 10 years of résumés submitted to the company\nThe model learned to penalize résumés containing the word “women’s” (e.g., “women’s chess club captain”) and downgraded graduates of two all-women’s colleges\nEngineers removed those terms, but could not guarantee the model would not find other proxies\n\n“the tool disadvantaged candidates who went to certain women’s colleges presumably not attended by many existing Amazon engineers”"
   },
   {
     "objectID": "slides/slides-05-01.html#case-health-care-algorithm-2019",
     "href": "slides/slides-05-01.html#case-health-care-algorithm-2019",
-    "title": "Algorithmic Bias and Fairness",
+    "title": "Algorithmic Bias",
     "section": "Case: Health care algorithm (2019)",
-    "text": "Case: Health care algorithm (2019)\nObermeyer et al. (2019), Science studied a widely used algorithm that decides which patients get extra care:\n\nThe algorithm predicted health care costs as a proxy for health care needs\nLess money is spent on Black patients who have the same level of need (unequal access to care)\nResult: at the same risk score, Black patients were considerably sicker than white patients\nFixing the label would raise the share of Black patients flagged for extra help from 17.7% to 46.5%\n\nRace was not an input. The bias came from the choice of what to predict."
+    "text": "Case: Health care algorithm (2019)\nObermeyer et al. (2019), Science studied a widely used algorithm that decides which patients get extra care:\n\nThe algorithm predicted health care costs as a proxy for health care needs\nLess money is spent on Black patients who have the same level of need (unequal access to care)\nResult: Black patients assigned the same level of risk are sicker than White patients\nThis racial bias reduces the number of Black patients identified for extra care by more than half\n\nRace was not an input. The bias came from using health care costs."
   },
   {
     "objectID": "slides/slides-05-01.html#proxies-fairness-through-unawareness-does-not-work",
     "href": "slides/slides-05-01.html#proxies-fairness-through-unawareness-does-not-work",
-    "title": "Algorithmic Bias and Fairness",
+    "title": "Algorithmic Bias",
     "section": "Proxies: “Fairness through unawareness” does not work",
-    "text": "Proxies: “Fairness through unawareness” does not work\nRemoving a protected attribute (race, gender) from the data does not remove bias, because other features act as proxies:\n\nZip code → race (a legacy of redlining)\nName, college, hobbies → gender\nCost of care → race\nGaps in employment → disability, caregiving, gender\n\nThe model learns patterns in the data, and the data carries history."
+    "text": "Proxies: “Fairness through unawareness” does not work\nRemoving a protected attribute (race, gender) from the data does not remove bias, because other features act as proxies:\n\nZip code → race (a legacy of redlining)\nName, college, hobbies, language choice → gender\nCost of care → race\nGaps in employment → disability, caregiving, gender\n\nThe model learns patterns in the data, and the data carries history."
   },
   {
     "objectID": "slides/slides-05-01.html#group-discussion-sources-of-bias",
     "href": "slides/slides-05-01.html#group-discussion-sources-of-bias",
-    "title": "Algorithmic Bias and Fairness",
+    "title": "Algorithmic Bias",
     "section": "Group Discussion: Sources of bias",
-    "text": "Group Discussion: Sources of bias\n\nFor Amazon and the health care algorithm: at which stage could an engineer have caught the problem?\n“The algorithm is just reflecting reality.” Is that a defense? Whose reality?\nShould engineers ever refuse to build a model because the available data is too biased?"
+    "text": "Group Discussion: Sources of bias\n\nThink back to your journal entry about an automated system that made a decision about you (a movie or tv show recommendation, an ad, a loan or job application, a content filter, a spam folder) that was not correct. Can you identify any bias in those decisions? What proxies do you think are used in college admissions decisions?\nHow can engineers build models that take into account preexisting bias (historical roots), technical bias (design and architecture limits), and emergent bias (feedback loops, changing environments, and user adaptation)?"
   },
   {
     "objectID": "slides/slides-05-01.html#many-definitions-of-fairness",
     "href": "slides/slides-05-01.html#many-definitions-of-fairness",
     "title": "Algorithmic Bias and Fairness",
     "section": "Many definitions of fairness",
-    "text": "Many definitions of fairness\n\nindividual fairness: the goal of giving similar individuals similar decisions\ngroup fairness: the goal od giving similar decisions across demographic groups\n\nDiscrimination manifests itself in unequal treatment of groups.\nFrom Friedler et al. (2021)"
+    "text": "Many definitions of fairness\n\nindividual fairness: the goal of giving similar individuals similar decisions\ngroup fairness: the goal of giving similar decisions across demographic groups\n\nDiscrimination manifests itself in unequal treatment of groups.\nFrom Friedler et al. (2021)"
   },
   {
     "objectID": "slides/slides-05-01.html#a-worked-example",
@@ -2522,21 +2522,21 @@
   {
     "objectID": "slides/slides-05-01.html#references-and-further-readings",
     "href": "slides/slides-05-01.html#references-and-further-readings",
-    "title": "Algorithmic Bias and Fairness",
+    "title": "Algorithmic Bias",
     "section": "References and Further Readings",
-    "text": "References and Further Readings\n\nFriedler, S. A., Scheidegger, C., & Venkatasubramanian, S. (2021). The (im) possibility of fairness: Different value systems require different mechanisms for fair decision making. Communications of the ACM, 64(4), 136-143.\nFriedman, B., & Nissenbaum, H. (1996). Bias in computer systems. ACM Transactions on Information Systems, 14(3), 330–347.\nSuresh, H., & Guttag, J. (2021). A framework for understanding sources of harm throughout the machine learning life cycle. EAAMO ’21.\nObermeyer, Z., Powers, B., Vogeli, C., & Mullainathan, S. (2019). Dissecting racial bias in an algorithm used to manage the health of populations. Science, 366(6464), 447–453.\nDastin, J. (2018). Amazon scraps secret AI recruiting tool that showed bias against women. Reuters.\nKleinberg, J., Mullainathan, S., & Raghavan, M. (2016). Inherent trade-offs in the fair determination of risk scores.\nChouldechova, A. (2017). Fair prediction with disparate impact. Big Data, 5(2), 153–163.\nBarocas, S., Hardt, M., & Narayanan, A. (2023). Fairness and Machine Learning: Limitations and Opportunities. MIT Press.\nNicoletti, L., & Bass, D. (2023). Humans are biased. Generative AI is even worse. Bloomberg.\nNoble, S. U. (2018). Algorithms of Oppression: How Search Engines Reinforce Racism. NYU Press."
+    "text": "References and Further Readings\n\nBarocas, S., Crawford, K., Shapiro, A., & Wallach, H. (2017, October). The problem with bias: From allocative to representational harms in machine learning. In SIGCIS conference paper (p. 53).\nFriedler, S. A., Scheidegger, C., & Venkatasubramanian, S. (2021). The (im) possibility of fairness: Different value systems require different mechanisms for fair decision making. Communications of the ACM, 64(4), 136-143.\nFriedman, B., & Nissenbaum, H. (1996). Bias in computer systems. ACM Transactions on Information Systems, 14(3), 330–347.\nSuresh, H., & Guttag, J. (2021). A framework for understanding sources of harm throughout the machine learning life cycle. EAAMO ’21.\nObermeyer, Z., Powers, B., Vogeli, C., & Mullainathan, S. (2019). Dissecting racial bias in an algorithm used to manage the health of populations. Science, 366(6464), 447–453."
   },
   {
     "objectID": "slides/slides-05-01.html#journal-writing",
     "href": "slides/slides-05-01.html#journal-writing",
-    "title": "Algorithmic Bias and Fairness",
+    "title": "Algorithmic Bias",
     "section": "Journal Writing",
-    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked of disliked"
+    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked or disliked"
   },
   {
     "objectID": "slides/slides-05-02.html#qa-10-minutes",
     "href": "slides/slides-05-02.html#qa-10-minutes",
-    "title": "Disinformation",
+    "title": "Fairness",
     "section": "Q&A (10 minutes)",
     "text": "Q&A (10 minutes)\nQ&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
   },
@@ -2620,9 +2620,9 @@
   {
     "objectID": "slides/slides-05-02.html#group-discussion-ethics-frameworks",
     "href": "slides/slides-05-02.html#group-discussion-ethics-frameworks",
-    "title": "Disinformation",
+    "title": "Fairness",
     "section": "Group Discussion: Ethics frameworks",
-    "text": "Group Discussion: Ethics frameworks\n\nConsequentialism: Is it better to remove some true content by mistake, or leave some false content up? Who bears the costs of each error?\nDeontology: Do platforms have a duty to tell the truth, or only a duty not to lie? Do users have a duty to verify before sharing?\nContractualism: Could an engagement-maximizing ranking algorithm be justified to everyone affected, including those harmed by what it amplifies?\nPolitical economy: Who profits from engagement? Who pays for disinformation?"
+    "text": "Group Discussion: Ethics frameworks\n\nConsequentialism: In the worked example, which error is worse: a false positive (wrongly flagged) or a false negative (missed)? Does your answer depend on the domain (bail, loans, medical care)?\nDeontology: Is it ever acceptable to use a protected attribute (e.g., race) to correct for bias?\nContractualism: Which fairness definition could be justified to everyone affected, including the group with the higher base rate?\nPolitical economy: Who chooses the fairness metric? Who benefits from that choice?"
   },
   {
     "objectID": "slides/slides-05-02.html#group-discussion-disinformation",
@@ -2634,23 +2634,23 @@
   {
     "objectID": "slides/slides-05-02.html#references-and-further-readings",
     "href": "slides/slides-05-02.html#references-and-further-readings",
-    "title": "Disinformation",
+    "title": "Fairness",
     "section": "References and Further Readings",
-    "text": "References and Further Readings\n\nWardle, C., & Derakhshan, H. (2017). Information Disorder: Toward an Interdisciplinary Framework for Research and Policymaking. Council of Europe.\nVosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. Science, 359(6380), 1146–1151.\nGuess, A. M., et al. (2023). How do social media feed algorithms affect attitudes and behavior in an election campaign? Science, 381(6656), 398–404.\nChesney, R., & Citron, D. (2019). Deep fakes: A looming challenge for privacy, democracy, and national security. California Law Review, 107, 1753–1820.\nRoozenbeek, J., van der Linden, S., Goldberg, B., Rathje, S., & Lewandowsky, S. (2022). Psychological inoculation improves resilience against misinformation on social media. Science Advances, 8(34).\nMerrill, J. B., & Oremus, W. (2021). Five points for anger, one for a ‘like’. Washington Post.\nAmnesty International (2022). The Social Atrocity: Meta and the Right to Remedy for the Rohingya."
+    "text": "References and Further Readings\n\nFriedler, S. A., Scheidegger, C., & Venkatasubramanian, S. (2021). The (im) possibility of fairness: Different value systems require different mechanisms for fair decision making. Communications of the ACM, 64(4), 136-143."
   },
   {
     "objectID": "slides/slides-05-02.html#journal-writing",
     "href": "slides/slides-05-02.html#journal-writing",
-    "title": "Disinformation",
+    "title": "Fairness",
     "section": "Journal Writing",
-    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked of disliked"
+    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked or disliked"
   },
   {
     "objectID": "index.html#slides-3",
     "href": "index.html#slides-3",
     "title": "CSCI 3921W - Social, Legal, and Ethical Issues in Computing",
     "section": "Slides",
-    "text": "Slides\n\nAlgorithmic Bias and Fairness\nDisinformation"
+    "text": "Slides\n\nAlgorithmic Bias\nFairness\nDisinformation"
   },
   {
     "objectID": "slides/slides-05-01.html",
@@ -2676,23 +2676,23 @@
   {
     "objectID": "slides/slides-05-01.html#group-discussion",
     "href": "slides/slides-05-01.html#group-discussion",
-    "title": "Algorithmic Bias and Fairness",
+    "title": "Algorithmic Bias",
     "section": "Group Discussion",
-    "text": "Group Discussion\n\nThink back when you were applying to college. What materials did you have to submit? Were the evaluation criteria of these materials clear to you? Did the decisions you receive make sense to you?\nWhat are college admission decisions trying to predict?"
+    "text": "Group Discussion\n\nThink back when you were applying to college. What materials did you have to submit? Were the evaluation criteria of these materials clear to you? Did the decisions you receive make sense to you?\nWhat values and worldview do college admissions embody?\nWhat are college admission decisions trying to predict?"
   },
   {
     "objectID": "slides/slides-05-01.html#bias-in-decisions",
     "href": "slides/slides-05-01.html#bias-in-decisions",
-    "title": "Algorithmic Bias and Fairness",
+    "title": "Algorithmic Bias",
     "section": "Bias in decisions",
     "text": "Bias in decisions\n\nThis college admissions example demonstrates the basic pipeline in human decision-making systems, which is also mimicked in algorithmic systems\n\nFrom Friedler et al. (2021)"
   },
   {
     "objectID": "slides/slides-05-01.html#bias-in-computer-systems-1",
     "href": "slides/slides-05-01.html#bias-in-computer-systems-1",
-    "title": "Algorithmic Bias and Fairness",
+    "title": "Algorithmic Bias",
     "section": "Bias in computer systems",
-    "text": "Bias in computer systems\nFriedman & Nissenbaum (1996) identified three kinds of bias:\n\nPreexisting bias: comes from society, institutions, the people who build the system, and the data used in the system\nTechnical bias: comes from technical constraints or decisions (e.g., limited screen space, ranking algorithms, how names are sorted)\nEmergent bias: appears after deployment, when the context of use changes (e.g., new users, new populations, new purposes)\n\nWritten in 1996, decades before modern machine learning."
+    "text": "Bias in computer systems\nFriedman & Nissenbaum (1996) identified three kinds of bias:\n\nPreexisting bias: comes from society, institutions, the people who build the system, and the data used in the system\nTechnical bias: comes from technical constraints or decisions (e.g., limited screen space, proxy variables, incomplete data)\nEmergent bias: appears after deployment, when the context of use changes (e.g., new users, new purposes, feedback loops)"
   },
   {
     "objectID": "assignment-2.html#requirements",
@@ -2777,5 +2777,222 @@
     "title": "Paper 2 - Application",
     "section": "Grading Rubric (Option 3)",
     "text": "Grading Rubric (Option 3)\nWe will be grading your paper on a 20-point scale:\n\nAudit design (5 points)\n\nclearly defined system, groups, hypothesis, and bias measure, with justification\npaired inputs that isolate the attribute being tested\nmeets the minimum number of test cases\ncoding scheme defined in advance\n\nResults (4 points)\n\nresults reported accurately and completely, with a summary table or chart\nrepresentative examples support the summary\n\nAnalysis (5 points)\n\noffers plausible explanations for the results, tied to course concepts and readings\nconsiders how outputs could affect real decisions and real people\nhonest about limitations\nmakes sure claims are proportionate to evidence\n\nRecommendations (3 points)\n\nspecific and actionable\nidentifies who has the responsibility and standing to act\n\nWriting and mechanics (3 points)\n\nclear organization and structure\nmeets length, appendix, and citation requirements\nproofread"
+  },
+  {
+    "objectID": "slides/slides-05-01.html#references-and-further-readings-1",
+    "href": "slides/slides-05-01.html#references-and-further-readings-1",
+    "title": "Algorithmic Bias",
+    "section": "References and Further Readings",
+    "text": "References and Further Readings\n\nDastin, J. (2018). Amazon scraps secret AI recruiting tool that showed bias against women. Reuters.\nKleinberg, J., Mullainathan, S., & Raghavan, M. (2016). Inherent trade-offs in the fair determination of risk scores.\nChouldechova, A. (2017). Fair prediction with disparate impact. Big Data, 5(2), 153–163.\nBarocas, S., Hardt, M., & Narayanan, A. (2023). Fairness and Machine Learning: Limitations and Opportunities. MIT Press.\nNicoletti, L., & Bass, D. (2023). Humans are biased. Generative AI is even worse. Bloomberg.\nNoble, S. U. (2018). Algorithms of Oppression: How Search Engines Reinforce Racism. NYU Press."
+  },
+  {
+    "objectID": "slides/slides-05-01.html#group-activity-present-technology",
+    "href": "slides/slides-05-01.html#group-activity-present-technology",
+    "title": "Algorithmic Bias",
+    "section": "Group Activity: Present Technology",
+    "text": "Group Activity: Present Technology\nSurveillance pricing: personal data is used to set individualized prices or adjust targeted discounts based on what is predicted a specific customer is willing to pay\nDynamic Pricing: Changes prices based on external market conditions, such as weather, time of day, or overall product supply and demand (e.g., surge pricing for rideshares or airline seats).\nYou should read more about surveillance pricing to answer these questions.\nSome regulation has been put into place (Maryland’s Protection from Predatory Pricing Act, Colorado’s HB26-1210, MA Bill S.47, Seattle’s ordinance)\n\nDoes surveillance pricing take into account preexisting bias (historical roots), technical bias (design and architecture limits), and emergent bias (feedback loops, changing environments, and user adaptation)? For what purpose (reduce bias?)?\nCan you identify any issues of automation bias, and unequal harm?\nWhat should be done to reduce the impact of bias on different groups?"
+  },
+  {
+    "objectID": "slides/slides-05-02.html#many-definitions-of-fairness",
+    "href": "slides/slides-05-02.html#many-definitions-of-fairness",
+    "title": "Fairness",
+    "section": "Many definitions of fairness",
+    "text": "Many definitions of fairness\n\nindividual fairness: the goal of giving similar individuals similar decisions\ngroup fairness: the goal of giving similar decisions across demographic groups\n\nDiscrimination manifests itself in unequal treatment of groups.\nFrom Friedler et al. (2021)"
+  },
+  {
+    "objectID": "slides/slides-05-02.html#many-definitions-of-fairness-1",
+    "href": "slides/slides-05-02.html#many-definitions-of-fairness-1",
+    "title": "Fairness",
+    "section": "Many definitions of fairness",
+    "text": "Many definitions of fairness\nConsider a model that predicts a “high risk” label (e.g., risk of reoffending, defaulting on a loan):\n\n\n\n\n\n\n\n\nDefinition\nRequirement\nPlain language\n\n\n\n\nDemographic parity\nSame % flagged in each group\nEqual outcomes\n\n\nEqual opportunity\nSame true positive rate in each group\nQualified people have an equal chance\n\n\nEqualized odds\nSame true positive and false positive rates\nEqual error rates\n\n\nPredictive parity / calibration\nSame precision (a “high risk” label means the same thing) in each group\nScores mean the same for everyone\n\n\n\nRecall COMPAS: ProPublica measured false positive rates; the company measured predictive parity. Both were “right.”"
+  },
+  {
+    "objectID": "slides/slides-05-02.html#a-worked-example",
+    "href": "slides/slides-05-02.html#a-worked-example",
+    "title": "Fairness",
+    "section": "A worked example",
+    "text": "A worked example\nTwo groups of 100 people. Group A’s base rate (people who actually reoffend) is 50%; Group B’s is 20%.\n\n\n\n\n\n\n\n\n\nGroup A\nGroup B\n\n\n\n\nActually reoffend\n50\n20\n\n\nFlagged high-risk\n50\n20\n\n\n…and did reoffend (TP)\n40\n16\n\n\n…but did not (FP)\n10\n4\n\n\nPrecision (TP / flagged)\n40/50 = 0.80\n16/20 = 0.80\n\n\nTrue positive rate (TP / reoffend)\n40/50 = 0.80\n16/20 = 0.80\n\n\nFalse positive rate (FP / did not reoffend)\n10/50 = 0.20\n4/80 = 0.05\n\n\n\nSame precision, same true positive rate, but people in Group A who do not reoffend are 4x more likely to be wrongly flagged."
+  },
+  {
+    "objectID": "slides/slides-05-02.html#the-impossibility-result",
+    "href": "slides/slides-05-02.html#the-impossibility-result",
+    "title": "Fairness",
+    "section": "The impossibility result",
+    "text": "The impossibility result\nKleinberg, Mullainathan & Raghavan (2016) and Chouldechova (2017) showed:\nWhen base rates differ between groups, a (non-perfect) classifier cannot satisfy calibration/predictive parity and equal false positive and false negative rates at the same time.\n\nFairness is not a bug to be fixed with better code\nChoosing a fairness definition is a value choice, not a technical one\nSomeone must decide which errors matter most, and for whom"
+  },
+  {
+    "objectID": "slides/slides-05-02.html#fairness-and-the-law",
+    "href": "slides/slides-05-02.html#fairness-and-the-law",
+    "title": "Fairness",
+    "section": "Fairness and the law",
+    "text": "Fairness and the law\nUS anti-discrimination law (e.g., Title VII of the Civil Rights Act, Fair Housing Act, Equal Credit Opportunity Act) recognizes:\n\nDisparate treatment: intentionally treating people differently because of a protected characteristic\nDisparate impact: a neutral-looking practice that disproportionately harms a protected group (Griggs v. Duke Power Co., 1971)\nThe EEOC’s four-fifths rule: a selection rate for one group below 80% of the rate for the highest group is evidence of adverse impact\n\nMost algorithmic bias looks like disparate impact, not intent."
+  },
+  {
+    "objectID": "slides/slides-05-02.html#fairness-in-generative-ai",
+    "href": "slides/slides-05-02.html#fairness-in-generative-ai",
+    "title": "Fairness",
+    "section": "Fairness in generative AI",
+    "text": "Fairness in generative AI\n\nImage generators asked for “a CEO” or “a doctor” produce mostly white men; “a fast-food worker” produces mostly people with darker skin (Bloomberg analysis of Stable Diffusion, 2023)\nAttempts to correct this can overcorrect: in 2024, Google paused Gemini’s image generation of people after it produced historically inaccurate images (e.g., racially diverse 1940s German soldiers)\nLanguage models can associate names, dialects (e.g., African American English), and identities with negative traits\n\nWhat would “fair” output even look like for a generative model?"
+  },
+  {
+    "objectID": "slides/slides-05-02.html#group-discussion-fairness",
+    "href": "slides/slides-05-02.html#group-discussion-fairness",
+    "title": "Fairness",
+    "section": "Group Discussion: Fairness",
+    "text": "Group Discussion: Fairness\n\nShould algorithms be used for high-stakes decisions at all, if perfect fairness is mathematically impossible? Are human decision-makers any fairer?\nWho should get to decide which fairness definition a system uses: engineers, companies, regulators, or affected communities?\nBase rates often differ because of historical injustice. Should a model treat those base rates as “ground truth”?"
+  },
+  {
+    "objectID": "slides/slides-05-01.html#preexisting-bias",
+    "href": "slides/slides-05-01.html#preexisting-bias",
+    "title": "Algorithmic Bias",
+    "section": "Preexisting bias",
+    "text": "Preexisting bias\n\n[The process of producing data] is long and complex, grounded in historical context and driven by human choices and norms\n\n\nnot all problems should be blamed on the data. The ML pipeline involves a series of choices and practices, from model definition to user interfaces used upon deployment.\n\nFrom Suresh & Guttag (2021)"
+  },
+  {
+    "objectID": "slides/slides-05-01.html#bias-across-the-ml-life-cycle-1",
+    "href": "slides/slides-05-01.html#bias-across-the-ml-life-cycle-1",
+    "title": "Algorithmic Bias",
+    "section": "Bias across the ML life cycle",
+    "text": "Bias across the ML life cycle\nSuresh & Guttag (2021) map harms to stages of building a machine learning system:\n\n\n\n\n\n\n\n\nSource\nWhat goes wrong\nExample\n\n\n\n\nHistorical\nThe world the data reflects is already unjust\nPast hiring decisions favored men\n\n\nRepresentation\nSome groups are under-sampled\nclassifying images of objects from under-sampled countries\n\n\nMeasurement\nThe label or feature is a poor proxy for what we care about\nUsing arrests as a proxy for crime\n\n\nAggregation\nOne model for groups that differ\nOne medical model for all populations"
+  },
+  {
+    "objectID": "slides/slides-05-01.html#types-of-harm",
+    "href": "slides/slides-05-01.html#types-of-harm",
+    "title": "Algorithmic Bias",
+    "section": "Types of harm",
+    "text": "Types of harm\nBarocas et al. (2017)\n\nallocative harm: when opportunities or resources are withheld from certain people or groups (e.g., whether someone is offered a loan or a job)\nrepresentational harm: when certain people or groups are stigmatized or stereotyped (e.g., LLMs that encode and replicate stereotypes)\n\nCollege admissions decisions can cause allocative harm"
+  },
+  {
+    "objectID": "slides/slides-05-01.html#bias-across-the-ml-life-cycle-2",
+    "href": "slides/slides-05-01.html#bias-across-the-ml-life-cycle-2",
+    "title": "Algorithmic Bias",
+    "section": "Bias across the ML life cycle",
+    "text": "Bias across the ML life cycle\nSuresh & Guttag (2021) map harms to stages of building a machine learning system:\n\n\n\n\n\n\n\n\nSource\nWhat goes wrong\nExample\n\n\n\n\nLearning\nModeling choices amplify performance disparities\nPruning eliminates underrepresented attributes\n\n\nEvaluation\nBenchmarks do not represent users\nSmiling detection on images of dark-skinned women\n\n\nDeployment\nSystem used differently than intended\nA score made for support used for punishment"
+  },
+  {
+    "objectID": "slides/slides-05-01.html#bias-across-the-ml-life-cycle-3",
+    "href": "slides/slides-05-01.html#bias-across-the-ml-life-cycle-3",
+    "title": "Algorithmic Bias",
+    "section": "Bias across the ML life cycle",
+    "text": "Bias across the ML life cycle\nSuresh & Guttag (2021) map harms to stages of building a machine learning system:\n\n\n\n\n\n\n\n\nSource\nWhat goes wrong\nExample\n\n\n\n\nLearning\nModeling choices amplify performance disparities\nPruning eliminates underrepresented attributes\n\n\nEvaluation\nBenchmarks do not represent users\nSmiling detection on images of dark-skinned women\n\n\nDeployment\nSystem used differently than intended\nA score made for support used for punishment"
+  },
+  {
+    "objectID": "slides/slides-05-01.html#group-discussion-1",
+    "href": "slides/slides-05-01.html#group-discussion-1",
+    "title": "Algorithmic Bias",
+    "section": "Group Discussion",
+    "text": "Group Discussion\nConsider the following simplified scenario: a medical researcher wants to build a model to help detect whether someone is having a heart attack. She trains the model on medical records from a subset of prior patients at a hospital, along with labels indicating if and when they suffered a heart attack. She observes that the system has a higher false negative rate for women (it is more likely to miss cases of heart attacks in women), and hypothesizes that the model was not able to effectively learn the signs of heart attacks in women because of a lack of such examples. She seeks out additional data representing women who experienced heart attacks to augment the dataset, re-trains the model, and observes that the performance for female patients improves.\nMeanwhile, a co-worker hiring new lab technicians tries to build an algorithm for predicting the suitability of a candidate from their resume along with human-assigned ratings. He notices that women are much less likely to be predicted as suitable candidates than men. Like his colleague, he tries to collect many more samples of women to add to the dataset, but is disappointed to see that the model’s behavior does not change. Why did this happen?\nSuresh & Guttag (2021)"
+  },
+  {
+    "objectID": "slides/slides-05-03.html#qa-10-minutes",
+    "href": "slides/slides-05-03.html#qa-10-minutes",
+    "title": "Disinformation",
+    "section": "Q&A (10 minutes)",
+    "text": "Q&A (10 minutes)\nQ&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/slides-05-03.html#warm-up",
+    "href": "slides/slides-05-03.html#warm-up",
+    "title": "Disinformation",
+    "section": "Warm-up",
+    "text": "Warm-up\nBefore we start, answer in your journal:\nThink of the last time you shared (or almost shared) something online that turned out to be false or misleading.\n\nWhy did it seem believable?\nHow did you find out it was false?"
+  },
+  {
+    "objectID": "slides/slides-05-03.html#information-disorder",
+    "href": "slides/slides-05-03.html#information-disorder",
+    "title": "Disinformation",
+    "section": "Information disorder",
+    "text": "Information disorder\nWardle & Derakhshan (2017) distinguish three types:\n\nMisinformation: false information shared without intent to harm (e.g., sharing a fake cure you believe works)\nDisinformation: false information shared knowingly to deceive or harm (e.g., state-run influence campaigns)\nMalinformation: true information shared to cause harm (e.g., leaking private information, doxxing)\n\nIntent matters for ethics, but the harm can be the same."
+  },
+  {
+    "objectID": "slides/slides-05-03.html#disinformation-is-not-new",
+    "href": "slides/slides-05-03.html#disinformation-is-not-new",
+    "title": "Disinformation",
+    "section": "Disinformation is not new",
+    "text": "Disinformation is not new\n\nPropaganda, forged documents, and rumors are as old as politics\nWhat computing changed:\n\nScale: anyone can reach millions\nSpeed: content spreads faster than it can be checked\nCost: creating convincing fake content is now nearly free\nTargeting: messages can be tailored to specific audiences\nAmplification: algorithms decide what we see"
+  },
+  {
+    "objectID": "slides/slides-05-03.html#falsehood-spreads-faster",
+    "href": "slides/slides-05-03.html#falsehood-spreads-faster",
+    "title": "Disinformation",
+    "section": "Falsehood spreads faster",
+    "text": "Falsehood spreads faster\nVosoughi, Roy & Aral (2018), Science studied ~126,000 stories on Twitter (2006–2017):\n\nFalse news was 70% more likely to be retweeted than true news\nTrue stories took about 6 times longer to reach 1,500 people\nFalse news was more novel and evoked surprise and disgust\nBots spread true and false news at similar rates, so humans, not bots, drove the difference"
+  },
+  {
+    "objectID": "slides/slides-05-03.html#engagement-based-ranking",
+    "href": "slides/slides-05-03.html#engagement-based-ranking",
+    "title": "Disinformation",
+    "section": "Engagement-based ranking",
+    "text": "Engagement-based ranking\n\nSocial media feeds are ranked to maximize engagement (clicks, likes, comments, shares, time on site)\nContent that provokes outrage and surprise gets more engagement\n2018: Facebook shifted its News Feed to prioritize “meaningful social interactions”\nInternal documents leaked by whistleblower Frances Haugen (2021) showed Facebook had weighted the “angry” emoji reaction five times more than a “like” (Washington Post, 2021)\nEngineers optimized a metric; the metric shaped what billions of people saw"
+  },
+  {
+    "objectID": "slides/slides-05-03.html#do-algorithms-cause-polarization",
+    "href": "slides/slides-05-03.html#do-algorithms-cause-polarization",
+    "title": "Disinformation",
+    "section": "Do algorithms cause polarization?",
+    "text": "Do algorithms cause polarization?\nThe evidence is more mixed than headlines suggest:\n\n2023 studies with Meta during the 2020 US election (Guess et al., Science) switched users from algorithmic to chronological feeds\nUsers spent less time on the platform and saw more untrustworthy content, but there were no significant changes in polarization over three months\nAlgorithms are one factor among many (cable news, political elites, offline networks)\n\nWhy might it be hard to study the effects of platforms on society?"
+  },
+  {
+    "objectID": "slides/slides-05-03.html#synthetic-media",
+    "href": "slides/slides-05-03.html#synthetic-media",
+    "title": "Disinformation",
+    "section": "Synthetic media",
+    "text": "Synthetic media\n\nDeepfakes: AI-generated audio, image, or video that depicts people saying or doing things they never did\n2023: Days before Slovakia’s parliamentary election, a fake audio clip of a candidate discussing how to rig the vote spread online\n2024: Voters in New Hampshire received robocalls with an AI-generated voice of President Biden telling them not to vote in the primary\n\nThe FCC ruled AI-generated voices in robocalls illegal under the Telephone Consumer Protection Act and fined the political consultant behind the calls $6 million\n\nNon-consensual intimate deepfakes overwhelmingly target women and girls"
+  },
+  {
+    "objectID": "slides/slides-05-03.html#the-liars-dividend",
+    "href": "slides/slides-05-03.html#the-liars-dividend",
+    "title": "Disinformation",
+    "section": "The liar’s dividend",
+    "text": "The liar’s dividend\nChesney & Citron (2019):\n\nAs people learn that audio and video can be faked, it becomes easier for liars to dismiss real evidence as fake.\n\n\nThe harm of deepfakes is not only that people believe false things\nIt is also that people stop believing true things\nWho benefits most from a world where nothing can be verified?"
+  },
+  {
+    "objectID": "slides/slides-05-03.html#unequal-harms-again",
+    "href": "slides/slides-05-03.html#unequal-harms-again",
+    "title": "Disinformation",
+    "section": "Unequal harms, again",
+    "text": "Unequal harms, again\n\nContent moderation is weaker in non-English languages. Recall Facebook in Myanmar\nDisinformation campaigns often target marginalized communities (e.g., voter suppression messages aimed at specific groups)\nThose with less access to reliable information or media literacy resources have fewer defenses"
+  },
+  {
+    "objectID": "slides/slides-05-03.html#what-can-be-done",
+    "href": "slides/slides-05-03.html#what-can-be-done",
+    "title": "Disinformation",
+    "section": "What can be done?",
+    "text": "What can be done?\n\n\n\nApproach\nExample\nTrade-off\n\n\n\n\nContent moderation\nRemoving posts, banning accounts\nWho decides what is false? Censorship concerns\n\n\nFact-checking and labels\nThird-party fact-checkers; X/Meta Community Notes\nSlow; may not reach those who saw the original\n\n\nChanging ranking\nDownranking borderline content\nPlatforms lose engagement (and revenue)\n\n\nProvenance\nWatermarks, C2PA content credentials\nCan be stripped; does not cover all content\n\n\nPrebunking / inoculation\nTeaching manipulation techniques in advance (Roozenbeek et al., 2022)\nEffects may fade over time\n\n\nRegulation\nEU Digital Services Act (2022) requires large platforms to assess systemic risks\nDifferent values about speech across countries\n\n\n\n2025: Meta ended its third-party fact-checking program in the US and moved to Community Notes."
+  },
+  {
+    "objectID": "slides/slides-05-03.html#platforms-and-the-law-us",
+    "href": "slides/slides-05-03.html#platforms-and-the-law-us",
+    "title": "Disinformation",
+    "section": "Platforms and the law (US)",
+    "text": "Platforms and the law (US)\n\nFirst Amendment: limits government restrictions on speech, not private companies’ moderation decisions\nSection 230 of the Communications Decency Act (1996): platforms are generally not liable for content posted by users, and can moderate in good faith\nSection 230 was written for the internet of 1996. Does it still fit platforms that actively rank and recommend content?\n\nRecall the policy vacuum and the Collingridge dilemma from the reactive regulation lecture."
+  },
+  {
+    "objectID": "slides/slides-05-03.html#group-discussion-ethics-frameworks",
+    "href": "slides/slides-05-03.html#group-discussion-ethics-frameworks",
+    "title": "Disinformation",
+    "section": "Group Discussion: Ethics frameworks",
+    "text": "Group Discussion: Ethics frameworks\n\nConsequentialism: Is it better to remove some true content by mistake, or leave some false content up? Who bears the costs of each error?\nDeontology: Do platforms have a duty to tell the truth, or only a duty not to lie? Do users have a duty to verify before sharing?\nContractualism: Could an engagement-maximizing ranking algorithm be justified to everyone affected, including those harmed by what it amplifies?\nPolitical economy: Who profits from engagement? Who pays for disinformation?"
+  },
+  {
+    "objectID": "slides/slides-05-03.html#group-discussion-disinformation",
+    "href": "slides/slides-05-03.html#group-discussion-disinformation",
+    "title": "Disinformation",
+    "section": "Group Discussion: Disinformation",
+    "text": "Group Discussion: Disinformation\n\nYou are an engineer asked to improve “engagement” by 5%. What questions would you ask before starting?\nWho should decide what counts as disinformation: platforms, governments, users, independent fact-checkers?\nShould AI companies be responsible for deepfakes made with their tools?\nHow is disinformation connected to algorithmic bias? (Think about what gets amplified and whose content gets moderated)"
+  },
+  {
+    "objectID": "slides/slides-05-03.html#references-and-further-readings",
+    "href": "slides/slides-05-03.html#references-and-further-readings",
+    "title": "Disinformation",
+    "section": "References and Further Readings",
+    "text": "References and Further Readings\n\nWardle, C., & Derakhshan, H. (2017). Information Disorder: Toward an Interdisciplinary Framework for Research and Policymaking. Council of Europe.\nVosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. Science, 359(6380), 1146–1151.\nGuess, A. M., et al. (2023). How do social media feed algorithms affect attitudes and behavior in an election campaign? Science, 381(6656), 398–404.\nChesney, R., & Citron, D. (2019). Deep fakes: A looming challenge for privacy, democracy, and national security. California Law Review, 107, 1753–1820.\nRoozenbeek, J., van der Linden, S., Goldberg, B., Rathje, S., & Lewandowsky, S. (2022). Psychological inoculation improves resilience against misinformation on social media. Science Advances, 8(34).\nMerrill, J. B., & Oremus, W. (2021). Five points for anger, one for a ‘like’. Washington Post.\nAmnesty International (2022). The Social Atrocity: Meta and the Right to Remedy for the Rohingya."
+  },
+  {
+    "objectID": "slides/slides-05-03.html#journal-writing",
+    "href": "slides/slides-05-03.html#journal-writing",
+    "title": "Disinformation",
+    "section": "Journal Writing",
+    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked or disliked"
   }
 ]
