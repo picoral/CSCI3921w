@@ -2636,7 +2636,7 @@
     "href": "slides/slides-05-02.html#references-and-further-readings",
     "title": "Fairness",
     "section": "References and Further Readings",
-    "text": "References and Further Readings\n\nFriedler, S. A., Scheidegger, C., & Venkatasubramanian, S. (2021). The (im) possibility of fairness: Different value systems require different mechanisms for fair decision making. Communications of the ACM, 64(4), 136-143."
+    "text": "References and Further Readings\n\nBarocas, S., Hardt, M., & Narayanan, A. (2023). Fairness and Machine Learning: Limitations and Opportunities. MIT Press.\nChouldechova, A. (2017). Fair prediction with disparate impact. Big Data, 5(2), 153–163.\nFriedler, S. A., Scheidegger, C., & Venkatasubramanian, S. (2021). The (im) possibility of fairness: Different value systems require different mechanisms for fair decision making. Communications of the ACM, 64(4), 136-143.\nKleinberg, J., Mullainathan, S., & Raghavan, M. (2016). Inherent trade-offs in the fair determination of risk scores."
   },
   {
     "objectID": "slides/slides-05-02.html#journal-writing",
@@ -2783,7 +2783,7 @@
     "href": "slides/slides-05-01.html#references-and-further-readings-1",
     "title": "Algorithmic Bias",
     "section": "References and Further Readings",
-    "text": "References and Further Readings\n\nDastin, J. (2018). Amazon scraps secret AI recruiting tool that showed bias against women. Reuters.\nKleinberg, J., Mullainathan, S., & Raghavan, M. (2016). Inherent trade-offs in the fair determination of risk scores.\nChouldechova, A. (2017). Fair prediction with disparate impact. Big Data, 5(2), 153–163.\nBarocas, S., Hardt, M., & Narayanan, A. (2023). Fairness and Machine Learning: Limitations and Opportunities. MIT Press.\nNicoletti, L., & Bass, D. (2023). Humans are biased. Generative AI is even worse. Bloomberg.\nNoble, S. U. (2018). Algorithms of Oppression: How Search Engines Reinforce Racism. NYU Press."
+    "text": "References and Further Readings\n\nDastin, J. (2018). Amazon scraps secret AI recruiting tool that showed bias against women. Reuters.\nNicoletti, L., & Bass, D. (2023). Humans are biased. Generative AI is even worse. Bloomberg.\nNoble, S. U. (2018). Algorithms of Oppression: How Search Engines Reinforce Racism. NYU Press."
   },
   {
     "objectID": "slides/slides-05-01.html#group-activity-present-technology",
@@ -2811,7 +2811,7 @@
     "href": "slides/slides-05-02.html#a-worked-example",
     "title": "Fairness",
     "section": "A worked example",
-    "text": "A worked example\nTwo groups of 100 people. Group A’s base rate (people who actually reoffend) is 50%; Group B’s is 20%.\n\n\n\n\n\n\n\n\n\nGroup A\nGroup B\n\n\n\n\nActually reoffend\n50\n20\n\n\nFlagged high-risk\n50\n20\n\n\n…and did reoffend (TP)\n40\n16\n\n\n…but did not (FP)\n10\n4\n\n\nPrecision (TP / flagged)\n40/50 = 0.80\n16/20 = 0.80\n\n\nTrue positive rate (TP / reoffend)\n40/50 = 0.80\n16/20 = 0.80\n\n\nFalse positive rate (FP / did not reoffend)\n10/50 = 0.20\n4/80 = 0.05\n\n\n\nSame precision, same true positive rate, but people in Group A who do not reoffend are 4x more likely to be wrongly flagged."
+    "text": "A worked example\nTwo groups of 100 people.\n\n\n\n\nGroup A\nGroup B\n\n\n\n\nFlagged high-risk\n50\n20\n\n\n…Flagged that did reoffend (TP)\n40\n16\n\n\n…Flagged did not reoffend (FP)\n10\n4\n\n\nNot Flagged that did reoffend (FN)\n10\n2\n\n\n\nCalculate accuracy, precision, true positive rate, and false positive rate"
   },
   {
     "objectID": "slides/slides-05-02.html#the-impossibility-result",
@@ -2994,5 +2994,47 @@
     "title": "Disinformation",
     "section": "Journal Writing",
     "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked or disliked"
+  },
+  {
+    "objectID": "slides/slides-05-02.html#fairness-metrics",
+    "href": "slides/slides-05-02.html#fairness-metrics",
+    "title": "Fairness",
+    "section": "Fairness Metrics",
+    "text": "Fairness Metrics\nEach metric requires that some aspects of the predictor behavior be comparable across groups.\n\n\n\n\n\n\n\n\nDefinition\nRequirement\nPlain language\n\n\n\n\nDemographic parity\nSame % flagged/selected in each group\nThe probability of a certain prediction is not dependent on group membership\n\n\nEqual opportunity\nSame true positive rate in each group\nQualified people have an equal chance\n\n\nEqualized odds\nSame true positive and false positive rates\nEqual error rates\n\n\nPredictive parity/calibration\nSame precision in each group\nScores mean the same for everyone\n\n\n\nA taxonomy of fairness metrics\nMore key metrics"
+  },
+  {
+    "objectID": "slides/slides-05-02.html#fairness-metrics-1",
+    "href": "slides/slides-05-02.html#fairness-metrics-1",
+    "title": "Fairness",
+    "section": "Fairness Metrics",
+    "text": "Fairness Metrics\nMore key metrics\nRecall COMPAS: ProPublica measured false positive rates; the company measured predictive parity. Both were “right.”"
+  },
+  {
+    "objectID": "slides/slides-05-02.html#accuracy-precision-and-recall",
+    "href": "slides/slides-05-02.html#accuracy-precision-and-recall",
+    "title": "Fairness",
+    "section": "Accuracy, Precision, and Recall",
+    "text": "Accuracy, Precision, and Recall\nClassification Metrics:\n\nAccuracy is the proportion of all classifications that were correct, whether positive or negative. \\(( TP + TN) / all\\)\nRecall, or true positive rate (TPR) is the proportion of all actual positives that were classified correctly as positives. \\(TP / (TP + FN)\\)\nFalse positive rate (FPT) is the proportion of all actual negatives that were classified incorrectly as positives (probability of false alarm). \\(FP / (TN + FP)\\)\nPrecision is the proportion of all the positive classifications that are actually positive. \\(TP / (TP + FP)\\)"
+  },
+  {
+    "objectID": "slides/slides-05-02.html#classification-metrics",
+    "href": "slides/slides-05-02.html#classification-metrics",
+    "title": "Fairness",
+    "section": "Classification Metrics",
+    "text": "Classification Metrics\n\nAccuracy is the proportion of all classifications that were correct, whether positive or negative. \\(( TP + TN) / all\\)\nRecall, or true positive rate (TPR) is the proportion of all actual positives that were classified correctly as positives. \\(TP / (TP + FN)\\)\nFalse positive rate (FPR) is the proportion of all actual negatives that were classified incorrectly as positives (probability of false alarm). \\(FP / (TN + FP)\\)\nPrecision is the proportion of all the positive classifications that are actually positive. \\(TP / (TP + FP)\\)\n\nGoogle Developer’s ML Concepts"
+  },
+  {
+    "objectID": "slides/slides-05-02.html#a-worked-example-1",
+    "href": "slides/slides-05-02.html#a-worked-example-1",
+    "title": "Fairness",
+    "section": "A worked example",
+    "text": "A worked example\nTwo groups of 100 people.\n\n\n\n\n\n\n\n\n\nGroup A\nGroup B\n\n\n\n\nAccuracy (TP+TN / all)\n80/100 = 0.80\n94/100 = 0.94\n\n\nPrecision (TP / flagged)\n40/50 = 0.80\n16/20 = 0.80\n\n\nTrue positive rate (TP / reoffend)\n40/50 = 0.80\n16/18 = 0.88\n\n\nFalse positive rate (FP / did not reoffend)\n10/50 = 0.20\n4/82 = 0.05\n\n\n\nSame precision, similar true positive rate, but people in Group A who do not reoffend are 4x more likely to be wrongly flagged."
+  },
+  {
+    "objectID": "slides/slides-05-01.html#in-class-activity-sources-of-bias",
+    "href": "slides/slides-05-01.html#in-class-activity-sources-of-bias",
+    "title": "Algorithmic Bias",
+    "section": "In-class Activity: Sources of bias",
+    "text": "In-class Activity: Sources of bias\nAnswer the canvas quiz on scenarios and their source of bias"
   }
 ]
