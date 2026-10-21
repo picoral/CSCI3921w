@@ -2622,7 +2622,7 @@
     "href": "slides/slides-05-02.html#group-discussion-ethics-frameworks",
     "title": "Fairness",
     "section": "Group Discussion: Ethics frameworks",
-    "text": "Group Discussion: Ethics frameworks\n\nConsequentialism: In the worked example, which error is worse: a false positive (wrongly flagged) or a false negative (missed)? Does your answer depend on the domain (bail, loans, medical care)?\nDeontology: Is it ever acceptable to use a protected attribute (e.g., race) to correct for bias?\nContractualism: Which fairness definition could be justified to everyone affected, including the group with the higher base rate?\nPolitical economy: Who chooses the fairness metric? Who benefits from that choice?"
+    "text": "Group Discussion: Ethics frameworks\n\nConsequentialism: In the example, which error is worse: a false positive (wrongly flagged) or a false negative (missed)? Does your answer depend on the domain (bail, loans, medical care)?\nDeontology: Is it ever acceptable to use a protected attribute (e.g., race) to correct for bias?\nContractualism: Which fairness definition could be justified to everyone affected, including the group with the higher base rate?\nPolitical economy: Who chooses the fairness metric? Who benefits from that choice?"
   },
   {
     "objectID": "slides/slides-05-02.html#group-discussion-disinformation",
@@ -2650,7 +2650,7 @@
     "href": "index.html#slides-3",
     "title": "CSCI 3921W - Social, Legal, and Ethical Issues in Computing",
     "section": "Slides",
-    "text": "Slides\n\nAlgorithmic Bias\nFairness\nDisinformation"
+    "text": "Slides\n\nAlgorithmic Bias\nFairness\nAlgorithmic Audits"
   },
   {
     "objectID": "slides/slides-05-01.html",
@@ -2825,7 +2825,7 @@
     "href": "slides/slides-05-02.html#fairness-and-the-law",
     "title": "Fairness",
     "section": "Fairness and the law",
-    "text": "Fairness and the law\nUS anti-discrimination law (e.g., Title VII of the Civil Rights Act, Fair Housing Act, Equal Credit Opportunity Act) recognizes:\n\nDisparate treatment: intentionally treating people differently because of a protected characteristic\nDisparate impact: a neutral-looking practice that disproportionately harms a protected group (Griggs v. Duke Power Co., 1971)\nThe EEOC’s four-fifths rule: a selection rate for one group below 80% of the rate for the highest group is evidence of adverse impact\n\nMost algorithmic bias looks like disparate impact, not intent."
+    "text": "Fairness and the law\nUS anti-discrimination law (e.g., Title VII of the Civil Rights Act of 1964, Fair Housing Act, Equal Credit Opportunity Act) recognizes:\n\nDisparate treatment: intentionally treating people differently because of a protected characteristic\nDisparate impact: a neutral-looking practice that disproportionately harms a protected group (Griggs v. Duke Power Co., 1971)\nThe EEOC’s four-fifths rule: a selection rate for one group below 80% of the rate for the highest group is evidence of adverse impact\n\nMost algorithmic bias looks like disparate impact, not intent.\nLaws generally only apply in employment, credit, and housing"
   },
   {
     "objectID": "slides/slides-05-02.html#fairness-in-generative-ai",
@@ -2886,16 +2886,16 @@
   {
     "objectID": "slides/slides-05-03.html#qa-10-minutes",
     "href": "slides/slides-05-03.html#qa-10-minutes",
-    "title": "Disinformation",
+    "title": "Algorithmic Audits",
     "section": "Q&A (10 minutes)",
     "text": "Q&A (10 minutes)\nQ&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
   },
   {
     "objectID": "slides/slides-05-03.html#warm-up",
     "href": "slides/slides-05-03.html#warm-up",
-    "title": "Disinformation",
+    "title": "Algorithmic Audits",
     "section": "Warm-up",
-    "text": "Warm-up\nBefore we start, answer in your journal:\nThink of the last time you shared (or almost shared) something online that turned out to be false or misleading.\n\nWhy did it seem believable?\nHow did you find out it was false?"
+    "text": "Warm-up\nBefore we start, answer in your journal:\nImagine you suspect that a job application website is rejecting people like you more often than others.\n\nWhat evidence would you need to show it?\nWhat would you need access to (the code, the data, the decisions)? Would the company give it to you?"
   },
   {
     "objectID": "slides/slides-05-03.html#information-disorder",
@@ -2970,9 +2970,9 @@
   {
     "objectID": "slides/slides-05-03.html#group-discussion-ethics-frameworks",
     "href": "slides/slides-05-03.html#group-discussion-ethics-frameworks",
-    "title": "Disinformation",
+    "title": "Algorithmic Audits",
     "section": "Group Discussion: Ethics frameworks",
-    "text": "Group Discussion: Ethics frameworks\n\nConsequentialism: Is it better to remove some true content by mistake, or leave some false content up? Who bears the costs of each error?\nDeontology: Do platforms have a duty to tell the truth, or only a duty not to lie? Do users have a duty to verify before sharing?\nContractualism: Could an engagement-maximizing ranking algorithm be justified to everyone affected, including those harmed by what it amplifies?\nPolitical economy: Who profits from engagement? Who pays for disinformation?"
+    "text": "Group Discussion: Ethics frameworks\n\nConsequentialism: Do public audits do more good (accountability, improvements) than harm (legal risk to researchers, companies hiding systems)?\nDeontology: Do people have a right to know whether an algorithm that judges them has been audited? Do companies have a duty to allow outside audits?\nContractualism: What audit rules could be justified to companies, regulators, and the people being judged?\nPolitical economy: Who pays for audits, who sees the results, and who decides what counts as a “passing” audit?"
   },
   {
     "objectID": "slides/slides-05-03.html#group-discussion-disinformation",
@@ -2984,14 +2984,14 @@
   {
     "objectID": "slides/slides-05-03.html#references-and-further-readings",
     "href": "slides/slides-05-03.html#references-and-further-readings",
-    "title": "Disinformation",
+    "title": "Algorithmic Audits",
     "section": "References and Further Readings",
-    "text": "References and Further Readings\n\nWardle, C., & Derakhshan, H. (2017). Information Disorder: Toward an Interdisciplinary Framework for Research and Policymaking. Council of Europe.\nVosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. Science, 359(6380), 1146–1151.\nGuess, A. M., et al. (2023). How do social media feed algorithms affect attitudes and behavior in an election campaign? Science, 381(6656), 398–404.\nChesney, R., & Citron, D. (2019). Deep fakes: A looming challenge for privacy, democracy, and national security. California Law Review, 107, 1753–1820.\nRoozenbeek, J., van der Linden, S., Goldberg, B., Rathje, S., & Lewandowsky, S. (2022). Psychological inoculation improves resilience against misinformation on social media. Science Advances, 8(34).\nMerrill, J. B., & Oremus, W. (2021). Five points for anger, one for a ‘like’. Washington Post.\nAmnesty International (2022). The Social Atrocity: Meta and the Right to Remedy for the Rohingya."
+    "text": "References and Further Readings\n\nAli, M., Sapiezynski, P., Bogen, M., Korolova, A., Mislove, A., & Rieke, A. (2019). Discrimination through optimization: How Facebook’s ad delivery can lead to biased outcomes. Proceedings of the ACM on Human-Computer Interaction, 3(CSCW), 1–30.\nBuolamwini, J., & Gebru, T. (2018). Gender shades: Intersectional accuracy disparities in commercial gender classification. FAT* ’18.\nCostanza-Chock, S., Raji, I. D., & Buolamwini, J. (2022). Who audits the auditors? Recommendations from a field scan of the algorithmic auditing ecosystem. FAccT ’22.\nMetaxa, D., Park, J. S., Robertson, R. E., Karahalios, K., Wilson, C., Hancock, J., & Sandvig, C. (2021). Auditing algorithms: Understanding algorithmic systems from the outside in. Foundations and Trends in Human–Computer Interaction, 14(4), 272–344.\nRaji, I. D., & Buolamwini, J. (2019). Actionable auditing: Investigating the impact of publicly naming biased performance results of commercial AI products. AIES ’19."
   },
   {
     "objectID": "slides/slides-05-03.html#journal-writing",
     "href": "slides/slides-05-03.html#journal-writing",
-    "title": "Disinformation",
+    "title": "Algorithmic Audits",
     "section": "Journal Writing",
     "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked or disliked"
   },
@@ -3036,5 +3036,285 @@
     "title": "Algorithmic Bias",
     "section": "In-class Activity: Sources of bias",
     "text": "In-class Activity: Sources of bias\nAnswer the canvas quiz on scenarios and their source of bias"
+  },
+  {
+    "objectID": "slides/slides-05-02.html#practice-example",
+    "href": "slides/slides-05-02.html#practice-example",
+    "title": "Fairness",
+    "section": "Practice example",
+    "text": "Practice example\nTwo groups of 100 people.\n\n\n\n\nGroup A\nGroup B\n\n\n\n\nFlagged high-risk\n50\n20\n\n\n…Flagged that did reoffend (TP)\n40\n16\n\n\n…Flagged did not reoffend (FP)\n10\n4\n\n\nNot Flagged that did reoffend (FN)\n10\n2\n\n\n\nCalculate accuracy, precision, true positive rate, and false positive rate"
+  },
+  {
+    "objectID": "slides/slides-05-02.html#practice-example-1",
+    "href": "slides/slides-05-02.html#practice-example-1",
+    "title": "Fairness",
+    "section": "Practice example",
+    "text": "Practice example\nTwo groups of 100 people.\n\n\n\n\n\n\n\n\n\nGroup A\nGroup B\n\n\n\n\nAccuracy (TP+TN / all)\n80/100 = 0.80\n94/100 = 0.94\n\n\nPrecision (TP / flagged)\n40/50 = 0.80\n16/20 = 0.80\n\n\nTrue positive rate (TP / reoffend)\n40/50 = 0.80\n16/18 = 0.88\n\n\nFalse positive rate (FP / did not reoffend)\n10/50 = 0.20\n4/82 = 0.05\n\n\n\nSame precision, similar true positive rate, but people in Group A who do not reoffend are 4x more likely to be wrongly flagged."
+  },
+  {
+    "objectID": "slides/quiz-05-01-sources-of-bias.html",
+    "href": "slides/quiz-05-01-sources-of-bias.html",
+    "title": "Quiz: Sources of Bias Across the ML Life Cycle",
+    "section": "",
+    "text": "Quiz: Sources of Bias Across the ML Life Cycle\nSuresh & Guttag (2021). For each scenario, pick the source of bias that best describes what went wrong.\nChoices (same for every question):\n\nHistorical bias\nRepresentation bias\nMeasurement bias\nAggregation bias\nLearning bias\nEvaluation bias\nDeployment bias\n\n\nQuestion 1\nAn image search engine returns mostly photos of men when users search for “CEO.” The engineers check the results and find that they match the real gender breakdown of Fortune 500 CEOs. Even so, the results reinforce the stereotype that leaders are men.\n\nHistorical bias\nRepresentation bias\nMeasurement bias\nAggregation bias\nLearning bias\nEvaluation bias\nDeployment bias\n\nCorrect answer: a. Historical bias Feedback: The data accurately reflects the world, but the world itself reflects past and present inequality. Even perfect sampling would not fix this.\n\nQuestion 2\nA startup builds a skin cancer detection app. Almost all the training images come from a dermatology clinic whose patients are mostly light-skinned. The app works well for light skin but often misses melanoma on darker skin.\n\nHistorical bias\nRepresentation bias\nMeasurement bias\nAggregation bias\nLearning bias\nEvaluation bias\nDeployment bias\n\nCorrect answer: b. Representation bias Feedback: People with darker skin are under-sampled in the training data, so the model does not learn their patterns well.\n\nQuestion 3\nA company wants to identify its most “productive” remote employees. Since productivity is hard to observe directly, the model uses the number of hours each employee shows as “active” in the chat app. Employees who do focused work offline, or who use assistive technologies that interact differently with the app, get rated as less productive.\n\nHistorical bias\nRepresentation bias\nMeasurement bias\nAggregation bias\nLearning bias\nEvaluation bias\nDeployment bias\n\nCorrect answer: c. Measurement bias Feedback: “Active hours in the chat app” is a poor proxy for productivity, the thing the company actually cares about.\n\nQuestion 4\nA hospital builds one model to predict diabetes complications for all patients. Research shows that a key blood marker in the model relates to diabetes risk differently across ethnic groups. Because the model uses a single relationship for everyone, it makes worse predictions for some groups, even groups that are well represented in the data.\n\nHistorical bias\nRepresentation bias\nMeasurement bias\nAggregation bias\nLearning bias\nEvaluation bias\nDeployment bias\n\nCorrect answer: d. Aggregation bias Feedback: A single model is applied to groups whose features relate to the outcome in different ways.\n\nQuestion 5\nTo run a speech recognition model on cheap phones, engineers compress it by removing the parts of the network that contribute least to overall accuracy. Overall accuracy barely changes, but accuracy for speakers with less common accents drops sharply.\n\nHistorical bias\nRepresentation bias\nMeasurement bias\nAggregation bias\nLearning bias\nEvaluation bias\nDeployment bias\n\nCorrect answer: e. Learning bias Feedback: A modeling choice (compression that optimizes for overall accuracy) made the performance gap between groups larger.\n\nQuestion 6\nA company advertises that its face detection system is “99% accurate.” That number comes from a popular benchmark dataset in which most faces are lighter-skinned men. When the system is sold to customers around the world, it fails much more often on darker-skinned women.\n\nHistorical bias\nRepresentation bias\nMeasurement bias\nAggregation bias\nLearning bias\nEvaluation bias\nDeployment bias\n\nCorrect answer: f. Evaluation bias Feedback: The benchmark used to measure performance does not represent the people who will actually use the system, so the reported accuracy is misleading.\n\nQuestion 7\nA school district builds a model to flag students who might benefit from extra tutoring. A few years later, the district starts using the same scores to decide which students are allowed into advanced placement courses.\n\nHistorical bias\nRepresentation bias\nMeasurement bias\nAggregation bias\nLearning bias\nEvaluation bias\nDeployment bias\n\nCorrect answer: g. Deployment bias Feedback: The system is being used for a purpose it was not designed for, turning a support tool into a gatekeeping tool.\n\nQuestion 8\nA bank trains a loan approval model on 30 years of its own lending records. The records are complete and accurate. However, for decades the bank (like many others) denied loans in neighborhoods that had been redlined, so applicants from those neighborhoods have fewer successful repayment histories. The model learns to give lower scores to applicants from those areas.\n\nHistorical bias\nRepresentation bias\nMeasurement bias\nAggregation bias\nLearning bias\nEvaluation bias\nDeployment bias\n\nCorrect answer: a. Historical bias Feedback: The data is accurate but reflects decades of discriminatory lending. The injustice is in the world the data records.\n\nQuestion 9\nA wearable fitness tracker estimates heart rate using a light sensor on the wrist. The sensor gives less accurate readings on darker skin. A health insurance company uses the tracker’s heart rate data as a feature to predict health risk.\n\nHistorical bias\nRepresentation bias\nMeasurement bias\nAggregation bias\nLearning bias\nEvaluation bias\nDeployment bias\n\nCorrect answer: c. Measurement bias Feedback: The feature is measured with different accuracy for different groups, so the data is noisier for some people than for others.\n\nQuestion 10\nA sentiment analysis model is trained on a large collection of social media posts from all users. Certain slang terms and emoji mean something positive in one online community but something negative in the general population. The single model reads these posts the same way for everyone and misclassifies posts from that community.\n\nHistorical bias\nRepresentation bias\nMeasurement bias\nAggregation bias\nLearning bias\nEvaluation bias\nDeployment bias\n\nCorrect answer: d. Aggregation bias Feedback: One model is used for groups where the same features (words, emoji) have different meanings.\n\nQuestion 11\nA voice assistant is trained on recordings collected by asking volunteers to call a phone line. Most volunteers were college students in the U.S. The assistant struggles to understand older adults and people who speak English as a second language.\n\nHistorical bias\nRepresentation bias\nMeasurement bias\nAggregation bias\nLearning bias\nEvaluation bias\nDeployment bias\n\nCorrect answer: b. Representation bias Feedback: The way the training data was collected left out large parts of the population that will use the system.\n\nQuestion 12\nA team training a medical model adds “differential privacy” noise during training to protect patients’ data. Model accuracy drops only a little for the majority group, but drops a lot for patients from small minority groups, because the model now has a harder time learning from their few examples.\n\nHistorical bias\nRepresentation bias\nMeasurement bias\nAggregation bias\nLearning bias\nEvaluation bias\nDeployment bias\n\nCorrect answer: e. Learning bias Feedback: A training choice (adding privacy noise) widened the performance gap between groups.\n\nQuestion 13\nA tool designed to give radiologists a “second opinion” on X-rays is adopted by an understaffed rural clinic. With no radiologist on staff, the clinic’s nurses treat the tool’s output as the final diagnosis.\n\nHistorical bias\nRepresentation bias\nMeasurement bias\nAggregation bias\nLearning bias\nEvaluation bias\nDeployment bias\n\nCorrect answer: g. Deployment bias Feedback: A system meant to support expert judgment is being used in place of it, in a context the designers did not intend.\n\nQuestion 14\nResearchers compare chatbots using a well-known test set of questions. The test set was written entirely in standard American English by graduate students. The top-ranked chatbot is chosen for a public health hotline serving many immigrant communities, where it performs much worse than its ranking suggested.\n\nHistorical bias\nRepresentation bias\nMeasurement bias\nAggregation bias\nLearning bias\nEvaluation bias\nDeployment bias\n\nCorrect answer: f. Evaluation bias Feedback: The benchmark used to rank the models does not represent the population the system will serve.\n\nQuestion 15\nA hospital system wants to identify patients who need extra care. Since “health need” is hard to measure directly, the model is trained to predict how much money each patient will spend on health care next year. Patients who face barriers to getting care, such as cost, distance, or distrust of doctors, spend less even when they are just as sick, so the model ranks them as lower need.\n\nHistorical bias\nRepresentation bias\nMeasurement bias\nAggregation bias\nLearning bias\nEvaluation bias\nDeployment bias\n\nCorrect answer: c. Measurement bias Feedback: The label (health care spending) is a poor proxy for the thing the hospital actually cares about (health need), and the gap between the two is larger for some groups than for others."
+  },
+  {
+    "objectID": "slides/slides-05-03.html#from-past-to-present",
+    "href": "slides/slides-05-03.html#from-past-to-present",
+    "title": "Algorithmic Audits",
+    "section": "From past to present",
+    "text": "From past to present\nSo far in this module we asked:\n\nWhere does bias come from? (preexisting, technical, emergent)\nWhat does it mean for an algorithm to be fair? (and why we can’t satisfy all measures at once)\n\nToday we ask:\n\nHow do we find out whether a deployed system is biased?\nWho gets to check, and what happens when they find something?"
+  },
+  {
+    "objectID": "slides/slides-05-03.html#algorithmic-audits",
+    "href": "slides/slides-05-03.html#algorithmic-audits",
+    "title": "Algorithmic Audits",
+    "section": "Algorithmic audits",
+    "text": "Algorithmic audits\n\nAn algorithm audit is a method of repeatedly and systematically querying an algorithm with inputs and observing the corresponding outputs in order to draw inferences about its opaque inner workings\n\nFrom Metaxa et al. (2021)"
+  },
+  {
+    "objectID": "slides/slides-05-03.html#who-does-the-audit",
+    "href": "slides/slides-05-03.html#who-does-the-audit",
+    "title": "Algorithmic Audits",
+    "section": "Who does the audit?",
+    "text": "Who does the audit?\n\n\n\nType\nWho\nAccess\nExample\n\n\n\n\nFirst-party (internal)\nThe company that built the system\nFull: code, data, documentation\nAn internal team\n\n\nSecond-party\nA contractor hired by the company\nWhat the company chooses to share\nA consulting firm\n\n\nThird-party (external)\nIndependent researchers, journalists, regulators\nUsually only inputs and outputs\nProPublica’s COMPAS analysis, Gender Shades\n\n\n\nCostanza-Chock, Raji & Buolamwini (2022)"
+  },
+  {
+    "objectID": "slides/slides-05-03.html#audit-methods",
+    "href": "slides/slides-05-03.html#audit-methods",
+    "title": "Algorithmic Audits",
+    "section": "Audit methods",
+    "text": "Audit methods\n\nCode audit: direct access to the codebase of the underlying system/documentation\nUser survey: survey and/or user interviews that gather descriptive data of user experience\nScraping audit: scraped data\nAPI audit: API acquired data\nSock-puppet audit: data is generated through programmed (fake) users\nCrowd-sourced audit (mystery-shopper audit): data is collected from real users\n\nAda Lovelace Institute – Technical methods for regulatory inspection of algorithmic systems"
+  },
+  {
+    "objectID": "slides/slides-05-03.html#group-discussion-audit-methods",
+    "href": "slides/slides-05-03.html#group-discussion-audit-methods",
+    "title": "Algorithmic Audits",
+    "section": "Group Discussion: Audit methods",
+    "text": "Group Discussion: Audit methods\n\nFor each audit method, what are its strengths and weaknesses?\nWhich methods might violate a platform’s terms of service? Is it ethical to break terms of service to detect discrimination?\nWhich method would you use to audit: (a) a social media feed, (b) a résumé screening tool, (c) a ride-sharing pricing algorithm?"
+  },
+  {
+    "objectID": "slides/slides-05-03.html#case-gender-shades-2018",
+    "href": "slides/slides-05-03.html#case-gender-shades-2018",
+    "title": "Algorithmic Audits",
+    "section": "Case: Gender Shades (2018)",
+    "text": "Case: Gender Shades (2018)\nBuolamwini & Gebru (2018) audited commercial gender classification systems (IBM, Microsoft, Face++):\n\nBuilt a new benchmark balanced by gender and skin type (existing benchmarks were mostly lighter-skinned men)\nError rates of up to 34.7% for darker-skinned women vs. at most 0.8% for lighter-skinned men\nIntersectional analysis: looking only at gender or only at skin type hides the worst disparities\n\nWhich source of bias does this reveal?"
+  },
+  {
+    "objectID": "slides/slides-05-03.html#case-actionable-auditing-2019",
+    "href": "slides/slides-05-03.html#case-actionable-auditing-2019",
+    "title": "Algorithmic Audits",
+    "section": "Case: Actionable Auditing (2019)",
+    "text": "Case: Actionable Auditing (2019)\nRaji & Buolamwini (2019) asked: did the audit change anything?\n\nThe audited companies were notified and released new versions of their products\nAll three audited companies reduced their error disparities\nCompanies that were not audited (e.g., Amazon, Kairos) had large disparities in the new tests\n\nPublic, named audits can create accountability. But companies also pushed back on the findings, and audits put researchers at legal and reputational risk."
+  },
+  {
+    "objectID": "slides/slides-05-03.html#case-facebook-ad-delivery-2019",
+    "href": "slides/slides-05-03.html#case-facebook-ad-delivery-2019",
+    "title": "Algorithmic Audits",
+    "section": "Case: Facebook ad delivery (2019)",
+    "text": "Case: Facebook ad delivery (2019)\nAli et al. (2019) ran ads with identical targeting (same audience, same budget):\n\nAds for jobs in the lumber industry were delivered to audiences that were mostly white men\nAds for janitor jobs were delivered mostly to Black women\nHousing ads were skewed by race depending on the image in the ad\nThe skew came from Facebook’s optimization for engagement, not from the advertiser’s choices\n\nIn 2022, the U.S. Department of Justice settled with Meta under the Fair Housing Act. Meta built a “Variance Reduction System” for housing ads."
+  },
+  {
+    "objectID": "slides/slides-05-03.html#legal-risks-of-auditing",
+    "href": "slides/slides-05-03.html#legal-risks-of-auditing",
+    "title": "Algorithmic Audits",
+    "section": "Legal risks of auditing",
+    "text": "Legal risks of auditing\n\nScraping audits and sock puppet audits often violate a website’s terms of service\nResearchers feared prosecution under the Computer Fraud and Abuse Act (CFAA)\nSandvig v. Barr (2020): a federal court ruled that violating terms of service for research does not, by itself, violate the CFAA\nVan Buren v. United States (2021): the Supreme Court narrowed the CFAA’s scope\nPlatforms have still shut down researchers’ accounts and tools (e.g., Meta and NYU’s Ad Observatory, 2021)\n\nWho benefits when audits are hard to do?"
+  },
+  {
+    "objectID": "slides/slides-05-03.html#nyc-local-law-144-2023",
+    "href": "slides/slides-05-03.html#nyc-local-law-144-2023",
+    "title": "Algorithmic Audits",
+    "section": "NYC Local Law 144 (2023)",
+    "text": "NYC Local Law 144 (2023)\nNew York City requires employers that use automated employment decision tools (AEDTs) to:\n\nHave an independent bias audit done each year\nPublish a summary of the audit results\nNotify candidates that an AEDT is being used\n\nThe audit must report selection rates and impact ratios by sex, race/ethnicity, and intersectional categories.\n\\[\\text{impact ratio} = \\frac{\\text{selection rate of a category}}{\\text{selection rate of the most selected category}}\\]\nRecall the EEOC’s four-fifths rule: an impact ratio below 0.8 is evidence of adverse impact."
+  },
+  {
+    "objectID": "slides/slides-05-03.html#practice-example-impact-ratios",
+    "href": "slides/slides-05-03.html#practice-example-impact-ratios",
+    "title": "Algorithmic Audits",
+    "section": "Practice example: Impact ratios",
+    "text": "Practice example: Impact ratios\nA résumé screening tool advanced the following applicants to an interview:\n\n\n\nCategory\nApplicants\nAdvanced\n\n\n\n\nMen\n400\n120\n\n\nWomen\n300\n60\n\n\nNonbinary\n20\n5\n\n\n\nCalculate the selection rate and impact ratio for each category. Does any category fall below the four-fifths threshold?"
+  },
+  {
+    "objectID": "slides/slides-05-03.html#practice-example-impact-ratios-1",
+    "href": "slides/slides-05-03.html#practice-example-impact-ratios-1",
+    "title": "Algorithmic Audits",
+    "section": "Practice example: Impact ratios",
+    "text": "Practice example: Impact ratios\n\n\n\nCategory\nSelection rate\nImpact ratio\n\n\n\n\nMen\n120/400 = 0.30\n0.30/0.30 = 1.00\n\n\nWomen\n60/300 = 0.20\n0.20/0.30 = 0.67\n\n\nNonbinary\n5/20 = 0.25\n0.25/0.30 = 0.83\n\n\n\n\nWomen fall below the four-fifths threshold\nThe nonbinary category has very few applicants: is a ratio based on 20 people reliable? (NYC rules allow excluding categories under 2% of the data)\nNotice what this audit does not measure: whether the people advanced were qualified (true/false positive rates)"
+  },
+  {
+    "objectID": "slides/slides-05-03.html#limits-of-local-law-144",
+    "href": "slides/slides-05-03.html#limits-of-local-law-144",
+    "title": "Algorithmic Audits",
+    "section": "Limits of Local Law 144",
+    "text": "Limits of Local Law 144\nA study of the law’s first year (Wright et al., 2024) found:\n\nVery few employers published audits (18 of 391 employers studied)\nEmployers decide for themselves whether their tool counts as an AEDT\nThe law only requires reporting: there is no penalty for a low impact ratio\nAudits measure selection rates only, not accuracy, validity, or disability discrimination\n\nIs an audit that no one is required to act on still useful?"
+  },
+  {
+    "objectID": "slides/slides-05-03.html#internal-audits",
+    "href": "slides/slides-05-03.html#internal-audits",
+    "title": "Algorithmic Audits",
+    "section": "Internal audits",
+    "text": "Internal audits\nRaji et al. (2020) proposed an end-to-end internal audit framework (SMACTR) that runs through the development life cycle:\n\nScoping: what are the intended uses and the possible harms?\nMapping: who are the stakeholders and who is responsible?\nArtifact collection: documentation such as model cards and datasheets for datasets\nTesting: e.g., disaggregated evaluation and adversarial testing\nReflection: weigh results against the company’s ethical principles, and decide whether to go ahead\n\nOpen-source tools can help: Fairlearn, IBM AI Fairness 360, Aequitas"
+  },
+  {
+    "objectID": "slides/slides-05-03.html#who-audits-the-auditors",
+    "href": "slides/slides-05-03.html#who-audits-the-auditors",
+    "title": "Algorithmic Audits",
+    "section": "Who audits the auditors?",
+    "text": "Who audits the auditors?\nCostanza-Chock, Raji & Buolamwini (2022) surveyed people working in the audit field and found:\n\nThere are no shared standards for what an audit must include\nSecond-party auditors are paid by the company being audited (conflict of interest)\nResults are often kept private\nAffected communities are rarely involved\n\nAudit-washing: using a (weak) audit to make a system look fair without changing it"
+  },
+  {
+    "objectID": "slides/slides-05-03.html#group-activity-present-technology",
+    "href": "slides/slides-05-03.html#group-activity-present-technology",
+    "title": "Algorithmic Audits",
+    "section": "Group Activity: Present Technology",
+    "text": "Group Activity: Present Technology\nAI hiring tools: many companies use automated tools to screen résumés, rank candidates, analyze video interviews, or score games and assessments (e.g., HireVue, Workday, LinkedIn Recruiter).\nIn 2023, a lawsuit (Mobley v. Workday) claimed Workday’s screening tools discriminated by race, age, and disability. In 2025 a court allowed the age discrimination claim to move forward as a collective action.\nYour group is hired to design an audit of an AI hiring tool:\n\nWhat type of audit (first-, second-, or third-party) and which method would you use? What access do you need?\nWhich groups and which intersectional categories would you test? Which fairness metrics would you report?\nWhat would count as “failing” the audit, and what should happen if the tool fails?\nWhat harms might your audit miss?"
+  },
+  {
+    "objectID": "slides/slides-05-03.html#references-and-further-readings-1",
+    "href": "slides/slides-05-03.html#references-and-further-readings-1",
+    "title": "Algorithmic Audits",
+    "section": "References and Further Readings",
+    "text": "References and Further Readings\n\nRaji, I. D., Smart, A., White, R. N., Mitchell, M., Gebru, T., Hutchinson, B., … & Barnes, P. (2020). Closing the AI accountability gap: Defining an end-to-end framework for internal algorithmic auditing. FAT* ’20.\nWright, L., Muenster, R. M., Vecchione, B., Qu, T., Cai, P., Smith, A., … & Metcalf, J. (2024). Null compliance: NYC Local Law 144 and the challenges of algorithm accountability. FAccT ’24.\nNYC Department of Consumer and Worker Protection. Automated Employment Decision Tools (AEDT)."
+  },
+  {
+    "objectID": "slides/slides-desinformation.html",
+    "href": "slides/slides-desinformation.html",
+    "title": "Disinformation",
+    "section": "",
+    "text": "Q&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/slides-desinformation.html#qa-10-minutes",
+    "href": "slides/slides-desinformation.html#qa-10-minutes",
+    "title": "Disinformation",
+    "section": "",
+    "text": "Q&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/slides-desinformation.html#warm-up",
+    "href": "slides/slides-desinformation.html#warm-up",
+    "title": "Disinformation",
+    "section": "Warm-up",
+    "text": "Warm-up\nBefore we start, answer in your journal:\nThink of the last time you shared (or almost shared) something online that turned out to be false or misleading.\n\nWhy did it seem believable?\nHow did you find out it was false?"
+  },
+  {
+    "objectID": "slides/slides-desinformation.html#information-disorder",
+    "href": "slides/slides-desinformation.html#information-disorder",
+    "title": "Disinformation",
+    "section": "Information disorder",
+    "text": "Information disorder\nWardle & Derakhshan (2017) distinguish three types:\n\nMisinformation: false information shared without intent to harm (e.g., sharing a fake cure you believe works)\nDisinformation: false information shared knowingly to deceive or harm (e.g., state-run influence campaigns)\nMalinformation: true information shared to cause harm (e.g., leaking private information, doxxing)\n\nIntent matters for ethics, but the harm can be the same."
+  },
+  {
+    "objectID": "slides/slides-desinformation.html#disinformation-is-not-new",
+    "href": "slides/slides-desinformation.html#disinformation-is-not-new",
+    "title": "Disinformation",
+    "section": "Disinformation is not new",
+    "text": "Disinformation is not new\n\nPropaganda, forged documents, and rumors are as old as politics\nWhat computing changed:\n\nScale: anyone can reach millions\nSpeed: content spreads faster than it can be checked\nCost: creating convincing fake content is now nearly free\nTargeting: messages can be tailored to specific audiences\nAmplification: algorithms decide what we see"
+  },
+  {
+    "objectID": "slides/slides-desinformation.html#falsehood-spreads-faster",
+    "href": "slides/slides-desinformation.html#falsehood-spreads-faster",
+    "title": "Disinformation",
+    "section": "Falsehood spreads faster",
+    "text": "Falsehood spreads faster\nVosoughi, Roy & Aral (2018), Science studied ~126,000 stories on Twitter (2006–2017):\n\nFalse news was 70% more likely to be retweeted than true news\nTrue stories took about 6 times longer to reach 1,500 people\nFalse news was more novel and evoked surprise and disgust\nBots spread true and false news at similar rates, so humans, not bots, drove the difference"
+  },
+  {
+    "objectID": "slides/slides-desinformation.html#engagement-based-ranking",
+    "href": "slides/slides-desinformation.html#engagement-based-ranking",
+    "title": "Disinformation",
+    "section": "Engagement-based ranking",
+    "text": "Engagement-based ranking\n\nSocial media feeds are ranked to maximize engagement (clicks, likes, comments, shares, time on site)\nContent that provokes outrage and surprise gets more engagement\n2018: Facebook shifted its News Feed to prioritize “meaningful social interactions”\nInternal documents leaked by whistleblower Frances Haugen (2021) showed Facebook had weighted the “angry” emoji reaction five times more than a “like” (Washington Post, 2021)\nEngineers optimized a metric; the metric shaped what billions of people saw"
+  },
+  {
+    "objectID": "slides/slides-desinformation.html#do-algorithms-cause-polarization",
+    "href": "slides/slides-desinformation.html#do-algorithms-cause-polarization",
+    "title": "Disinformation",
+    "section": "Do algorithms cause polarization?",
+    "text": "Do algorithms cause polarization?\nThe evidence is more mixed than headlines suggest:\n\n2023 studies with Meta during the 2020 US election (Guess et al., Science) switched users from algorithmic to chronological feeds\nUsers spent less time on the platform and saw more untrustworthy content, but there were no significant changes in polarization over three months\nAlgorithms are one factor among many (cable news, political elites, offline networks)\n\nWhy might it be hard to study the effects of platforms on society?"
+  },
+  {
+    "objectID": "slides/slides-desinformation.html#synthetic-media",
+    "href": "slides/slides-desinformation.html#synthetic-media",
+    "title": "Disinformation",
+    "section": "Synthetic media",
+    "text": "Synthetic media\n\nDeepfakes: AI-generated audio, image, or video that depicts people saying or doing things they never did\n2023: Days before Slovakia’s parliamentary election, a fake audio clip of a candidate discussing how to rig the vote spread online\n2024: Voters in New Hampshire received robocalls with an AI-generated voice of President Biden telling them not to vote in the primary\n\nThe FCC ruled AI-generated voices in robocalls illegal under the Telephone Consumer Protection Act and fined the political consultant behind the calls $6 million\n\nNon-consensual intimate deepfakes overwhelmingly target women and girls"
+  },
+  {
+    "objectID": "slides/slides-desinformation.html#the-liars-dividend",
+    "href": "slides/slides-desinformation.html#the-liars-dividend",
+    "title": "Disinformation",
+    "section": "The liar’s dividend",
+    "text": "The liar’s dividend\nChesney & Citron (2019):\n\nAs people learn that audio and video can be faked, it becomes easier for liars to dismiss real evidence as fake.\n\n\nThe harm of deepfakes is not only that people believe false things\nIt is also that people stop believing true things\nWho benefits most from a world where nothing can be verified?"
+  },
+  {
+    "objectID": "slides/slides-desinformation.html#unequal-harms-again",
+    "href": "slides/slides-desinformation.html#unequal-harms-again",
+    "title": "Disinformation",
+    "section": "Unequal harms, again",
+    "text": "Unequal harms, again\n\nContent moderation is weaker in non-English languages. Recall Facebook in Myanmar\nDisinformation campaigns often target marginalized communities (e.g., voter suppression messages aimed at specific groups)\nThose with less access to reliable information or media literacy resources have fewer defenses"
+  },
+  {
+    "objectID": "slides/slides-desinformation.html#what-can-be-done",
+    "href": "slides/slides-desinformation.html#what-can-be-done",
+    "title": "Disinformation",
+    "section": "What can be done?",
+    "text": "What can be done?\n\n\n\nApproach\nExample\nTrade-off\n\n\n\n\nContent moderation\nRemoving posts, banning accounts\nWho decides what is false? Censorship concerns\n\n\nFact-checking and labels\nThird-party fact-checkers; X/Meta Community Notes\nSlow; may not reach those who saw the original\n\n\nChanging ranking\nDownranking borderline content\nPlatforms lose engagement (and revenue)\n\n\nProvenance\nWatermarks, C2PA content credentials\nCan be stripped; does not cover all content\n\n\nPrebunking / inoculation\nTeaching manipulation techniques in advance (Roozenbeek et al., 2022)\nEffects may fade over time\n\n\nRegulation\nEU Digital Services Act (2022) requires large platforms to assess systemic risks\nDifferent values about speech across countries\n\n\n\n2025: Meta ended its third-party fact-checking program in the US and moved to Community Notes."
+  },
+  {
+    "objectID": "slides/slides-desinformation.html#platforms-and-the-law-us",
+    "href": "slides/slides-desinformation.html#platforms-and-the-law-us",
+    "title": "Disinformation",
+    "section": "Platforms and the law (US)",
+    "text": "Platforms and the law (US)\n\nFirst Amendment: limits government restrictions on speech, not private companies’ moderation decisions\nSection 230 of the Communications Decency Act (1996): platforms are generally not liable for content posted by users, and can moderate in good faith\nSection 230 was written for the internet of 1996. Does it still fit platforms that actively rank and recommend content?\n\nRecall the policy vacuum and the Collingridge dilemma from the reactive regulation lecture."
+  },
+  {
+    "objectID": "slides/slides-desinformation.html#group-discussion-ethics-frameworks",
+    "href": "slides/slides-desinformation.html#group-discussion-ethics-frameworks",
+    "title": "Disinformation",
+    "section": "Group Discussion: Ethics frameworks",
+    "text": "Group Discussion: Ethics frameworks\n\nConsequentialism: Is it better to remove some true content by mistake, or leave some false content up? Who bears the costs of each error?\nDeontology: Do platforms have a duty to tell the truth, or only a duty not to lie? Do users have a duty to verify before sharing?\nContractualism: Could an engagement-maximizing ranking algorithm be justified to everyone affected, including those harmed by what it amplifies?\nPolitical economy: Who profits from engagement? Who pays for disinformation?"
+  },
+  {
+    "objectID": "slides/slides-desinformation.html#group-discussion-disinformation",
+    "href": "slides/slides-desinformation.html#group-discussion-disinformation",
+    "title": "Disinformation",
+    "section": "Group Discussion: Disinformation",
+    "text": "Group Discussion: Disinformation\n\nYou are an engineer asked to improve “engagement” by 5%. What questions would you ask before starting?\nWho should decide what counts as disinformation: platforms, governments, users, independent fact-checkers?\nShould AI companies be responsible for deepfakes made with their tools?\nHow is disinformation connected to algorithmic bias? (Think about what gets amplified and whose content gets moderated)"
+  },
+  {
+    "objectID": "slides/slides-desinformation.html#references-and-further-readings",
+    "href": "slides/slides-desinformation.html#references-and-further-readings",
+    "title": "Disinformation",
+    "section": "References and Further Readings",
+    "text": "References and Further Readings\n\nWardle, C., & Derakhshan, H. (2017). Information Disorder: Toward an Interdisciplinary Framework for Research and Policymaking. Council of Europe.\nVosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. Science, 359(6380), 1146–1151.\nGuess, A. M., et al. (2023). How do social media feed algorithms affect attitudes and behavior in an election campaign? Science, 381(6656), 398–404.\nChesney, R., & Citron, D. (2019). Deep fakes: A looming challenge for privacy, democracy, and national security. California Law Review, 107, 1753–1820.\nRoozenbeek, J., van der Linden, S., Goldberg, B., Rathje, S., & Lewandowsky, S. (2022). Psychological inoculation improves resilience against misinformation on social media. Science Advances, 8(34).\nMerrill, J. B., & Oremus, W. (2021). Five points for anger, one for a ‘like’. Washington Post.\nAmnesty International (2022). The Social Atrocity: Meta and the Right to Remedy for the Rohingya."
+  },
+  {
+    "objectID": "slides/slides-desinformation.html#journal-writing",
+    "href": "slides/slides-desinformation.html#journal-writing",
+    "title": "Disinformation",
+    "section": "Journal Writing",
+    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked or disliked"
+  },
+  {
+    "objectID": "slides/slides-05-03.html",
+    "href": "slides/slides-05-03.html",
+    "title": "Algorithmic Audits",
+    "section": "",
+    "text": "Q&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/slides-05-03.html#who-does-the-audit-1",
+    "href": "slides/slides-05-03.html#who-does-the-audit-1",
+    "title": "Algorithmic Audits",
+    "section": "Who does the audit?",
+    "text": "Who does the audit?\n\nThe results of first-party audits are not typically disclosed to the public and there is little transparency about whether their recommendations are implemented.\nWhile second-party auditors are an important part of the ecosystem, there is no standardized audit methods and disclosure policies\nThird-party audits are conducted by fully independent organizations or individuals with no obligation or contractual relationship to the audit target\nThird-party audit have been particularly influential in creating public awareness of algorithmic harms\n\nCostanza-Chock, Raji & Buolamwini (2022)"
+  },
+  {
+    "objectID": "slides/slides-05-03.html#audit-methods-1",
+    "href": "slides/slides-05-03.html#audit-methods-1",
+    "title": "Algorithmic Audits",
+    "section": "Audit methods",
+    "text": "Audit methods\n\nAudit study: systematically probing and testing of black-box systems through repeated interaction to understand their behavior and investigate deficiency (discrimination, bias, or something else) without direct access to the internals of the system\nPurposefully intended to be external evaluations\nAudit studies are a powerful tool for establishing evidence of discrimination, especially disparate impact\n\nMetaxa et al. 2021"
   }
 ]
