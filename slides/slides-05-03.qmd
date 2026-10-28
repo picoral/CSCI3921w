@@ -1,0 +1,250 @@
+---
+title: "Algorithmic Audits"
+author: "<em>CSCI 3921w Social, Legal, and Ethical Issues in Computing</em></br>Adriana Picoral"
+format:
+  revealjs:
+    slide-number: true
+    incremental: false
+    toc: false
+    embed-resources: true
+    chalkboard: false
+    footer: "<a href=\"../index.html\">go back to course home</a>"
+---
+
+
+## Q&A (10 minutes)
+
+Q&A about ethics, computing, and logistics of the course.
+
+No question is too silly, naive, controversial, basic, or advanced.
+
+## Warm-up
+
+Before we start, answer in your journal:
+
+Imagine you suspect that a job application website is rejecting people like you more often than others.
+
+* What evidence would you need to show it?
+* What would you need access to (the code, the data, the decisions)? Would the company give it to you?
+
+## From past to present
+
+So far in this module we asked:
+
+* **Where** does bias come from? (preexisting, technical, emergent)
+* What does it mean for an algorithm to be **fair**? (and why we can't satisfy all measures at once)
+
+Today we ask:
+
+* How do we **find out** whether a deployed system is biased?
+* **Who** gets to check, and what happens when they find something?
+
+# What is an algorithmic audit?
+
+## Algorithmic audits
+
+> An algorithm audit is a method of repeatedly and systematically querying an algorithm with inputs and observing the corresponding outputs in order to draw inferences about its opaque inner workings
+
+From [Metaxa et al. (2021)](https://doi.org/10.1561/1100000083)
+
+
+## Who does the audit? {.smaller}
+
+| Type | Who | Access | Example |
+|------|-------|-------|-------|
+| **First-party** (internal) | The company that built the system | Full: code, data, documentation | [An internal team](https://www.microsoft.com/en-us/research/theme/fate/) |
+| **Second-party** | A contractor hired by the company | What the company chooses to share | [A consulting firm](https://orcaarisk.com/) |
+| **Third-party** (external) | Independent researchers, journalists, regulators | Usually only inputs and outputs | [ProPublica's COMPAS analysis](https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm), [Gender Shades](http://gendershades.org/) |
+
+[Costanza-Chock, Raji & Buolamwini (2022)](https://doi.org/10.1145/3531146.3533213)
+
+## Who does the audit? {.smaller}
+
+* The results of first-party audits are not typically disclosed to the public and there is little transparency about whether their recommendations are implemented.
+* While second-party auditors are an important part of the ecosystem, there is no standardized audit methods and disclosure policies
+* Third-party audits are conducted by fully independent organizations or individuals with no obligation or contractual relationship to the audit target
+* Third-party audit have been particularly influential in creating public awareness of algorithmic harms
+
+[Costanza-Chock, Raji & Buolamwini (2022)](https://doi.org/10.1145/3531146.3533213)
+
+## Audit methods {.smaller}
+
+* **Code audit**: direct access to the codebase of the underlying system/documentation
+* **User survey**: survey and/or user interviews that gather descriptive data of user experience 
+* **Scraping audit**: scraped data
+* **API audit**: API acquired data
+* **Sock-puppet audit**: data is generated through programmed (fake) users
+* **Crowd-sourced audit** (mystery-shopper audit): data is collected from real users
+
+[Ada Lovelace Institute -- Technical methods for regulatory inspection of algorithmic systems](https://www.adalovelaceinstitute.org/report/technical-methods-regulatory-inspection/)
+
+
+## Audit methods {.smaller}
+
+* **Audit study**: systematically probing and testing of black-box systems through repeated interaction to understand their behavior and investigate  deficiency (discrimination, bias, or something else) without direct access to the internals of the system
+* Purposefully intended to be external evaluations
+* Audit studies are a powerful tool for establishing evidence of discrimination, especially disparate impact
+
+[Metaxa et al. 2021](https://www.emerald.com/fthci/article/14/4/272/1320887/Auditing-Algorithms-Understanding-Algorithmic)
+
+## Group Discussion: Audit methods
+
+* For each audit method, what are its strengths and weaknesses?
+* Which methods might violate a platform's terms of service? Is it ethical to break terms of service to detect discrimination?
+* Which method would you use to audit: (a) a social media feed, (b) a résumé screening tool, (c) a ride-sharing pricing algorithm?
+
+# Case studies
+
+## Case: Gender Shades (2018) {.smaller}
+
+[Buolamwini & Gebru (2018)](https://proceedings.mlr.press/v81/buolamwini18a.html) audited commercial gender classification systems (IBM, Microsoft, Face++):
+
+* Built a new benchmark balanced by **gender** and **skin type** (existing benchmarks were mostly lighter-skinned men)
+* Error rates of up to **34.7%** for darker-skinned women vs. at most **0.8%** for lighter-skinned men
+* **Intersectional** analysis: looking only at gender or only at skin type hides the worst disparities
+
+Which source of bias does this reveal?
+
+## Case: Actionable Auditing (2019) {.smaller}
+
+[Raji & Buolamwini (2019)](https://doi.org/10.1145/3306618.3314244) asked: **did the audit change anything?**
+
+* The audited companies were notified and released new versions of their products
+* All three audited companies **reduced** their error disparities
+* Companies that were **not** audited (e.g., Amazon, Kairos) had large disparities in the new tests
+
+## Case: Facebook ad delivery (2019) {.smaller}
+
+[Ali et al. (2019)](https://doi.org/10.1145/3359301) ran ads with **identical targeting** (same audience, same budget):
+
+* Ads for jobs in the lumber industry were delivered to audiences that were mostly white men
+* Ads for janitor jobs were delivered mostly to Black women
+* Housing ads were skewed by race depending on the image in the ad
+* The skew came from Facebook's **optimization** for engagement, not from the advertiser's choices
+
+In 2022, the U.S. Department of Justice [settled with Meta](https://www.justice.gov/opa/pr/justice-department-secures-groundbreaking-settlement-agreement-meta-platforms-formerly-known) under the Fair Housing Act. Meta built a "Variance Reduction System" for housing ads.
+
+## Legal risks of auditing
+
+
+> researchers who engage in algorithmic audits risk breaching company Terms of Service, the Computer Fraud and Abuse Act (CFAA) or ACM ethical practices as well as face uncertainty around hostile corporate reactions. 
+
+[Raji & Buolamwini (2019)](https://doi.org/10.1145/3306618.3314244)
+
+
+## Legal risks of auditing {.smaller}
+
+* Websites' **terms of service** often do not allow scraping audits and sock puppet audits
+* *Sandvig v. Barr* (2020): [a federal court ruled that violating terms of service for research does not, by itself, violate the CFAA](https://www.aclu.org/press-releases/federal-court-rules-big-data-discrimination-studies-do-not-violate-federal-anti)
+* *Van Buren v. United States* (2021): [the Supreme Court narrowed the CFAA's scope](https://www.congress.gov/crs-product/LSB10616)
+* Platforms have still shut down researchers' accounts and tools (e.g., [Meta and NYU's Ad Observatory](https://cyber.nyu.edu/2021/08/21/facebook-disables-ad-observatory-academicians-and-journalists-fire-back/), 2021)
+
+Who benefits when audits are hard to do?
+
+# Audits and regulation
+
+## NYC Local Law 144 (2023) {.smaller}
+
+New York City requires employers that use [automated employment decision tools](https://www.nyc.gov/assets/dca/downloads/pdf/about/DCWP-AEDT-FAQ.pdf) (AEDTs) to:
+
+* Have an **independent bias audit** done each year
+* **Publish** a summary of the audit results
+* **Notify** candidates that an AEDT is being used
+
+The audit must report **selection rates** and **impact ratios** by sex, race/ethnicity, and **intersectional** categories.
+
+$$\text{impact ratio} = \frac{\text{selection rate of a category}}{\text{selection rate of the most selected category}}$$
+
+Recall the EEOC's **four-fifths rule**: an impact ratio below 0.8 is evidence of adverse impact.
+
+## Practice example: Impact ratios {.smaller}
+
+A résumé screening tool advanced the following applicants to an interview:
+
+| Category | Applicants | Advanced |
+|------|-------|-------|
+| Men | 400 | 120 |
+| Women | 300 | 60 |
+| Nonbinary | 20 | 5 |
+
+Calculate the selection rate and impact ratio for each category. Does any category fall below the four-fifths threshold?
+
+## Practice example: Impact ratios {.smaller}
+
+| Category | Selection rate | Impact ratio |
+|------|-------|-------|
+| Men | 120/400 = **0.30** | 0.30/0.30 = **1.00** |
+| Women | 60/300 = **0.20** | 0.20/0.30 = **0.67** |
+| Nonbinary | 5/20 = **0.25** | 0.25/0.30 = **0.83** |
+
+* Women fall **below** the four-fifths threshold
+* The nonbinary category has very few applicants: is a ratio based on 20 people reliable? (NYC rules allow excluding categories under 2% of the data)
+* Notice what this audit does **not** measure: whether the people advanced were qualified (true/false positive rates)
+
+## Limits of Local Law 144 {.smaller}
+
+A [study of the law's first year (Wright et al., 2024)](https://doi.org/10.1145/3630106.3658998) found:
+
+* Very few employers published audits (18 of 391 employers studied)
+* Employers decide **for themselves** whether their tool counts as an AEDT
+* The law only requires **reporting**: there is no penalty for a low impact ratio
+* Audits measure **selection rates** only, not accuracy, validity, or disability discrimination
+
+Is an audit that no one is required to act on still useful?
+
+## Internal audits {.smaller}
+
+[Raji et al. (2020)](https://doi.org/10.1145/3351095.3372873) proposed an **end-to-end internal audit framework** (SMACTR) that runs through the development life cycle:
+
+* **Scoping**: what are the intended uses and the possible harms?
+* **Mapping**: who are the stakeholders and who is responsible?
+* **Artifact collection**: documentation such as [model cards](https://doi.org/10.1145/3287560.3287596) and [datasheets for datasets](https://doi.org/10.1145/3458723)
+* **Testing**: e.g., disaggregated evaluation and adversarial testing
+* **Reflection**: weigh results against the company's ethical principles, and decide whether to go ahead
+
+Open-source tools can help: [Fairlearn](https://fairlearn.org/), [IBM AI Fairness 360](https://research.ibm.com/blog/ai-fairness-360), [Aequitas](https://github.com/dssg/aequitas)
+
+## Who audits the auditors? {.smaller}
+
+[Costanza-Chock, Raji & Buolamwini (2022)](https://doi.org/10.1145/3531146.3533213) surveyed people working in the audit field and found:
+
+* There are no shared standards for what an audit must include
+* Second-party auditors are paid by the company being audited (**conflict of interest**)
+* Results are often kept private
+* Affected communities are rarely involved
+
+**Audit-washing**: using a (weak) audit to make a system *look* fair without changing it
+
+## Group Activity: Present Technology {.smaller}
+
+**AI hiring tools**: many companies use automated tools to screen résumés, rank candidates, analyze video interviews, or score games and assessments (e.g., HireVue, Workday, LinkedIn Recruiter).
+
+In 2023, a lawsuit [Mobley v. Workday](https://www.cdflaborlaw.com/blog/federal-court-grants-preliminary-certification-in-landmark-ai-hiring-bias-case) claimed Workday's screening tools discriminated by race, age, and disability. In 2025 a court allowed the age discrimination claim to move forward as a collective action.
+
+Your group is hired to **design an audit** of an AI hiring tool:
+
+* What type of audit (first-, second-, or third-party) and which method would you use? What access do you need?
+* Which groups and which **intersectional** categories would you test? Which fairness metrics would you report?
+* What would count as "failing" the audit, and what should happen if the tool fails?
+
+## References and Further Readings {.smaller}
+
+* [Ali, M., Sapiezynski, P., Bogen, M., Korolova, A., Mislove, A., & Rieke, A. (2019). Discrimination through optimization: How Facebook's ad delivery can lead to biased outcomes. *Proceedings of the ACM on Human-Computer Interaction*, 3(CSCW), 1–30.](https://doi.org/10.1145/3359301)
+* [Buolamwini, J., & Gebru, T. (2018). Gender shades: Intersectional accuracy disparities in commercial gender classification. *FAT\* '18*.](https://proceedings.mlr.press/v81/buolamwini18a.html)
+* [Costanza-Chock, S., Raji, I. D., & Buolamwini, J. (2022). Who audits the auditors? Recommendations from a field scan of the algorithmic auditing ecosystem. *FAccT '22*.](https://doi.org/10.1145/3531146.3533213)
+* [Metaxa, D., Park, J. S., Robertson, R. E., Karahalios, K., Wilson, C., Hancock, J., & Sandvig, C. (2021). Auditing algorithms: Understanding algorithmic systems from the outside in. *Foundations and Trends in Human–Computer Interaction*, 14(4), 272–344.](https://doi.org/10.1561/1100000083)
+* [Raji, I. D., & Buolamwini, J. (2019). Actionable auditing: Investigating the impact of publicly naming biased performance results of commercial AI products. *AIES '19*.](https://doi.org/10.1145/3306618.3314244)
+
+## References and Further Readings {.smaller}
+
+* [Raji, I. D., Smart, A., White, R. N., Mitchell, M., Gebru, T., Hutchinson, B., ... & Barnes, P. (2020). Closing the AI accountability gap: Defining an end-to-end framework for internal algorithmic auditing. *FAT\* '20*.](https://doi.org/10.1145/3351095.3372873)
+* [Wright, L., Muenster, R. M., Vecchione, B., Qu, T., Cai, P., Smith, A., ... & Metcalf, J. (2024). Null compliance: NYC Local Law 144 and the challenges of algorithm accountability. *FAccT '24*.](https://doi.org/10.1145/3630106.3658998)
+* [NYC Department of Consumer and Worker Protection. Automated Employment Decision Tools (AEDT).](https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page)
+
+## Journal Writing
+
+Reflect on what you liked and disliked about this lecture, what you learned, and what you wished you'd learned.
+
+1. What you learned from the lecture and discussion -- this can be something that surprised you, something you had not considered before, a new way of thinking about something
+2. What you wish you'd learned from the discussion -- this can be questions you still have and questions you would like to explore further
+3. Anything you liked or disliked
