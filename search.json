@@ -2650,7 +2650,7 @@
     "href": "index.html#slides-3",
     "title": "CSCI 3921W - Social, Legal, and Ethical Issues in Computing",
     "section": "Slides",
-    "text": "Slides\n\nAlgorithmic Bias\nFairness\nAlgorithmic Audits\nData Collection and Privacy"
+    "text": "Slides\n\nAlgorithmic Bias\nFairness\nAlgorithmic Audits\nData Collection and Privacy\nSurveillance and Civil Liberties"
   },
   {
     "objectID": "slides/slides-05-01.html",
@@ -3504,14 +3504,14 @@
     "href": "slides/slides-06-02.html#warm-up",
     "title": "Surveillance and Civil Liberties",
     "section": "Warm-up",
-    "text": "Warm-up\nBefore we start, answer in your journal:\nYour phone has recorded where you have been for the last year.\n\nWho do you think could get access to that history? A company? The police? Your university? Your employer?\nWould they need your permission? A warrant? Money?"
+    "text": "Warm-up\nBefore we start, answer in your journal:\nYour phone has recorded where you have been for the last year.\n\nWho do you think could get access to that history? A company? The police? Your university? Your employer?\nWould they need your permission? A warrant?"
   },
   {
     "objectID": "slides/slides-06-02.html#from-last-class",
     "href": "slides/slides-06-02.html#from-last-class",
     "title": "Surveillance and Civil Liberties",
     "section": "From last class",
-    "text": "From last class\nLast class we asked what privacy is and whether “I agree” is informed consent.\nToday we ask:\n\nWhat happens when data collected by companies is used by governments?\nWhy is privacy a civil rights issue?\nWhat legal protections exist, and where are the gaps?"
+    "text": "From last class\nWe have asked what privacy is and whether “I agree” is informed consent.\nToday we ask:\n\nWhat happens when data collected by companies is used by governments?\nWhy is privacy a civil rights issue?\nWhat legal protections exist, and where are the gaps?"
   },
   {
     "objectID": "slides/slides-06-02.html#centering-civil-rights-in-the-privacy-debate",
@@ -3532,7 +3532,7 @@
     "href": "slides/slides-06-02.html#the-fourth-amendment",
     "title": "Surveillance and Civil Liberties",
     "section": "The Fourth Amendment",
-    "text": "The Fourth Amendment\n\nThe right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated, and no Warrants shall issue, but upon probable cause […] and particularly describing the place to be searched, and the persons or things to be seized.\n\nWritten in 1791. How do “papers and effects” apply to a smartphone, a cloud account, or location data?"
+    "text": "The Fourth Amendment\n\nThe right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated, and no Warrants shall issue, but upon probable cause […] and particularly describing the place to be searched, and the persons or things to be seized.\n\nRatified in 1791. How do “papers and effects” apply to a smartphone, a cloud account, or location data?"
   },
   {
     "objectID": "slides/slides-06-02.html#from-wiretaps-to-smartphones",
@@ -3546,7 +3546,7 @@
     "href": "slides/slides-06-02.html#carpenter-v.-united-states-2018",
     "title": "Surveillance and Civil Liberties",
     "section": "Carpenter v. United States (2018)",
-    "text": "Carpenter v. United States (2018)\n\nMapping a cell phone’s location over the course of 127 days provides an all-encompassing record of the holder’s whereabouts […] revealing not only his particular movements, but through them his familial, political, professional, religious, and sexual associations.\n\nChief Justice Roberts, majority opinion\nCompare with aggregation in Solove’s taxonomy and contextual integrity."
+    "text": "Carpenter v. United States (2018)\n\nMapping a cell phone’s location over the course of 127 days provides an all-encompassing record of the holder’s whereabouts […] revealing not only his particular movements, but through them his familial, political, professional, religious, and sexual associations.\n\nChief Justice Roberts, majority opinion"
   },
   {
     "objectID": "slides/slides-06-02.html#the-data-broker-loophole",
@@ -3560,7 +3560,7 @@
     "href": "slides/slides-06-02.html#geofence-and-keyword-warrants",
     "title": "Surveillance and Civil Liberties",
     "section": "Geofence and keyword warrants",
-    "text": "Geofence and keyword warrants\nTraditional warrants name a suspect and ask for their data. Newer warrants work the other way around:\n\nGeofence warrant: “give us every device that was in this area during this time window”\nKeyword warrant: “give us everyone who searched for this address or term”\n\nEveryone in the area (or who searched) becomes a potential suspect.\n\nFederal appeals courts have disagreed: the Fifth Circuit held geofence warrants unconstitutional (United States v. Smith, 2024), while the Fourth Circuit upheld the evidence in United States v. Chatrie\nGoogle moved Location History to users’ devices (2023–2024), in part limiting its ability to answer geofence warrants\n\nDesign decision → civil liberties outcome: where data is stored is an ethical choice."
+    "text": "Geofence and keyword warrants\nTraditional warrants name a suspect and ask for their data. Newer warrants work the other way around:\n\nGeofence warrant: “give us every device that was in this area during this time window”\nKeyword warrant: “give us everyone who searched for this address or term”\n\nEveryone in the area (or who searched) becomes a potential suspect.\n\nFederal appeals courts have disagreed: the Fifth Circuit held geofence warrants unconstitutional (United States v. Smith, 2024), while the Fourth Circuit upheld the evidence in United States v. Chatrie\nGoogle moved Location History to users’ devices (2023–2024), limiting its ability to answer geofence warrants. Currently, Google Maps saves activities to your account depending on your settings\n\nDesign decision → civil liberties outcome: where data is stored is an ethical choice."
   },
   {
     "objectID": "slides/slides-06-02.html#case-reproductive-health-data-after-dobbs",
@@ -3574,14 +3574,14 @@
     "href": "slides/slides-06-02.html#case-facial-recognition-and-protest",
     "title": "Surveillance and Civil Liberties",
     "section": "Case: Facial recognition and protest",
-    "text": "Case: Facial recognition and protest\n\nClearview AI scraped billions of photos from social media to build a face search engine and sold it to police departments\n2022: ACLU v. Clearview AI settlement under Illinois’ Biometric Information Privacy Act (BIPA) bans Clearview from selling its database to most private companies nationwide\nFace recognition can identify people at protests, places of worship, or clinics: a threat to the First Amendment (speech, assembly, religion), not only the Fourth\nRecall: the wrongful arrests from face recognition (Robert Williams, Porcha Woodruff) and unequal error rates (Gender Shades)"
+    "text": "Case: Facial recognition and protest\n\nClearview AI scraped billions of photos from social media to build a face search engine and sold it to police departments\n2022: ACLU v. Clearview AI settlement under Illinois’ Biometric Information Privacy Act (BIPA) bans Clearview from selling its database to most private companies nationwide\nFace recognition can identify people at protests, places of worship, or clinics: a threat to the First Amendment (speech, assembly, religion), not only the Fourth\nRecall: the wrongful arrests from face recognition (Robert Williams, Porcha Woodruff) and unequal error rates"
   },
   {
     "objectID": "slides/slides-06-02.html#case-student-surveillance",
     "href": "slides/slides-06-02.html#case-student-surveillance",
     "title": "Surveillance and Civil Liberties",
     "section": "Case: Student surveillance",
-    "text": "Case: Student surveillance\n\nOnline proctoring software records students’ faces, rooms, screens, and keystrokes, and flags “suspicious” behavior\nOgletree v. Cleveland State University (2022): a federal court held that a room scan before a remote exam at a public university was an unreasonable search under the Fourth Amendment\nK-12 schools use tools (e.g., Gaggle, GoGuardian) that monitor students’ school accounts and devices, including at home, and sometimes alert police\nFace detection in proctoring tools has been reported to fail more often for students with darker skin\n\nWho are the stakeholders? Can students give voluntary consent to surveillance required to pass a course?"
+    "text": "Case: Student surveillance\n\nOnline proctoring software records students’ faces, rooms, screens, and keystrokes, and flags “suspicious” behavior\nOgletree v. Cleveland State University (2022): a federal court held that a room scan before a remote exam at a public university was an unreasonable search under the Fourth Amendment. This decision was later vacated for procedural reasons.\nHonorlock’s Room Scans FAQs\nK-12 schools use tools (e.g., Gaggle, Lightspeed Alert) that monitor students’ school accounts and devices, including at home, and sometimes alert police\nFace detection in proctoring tools has been reported to fail more often for students with darker skin\n\nWho are the stakeholders? Can students give voluntary consent to surveillance required to pass a course?"
   },
   {
     "objectID": "slides/slides-06-02.html#u.s.-a-sectoral-patchwork",
@@ -3609,7 +3609,7 @@
     "href": "slides/slides-06-02.html#group-discussion-ethics-frameworks",
     "title": "Surveillance and Civil Liberties",
     "section": "Group Discussion: Ethics frameworks",
-    "text": "Group Discussion: Ethics frameworks\n\nConsequentialism: Surveillance can help solve crimes. How do we weigh that against chilling effects on speech and assembly? Who bears each side?\nDeontology: Is it wrong to treat everyone in a geofence as a suspect, even if the innocent are never charged?\nContractualism: Could the data broker loophole be justified to someone whose location was sold to immigration enforcement?\nPolitical economy: Who profits from selling location data? Who pays the cost?\nIntersectionality: Who is most at risk when health, location, and immigration data are combined?"
+    "text": "Group Discussion: Ethics frameworks\n\nSurveillance has helped solve crimes. How do we weigh that against the right to privacy?"
   },
   {
     "objectID": "slides/slides-06-02.html#group-activity-write-the-rule",
@@ -3700,14 +3700,14 @@
     "href": "slides/slides-06-01.html#group-discussion-1",
     "title": "Data Collection and Privacy",
     "section": "Group discussion",
-    "text": "Group discussion\n\nWhen I first worked on Dark Patterns in 2010, I was quite naive. I thought that they could be eradicated by shaming the companies that used them, and by encouraging designers to use a code of ethics. […] Dark Patterns generate profit and they are straightforward to make. This is the reason why Dark Patterns exist. They’re effective and they’re profitable. Harry Brignul\n\nIf shaming companies and encouraging designers to use a cod of ethics hasn’t eliminated the insertion of Dark Patterns into apps and websites, what is the solution?"
+    "text": "Group discussion\n\nA/B testing happens on every platform every day. When does an experiment on users need consent?\nPrivacy is networked: your choices reveal information about other people (friends, family, people in your contacts, relatives in DNA databases). However, crimes have been solved by exploiding this access to data. For example, the Golden State Killer case was solved by uploading the perpetrator’s crime-scene DNA profile to a public genealogy database. Do the benefits of data sharing outweigh the harms? For whom?\nWho is most vulnerable to data collection (children, people seeking health care, immigrants)? What would a caring design look like?"
   },
   {
     "objectID": "slides/slides-06-01.html#regulation",
     "href": "slides/slides-06-01.html#regulation",
     "title": "Data Collection and Privacy",
     "section": "Regulation",
-    "text": "Regulation\n\nFTC’s Final “Click-to-Cancel” rule\nCalifornia Privacy Rights Act, Colorado Privacy Act, and Connecticut Data Privacy Act: prohibit the use of dark patterns to obtain consent"
+    "text": "Regulation\n\nFTC’s report on Dark Patterns\nFTC’s Final “Click-to-Cancel” rule\nSome dark patterns may violate Section 5 of the FTC Act, which prohibits “unfair or deceptive acts or practices [UDAP] in or affecting commerce.”\nCalifornia Privacy Rights Act, Colorado Privacy Act, and Connecticut Data Privacy Act: prohibit the use of dark patterns to obtain consent"
   },
   {
     "objectID": "slides/slides-06-01.html#dark-pattern-game",
@@ -3728,6 +3728,20 @@
     "href": "slides/slides-06-01.html#group-discussion-2",
     "title": "Data Collection and Privacy",
     "section": "Group discussion",
-    "text": "Group discussion\n\nA/B testing happens on every platform every day. When does an experiment on users need consent?\nPrivacy is networked: your choices reveal information about other people (friends, family, people in your contacts, relatives in DNA databases). However, crimes have been solved by exploiding this access to data. For example, the Golden State Killer case was solved by uploading the perpetrator’s crime-scene DNA profile to a public genealogy database. Do the benefits of data sharing outweigh the harms? For whom?\nWho is most vulnerable to data collection (children, people seeking health care, immigrants)? What would a caring design look like?"
+    "text": "Group discussion\n\nWhen I first worked on Dark Patterns in 2010, I was quite naive. I thought that they could be eradicated by shaming the companies that used them, and by encouraging designers to use a code of ethics. […] Dark Patterns generate profit and they are straightforward to make. This is the reason why Dark Patterns exist. They’re effective and they’re profitable. Harry Brignul\n\nIf shaming companies and encouraging designers to use a code of ethics hasn’t eliminated the insertion of Dark Patterns into apps and websites, what is the solution?"
+  },
+  {
+    "objectID": "slides/slides-06-02.html#informed-consent",
+    "href": "slides/slides-06-02.html#informed-consent",
+    "title": "Surveillance and Civil Liberties",
+    "section": "Informed Consent",
+    "text": "Informed Consent\nWe have asked what privacy is and whether “I agree” is informed consent.\nToday we ask:\n\nWhat happens when data collected by companies is used by governments?\nWhy is privacy a civil rights issue?\nWhat legal protections exist, and where are the gaps?"
+  },
+  {
+    "objectID": "slides/slides-06-02.html#privacy-and-informed-consent",
+    "href": "slides/slides-06-02.html#privacy-and-informed-consent",
+    "title": "Surveillance and Civil Liberties",
+    "section": "Privacy and Informed Consent",
+    "text": "Privacy and Informed Consent\nWe’ve covered what privacy is and whether “I agree” is informed consent. Here are some questions left to discuss:\n\nWhat happens when data collected by companies is used by governments?\nWhy is privacy a civil rights issue?\nWhat legal protections exist, and where are the gaps?"
   }
 ]
