@@ -2650,7 +2650,7 @@
     "href": "index.html#slides-3",
     "title": "CSCI 3921W - Social, Legal, and Ethical Issues in Computing",
     "section": "Slides",
-    "text": "Slides\n\nAlgorithmic Bias\nFairness\nAlgorithmic Audits\nData Collection and Privacy\nSurveillance and Civil Liberties"
+    "text": "Slides\n\nAlgorithmic Bias\nFairness\nAlgorithmic Audits\nData Collection and Privacy\nSurveillance and Civil Liberties\nAlgorithmic Justice: Beyond Fairness"
   },
   {
     "objectID": "slides/slides-05-01.html",
@@ -3539,7 +3539,7 @@
     "href": "slides/slides-06-02.html#from-wiretaps-to-smartphones",
     "title": "Surveillance and Civil Liberties",
     "section": "From wiretaps to smartphones",
-    "text": "From wiretaps to smartphones\n\n\n\nCase\nHolding\n\n\n\n\nKatz v. United States (1967)\nThe Fourth Amendment protects people, not places: a reasonable expectation of privacy test\n\n\nUnited States v. Miller (1976), Smith v. Maryland (1979)\nThird-party doctrine: no expectation of privacy in information you voluntarily give to a third party (bank records, numbers dialed)\n\n\nRiley v. California (2014)\nPolice need a warrant to search a cell phone seized during an arrest\n\n\nCarpenter v. United States (2018)\nPolice need a warrant to get historical cell-site location records (7+ days) from a phone company\n\n\n\nIf the third-party doctrine were applied to everything, what would be left of the Fourth Amendment today?"
+    "text": "From wiretaps to smartphones\n\n\n\nCase\nHolding\n\n\n\n\nKatz v. United States (1967)\nThe Fourth Amendment protects people, not places: a reasonable expectation of privacy test: “(1) that a person have exhibited an actual expectation of privacy and (2) that the expectation be one that society is prepared to recognize as reasonable.”\n\n\nUnited States v. Miller (1976), Smith v. Maryland (1979)\nThird-party doctrine: no expectation of privacy in information you voluntarily give to a third party (bank records, numbers dialed)\n\n\nRiley v. California (2014)\nPolice need a warrant to search a cell phone seized during an arrest\n\n\nCarpenter v. United States (2018)\nPolice need a warrant to get historical cell-site location records (7+ days) from a phone company\n\n\n\nIf the third-party doctrine were applied to everything, what would be left of the Fourth Amendment today?"
   },
   {
     "objectID": "slides/slides-06-02.html#carpenter-v.-united-states-2018",
@@ -3567,7 +3567,7 @@
     "href": "slides/slides-06-02.html#case-reproductive-health-data-after-dobbs",
     "title": "Surveillance and Civil Liberties",
     "section": "Case: Reproductive health data after Dobbs",
-    "text": "Case: Reproductive health data after Dobbs\n\n2022: Dobbs v. Jackson Women’s Health Organization ends the federal constitutional right to abortion; many states criminalize abortion\nPeriod-tracking apps, search histories, location data, and messages become potential evidence\n2022 (Nebraska): police obtained a teenager’s and her mother’s Facebook messages with a warrant and used them in an abortion-related prosecution; both pleaded guilty\nHIPAA does not cover most health apps: it only applies to health care providers, insurers, and their business associates\nSome states responded: Washington’s My Health My Data Act (2023) protects consumer health data held by apps and websites\n\nData that is not collected cannot be subpoenaed. What does this mean for app designers?"
+    "text": "Case: Reproductive health data after Dobbs\n\n2022: Dobbs v. Jackson Women’s Health Organization ends the federal constitutional right to abortion, many states criminalize abortion\nPeriod-tracking apps, search histories, location data, and messages become potential evidence\n2022 (Nebraska): police obtained a teenager’s and her mother’s Facebook messages with a warrant and used them in an abortion-related prosecution\nHIPAA does not cover most health apps: it only applies to health care providers, insurers, and their business associates\nSome states responded: Washington’s My Health My Data Act (2023) protects consumer health data held by apps and websites\n\nData that is not collected cannot be subpoenaed. What does this mean for app designers?"
   },
   {
     "objectID": "slides/slides-06-02.html#case-facial-recognition-and-protest",
@@ -3588,14 +3588,14 @@
     "href": "slides/slides-06-02.html#u.s.-a-sectoral-patchwork",
     "title": "Surveillance and Civil Liberties",
     "section": "U.S.: A sectoral patchwork",
-    "text": "U.S.: A sectoral patchwork\nThere is no comprehensive federal privacy law in the U.S. Instead, laws cover specific sectors:\n\n\n\n\n\n\n\n\nLaw\nCovers\nGap\n\n\n\n\nFCRA (1970)\nCredit reports\nData brokers outside “consumer reporting”\n\n\nFERPA (1974)\nStudent education records\nLimited control over ed-tech vendors\n\n\nECPA (1986)\nElectronic communications\nWritten before the web and cloud storage\n\n\nVPPA (1988)\nVideo rental history\nPassed after a reporter published a judge’s rental list\n\n\nHIPAA (1996)\nHealth providers, insurers\nHealth apps, wearables, search history\n\n\nCOPPA (1998)\nChildren under 13\nTeenagers 13–17\n\n\nGLBA (1999)\nFinancial institutions\nFintech and payment apps (partially)\n\n\n\nNotice the dates. Recall reactive regulation: many of these laws followed a specific scandal."
+    "text": "U.S.: A sectoral patchwork\nThere is no comprehensive federal privacy law in the U.S. Instead, laws cover specific sectors:\n\nFair Credit Report Act: credit reports\nFamily Educational Rights and Privacy Act: Student education records\nElectronic Communications Privacy Act: Electronic communications\nVideo Privacy Protection Act: Video rental history\nHIPAA: health information\nChildren’s Online Privacy Protection Rule: personal information online from a child under 13 years of age\nGramm-Leach-Bliley Act: financial information"
   },
   {
     "objectID": "slides/slides-06-02.html#u.s.-states",
     "href": "slides/slides-06-02.html#u.s.-states",
     "title": "Surveillance and Civil Liberties",
     "section": "U.S. states",
-    "text": "U.S. states\nStates have moved faster than Congress:\n\nIllinois BIPA (2008): requires consent to collect biometrics (face, fingerprints) and lets individuals sue. Facebook paid $650 million to settle a BIPA class action over photo tagging\nCalifornia CCPA (2018) / CPRA (2020): rights to know, delete, correct, and opt out of the sale of personal data\nMinnesota Consumer Data Privacy Act (in effect since July 2025): rights to access, correct, delete, and opt out of targeted advertising, sale, and profiling, including a right to question the result of a profiling decision\nAbout 20 states now have comprehensive consumer privacy laws, each a bit different\n\nIs a patchwork of state laws good (experimentation) or bad (confusion, unequal protection)?"
+    "text": "U.S. states\nStates have moved faster than Congress:\n\nIllinois BIPA (2008): requires consent to collect biometrics (face, fingerprints) and lets individuals sue. Facebook paid $650 million to settle a BIPA class action over photo tagging\nCalifornia CCPA (2018) / CPRA (2020): rights to know, delete, correct, and opt out of the sale of personal data\nMinnesota Consumer Data Privacy Act (in effect since July 2025): rights to access, correct, delete, and opt out of targeted advertising, sale, and profiling, including a right to question the result of a profiling decision\nAbout 20 states now have comprehensive consumer privacy laws, each a bit different"
   },
   {
     "objectID": "slides/slides-06-02.html#the-eu-gdpr-2018",
@@ -3616,7 +3616,7 @@
     "href": "slides/slides-06-02.html#group-activity-write-the-rule",
     "title": "Surveillance and Civil Liberties",
     "section": "Group Activity: Write the rule",
-    "text": "Group Activity: Write the rule\nYour group is a legislative staff team. Choose one scenario:\n\nPolice want to use a city’s automated license plate reader network to find a stolen car\nA university wants to require AI proctoring software for all online exams\nA period-tracking app wants to sell anonymized data to researchers and advertisers\n\nFor your scenario:\n\nWho are the stakeholders? Who is most vulnerable?\nWhat data flows should be allowed, allowed with a warrant/consent, or banned?\nWhat would meaningful informed consent look like (if it is possible at all)?\nWrite one rule (2–3 sentences) you would propose. What existing law is closest to it, and what gap does it fill?"
+    "text": "Group Activity: Write the rule\nYour group is a legislative staff team. Choose one scenario:\n\nPolice want to use a city’s automated license plate reader network to find a stolen car\nA university wants to require AI proctoring software for all online exams\nA period-tracking app wants to sell anonymized data to researchers and advertisers\n\nFor your scenario:\n\nWho are the stakeholders? Who is most vulnerable?\nWhat data flows should be allowed, allowed with a warrant/consent, or banned?\nWhat would meaningful informed consent look like (if it is possible at all)?\nWrite one rule/regulation (2–3 sentences) you would propose."
   },
   {
     "objectID": "slides/slides-06-02.html#references-and-further-readings",
@@ -3764,5 +3764,348 @@
     "title": "Final Reflection",
     "section": "Part 3: Looking forward",
     "text": "Part 3: Looking forward\nMost of you will build, deploy, buy, or regulate computing systems. This part asks you to commit to something concrete.\n\nIs there something you would refuse to build or refuse to work on? Where exactly is the line, and what would make you reconsider?\nIf you saw a problem with a system at work (bias, privacy violation, unsafe deployment), what would you realistically do? Who would you talk to? What would it cost you, and what might make it hard to act?\nWho do you think should decide how powerful computing technologies are developed and deployed, and what role do you see for yourself in that process?\nWhat questions from this course remain unresolved for you?\n\nBe realistic rather than heroic. “I will never work for a company that collects personal data” is hard to keep and easy to write. A commitment that names a specific situation, acknowledges the pressures (financial, professional, social) that make it difficult, and explains what you would do anyway is far more convincing."
+  },
+  {
+    "objectID": "slides/slides-07-01.html#qa-10-minutes",
+    "href": "slides/slides-07-01.html#qa-10-minutes",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "Q&A (10 minutes)",
+    "text": "Q&A (10 minutes)\nQ&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/slides-07-01.html#warm-up",
+    "href": "slides/slides-07-01.html#warm-up",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "Warm-up",
+    "text": "Warm-up\nBefore we start, answer in your journal:\nImagine a predictive policing tool that has exactly the same error rates for every racial group.\n\nIs it fair?\nIs it just?\nWhat would you need to know to answer the second question?"
+  },
+  {
+    "objectID": "slides/slides-07-01.html#from-past-to-present",
+    "href": "slides/slides-07-01.html#from-past-to-present",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "From past to present",
+    "text": "From past to present\nSo far in this module we have:\n\nIdentified sources of bias across the ML life cycle, including proxies\nCompared fairness metrics and seen that they cannot all be satisfied at once\nLearned how to audit a system for disparities\nExamined how data collection and surveillance affect privacy and civil liberties\n\nThis week we ask:\n\nWhat do fairness metrics and audits leave out?\nHow do history and structure shape what an algorithm does?\nShould some systems be fixed, constrained, or not built at all?"
+  },
+  {
+    "objectID": "slides/slides-07-01.html#fairness-vs.-justice",
+    "href": "slides/slides-07-01.html#fairness-vs.-justice",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "Fairness vs. justice",
+    "text": "Fairness vs. justice\n\n\n\n\n\n\n\n\n\nAlgorithmic fairness\nAlgorithmic justice\n\n\n\n\nUnit of analysis\nThe model and its outputs\nThe model + the institution + the people + history\n\n\nCentral question\nAre errors/outcomes equal across groups?\nWho holds power, who is harmed, and why?\n\n\nTypical fix\nRe-weight data, change thresholds, add constraints\nChange the decision, the institution, who decides, or don’t deploy\n\n\nTime frame\nSnapshot of the data\nHistorical causes and long-term effects\n\n\nWho decides\nDevelopers, data scientists\nIncluding the affected communities\n\n\n\nA system can be fair by a statistical definition and still unjust."
+  },
+  {
+    "objectID": "slides/slides-07-01.html#theories-of-justice",
+    "href": "slides/slides-07-01.html#theories-of-justice",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "Theories of justice",
+    "text": "Theories of justice\n\nDistributive justice: how are benefits and burdens distributed? Rawls (1971) asks what rules we would choose behind a “veil of ignorance”, not knowing our place in society. His difference principle: inequalities are acceptable only if they benefit the least advantaged.\nProcedural justice: were decisions made through a fair process? Could the affected person understand, question, and contest the decision?\nJustice as recognition and non-domination: Young (1990) argues that injustice is not only about distribution but about oppression – structures that systematically disadvantage groups. Her “five faces of oppression”: exploitation, marginalization, powerlessness, cultural imperialism, and violence.\n\nFairness metrics focus mostly on a narrow kind of distributive justice (how errors are distributed)."
+  },
+  {
+    "objectID": "slides/slides-07-01.html#where-fairness-fails",
+    "href": "slides/slides-07-01.html#where-fairness-fails",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "Where fairness fails",
+    "text": "Where fairness fails\nHoffmann (2019) argues that fairness work borrows the limits of anti-discrimination law:\n\nIt looks for “bad actors” and “bad inputs” instead of structures\nIt treats protected attributes (race, gender, disability) one at a time, missing intersectional harms\nIt focuses on disadvantage but ignores who is advantaged by the same system\nIt asks how to distribute outcomes fairly, not whether the goods themselves (e.g., policing, surveillance) are desirable"
+  },
+  {
+    "objectID": "slides/slides-07-01.html#the-five-abstraction-traps",
+    "href": "slides/slides-07-01.html#the-five-abstraction-traps",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "The five abstraction traps",
+    "text": "The five abstraction traps\nSelbst et al. (2019) describe how computer scientists’ habit of abstraction leads fairness work astray:\n\n\n\n\n\n\n\nTrap\nFailure\n\n\n\n\nFraming\nModeling only the algorithm, not the social system it lives in\n\n\nPortability\nAssuming a solution built for one context works in another\n\n\nFormalism\nAssuming fairness can be fully captured in a mathematical definition\n\n\nRipple effect\nIgnoring how the technology changes behavior and institutions\n\n\nSolutionism\nAssuming technology is the solution, never asking whether it should be built"
+  },
+  {
+    "objectID": "slides/slides-07-01.html#group-discussion",
+    "href": "slides/slides-07-01.html#group-discussion",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "Group Discussion",
+    "text": "Group Discussion\n\nThink back to a case we have studied (COMPAS, Amazon hiring, health care algorithm, face recognition). Which of the five traps does it fall into?\nPick one of Young’s “five faces of oppression.” Can you think of a computing system that reproduces it?"
+  },
+  {
+    "objectID": "slides/slides-07-01.html#history-in-the-data",
+    "href": "slides/slides-07-01.html#history-in-the-data",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "History in the data",
+    "text": "History in the data\nData does not come from nowhere. It records how institutions have treated people in the past.\n\nRedlining: in the 1930s, the federal Home Owners’ Loan Corporation (HOLC) graded neighborhoods for mortgage risk, marking many Black and immigrant neighborhoods as “hazardous” in red (Mapping Inequality)\nRedlining was outlawed by the Fair Housing Act (1968), but its effects persist in home values, wealth, school funding, and health\nA model trained today on property values, ZIP codes, or credit history learns these patterns as “risk”\n\nRecall proxies: removing race from the data does not remove history from the data."
+  },
+  {
+    "objectID": "slides/slides-07-01.html#the-new-jim-code",
+    "href": "slides/slides-07-01.html#the-new-jim-code",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "The New Jim Code",
+    "text": "The New Jim Code\nBenjamin (2019) defines the New Jim Code as:\n\nthe employment of new technologies that reflect and reproduce existing inequities but that are promoted and perceived as more objective or progressive than the discriminatory systems of a previous era.\n\nThe danger is not only that the system is biased, but that bias becomes harder to see and to challenge because it looks neutral and scientific (recall automation bias)."
+  },
+  {
+    "objectID": "slides/slides-07-01.html#feedback-loops",
+    "href": "slides/slides-07-01.html#feedback-loops",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "Feedback loops",
+    "text": "Feedback loops\nPredictive policing tools predict where crime will be recorded, not where crime happens.\n\nLum & Isaac (2016) simulated a predictive policing algorithm on Oakland drug arrest data. Public health surveys estimated drug use was spread roughly evenly across the city, but the algorithm sent police mostly to Black and low-income neighborhoods\nMore police → more recorded crime → the model sends more police: a runaway feedback loop (Ensign et al., 2018)\n\nThe model can be accurate on its data and still unjust: its “ground truth” is itself a product of past policing."
+  },
+  {
+    "objectID": "slides/slides-07-01.html#practice-example-feedback-loop",
+    "href": "slides/slides-07-01.html#practice-example-feedback-loop",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "Practice example: Feedback loop",
+    "text": "Practice example: Feedback loop\nTwo neighborhoods, A and B, have the same true rate of incidents. Historical records show more incidents in A (because it was patrolled more).\nRule: each week, send the patrol to the neighborhood with more recorded incidents. Only incidents where the patrol is get recorded (+10).\n\n\n\nWeek\nRecorded A\nRecorded B\nPatrol goes to\n\n\n\n\n0\n60\n40\nA\n\n\n1\n70\n40\nA\n\n\n2\n80\n40\nA\n\n\n3\n?\n?\n?\n\n\n\n\nFill in weeks 3 and 4. What does the data “show” after 10 weeks?\nWould an audit of this model’s accuracy detect a problem?\nWhat would have to change to break the loop?"
+  },
+  {
+    "objectID": "slides/slides-07-01.html#case-allegheny-family-screening-tool",
+    "href": "slides/slides-07-01.html#case-allegheny-family-screening-tool",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "Case: Allegheny Family Screening Tool",
+    "text": "Case: Allegheny Family Screening Tool\n\nSince 2016, Allegheny County (Pennsylvania) has used a model to score calls to the child welfare hotline for the risk of future removal of a child from the home\nThe model draws on public records: public benefits, public health care, county mental health and addiction services, jail, and juvenile probation\nFamilies who use private services (private doctors, private rehab) are invisible to the model. Eubanks (2018) calls this “poverty profiling”: confusing parenting while poor with poor parenting\nAn ACLU analysis (2023) examined design choices in the tool, including the use of disability-related data and how scores were grouped and displayed to screeners\n\nCould this tool be made fair? Would that make it just?"
+  },
+  {
+    "objectID": "slides/slides-07-01.html#case-michigans-midas-20132015",
+    "href": "slides/slides-07-01.html#case-michigans-midas-20132015",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "Case: Michigan’s MiDAS (2013–2015)",
+    "text": "Case: Michigan’s MiDAS (2013–2015)\n\nMichigan replaced staff with an automated system (MiDAS) to detect unemployment insurance fraud\nThe system flagged people for fraud without human review, often based on missing or mismatched records, and imposed penalties of up to 4x the benefits received\nA state review found an error rate of about 93% in the fraud determinations it examined (Charette, 2018)\nPeople had wages garnished and tax refunds seized; some filed for bankruptcy\n2022: Michigan agreed to a $20 million settlement with affected claimants\n\nWho was most affected? Who had the resources to contest the decisions?"
+  },
+  {
+    "objectID": "slides/slides-07-01.html#case-dutch-childcare-benefits-scandal",
+    "href": "slides/slides-07-01.html#case-dutch-childcare-benefits-scandal",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "Case: Dutch childcare benefits scandal",
+    "text": "Case: Dutch childcare benefits scandal\n\nThe Dutch Tax Administration used a risk-classification model to flag childcare benefit applications for fraud\nNationality (“Dutch / non-Dutch”) was used as a risk factor (Amnesty International, 2021)\nTens of thousands of families were wrongly accused and ordered to pay back benefits, often tens of thousands of euros; many fell into debt, lost homes, and some lost custody of their children\nJanuary 2021: the Dutch government resigned over the scandal\nThe Dutch Data Protection Authority fined the Tax Administration €2.75 million for discriminatory and unlawful data processing"
+  },
+  {
+    "objectID": "slides/slides-07-01.html#group-discussion-ethics-frameworks",
+    "href": "slides/slides-07-01.html#group-discussion-ethics-frameworks",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "Group Discussion: Ethics frameworks",
+    "text": "Group Discussion: Ethics frameworks\n\nConsequentialism: The three cases were justified as saving money or protecting children. Who received the benefits? Who paid the costs?\nDeontology: Were the people flagged by these systems treated as ends in themselves or as means to institutional efficiency?\nContractualism: Could the rules used by these systems be justified to the least advantaged person affected? Would you choose them behind Rawls’ veil of ignorance?\nPolitical economy: All three systems target people who depend on public services. Why are automated decision systems tested first on the poor?\nIntersectionality: Which people were affected by more than one of these factors (poverty, nationality, race, disability) at once?"
+  },
+  {
+    "objectID": "slides/slides-07-01.html#group-activity-fair-but-unjust",
+    "href": "slides/slides-07-01.html#group-activity-fair-but-unjust",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "Group Activity: Fair but unjust?",
+    "text": "Group Activity: Fair but unjust?\nIn groups, choose one system: (a) predictive policing, (b) Allegheny Family Screening Tool, (c) automated tenant screening, (d) unemployment fraud detection\n\nSuppose an audit finds the system satisfies equalized odds across racial groups. List at least two harms it could still cause.\nWhat historical or structural causes shape the data it uses?\nWhich abstraction trap is the system most at risk of?\nWho benefits from the system existing? Who bears the burdens?\nFix, constrain, or don’t deploy? Defend your answer."
+  },
+  {
+    "objectID": "slides/slides-07-01.html#references-and-further-readings",
+    "href": "slides/slides-07-01.html#references-and-further-readings",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "References and Further Readings",
+    "text": "References and Further Readings\n\nAmnesty International (2021). Xenophobic machines: Discrimination through unregulated use of algorithms in the Dutch childcare benefits scandal.\nBenjamin, R. (2019). Race After Technology: Abolitionist Tools for the New Jim Code. Polity.\nCharette, R. N. (2018). Michigan’s MiDAS unemployment system: Algorithm alchemy created lead, not gold. IEEE Spectrum.\nEnsign, D., Friedler, S. A., Neville, S., Scheidegger, C., & Venkatasubramanian, S. (2018). Runaway feedback loops in predictive policing. Proceedings of FAT*, PMLR 81, 160–171.\nEubanks, V. (2018). Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor. St. Martin’s Press.\nFrohlich, N., Oppenheimer, J. A., & Eavey, C. L. (1987). Laboratory results on Rawls’s distributive justice. British Journal of Political Science, 17(1), 1–21.\nHarsanyi, J. C. (1975). Can the maximin principle serve as a basis for morality? A critique of John Rawls’s theory. American Political Science Review, 69(2), 594–606.\nHoffmann, A. L. (2019). Where fairness fails: Data, algorithms, and the limits of antidiscrimination discourse. Information, Communication & Society, 22(7), 900–915."
+  },
+  {
+    "objectID": "slides/slides-07-01.html#references-and-further-readings-1",
+    "href": "slides/slides-07-01.html#references-and-further-readings-1",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "References and Further Readings",
+    "text": "References and Further Readings\n\nLum, K., & Isaac, W. (2016). To predict and serve? Significance, 13(5), 14–19.\nNelson, R. K., Winling, L., et al. Mapping Inequality: Redlining in New Deal America. University of Richmond.\nRawls, J. (1971). A Theory of Justice. Harvard University Press.\nSelbst, A. D., boyd, d., Friedler, S. A., Venkatasubramanian, S., & Vertesi, J. (2019). Fairness and abstraction in sociotechnical systems. Proceedings of FAT* ’19, 59–68.\nYoung, I. M. (1990). Justice and the Politics of Difference. Princeton University Press."
+  },
+  {
+    "objectID": "slides/slides-07-01.html#journal-writing",
+    "href": "slides/slides-07-01.html#journal-writing",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "Journal Writing",
+    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked or disliked"
+  },
+  {
+    "objectID": "slides/slides-07-02.html#qa-10-minutes",
+    "href": "slides/slides-07-02.html#qa-10-minutes",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Q&A (10 minutes)",
+    "text": "Q&A (10 minutes)\nQ&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/slides-07-02.html#warm-up",
+    "href": "slides/slides-07-02.html#warm-up",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Warm-up",
+    "text": "Warm-up\nBefore we start, answer in your journal:\nThink of a decision about your life that was made (or helped) by an algorithm (admissions, a loan, a job application, a content ban, a grade flag).\n\nDid you know an algorithm was involved?\nCould you find out why the decision was made?\nCould you challenge it? Who would you contact?"
+  },
+  {
+    "objectID": "slides/slides-07-02.html#from-fairness-to-justice",
+    "href": "slides/slides-07-02.html#from-fairness-to-justice",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "From fairness to justice",
+    "text": "From fairness to justice\nLast class we saw that:\n\nFairness metrics measure how errors and outcomes are distributed\nJustice also asks about history, structure, and power\nA system can be fair by a metric and still unjust (feedback loops, poverty profiling, nationality as a risk factor)\n\nToday: if fairness is not enough, what should we do instead?"
+  },
+  {
+    "objectID": "slides/slides-07-02.html#ask-how-ai-shifts-power",
+    "href": "slides/slides-07-02.html#ask-how-ai-shifts-power",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Ask how AI shifts power",
+    "text": "Ask how AI shifts power\nKalluri (2020), writing in Nature:\n\nIt is not uncommon now for AI experts to ask whether an AI is ‘fair’ and ‘for good’. But ‘fair’ and ‘good’ are infinitely spacious words that any AI system can be squeezed into. The question to pose is a deeper one: how is AI shifting power?"
+  },
+  {
+    "objectID": "slides/slides-07-02.html#power-questions",
+    "href": "slides/slides-07-02.html#power-questions",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Power questions",
+    "text": "Power questions\nFor any system, ask:\n\nWho decided to build it, and what problem did they say it solves?\nWho designed it and chose its objective, data, and metrics?\nWho is subject to its decisions? Did they have a say?\nWho can see how it works? (Recall COMPAS as a trade secret)\nWho can contest its decisions, and at what cost?\nWho benefits and who bears the burdens when it is wrong?\n\nNotice how often the people who design and benefit are different from the people who are subject to the system."
+  },
+  {
+    "objectID": "slides/slides-07-02.html#data-feminism",
+    "href": "slides/slides-07-02.html#data-feminism",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Data feminism",
+    "text": "Data feminism\nD’Ignazio & Klein (2020) propose principles for working with data in ways that challenge unequal power, including:\n\nExamine power: analyze how power operates in the world, including in data science itself\nChallenge power: commit to challenging unequal power structures and working toward justice\nElevate emotion and embodiment: value many forms of knowledge, including lived experience\nConsider context: data are not neutral or objective; they are products of unequal social relations\nMake labor visible: data work is done by many people (labelers, content moderators) whose work is often hidden"
+  },
+  {
+    "objectID": "slides/slides-07-02.html#group-discussion",
+    "href": "slides/slides-07-02.html#group-discussion",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Group Discussion",
+    "text": "Group Discussion\n\nApply the power questions to a system you use every day (e.g., a social media feed, Canvas, a dating app, a ride-sharing app).\nWho has the most power in that system? Who has the least?\nWould changing the fairness metric change any of your answers?"
+  },
+  {
+    "objectID": "slides/slides-07-02.html#design-justice",
+    "href": "slides/slides-07-02.html#design-justice",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Design justice",
+    "text": "Design justice\nCostanza-Chock (2020) describes design justice as design led by marginalized communities that aims to challenge structural inequality. Some of its principles:\n\n“We center the voices of those who are directly impacted by the outcomes of the design process.”\n“We prioritize design’s impact on the community over the intentions of the designer.”\n“We view change as emerging from an accountable, accessible, and collaborative process, rather than as a point at the end of a process.”\n“We work towards sustainable, community-led and -controlled outcomes.”\n\nDisability rights movement: “Nothing about us without us.”"
+  },
+  {
+    "objectID": "slides/slides-07-02.html#participation-is-not-a-design-fix",
+    "href": "slides/slides-07-02.html#participation-is-not-a-design-fix",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Participation is not a design fix",
+    "text": "Participation is not a design fix\nSloane et al. (2022) warn about “participation-washing”: inviting communities in without giving them real power.\n\n\n\n\n\n\n\nType of participation\nExample\n\n\n\n\nParticipation as work\nUnpaid or underpaid labeling, data donation\n\n\nParticipation as consultation\nA survey or town hall whose results may be ignored\n\n\nParticipation as justice\nLong-term partnership; communities can shape or stop the project\n\n\n\nQuestions to ask: Are participants paid? Do they participate from the start or only at the end? Can they say no?"
+  },
+  {
+    "objectID": "slides/slides-07-02.html#data-sovereignty",
+    "href": "slides/slides-07-02.html#data-sovereignty",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Data sovereignty",
+    "text": "Data sovereignty\nIndigenous communities have long had data collected about them without their control (e.g., genetic samples reused without consent).\nThe CARE Principles for Indigenous Data Governance (Global Indigenous Data Alliance, 2019) complement the FAIR (Findable, Accessible, Interoperable, Reusable) principles for open data:\n\nCollective benefit\nAuthority to control\nResponsibility\nEthics\n\nRecall contextual integrity and networked privacy: data about one person is often data about a community."
+  },
+  {
+    "objectID": "slides/slides-07-02.html#contestability-and-due-process",
+    "href": "slides/slides-07-02.html#contestability-and-due-process",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Contestability and due process",
+    "text": "Contestability and due process\nProcedural justice requires that people can understand and challenge decisions about them.\n\nCitron (2008) argued that automated government decisions often deny “technological due process”: notice, a hearing, and a reasoned explanation. Rules written in code can change policy without public input.\nRecall: GDPR Article 22 (right not to be subject to solely automated decisions) and the Minnesota Consumer Data Privacy Act (right to question a profiling decision)\nRecall MiDAS: no human review and no meaningful way to contest led to thousands of wrongful fraud determinations\n\nWhat would a good appeal process for an automated decision look like?"
+  },
+  {
+    "objectID": "slides/slides-07-02.html#algorithmic-impact-assessments",
+    "href": "slides/slides-07-02.html#algorithmic-impact-assessments",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Algorithmic impact assessments",
+    "text": "Algorithmic impact assessments\nLike environmental impact assessments, algorithmic impact assessments (AIAs) evaluate a system before it is deployed.\n\nAI Now Institute (Reisman et al., 2018): public agencies should disclose the systems they use, evaluate impacts, allow external researchers to review, and give the public a chance to comment\nCanada’s Directive on Automated Decision-Making (2019): federal agencies must complete an impact assessment; higher-impact systems require more human involvement, peer review, and notice to affected people\n\nRecall the Collingridge dilemma: AIAs try to act while change is still easy."
+  },
+  {
+    "objectID": "slides/slides-07-02.html#regulation-the-eu-ai-act-2024",
+    "href": "slides/slides-07-02.html#regulation-the-eu-ai-act-2024",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Regulation: The EU AI Act (2024)",
+    "text": "Regulation: The EU AI Act (2024)\nThe EU AI Act takes a risk-based approach:\n\n\n\n\n\n\n\n\nRisk level\nExamples\nRequirement\n\n\n\n\nUnacceptable\nSocial scoring; predicting crime solely from profiling or personality traits; untargeted scraping of face images\nBanned (since February 2025)\n\n\nHigh\nHiring, education, credit, essential public benefits, law enforcement, migration\nRisk management, data quality, documentation, human oversight\n\n\nLimited\nChatbots, deepfakes\nTransparency (tell people they are interacting with AI)\n\n\nMinimal\nSpam filters, video games\nNo new obligations\n\n\n\nWhich of the systems from last class would fall into each category?"
+  },
+  {
+    "objectID": "slides/slides-07-02.html#refusal",
+    "href": "slides/slides-07-02.html#refusal",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Refusal",
+    "text": "Refusal\nSometimes the just answer is: don’t build it or stop using it.\n\n2019: San Francisco became the first major U.S. city to ban government use of face recognition; Boston, Oakland, and others followed\n2020: Santa Cruz, California, banned predictive policing\nThe Los Angeles Police Department ended its LASER program (2019) and stopped using PredPol (2020) after community organizing and an inspector general review\nChicago decommissioned its “Strategic Subject List” (a “heat list” of people predicted to be involved in shootings) in 2019\n\nThese changes came largely from community organizing, not from better fairness metrics."
+  },
+  {
+    "objectID": "slides/slides-07-02.html#algorithmic-reparation",
+    "href": "slides/slides-07-02.html#algorithmic-reparation",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Algorithmic reparation",
+    "text": "Algorithmic reparation\nDavis, Williams & Yang (2021) propose algorithmic reparation as an alternative to “fair” (neutral) ML:\n\nFairness tries to make algorithms blind to group membership\nReparation instead uses algorithms to actively address historical and structural harm, informed by intersectionality\nExample directions: designing systems to redistribute resources toward groups harmed by past policies, rather than just equalizing error rates\n\nRecall the deontology question from the fairness lecture: Is it ever acceptable to use a protected attribute to correct for bias? Recall also the legal limits (e.g., Students for Fair Admissions v. Harvard, 2023)."
+  },
+  {
+    "objectID": "slides/slides-07-02.html#a-spectrum-of-responses",
+    "href": "slides/slides-07-02.html#a-spectrum-of-responses",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "A spectrum of responses",
+    "text": "A spectrum of responses\n\n\n\n\n\n\n\n\nResponse\nWhat it does\nExample\n\n\n\n\nFix\nChange the model or data\nRe-weighting, fairness constraints\n\n\nAudit\nMeasure and disclose disparities\nNYC Local Law 144 bias audits\n\n\nConstrain\nLimit uses, require oversight\nEU AI Act high-risk requirements\n\n\nContest\nGive people a way to challenge decisions\nNotice, explanation, appeal, human review\n\n\nShare power\nGive affected communities decision-making power\nDesign justice, CARE principles\n\n\nRefuse\nDon’t build it, ban it, or retire it\nFace recognition bans, ending predictive policing\n\n\nRepair\nAddress past harms\nAlgorithmic reparation, settlements (MiDAS)\n\n\n\nThese are not mutually exclusive. Which responses address symptoms and which address causes?"
+  },
+  {
+    "objectID": "slides/slides-07-02.html#group-discussion-ethics-frameworks",
+    "href": "slides/slides-07-02.html#group-discussion-ethics-frameworks",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Group Discussion: Ethics frameworks",
+    "text": "Group Discussion: Ethics frameworks\n\nConsequentialism: Refusing to deploy a system also has consequences (e.g., human decision-makers can be biased too). When is “no algorithm” worse than a flawed algorithm?\nDeontology: Do people have a duty-based right to a human decision, an explanation, or an appeal, regardless of outcomes?\nVirtue ethics (Vallor): Which technomoral virtues (e.g., justice, humility, care, civility) does design justice ask of computing professionals?\nContractualism: If the affected community rejects a system, can it still be justified to them?\nPolitical economy: Who pays for participation, impact assessments, and appeals? Who profits when they are skipped?"
+  },
+  {
+    "objectID": "slides/slides-07-02.html#group-activity-justice-redesign",
+    "href": "slides/slides-07-02.html#group-activity-justice-redesign",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Group Activity: Justice redesign",
+    "text": "Group Activity: Justice redesign\nIn groups, choose one system: (a) Allegheny Family Screening Tool, (b) a city’s predictive policing program, (c) an automated tenant screening service, (d) AI proctoring software, (e) your Paper 2 application\n\nPower: Answer the power questions (who decided, designed, is subject, can see, can contest, benefits).\nHistory: What historical or structural injustices shape the data or the decision?\nParticipation: Who should be at the table? What power should they have?\nContest: Design an appeal process for a person harmed by the system.\nResponse: Choose from the spectrum (fix, audit, constrain, contest, share power, refuse, repair). Justify your choice with one ethics framework."
+  },
+  {
+    "objectID": "slides/slides-07-02.html#references-and-further-readings",
+    "href": "slides/slides-07-02.html#references-and-further-readings",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "References and Further Readings",
+    "text": "References and Further Readings\n\nCitron, D. K. (2008). Technological due process. Washington University Law Review, 85(6), 1249–1313.\nCostanza-Chock, S. (2020). Design Justice: Community-Led Practices to Build the Worlds We Need. MIT Press.\nDavis, J. L., Williams, A., & Yang, M. W. (2021). Algorithmic reparation. Big Data & Society, 8(2).\nD’Ignazio, C., & Klein, L. F. (2020). Data Feminism. MIT Press.\nGlobal Indigenous Data Alliance (2019). CARE Principles for Indigenous Data Governance.\nGovernment of Canada (2019). Directive on Automated Decision-Making."
+  },
+  {
+    "objectID": "slides/slides-07-02.html#references-and-further-readings-1",
+    "href": "slides/slides-07-02.html#references-and-further-readings-1",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "References and Further Readings",
+    "text": "References and Further Readings\n\nKalluri, P. (2020). Don’t ask if artificial intelligence is good or fair, ask how it shifts power. Nature, 583, 169.\nRegulation (EU) 2024/1689, Artificial Intelligence Act.\nReisman, D., Schultz, J., Crawford, K., & Whittaker, M. (2018). Algorithmic impact assessments: A practical framework for public agency accountability. AI Now Institute.\nSloane, M., Moss, E., Awomolo, O., & Forlano, L. (2022). Participation is not a design fix for machine learning. Proceedings of EAAMO ’22.\nVallor, S. (2016). Technology and the Virtues. Oxford University Press."
+  },
+  {
+    "objectID": "slides/slides-07-02.html#journal-writing",
+    "href": "slides/slides-07-02.html#journal-writing",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Journal Writing",
+    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked or disliked"
+  },
+  {
+    "objectID": "slides/slides-07-01.html#original-position-and-the-veil-of-ignorance-thought-experiment",
+    "href": "slides/slides-07-01.html#original-position-and-the-veil-of-ignorance-thought-experiment",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "Original Position and the Veil of Ignorance thought experiment",
+    "text": "Original Position and the Veil of Ignorance thought experiment\nRawls (1971) imagines people choosing the basic rules of society from an original position:\n\nBehind a veil of ignorance, you do not know your class, race, gender, abilities, or which generation you belong to\nYou know general facts about society, but not where you will end up in it\nBecause no one can tailor the rules to benefit themselves, the rules chosen are fair\n\nRawls argues people would choose:\n\nEqual basic liberties for everyone\nThe difference principle: inequalities are allowed only if they benefit the least advantaged (a maximin rule: maximize the minimum)\n\nWould you really choose that way? Let’s test it."
+  },
+  {
+    "objectID": "slides/slides-07-01.html#the-scenario",
+    "href": "slides/slides-07-01.html#the-scenario",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "The scenario",
+    "text": "The scenario\nThe city of Northfield is buying an automated tenant screening system. Every rental application in the city will be scored by it. You will vote on which design to buy.\nThere are five positions in Northfield:\n\n\n\n#\nPosition\n\n\n\n\n1\nHigh-income professional, long credit history\n\n\n2\nSalaried worker, average credit\n\n\n3\nGig worker, irregular income, “thin” credit file\n\n\n4\nFamily using a housing voucher\n\n\n5\nPerson with a past eviction filing (the case was dismissed)"
+  },
+  {
+    "objectID": "slides/slides-07-01.html#the-designs",
+    "href": "slides/slides-07-01.html#the-designs",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "The designs",
+    "text": "The designs\nEach number is the chance (%) that a person in that position gets an affordable lease within a year.\n\nA: Credit score, 3× income rule, all eviction filings are counted\nB: Same model as A + fairness constraint (equal approval rates across\nC: Rent payment history instead of credit, counts voucher income, ignores dismissed filings\n\n\n\n\nDesign \\ Profile\n1\n2\n3\n4\n5\n\n\n\n\nA\n100%\n85%\n45%\n20%\n5%\n\n\nB\n85%\n70%\n45%\n30%\n20%\n\n\nC\n60%\n55%\n45%\n40%\n35%"
+  },
+  {
+    "objectID": "slides/slides-07-01.html#round-1-you-know-your-place-5-min",
+    "href": "slides/slides-07-01.html#round-1-you-know-your-place-5-min",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "Round 1: You know your place (5 min)",
+    "text": "Round 1: You know your place (5 min)\n\nDraw a position: roll a die (re-roll a 6) or use a random number generator from 1 to 5\nWrite your position in your journal\nIndividually vote for design A, B, or C\n\nWe will tally the votes on the board by position."
+  },
+  {
+    "objectID": "slides/slides-07-01.html#round-2-behind-the-veil-10-min",
+    "href": "slides/slides-07-01.html#round-2-behind-the-veil-10-min",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "Round 2: Behind the veil (10 min)",
+    "text": "Round 2: Behind the veil (10 min)\nForget your Round 1 position. You will get a new position, but only after your group decides.\n\nIn groups, discuss the four designs and choose one by consensus\nWrite a one-sentence justification: “We chose __ because __.”\nEach person draws a new position and records their outcome\nWas anyone in your group unhappy with the result? Would they still defend the choice?"
+  },
+  {
+    "objectID": "slides/slides-07-01.html#round-3-lifting-the-veil-5-min",
+    "href": "slides/slides-07-01.html#round-3-lifting-the-veil-5-min",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "Round 3: Lifting the veil (5 min)",
+    "text": "Round 3: Lifting the veil (5 min)\nNow you learn how common each position is in Northfield:\n\n\n\nPosition\n1\n2\n3\n4\n5\n\n\n\n\nShare of population\n15%\n35%\n25%\n15%\n10%\n\n\n\nYou also learn that, because of the history of redlining and housing discrimination, positions 4 and 5 are made up disproportionately of Black and Latino families.\nDoes your group change its vote? Why or why not?"
+  },
+  {
+    "objectID": "slides/slides-07-01.html#debrief-what-the-designs-do",
+    "href": "slides/slides-07-01.html#debrief-what-the-designs-do",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "Debrief: What the designs do",
+    "text": "Debrief: What the designs do\n\nC is unequal, yet Rawls prefers it to “equality, same chances for everyone”: the inequality makes the worst-off better off\nHarsanyi (1975) argued that rational people behind the veil would maximize expected value (A), not the minimum\nIn lab experiments, most groups behind a veil chose to maximize the average subject to a floor (like B), not strict maximin (Frohlich, Oppenheimer & Eavey, 1987)"
+  },
+  {
+    "objectID": "slides/slides-07-01.html#debrief-group-discussion",
+    "href": "slides/slides-07-01.html#debrief-group-discussion",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "Debrief: Group Discussion",
+    "text": "Debrief: Group Discussion\n\nCompare the Round 1 tally with the Round 2 choices. Did the veil change votes?\nWhich design would a company selling the software build by default? Which would a landlord buy?\nDesign B satisfies a fairness metric. Is it the just choice? What does the fairness constraint leave unchanged?\nDid the Round 3 information about history change your reasoning, even though the numbers did not change?"
   }
 ]
