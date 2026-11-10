@@ -1083,7 +1083,7 @@ margin-right: 0; }
 <ul>
 <li><a href="https://plato.stanford.edu/entries/justice-distributive/">Distributive justice</a>: how are benefits and burdens distributed? <a href="https://www.hup.harvard.edu/file/feeds/PDF/9780674000780_sample.pdf">Rawls (1971)</a> asks what rules we would choose behind a <strong>“veil of ignorance”</strong>, not knowing our place in society. His <strong>difference principle</strong>: inequalities are acceptable only if they benefit the least advantaged.</li>
 <li><a href="https://cops.usdoj.gov/proceduraljustice">Procedural justice</a>: were decisions made through a fair process? Could the affected person understand, question, and <strong>contest</strong> the decision?</li>
-<li><a href="https://levszentkiralyi.com/wp-content/uploads/2017/05/young_justice-and-the-politics-of-difference_1-1991.pdf">Justice as recognition and non-domination</a>: Young (1990) argues that injustice is not only about distribution but about <strong>oppression</strong> – structures that systematically disadvantage groups. Her “five faces of oppression”: exploitation, marginalization, powerlessness, cultural imperialism, and violence.</li>
+<li><a href="https://levszentkiralyi.com/wp-content/uploads/2017/05/young_justice-and-the-politics-of-difference_1-1991.pdf">Justice as recognition and non-domination</a>: Young (1990) argues that injustice is not only about <strong>distribution</strong> but about <strong>domination and oppression</strong> – structures that systematically disadvantage groups. Her “five faces of oppression”: exploitation, marginalization, powerlessness, cultural imperialism, and violence.</li>
 </ul>
 <p>Fairness metrics focus mostly on a narrow kind of <strong>distributive</strong> justice (how errors are distributed).</p>
 </section>
@@ -1144,11 +1144,12 @@ margin-right: 0; }
 </section>
 <section id="the-designs" class="slide level2 smaller">
 <h2>The designs</h2>
-<p>Each number is the chance (%) that a person in that position gets an <strong>affordable lease</strong> within a year.</p>
+<p>Each number is the chance (%) that a person in that position gets an <strong>affordable lease</strong> (low monthly payments relative to their budget) application accepted.</p>
 <ul>
 <li><strong>A</strong>: Credit score, 3× income rule, all eviction filings are counted</li>
-<li><strong>B</strong>: Same model as A + fairness constraint (equal approval rates across</li>
+<li><strong>B</strong>: Same model as A + fairness constraint (similar fairness metric rate across demographic groups)</li>
 <li><strong>C</strong>: Rent payment history instead of credit, counts voucher income, ignores dismissed filings</li>
+<li><strong>D</strong>: A system that assigns affordable leases randomly</li>
 </ul>
 <table class="caption-top">
 <thead>
@@ -1186,15 +1187,23 @@ margin-right: 0; }
 <td style="text-align: center;">40%</td>
 <td style="text-align: center;">35%</td>
 </tr>
+<tr class="even">
+<td style="text-align: left;"><strong>D</strong></td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">20%</td>
+<td style="text-align: center;">20%</td>
+</tr>
 </tbody>
 </table>
 </section>
 <section id="round-1-you-know-your-place-5-min" class="slide level2 smaller">
 <h2>Round 1: You know your place (5 min)</h2>
 <ol type="1">
-<li>Draw a position: roll a die (re-roll a 6) or use a random number generator from 1 to 5</li>
+<li>Draw a position: <a href="https://www.google.com/search?q=random+number+generator+from+1+to+5&amp;rlz=1C5CHFA_enUS1068US1071&amp;oq=ra&amp;gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDsyBggCEEUYOzIGCAMQRRg5MgYIBBBFGDsyEAgFEC4YgwEYsQMYgAQYigUyBggGEEUYPTIGCAcQRRg80gEHNzY0ajBqN6gCALACAA&amp;sourceid=chrome&amp;source=chrome.ob&amp;ie=UTF-8">use a random number generator from 1 to 5</a></li>
 <li>Write your position in your journal</li>
-<li><strong>Individually</strong> vote for design A, B, or C</li>
+<li><strong>Individually</strong> vote for design A, B, C, or D</li>
 </ol>
 <p>We will tally the votes on the board <strong>by position</strong>.</p>
 </section>
@@ -1240,7 +1249,7 @@ margin-right: 0; }
 <h2>Debrief: What the designs do</h2>
 <ul>
 <li>C is <strong>unequal</strong>, yet Rawls prefers it to “equality, same chances for everyone”: the inequality makes the worst-off <strong>better off</strong></li>
-<li>Harsanyi (1975) argued that rational people behind the veil would maximize <strong>expected</strong> value (A), not the minimum</li>
+<li><a href="https://www.cambridge.org/core/journals/american-political-science-review/article/abs/can-the-maximin-principle-serve-as-a-basis-for-morality-a-critique-of-john-rawlss-theory/7B0C4B61855C7591154CABA983AF0880">Harsanyi (1975)</a> argued that rational people behind the veil would maximize <strong>expected</strong> value (A), not the minimum</li>
 <li>In lab experiments, most groups behind a veil chose to maximize the average <strong>subject to a floor</strong> (like B), not strict maximin (<a href="https://www.cambridge.org/core/journals/british-journal-of-political-science/article/abs/laboratory-results-on-rawlss-distributive-justice/DD2CB2203A12790BB2B566127F4FAAA3">Frohlich, Oppenheimer &amp; Eavey, 1987</a>)</li>
 </ul>
 </section>
@@ -1249,79 +1258,52 @@ margin-right: 0; }
 <ul>
 <li>Compare the Round 1 tally with the Round 2 choices. Did the veil change votes?</li>
 <li>Which design would a <strong>company</strong> selling the software build by default? Which would a <strong>landlord</strong> buy?</li>
-<li>Design B satisfies a <strong>fairness metric</strong>. Is it the <strong>just</strong> choice? What does the fairness constraint leave unchanged?</li>
+<li>Design D (equality) satisfies a <strong>fairness metric</strong>. Is it the <strong>just</strong> choice? What does the fairness constraint leave unchanged?</li>
 <li>Did the Round 3 information about <strong>history</strong> change your reasoning, even though the numbers did not change?</li>
 </ul>
 </section>
-<section id="where-fairness-fails" class="slide level2 smaller">
-<h2>Where fairness fails</h2>
-<p><a href="https://doi.org/10.1080/1369118X.2019.1573912">Hoffmann (2019)</a> argues that fairness work borrows the limits of anti-discrimination law:</p>
+<section id="procedural-justice" class="slide level2">
+<h2>Procedural Justice</h2>
+<p>Procedural justice speaks to creating opportunities for people affected to:</p>
 <ul>
-<li>It looks for <strong>“bad actors”</strong> and <strong>“bad inputs”</strong> instead of structures</li>
-<li>It treats protected attributes (race, gender, disability) <strong>one at a time</strong>, missing <strong>intersectional</strong> harms</li>
-<li>It focuses on <strong>disadvantage</strong> but ignores who is <strong>advantaged</strong> by the same system</li>
-<li>It asks how to distribute outcomes fairly, not whether the <strong>goods themselves</strong> (e.g., policing, surveillance) are desirable</li>
+<li>understand how decisions are made (transparency and explainability)</li>
+<li>have a voice (the right to be heard) and ability for recourse (seek help, contest decision)</li>
+<li>fairness and consistency in decision making</li>
+<li>feel respected (dignity)</li>
 </ul>
-</section>
-<section id="the-five-abstraction-traps" class="slide level2 smaller">
-<h2>The five abstraction traps</h2>
-<p><a href="https://doi.org/10.1145/3287560.3287598">Selbst et al. (2019)</a> describe how computer scientists’ habit of <strong>abstraction</strong> leads fairness work astray:</p>
-<table class="caption-top">
-<colgroup>
-<col style="width: 46%">
-<col style="width: 53%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Trap</th>
-<th>Failure</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Framing</strong></td>
-<td>Modeling only the algorithm, not the social system it lives in</td>
-</tr>
-<tr class="even">
-<td><strong>Portability</strong></td>
-<td>Assuming a solution built for one context works in another</td>
-</tr>
-<tr class="odd">
-<td><strong>Formalism</strong></td>
-<td>Assuming fairness can be fully captured in a mathematical definition</td>
-</tr>
-<tr class="even">
-<td><strong>Ripple effect</strong></td>
-<td>Ignoring how the technology changes behavior and institutions</td>
-</tr>
-<tr class="odd">
-<td><strong>Solutionism</strong></td>
-<td>Assuming technology is the solution, never asking whether it should be built</td>
-</tr>
-</tbody>
-</table>
 </section>
 <section id="group-discussion" class="slide level2">
 <h2>Group Discussion</h2>
 <ul>
-<li>Think back to a case we have studied (COMPAS, Amazon hiring, health care algorithm, face recognition). Which of the five traps does it fall into?</li>
-<li>Pick one of Young’s “five faces of oppression.” Can you think of a computing system that reproduces it?</li>
+<li>How does procedural justice apply to the design of computing technologies?</li>
+<li>How do we ensure the affected people (users) understand, question, and <strong>contest</strong> decisions made by computing technologies?</li>
 </ul>
-</section></section>
-<section>
-<section id="historical-and-structural-causes" class="title-slide slide level1 center">
-<h1>Historical and structural causes</h1>
-
 </section>
-<section id="history-in-the-data" class="slide level2 smaller">
-<h2>History in the data</h2>
-<p>Data does not come from nowhere. It records how institutions have <strong>treated people in the past</strong>.</p>
+<section id="procedural-justice-1" class="slide level2">
+<h2>Procedural Justice</h2>
 <ul>
-<li><strong>Redlining</strong>: in the 1930s, the federal Home Owners’ Loan Corporation (HOLC) graded neighborhoods for mortgage risk, marking many Black and immigrant neighborhoods as “hazardous” in red (<a href="https://dsl.richmond.edu/panorama/redlining/">Mapping Inequality</a>)</li>
-<li>Redlining was outlawed by the Fair Housing Act (1968), but its effects persist in home values, wealth, school funding, and health</li>
-<li>A model trained today on property values, ZIP codes, or credit history learns these patterns as <strong>“risk”</strong></li>
+<li>transparency and explainability: make decision rules/parameters available to users, explain why these rules/parameters are used, connect decisions to these rules/parameters</li>
+<li>voice and recourse: get user feedback, act of that feedback, offer users ways to dispute or appeal a decision</li>
+<li>fairness and consistency: use fairness metrics + distributive justice principles (equity, not necessarily equality)</li>
+<li>dignity and respect: remember users are people</li>
 </ul>
-<p>Recall <strong>proxies</strong>: removing race from the data does not remove <strong>history</strong> from the data.</p>
+</section>
+<section id="five-faces-of-oppression-marion-young-1990" class="slide level2 smaller">
+<h2>Five Faces of Oppression (Marion Young, 1990)</h2>
+<ul>
+<li>Exploitation: The extraction of uncompensated or undercompensated labor to fuel digital systems</li>
+<li>Marginalization: The expulsion or barring of specific groups from meaningful participation in the tech economy or digital life</li>
+<li>Powerlessness: Users and workers being subjected to automated or black-box decision-making systems without avenues for appeal or recourse</li>
+<li>Cultural imperialism: The universalization of a dominant group’s experience and culture as the norm, while all others are rendered deviant or invisible</li>
+<li>Violence: Online harassment, doxxing enabled by platforms, algorithmic amplification of hate speech, predictive policing systems that over-police minority neighborhoods, and AI-driven military targeting or surveillance tools</li>
+</ul>
+</section>
+<section id="group-discussion-1" class="slide level2">
+<h2>Group Discussion</h2>
+<ul>
+<li>Think back to a case we have studied (COMPAS, Amazon hiring, health care algorithm, face recognition). Which of the five faces of oppresion does it reproduce?</li>
+<li>Provide an example of a technology for each face of oppresion.</li>
+</ul>
 </section>
 <section id="the-new-jim-code" class="slide level2">
 <h2>The New Jim Code</h2>
@@ -1340,8 +1322,8 @@ margin-right: 0; }
 </ul>
 <p>The model can be <strong>accurate</strong> on its data and still <strong>unjust</strong>: its “ground truth” is itself a product of past policing.</p>
 </section>
-<section id="practice-example-feedback-loop" class="slide level2 smaller">
-<h2>Practice example: Feedback loop</h2>
+<section id="example-feedback-loop" class="slide level2 smaller">
+<h2>Example: Feedback loop</h2>
 <p>Two neighborhoods, <strong>A</strong> and <strong>B</strong>, have the <strong>same</strong> true rate of incidents. Historical records show more incidents in A (because it was patrolled more).</p>
 <p>Rule: each week, send the patrol to the neighborhood with <strong>more recorded incidents</strong>. Only incidents where the patrol is get recorded (+10).</p>
 <table class="caption-top">
@@ -1381,7 +1363,6 @@ margin-right: 0; }
 </tbody>
 </table>
 <ul>
-<li>Fill in weeks 3 and 4. What does the data “show” after 10 weeks?</li>
 <li>Would an audit of this model’s <strong>accuracy</strong> detect a problem?</li>
 <li>What would have to change to break the loop?</li>
 </ul>
@@ -1407,18 +1388,17 @@ margin-right: 0; }
 <li>Michigan replaced staff with an automated system (MiDAS) to detect <strong>unemployment insurance fraud</strong></li>
 <li>The system flagged people for fraud <strong>without human review</strong>, often based on missing or mismatched records, and imposed penalties of up to 4x the benefits received</li>
 <li>A state review found an error rate of about <a href="https://www.govtech.com/data/Michigan-Integrated-Data-Automated-System-Experiences-93-Percent-Error-Rate-During-Nearly-Two-Years-of-Operation.html"><strong>93%</strong> in the fraud determinations it examined</a></li>
-<li>People had wages garnished and tax refunds seized; some filed for bankruptcy</li>
+<li>People had wages garnished and tax refunds seized, some filed for bankruptcy</li>
 <li><a href="https://stpp.fordschool.umich.edu/sites/stpp/files/2024-08/stpp-midas-explainer.pdf">Michigan agreed to a <strong>$20 million</strong> settlement</a> with affected claimants</li>
 </ul>
-<p>Who was most affected? Who had the resources to <strong>contest</strong> the decisions?</p>
 </section>
 <section id="case-dutch-childcare-benefits-scandal" class="slide level2 smaller">
 <h2>Case: Dutch childcare benefits scandal</h2>
 <ul>
 <li>The Dutch Tax Administration used a risk-classification model to flag childcare benefit applications for fraud</li>
 <li><strong>Nationality</strong> (“Dutch / non-Dutch”) was used as a risk factor (<a href="https://www.amnesty.org/en/documents/eur35/4686/2021/en/">Amnesty International, 2021</a>)</li>
-<li>Tens of thousands of families were wrongly accused and ordered to pay back benefits, often tens of thousands of euros; many fell into debt, lost homes, and some lost custody of their children</li>
-<li>January 2021: the Dutch government <strong>resigned</strong> over the scandal</li>
+<li>Tens of thousands of families were wrongly accused and ordered to pay back benefits, often tens of thousands of euros. Many fell into debt, lost homes, and some lost custody of their children</li>
+<li><a href="https://www.nytimes.com/2021/01/15/world/europe/dutch-government-resignation-rutte-netherlands.html">January 2021: the Dutch government <strong>resigned</strong> over the scandal</a></li>
 <li>The Dutch Data Protection Authority fined the Tax Administration €2.75 million for discriminatory and unlawful data processing</li>
 </ul>
 </section>
@@ -1428,7 +1408,6 @@ margin-right: 0; }
 <ol type="1">
 <li>Suppose an audit finds the system satisfies <strong>equalized odds</strong> across racial groups. List at least <strong>two harms</strong> it could still cause.</li>
 <li>What <strong>historical</strong> or <strong>structural</strong> causes shape the data it uses?</li>
-<li>Which <strong>abstraction trap</strong> is the system most at risk of?</li>
 <li>Who <strong>benefits</strong> from the system existing? Who bears the <strong>burdens</strong>?</li>
 <li>Fix, constrain, or don’t deploy? Defend your answer.</li>
 </ol>
