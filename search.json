@@ -2762,7 +2762,7 @@
     "href": "assignment-2.html#step-2-design-and-run-your-tests",
     "title": "Paper 2 - Application",
     "section": "Step 2: Design and run your tests",
-    "text": "Step 2: Design and run your tests\n\nUse paired (counterfactual) inputs: identical inputs that differ only in the attribute you are testing. For example, the same resume with only the name changed.\nRun at least 30 test cases in total (pairs: at least 60), spread across your groups. Since many systems are non-deterministic, run each input more than once, or in a fresh session, and record whether the outputs vary.\nRecord every input and output in a spreadsheet: date, system and version, exact input, output, and your coding of the output. Include a link to it (shared with me) or a summary table in an appendix.\nDecide how you will code outputs before looking at the results, so you are not tempted to code them in a way that confirms your hypothesis."
+    "text": "Step 2: Design and run your tests\n\nUse paired (counterfactual) inputs: identical inputs that differ only in the attribute you are testing. For example, the same resume with only the name changed.\nRun at least 30 test cases in total (pairs: at least 60), spread across your groups. That means the size of your N: one test is a unique attribute combination: for example one resume + one name. So N=30 means you have 30 different combinations of names and resumes. That can be 3 names and 10 different resumes, or 10 names and 3 different resumes, for example. Since many systems are non-deterministic, run each input more than once, or in a fresh session, and record whether the outputs vary.\nRecord every input and output in a spreadsheet: date, system and version, exact input, output, and your coding of the output. Include a link to it (shared with me) or a summary table in an appendix.\nDecide how you will code outputs before looking at the results, so you are not tempted to code them in a way that confirms your hypothesis."
   },
   {
     "objectID": "assignment-2.html#step-3-write-the-audit-report",
@@ -3567,7 +3567,7 @@
     "href": "slides/slides-06-02.html#case-reproductive-health-data-after-dobbs",
     "title": "Surveillance and Civil Liberties",
     "section": "Case: Reproductive health data after Dobbs",
-    "text": "Case: Reproductive health data after Dobbs\n\n2022: Dobbs v. Jackson Women’s Health Organization ends the federal constitutional right to abortion, many states criminalize abortion\nPeriod-tracking apps, search histories, location data, and messages become potential evidence\n2022 (Nebraska): police obtained a teenager’s and her mother’s Facebook messages with a warrant and used them in an abortion-related prosecution\nHIPAA does not cover most health apps: it only applies to health care providers, insurers, and their business associates\nSome states responded: Washington’s My Health My Data Act (2023) protects consumer health data held by apps and websites\n\nData that is not collected cannot be subpoenaed. What does this mean for app designers?"
+    "text": "Case: Reproductive health data after Dobbs\n\n2022: Dobbs v. Jackson Women’s Health Organization ends the federal constitutional right to abortion, many states criminalize abortion\nPeriod-tracking apps, search histories, location data, and messages become potential evidence\n2022 (Nebraska): police obtained a teenager’s and her mother’s Facebook messages with a warrant and used them in an abortion-related prosecution. They pleaded guild.\nHIPAA does not cover most health apps: it only applies to health care providers, insurers, and their business associates\nSome states responded: Washington’s My Health My Data Act (2023) protects consumer health data held by apps and websites\n\nData that is not collected cannot be subpoenaed. What does this mean for app designers?"
   },
   {
     "objectID": "slides/slides-06-02.html#case-facial-recognition-and-protest",
@@ -3602,7 +3602,7 @@
     "href": "slides/slides-06-02.html#the-eu-gdpr-2018",
     "title": "Surveillance and Civil Liberties",
     "section": "The EU: GDPR (2018)",
-    "text": "The EU: GDPR (2018)\nThe General Data Protection Regulation treats data protection as a fundamental right:\n\nData processing needs a lawful basis (consent is only one of six)\nConsent must be freely given, specific, informed, and unambiguous (no pre-checked boxes)\nData minimization and purpose limitation\nRights to access, correct, erase (“right to be forgotten”), and data portability\nArticle 22: right not to be subject to a decision based solely on automated processing with legal or similarly significant effects\nFines up to 4% of global annual revenue (e.g., Meta’s €1.2 billion fine in 2023)\n\nWhat would change in the apps you use if GDPR applied in the U.S.?"
+    "text": "The EU: GDPR (2018)\nThe General Data Protection Regulation treats data protection as a fundamental right:\n\nData processing needs a lawful basis (consent is only one of six)\nConsent must be freely given, specific, informed, and unambiguous (no pre-checked boxes)\nData minimization and purpose limitation\nRights to access, correct, erase (“right to be forgotten”), and data portability\nArticle 22: right not to be subject to a decision based solely on automated processing with legal or similarly significant effects\nFines up to €10/€20 million or 2%-4% of the company’s total worldwide annual turnover from the preceding fiscal year, whichever is higher (e.g., Meta’s €1.2 billion fine in 2023)\n\nWhat would change in the apps you use if GDPR applied in the U.S.?"
   },
   {
     "objectID": "slides/slides-06-02.html#group-discussion-ethics-frameworks",
@@ -3798,7 +3798,7 @@
     "href": "slides/slides-07-01.html#theories-of-justice",
     "title": "Algorithmic Justice: Beyond Fairness",
     "section": "Theories of justice",
-    "text": "Theories of justice\n\nDistributive justice: how are benefits and burdens distributed? Rawls (1971) asks what rules we would choose behind a “veil of ignorance”, not knowing our place in society. His difference principle: inequalities are acceptable only if they benefit the least advantaged.\nProcedural justice: were decisions made through a fair process? Could the affected person understand, question, and contest the decision?\nJustice as recognition and non-domination: Young (1990) argues that injustice is not only about distribution but about oppression – structures that systematically disadvantage groups. Her “five faces of oppression”: exploitation, marginalization, powerlessness, cultural imperialism, and violence.\n\nFairness metrics focus mostly on a narrow kind of distributive justice (how errors are distributed)."
+    "text": "Theories of justice\n\nDistributive justice: how are benefits and burdens distributed? Rawls (1971) asks what rules we would choose behind a “veil of ignorance”, not knowing our place in society. His difference principle: inequalities are acceptable only if they benefit the least advantaged.\nProcedural justice: were decisions made through a fair process? Could the affected person understand, question, and contest the decision?\nJustice as recognition and non-domination: Young (1990) argues that injustice is not only about distribution but about domination and oppression – structures that systematically disadvantage groups. Her “five faces of oppression”: exploitation, marginalization, powerlessness, cultural imperialism, and violence.\n\nFairness metrics focus mostly on a narrow kind of distributive justice (how errors are distributed)."
   },
   {
     "objectID": "slides/slides-07-01.html#where-fairness-fails",
@@ -3819,7 +3819,7 @@
     "href": "slides/slides-07-01.html#group-discussion",
     "title": "Algorithmic Justice: Beyond Fairness",
     "section": "Group Discussion",
-    "text": "Group Discussion\n\nThink back to a case we have studied (COMPAS, Amazon hiring, health care algorithm, face recognition). Which of the five traps does it fall into?\nPick one of Young’s “five faces of oppression.” Can you think of a computing system that reproduces it?"
+    "text": "Group Discussion\n\nHow does procedural justice apply to the design of computing technologies?\nHow do we ensure the affected people (users) understand, question, and contest decisions made by computing technologies?"
   },
   {
     "objectID": "slides/slides-07-01.html#history-in-the-data",
@@ -3854,21 +3854,21 @@
     "href": "slides/slides-07-01.html#case-allegheny-family-screening-tool",
     "title": "Algorithmic Justice: Beyond Fairness",
     "section": "Case: Allegheny Family Screening Tool",
-    "text": "Case: Allegheny Family Screening Tool\n\nSince 2016, Allegheny County (Pennsylvania) has used a model to score calls to the child welfare hotline for the risk of future removal of a child from the home\nThe model draws on public records: public benefits, public health care, county mental health and addiction services, jail, and juvenile probation\nFamilies who use private services (private doctors, private rehab) are invisible to the model. Eubanks (2018) calls this “poverty profiling”: confusing parenting while poor with poor parenting\nAn ACLU analysis (2023) examined design choices in the tool, including the use of disability-related data and how scores were grouped and displayed to screeners\n\nCould this tool be made fair? Would that make it just?"
+    "text": "Case: Allegheny Family Screening Tool\n\nSince 2016, Allegheny County (Pennsylvania) has used a model to score calls to the child welfare hotline for the risk of future removal of a child from the home\nThe model draws on public records: public benefits, public health care, county mental health and addiction services, jail, and juvenile probation\nFamilies who use private services (private doctors, private rehab) are invisible to the model. Eubanks (2018) calls this poverty profiling: confusing parenting while poor with poor parenting\nAn ACLU analysis (2023) examined design choices in the tool, including the use of disability-related data and how scores were grouped and displayed to screeners\n\nCould this tool be made fair? Would that make it just?"
   },
   {
     "objectID": "slides/slides-07-01.html#case-michigans-midas-20132015",
     "href": "slides/slides-07-01.html#case-michigans-midas-20132015",
     "title": "Algorithmic Justice: Beyond Fairness",
     "section": "Case: Michigan’s MiDAS (2013–2015)",
-    "text": "Case: Michigan’s MiDAS (2013–2015)\n\nMichigan replaced staff with an automated system (MiDAS) to detect unemployment insurance fraud\nThe system flagged people for fraud without human review, often based on missing or mismatched records, and imposed penalties of up to 4x the benefits received\nA state review found an error rate of about 93% in the fraud determinations it examined (Charette, 2018)\nPeople had wages garnished and tax refunds seized; some filed for bankruptcy\n2022: Michigan agreed to a $20 million settlement with affected claimants\n\nWho was most affected? Who had the resources to contest the decisions?"
+    "text": "Case: Michigan’s MiDAS (2013–2015)\n\nMichigan replaced staff with an automated system (MiDAS) to detect unemployment insurance fraud\nThe system flagged people for fraud without human review, often based on missing or mismatched records, and imposed penalties of up to 4x the benefits received\nA state review found an error rate of about 93% in the fraud determinations it examined\nPeople had wages garnished and tax refunds seized, some filed for bankruptcy\nMichigan agreed to a $20 million settlement with affected claimants"
   },
   {
     "objectID": "slides/slides-07-01.html#case-dutch-childcare-benefits-scandal",
     "href": "slides/slides-07-01.html#case-dutch-childcare-benefits-scandal",
     "title": "Algorithmic Justice: Beyond Fairness",
     "section": "Case: Dutch childcare benefits scandal",
-    "text": "Case: Dutch childcare benefits scandal\n\nThe Dutch Tax Administration used a risk-classification model to flag childcare benefit applications for fraud\nNationality (“Dutch / non-Dutch”) was used as a risk factor (Amnesty International, 2021)\nTens of thousands of families were wrongly accused and ordered to pay back benefits, often tens of thousands of euros; many fell into debt, lost homes, and some lost custody of their children\nJanuary 2021: the Dutch government resigned over the scandal\nThe Dutch Data Protection Authority fined the Tax Administration €2.75 million for discriminatory and unlawful data processing"
+    "text": "Case: Dutch childcare benefits scandal\n\nThe Dutch Tax Administration used a risk-classification model to flag childcare benefit applications for fraud\nNationality (“Dutch / non-Dutch”) was used as a risk factor (Amnesty International, 2021)\nTens of thousands of families were wrongly accused and ordered to pay back benefits, often tens of thousands of euros. Many fell into debt, lost homes, and some lost custody of their children\nJanuary 2021: the Dutch government resigned over the scandal\nThe Dutch Data Protection Authority fined the Tax Administration €2.75 million for discriminatory and unlawful data processing"
   },
   {
     "objectID": "slides/slides-07-01.html#group-discussion-ethics-frameworks",
@@ -3882,7 +3882,7 @@
     "href": "slides/slides-07-01.html#group-activity-fair-but-unjust",
     "title": "Algorithmic Justice: Beyond Fairness",
     "section": "Group Activity: Fair but unjust?",
-    "text": "Group Activity: Fair but unjust?\nIn groups, choose one system: (a) predictive policing, (b) Allegheny Family Screening Tool, (c) automated tenant screening, (d) unemployment fraud detection\n\nSuppose an audit finds the system satisfies equalized odds across racial groups. List at least two harms it could still cause.\nWhat historical or structural causes shape the data it uses?\nWhich abstraction trap is the system most at risk of?\nWho benefits from the system existing? Who bears the burdens?\nFix, constrain, or don’t deploy? Defend your answer."
+    "text": "Group Activity: Fair but unjust?\nIn groups, choose one system: (a) predictive policing, (b) Allegheny Family Screening Tool, (c) automated tenant screening, (d) unemployment fraud detection\n\nSuppose an audit finds the system satisfies equalized odds across racial groups. List at least two harms it could still cause.\nWhat historical or structural causes shape the data it uses?\nWho benefits from the system existing? Who bears the burdens?\nFix, constrain, or don’t deploy? Defend your answer."
   },
   {
     "objectID": "slides/slides-07-01.html#references-and-further-readings",
@@ -4071,14 +4071,14 @@
     "href": "slides/slides-07-01.html#the-designs",
     "title": "Algorithmic Justice: Beyond Fairness",
     "section": "The designs",
-    "text": "The designs\nEach number is the chance (%) that a person in that position gets an affordable lease within a year.\n\nA: Credit score, 3× income rule, all eviction filings are counted\nB: Same model as A + fairness constraint (equal approval rates across\nC: Rent payment history instead of credit, counts voucher income, ignores dismissed filings\n\n\n\n\nDesign \\ Profile\n1\n2\n3\n4\n5\n\n\n\n\nA\n100%\n85%\n45%\n20%\n5%\n\n\nB\n85%\n70%\n45%\n30%\n20%\n\n\nC\n60%\n55%\n45%\n40%\n35%"
+    "text": "The designs\nEach number is the chance (%) that a person in that position gets an affordable lease (low monthly payments relative to their budget) application accepted.\n\nA: Credit score, 3× income rule, all eviction filings are counted\nB: Same model as A + fairness constraint (similar fairness metric rate across demographic groups)\nC: Rent payment history instead of credit, counts voucher income, ignores dismissed filings\nD: A system that assigns affordable leases randomly\n\n\n\n\nDesign \\ Profile\n1\n2\n3\n4\n5\n\n\n\n\nA\n100%\n85%\n45%\n20%\n5%\n\n\nB\n85%\n70%\n45%\n30%\n20%\n\n\nC\n60%\n55%\n45%\n40%\n35%\n\n\nD\n20%\n20%\n20%\n20%\n20%"
   },
   {
     "objectID": "slides/slides-07-01.html#round-1-you-know-your-place-5-min",
     "href": "slides/slides-07-01.html#round-1-you-know-your-place-5-min",
     "title": "Algorithmic Justice: Beyond Fairness",
     "section": "Round 1: You know your place (5 min)",
-    "text": "Round 1: You know your place (5 min)\n\nDraw a position: roll a die (re-roll a 6) or use a random number generator from 1 to 5\nWrite your position in your journal\nIndividually vote for design A, B, or C\n\nWe will tally the votes on the board by position."
+    "text": "Round 1: You know your place (5 min)\n\nDraw a position: use a random number generator from 1 to 5\nWrite your position in your journal\nIndividually vote for design A, B, C, or D\n\nWe will tally the votes on the board by position."
   },
   {
     "objectID": "slides/slides-07-01.html#round-2-behind-the-veil-10-min",
@@ -4106,6 +4106,482 @@
     "href": "slides/slides-07-01.html#debrief-group-discussion",
     "title": "Algorithmic Justice: Beyond Fairness",
     "section": "Debrief: Group Discussion",
-    "text": "Debrief: Group Discussion\n\nCompare the Round 1 tally with the Round 2 choices. Did the veil change votes?\nWhich design would a company selling the software build by default? Which would a landlord buy?\nDesign B satisfies a fairness metric. Is it the just choice? What does the fairness constraint leave unchanged?\nDid the Round 3 information about history change your reasoning, even though the numbers did not change?"
+    "text": "Debrief: Group Discussion\n\nCompare the Round 1 tally with the Round 2 choices. Did the veil change votes?\nWhich design would a company selling the software build by default? Which would a landlord buy?\nDesign D (equality) satisfies a fairness metric. Is it the just choice? What does the fairness constraint leave unchanged?\nDid the Round 3 information about history change your reasoning, even though the numbers did not change?"
+  },
+  {
+    "objectID": "slides/slides-07-01.html#procedural-justice",
+    "href": "slides/slides-07-01.html#procedural-justice",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "Procedural Justice",
+    "text": "Procedural Justice\nProcedural justice speaks to creating opportunities for people affected to:\n\nunderstand how decisions are made (transparency and explainability)\nhave a voice (the right to be heard) and ability for recourse (seek help, contest decision)\nfairness and consistency in decision making\nfeel respected (dignity)"
+  },
+  {
+    "objectID": "slides/slides-07-01.html#procedural-justice-1",
+    "href": "slides/slides-07-01.html#procedural-justice-1",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "Procedural Justice",
+    "text": "Procedural Justice\n\ntransparency and explainability: make decision rules/parameters available to users, explain why these rules/parameters are used, connect decisions to these rules/parameters\nvoice and recourse: get user feedback, act of that feedback, offer users ways to dispute or appeal a decision\nfairness and consistency: use fairness metrics + distributive justice principles (equity, not necessarily equality)\ndignity and respect: remember users are people"
+  },
+  {
+    "objectID": "slides/slides-07-01.html#group-discussion-1",
+    "href": "slides/slides-07-01.html#group-discussion-1",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "Group Discussion",
+    "text": "Group Discussion\n\nThink back to a case we have studied (COMPAS, Amazon hiring, health care algorithm, face recognition). Which of the five faces of oppresion does it reproduce?\nProvide an example of a technology for each face of oppression."
+  },
+  {
+    "objectID": "slides/slides-07-01.html#five-faces-of-oppression-marion-young-1990",
+    "href": "slides/slides-07-01.html#five-faces-of-oppression-marion-young-1990",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "Five Faces of Oppression (Marion Young, 1990)",
+    "text": "Five Faces of Oppression (Marion Young, 1990)\n\nExploitation: The extraction of uncompensated or undercompensated labor to fuel digital systems\nMarginalization: The expulsion or barring of specific groups from meaningful participation in the tech economy or digital life\nPowerlessness: Users and workers being subjected to automated or black-box decision-making systems without avenues for appeal or recourse\nCultural imperialism: The universalization of a dominant group’s experience and culture as the norm, while all others are rendered deviant or invisible\nViolence: Online harassment, doxxing enabled by platforms, algorithmic amplification of hate speech, predictive policing systems that over-police minority neighborhoods, and AI-driven military targeting or surveillance tools"
+  },
+  {
+    "objectID": "slides/slides-07-01.html#example-feedback-loop",
+    "href": "slides/slides-07-01.html#example-feedback-loop",
+    "title": "Algorithmic Justice: Beyond Fairness",
+    "section": "Example: Feedback loop",
+    "text": "Example: Feedback loop\nTwo neighborhoods, A and B, have the same true rate of incidents. Historical records show more incidents in A (because it was patrolled more).\nRule: each week, send the patrol to the neighborhood with more recorded incidents. Only incidents where the patrol is get recorded (+10).\n\n\n\nWeek\nRecorded A\nRecorded B\nPatrol goes to\n\n\n\n\n0\n60\n40\nA\n\n\n1\n70\n40\nA\n\n\n2\n80\n40\nA\n\n\n3\n?\n?\n?\n\n\n\n\nWould an audit of this model’s accuracy detect a problem?\nWhat would have to change to break the loop?"
+  },
+  {
+    "objectID": "slides/slides-08-01.html#qa-10-minutes",
+    "href": "slides/slides-08-01.html#qa-10-minutes",
+    "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
+    "section": "Q&A (10 minutes)",
+    "text": "Q&A (10 minutes)\nQ&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/slides-08-01.html#warm-up",
+    "href": "slides/slides-08-01.html#warm-up",
+    "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
+    "section": "Warm-up",
+    "text": "Warm-up\nBefore we start, answer in your journal. Who owns:\n\nThe code you write for a class assignment?\nThe code you write during a summer internship?\nA song you generate with an AI tool from your own prompt?\nThe computer (or phone) you bought, including the software inside it?\n\nHow sure are you of each answer?"
+  },
+  {
+    "objectID": "slides/slides-08-01.html#from-past-to-present",
+    "href": "slides/slides-08-01.html#from-past-to-present",
+    "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
+    "section": "From past to present",
+    "text": "From past to present\n\nIn Paper 1 you analyzed a technology through its patent: a legal document that gives its owner the right to exclude others\nIn the algorithmic bias and justice modules, we saw that trade secrets (e.g., COMPAS) can block audits and contestation\nIn the privacy module we asked who controls data about us\n\nThis module asks:\n\nWhy do we grant ownership over ideas, code, and data?\nHow does intellectual property law apply to software, data, and AI?\nWhat do we lose when knowledge is owned instead of shared?"
+  },
+  {
+    "objectID": "slides/slides-08-01.html#why-intellectual-property",
+    "href": "slides/slides-08-01.html#why-intellectual-property",
+    "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
+    "section": "Why intellectual property?",
+    "text": "Why intellectual property?\nThe U.S. Constitution (Article I, Section 8, Clause 8) gives Congress the power:\n\nTo promote the Progress of Science and useful Arts, by securing for limited Times to Authors and Inventors the exclusive Right to their respective Writings and Discoveries.\n\nNotice: the stated goal is progress for the public. Exclusive rights are the means, and they are for limited times."
+  },
+  {
+    "objectID": "slides/slides-08-01.html#justifications-for-intellectual-property",
+    "href": "slides/slides-08-01.html#justifications-for-intellectual-property",
+    "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
+    "section": "Justifications for intellectual property",
+    "text": "Justifications for intellectual property\n\n\n\n\n\n\n\n\nJustification\nArgument\nConnects to\n\n\n\n\nIncentive (utilitarian)\nWithout exclusive rights, others could copy freely, so no one would invest in creating\nConsequentialism\n\n\nLabor (Locke)\nPeople are entitled to the fruits of their labor, as long as “enough and as good” is left for others\nDeontology / natural rights\n\n\nPersonality (Hegel)\nCreative works are an extension of the self; creators have a right to control them\nVirtue / dignity\n\n\nSocial planning\nProperty rules should help build a just and attractive culture\nPolitical economy\n\n\n\nBut ideas are non-rival: if I share my idea with you, I still have it. Thomas Jefferson (1813): “He who receives an idea from me, receives instruction himself without lessening mine; as he who lights his taper at mine, receives light without darkening me.”"
+  },
+  {
+    "objectID": "slides/slides-08-01.html#four-types-of-intellectual-property",
+    "href": "slides/slides-08-01.html#four-types-of-intellectual-property",
+    "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
+    "section": "Four types of intellectual property",
+    "text": "Four types of intellectual property\n\n\n\n\n\n\n\n\n\n\nType\nProtects\nHow you get it\nLasts\nSoftware example\n\n\n\n\nCopyright\nOriginal expression (text, code, images, music)\nAutomatically, when fixed in a tangible medium\nAuthor’s life + 70 years (95 years for corporate works)\nSource code, documentation, UI artwork\n\n\nPatent\nInventions: new, useful, non-obvious processes or machines\nApplication to the patent office, examination\n20 years from filing\nAn algorithm used in a specific technical process\n\n\nTrade secret\nValuable information kept secret\nReasonable efforts to keep it secret\nAs long as it stays secret\nGoogle’s ranking algorithm, COMPAS, model weights\n\n\nTrademark\nBrand names and logos\nUse in commerce (registration optional)\nAs long as it is used\n“Python” logo, “Windows”"
+  },
+  {
+    "objectID": "slides/slides-08-01.html#ideas-vs.-expression",
+    "href": "slides/slides-08-01.html#ideas-vs.-expression",
+    "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
+    "section": "Ideas vs. expression",
+    "text": "Ideas vs. expression\nCopyright protects expression, not ideas. 17 U.S.C. § 102(b):\n\nIn no case does copyright protection […] extend to any idea, procedure, process, system, method of operation, concept, principle, or discovery […]\n\n\nThe code of a sorting function can be copyrighted; the idea of quicksort cannot\nFacts and data are not copyrightable: Feist v. Rural Telephone (1991) held that a phone directory’s listings were not protected, rejecting the idea that effort (“sweat of the brow”) alone creates copyright\nThe selection and arrangement of data can be protected, but only thinly\nIn contrast, the EU grants a separate database right to those who invest substantially in building a database\n\nWho “owns” a dataset of scraped public posts?"
+  },
+  {
+    "objectID": "slides/slides-08-01.html#fair-use",
+    "href": "slides/slides-08-01.html#fair-use",
+    "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
+    "section": "Fair use",
+    "text": "Fair use\nCopyright is not absolute. Fair use (17 U.S.C. § 107) allows some uses without permission, weighed with four factors:\n\nPurpose and character of the use: is it transformative (new purpose or meaning)? Commercial or nonprofit?\nNature of the copyrighted work: factual or creative? Published?\nAmount and substantiality of the portion used\nEffect on the market for the original work\n\nFair use is decided case by case: there is no fixed number of lines or seconds that is “safe.”"
+  },
+  {
+    "objectID": "slides/slides-08-01.html#case-google-v.-oracle-2021",
+    "href": "slides/slides-08-01.html#case-google-v.-oracle-2021",
+    "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
+    "section": "Case: Google v. Oracle (2021)",
+    "text": "Case: Google v. Oracle (2021)\n\nGoogle built Android using the Java programming language. To let Java programmers use familiar commands, Google copied about 11,500 lines of declaring code (method names and organization) from the Java SE API, and wrote its own implementation\nOracle (which acquired Java’s creator, Sun) sued for copyright infringement, seeking about $9 billion\nThe Supreme Court (6–2) held that Google’s copying was fair use: it was transformative, used only what was needed to let programmers carry over their skills, and the declaring code is closer to the “core” of uncopyrightable ideas\nThe Court did not decide whether APIs are copyrightable at all\n\nWhy might a ruling for Oracle have mattered to every programmer who has reimplemented an API?"
+  },
+  {
+    "objectID": "slides/slides-08-01.html#the-dmca-1998",
+    "href": "slides/slides-08-01.html#the-dmca-1998",
+    "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
+    "section": "The DMCA (1998)",
+    "text": "The DMCA (1998)\nThe Digital Millennium Copyright Act has two parts that shape computing today:\n\nAnti-circumvention (§ 1201): it is illegal to bypass digital locks (DRM), even for a use that would otherwise be legal. The Copyright Office grants temporary exemptions every three years, e.g., for security research, repair, and accessibility\nSafe harbor (§ 512): platforms are not liable for users’ uploads if they remove infringing content after a notice-and-takedown request. This made YouTube, GitHub, and social media possible, but also enables false takedowns to silence criticism\n\nRecall the legal risks of auditing: researchers who audit systems may need to circumvent technical protections."
+  },
+  {
+    "objectID": "slides/slides-08-01.html#who-owns-your-code",
+    "href": "slides/slides-08-01.html#who-owns-your-code",
+    "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
+    "section": "Who owns your code?",
+    "text": "Who owns your code?\n\nWork made for hire: code you write as an employee, within the scope of your job, belongs to your employer\nInternship and employment contracts often include invention assignment clauses, which can cover inventions made outside of work hours (some states, including Minnesota, limit these when you use your own time and equipment and the invention is unrelated to the employer’s business)\nAs a student, ownership of your coursework depends on your university’s IP policy and any agreements for sponsored research\nContractors keep copyright unless there is a written agreement transferring it\n\nRead the IP clause before you sign your first offer letter."
+  },
+  {
+    "objectID": "slides/slides-08-01.html#software-patents-and-alice-2014",
+    "href": "slides/slides-08-01.html#software-patents-and-alice-2014",
+    "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
+    "section": "Software patents and Alice (2014)",
+    "text": "Software patents and Alice (2014)\nAbstract ideas cannot be patented. But when is software an abstract idea?\n\nAlice Corp. v. CLS Bank (2014): a patent on using a computer as an intermediary to reduce financial settlement risk was invalid\nThe Supreme Court (unanimous) set a two-step test:\n\nIs the claim directed to an abstract idea (e.g., a fundamental economic practice, a mental process, math)?\nIf so, does it add an “inventive concept”, something more than implementing the idea on a generic computer?\n\n“Do it on a computer” is not enough. Thousands of software patents were later invalidated under Alice"
+  },
+  {
+    "objectID": "slides/slides-08-01.html#patents-benefits-and-harms",
+    "href": "slides/slides-08-01.html#patents-benefits-and-harms",
+    "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
+    "section": "Patents: Benefits and harms",
+    "text": "Patents: Benefits and harms\nBenefits\n\nDisclosure: in exchange for exclusive rights, the inventor must publish how the invention works (this is why you could read your Paper 1 patent!)\nCan protect small inventors and startups from larger competitors copying them\n\nHarms\n\nPatent thickets: so many overlapping patents that building a product requires many licenses (e.g., smartphones)\nPatent assertion entities (“patent trolls”): companies that make no products and earn money by suing or threatening to sue over broad patents\nOverly broad patents: Amazon’s 1-Click patent (granted 1999, expired 2017) covered buying something with a single click"
+  },
+  {
+    "objectID": "slides/slides-08-01.html#in-class-activity-read-the-claims",
+    "href": "slides/slides-08-01.html#in-class-activity-read-the-claims",
+    "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
+    "section": "In-class Activity: Read the claims",
+    "text": "In-class Activity: Read the claims\nReturn to the patent you used for Paper 1 (or pick one from the Patents List).\n\nFind claim 1. In plain language, what exactly does it claim to own?\nApply the Alice test: Is the claim directed to an abstract idea? Does it add anything beyond a generic computer?\nIf this patent is granted, who would be excluded? Who could be sued?\nWould the world be better or worse if this invention were not patented? For whom?"
+  },
+  {
+    "objectID": "slides/slides-08-01.html#trade-secrets-and-accountability",
+    "href": "slides/slides-08-01.html#trade-secrets-and-accountability",
+    "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
+    "section": "Trade secrets and accountability",
+    "text": "Trade secrets and accountability\nTrade secrets require no disclosure and can last forever, which makes them attractive for algorithms and AI models.\n\nState v. Loomis (Wisconsin, 2016): the defendant could not examine how COMPAS computed his risk score because its methodology was a trade secret. The court allowed its use with warnings\nThe Defend Trade Secrets Act (2016) made trade secret theft a federal civil claim\nReverse engineering a legally obtained product is generally allowed for trade secrets, but may be limited by contracts (terms of service) and the DMCA\n\nWhen should a company’s interest in secrecy give way to the public’s interest in accountability?"
+  },
+  {
+    "objectID": "slides/slides-08-01.html#you-bought-it-but-do-you-own-it",
+    "href": "slides/slides-08-01.html#you-bought-it-but-do-you-own-it",
+    "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
+    "section": "You bought it, but do you own it?",
+    "text": "You bought it, but do you own it?\nMost software is licensed, not sold. The End User License Agreement (EULA) defines what you can do.\n\nFarmers who bought John Deere tractors could not repair them because the software required dealer-only tools; bypassing the lock could violate the DMCA\nDigital purchases (e-books, movies, games) can be removed when a store loses its license\nRight to repair laws push back: Colorado passed the first agricultural right-to-repair law (2023), and the Minnesota Digital Fair Repair Act (2023, in effect since July 2024) requires manufacturers to provide parts, tools, and documentation for many electronics\n\nWhat does “ownership” mean when software controls the physical object?"
+  },
+  {
+    "objectID": "slides/slides-08-01.html#group-discussion-ethics-frameworks",
+    "href": "slides/slides-08-01.html#group-discussion-ethics-frameworks",
+    "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
+    "section": "Group Discussion: Ethics frameworks",
+    "text": "Group Discussion: Ethics frameworks\n\nConsequentialism: Do software patents promote or slow down innovation? What evidence would you need to decide?\nDeontology / Locke: Locke’s labor theory requires leaving “enough and as good” for others. Does a 20-year patent on a common software method meet that requirement?\nContractualism: Could a EULA that forbids repair be justified to every person affected, including farmers and independent repair shops?\nPolitical economy: Who can afford to file and defend patents? Who can afford to be sued?\nVirtue ethics: What would an honest, generous, and fair software developer do with an invention?"
+  },
+  {
+    "objectID": "slides/slides-08-01.html#references-and-further-readings",
+    "href": "slides/slides-08-01.html#references-and-further-readings",
+    "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
+    "section": "References and Further Readings",
+    "text": "References and Further Readings\n\nAlice Corp. v. CLS Bank International, 573 U.S. 208 (2014).\nBessen, J., & Meurer, M. J. (2008). Patent Failure: How Judges, Bureaucrats, and Lawyers Put Innovators at Risk. Princeton University Press.\nFeist Publications, Inc. v. Rural Telephone Service Co., 499 U.S. 340 (1991).\nFisher, W. (2001). Theories of intellectual property. In S. Munzer (Ed.), New Essays in the Legal and Political Theory of Property. Cambridge University Press.\nGoogle LLC v. Oracle America, Inc., 593 U.S. 1 (2021).\nHarvard Law Review (2017). State v. Loomis. 130 Harv. L. Rev. 1530."
+  },
+  {
+    "objectID": "slides/slides-08-01.html#references-and-further-readings-1",
+    "href": "slides/slides-08-01.html#references-and-further-readings-1",
+    "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
+    "section": "References and Further Readings",
+    "text": "References and Further Readings\n\nLessig, L. (2004). Free Culture: How Big Media Uses Technology and the Law to Lock Down Culture and Control Creativity. Penguin Press.\nLocke, J. (1689). Second Treatise of Government, Chapter V: Of Property.\nPerzanowski, A., & Schultz, J. (2016). The End of Ownership: Personal Property in the Digital Economy. MIT Press.\nU.S. Code, Title 17 (Copyright)."
+  },
+  {
+    "objectID": "slides/slides-08-01.html#journal-writing",
+    "href": "slides/slides-08-01.html#journal-writing",
+    "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
+    "section": "Journal Writing",
+    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked or disliked"
+  },
+  {
+    "objectID": "slides/slides-08-02.html",
+    "href": "slides/slides-08-02.html",
+    "title": "The Commons, Open Source, and AI",
+    "section": "",
+    "text": "Q&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/slides-08-02.html#qa-10-minutes",
+    "href": "slides/slides-08-02.html#qa-10-minutes",
+    "title": "The Commons, Open Source, and AI",
+    "section": "",
+    "text": "Q&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/slides-08-02.html#warm-up",
+    "href": "slides/slides-08-02.html#warm-up",
+    "title": "The Commons, Open Source, and AI",
+    "section": "Warm-up",
+    "text": "Warm-up\nBefore we start, answer in your journal:\n\nList all the free or open-source software, datasets, or knowledge resources you used this week (think: Python packages, Linux, Wikipedia, Stack Overflow, Firefox, Android, VS Code…)\nWho built them? Who pays for them?\nDo you know if any of your own work (posts, code, writing) has been used to train an AI model?"
+  },
+  {
+    "objectID": "slides/slides-08-02.html#from-ownership-to-the-commons",
+    "href": "slides/slides-08-02.html#from-ownership-to-the-commons",
+    "title": "The Commons, Open Source, and AI",
+    "section": "From ownership to the commons",
+    "text": "From ownership to the commons\nLast class we looked at how law turns ideas, code, and data into property that can exclude others.\nToday we look at the other side:\n\nWhat is a commons, and can it survive?\nHow does free and open-source software use copyright to keep code shared?\nWhat happens to the commons when it becomes training data for AI?"
+  },
+  {
+    "objectID": "slides/slides-08-02.html#tragedy-of-the-commons",
+    "href": "slides/slides-08-02.html#tragedy-of-the-commons",
+    "title": "The Commons, Open Source, and AI",
+    "section": "Tragedy of the commons?",
+    "text": "Tragedy of the commons?\n\nHardin (1968): imagine a pasture open to all herders. Each herder gains by adding one more animal, but the cost of overgrazing is shared. Result: the pasture is destroyed. Hardin’s solution: private property or government control\nOstrom (1990) studied real commons (fisheries, irrigation systems, forests) and found communities often govern shared resources successfully for centuries, without privatization or top-down control. She won the 2009 Nobel Prize in Economics\n\nSome of Ostrom’s design principles for long-lasting commons:\n\nClear boundaries (who can use the resource)\nRules fit local conditions, and those affected can participate in changing them\nMonitoring and graduated sanctions for rule breakers\nAccessible ways to resolve conflicts"
+  },
+  {
+    "objectID": "slides/slides-08-02.html#knowledge-commons",
+    "href": "slides/slides-08-02.html#knowledge-commons",
+    "title": "The Commons, Open Source, and AI",
+    "section": "Knowledge commons",
+    "text": "Knowledge commons\nKnowledge is different from a pasture:\n\nIt is non-rival: my use does not reduce yours. You cannot “overgraze” an idea\nThe risk is not overuse but underproduction (who pays to create and maintain it?) and enclosure (someone fences it off)\nTragedy of the anticommons (Heller & Eisenberg, 1998): when too many people hold patents on pieces of knowledge (e.g., gene fragments), research gets blocked because no one can assemble all the rights\n\nExamples of knowledge commons: Wikipedia, the public domain, open-source software, arXiv, OpenStreetMap, Stack Overflow, public datasets."
+  },
+  {
+    "objectID": "slides/slides-08-02.html#free-software",
+    "href": "slides/slides-08-02.html#free-software",
+    "title": "The Commons, Open Source, and AI",
+    "section": "Free software",
+    "text": "Free software\n\n1983: Richard Stallman announced the GNU project after experiencing software becoming proprietary at MIT\n“Free as in freedom, not free as in beer.” The four freedoms:\n\nRun the program for any purpose\nStudy and change how it works (requires source code)\nRedistribute copies\nDistribute your modified versions\n\nCopyleft: use copyright to guarantee these freedoms. The GNU General Public License (GPL, 1989) requires that modified versions you distribute are also released under the GPL\n1998: the term “open source” was coined to emphasize practical benefits (quality, collaboration) for businesses, rather than ethics"
+  },
+  {
+    "objectID": "slides/slides-08-02.html#open-source-licenses",
+    "href": "slides/slides-08-02.html#open-source-licenses",
+    "title": "The Commons, Open Source, and AI",
+    "section": "Open-source licenses",
+    "text": "Open-source licenses\n\n\n\n\n\n\n\n\n\nLicense type\nExamples\nYou may…\nBut you must…\n\n\n\n\nPermissive\nMIT, BSD, Apache 2.0\nUse, modify, and include in proprietary software\nKeep the copyright notice (Apache 2.0 also grants patent rights)\n\n\nWeak copyleft\nLGPL, MPL\nLink to it from proprietary software\nShare changes to the library itself\n\n\nStrong copyleft\nGPL v3\nUse, modify, and distribute\nRelease your whole program under GPL if you distribute it\n\n\nNetwork copyleft\nAGPL\nUse and modify\nShare source even if users only access it over a network\n\n\n\nNo license = all rights reserved. Code on GitHub without a license is not legally open source. See choosealicense.com.\nCreative Commons licenses (BY, SA, NC, ND) apply similar ideas to writing, images, and data. Wikipedia uses CC BY-SA."
+  },
+  {
+    "objectID": "slides/slides-08-02.html#who-maintains-the-commons",
+    "href": "slides/slides-08-02.html#who-maintains-the-commons",
+    "title": "The Commons, Open Source, and AI",
+    "section": "Who maintains the commons?",
+    "text": "Who maintains the commons?\nModern software is built on open-source components maintained by very few people, often unpaid.\n\nHeartbleed (2014): a bug in OpenSSL exposed encrypted traffic across a large part of the web. OpenSSL was maintained mainly by a handful of volunteers and received about $2,000 a year in donations\nxz Utils backdoor (2024): a solo, burned-out maintainer of a compression library used in most Linux systems was pressured into sharing control with “Jia Tan,” who spent about two years building trust before inserting a backdoor (CVE-2024-3094). It was caught by chance by a Microsoft engineer who noticed SSH logins were 0.5 seconds slower\n\n\n\n\n\nxkcd 2347: Dependency"
+  },
+  {
+    "objectID": "slides/slides-08-02.html#enclosure-license-changes",
+    "href": "slides/slides-08-02.html#enclosure-license-changes",
+    "title": "The Commons, Open Source, and AI",
+    "section": "Enclosure: License changes",
+    "text": "Enclosure: License changes\nCompanies that build on community contributions sometimes change the license when cloud providers profit from their code:\n\nHashiCorp Terraform (2023): moved from an open-source license to the source-available Business Source License. The community created a fork, OpenTofu, now under the Linux Foundation\nRedis (2024): moved to source-available licenses. The community created Valkey, backed by the Linux Foundation and large cloud companies. In 2025, Redis added the open-source AGPL as an option again\n\nRecall Ostrom: who makes the rules for a commons, and can contributors participate in changing them?"
+  },
+  {
+    "objectID": "slides/slides-08-02.html#group-discussion",
+    "href": "slides/slides-08-02.html#group-discussion",
+    "title": "The Commons, Open Source, and AI",
+    "section": "Group Discussion",
+    "text": "Group Discussion\n\nEthical licenses (e.g., the Hippocratic License, 2019) forbid using software for human rights abuses. The Open Source Initiative says these licenses are not open source, since freedom 0 allows use “for any purpose.” Should developers be able to restrict who uses their code and for what?\nBig companies rely on volunteer-maintained code. Do they have an obligation to give back? What would that look like?"
+  },
+  {
+    "objectID": "slides/slides-08-02.html#training-data",
+    "href": "slides/slides-08-02.html#training-data",
+    "title": "The Commons, Open Source, and AI",
+    "section": "Training data",
+    "text": "Training data\nLarge AI models are trained on vast amounts of text, code, images, and audio, much of it copyrighted and collected without permission: books, news articles, artwork, code on GitHub, Wikipedia, Reddit and Stack Overflow posts.\nThe central legal question in the U.S.: Is training an AI model on copyrighted works fair use?\n\nPrecedent: Authors Guild v. Google (2d Cir. 2015) held that scanning millions of books to build a searchable index (Google Books) was fair use: highly transformative and not a substitute for the books\nIs generative AI more like a search index (transformative) or a competitor that produces substitutes for the works it learned from?"
+  },
+  {
+    "objectID": "slides/slides-08-02.html#training-data-in-court",
+    "href": "slides/slides-08-02.html#training-data-in-court",
+    "title": "The Commons, Open Source, and AI",
+    "section": "Training data in court",
+    "text": "Training data in court\n\n\n\n\n\n\n\nCase\nOutcome\n\n\n\n\nThomson Reuters v. Ross Intelligence (D. Del., Feb 2025)\nNot fair use: Ross used Westlaw’s legal headnotes to build a competing (non-generative) legal search tool\n\n\nBartz v. Anthropic (N.D. Cal., June 2025)\nTraining on lawfully purchased books was fair use (“exceedingly transformative”), but downloading and keeping pirated copies was not. Settled for $1.5 billion (about $3,000 per book)\n\n\nKadrey v. Meta (N.D. Cal., June 2025)\nMeta won, but the judge stressed that the authors made the wrong arguments, and that market dilution (flooding the market with AI-generated substitutes) could weigh against fair use in other cases\n\n\nThe New York Times v. OpenAI & Microsoft (filed Dec 2023)\nOngoing: claims the models can reproduce articles nearly word for word and compete with the newspaper\n\n\n\nThe U.S. Copyright Office (2025) concluded that some training uses are likely fair and others are not, depending especially on market effects."
+  },
+  {
+    "objectID": "slides/slides-08-02.html#who-owns-ai-outputs",
+    "href": "slides/slides-08-02.html#who-owns-ai-outputs",
+    "title": "The Commons, Open Source, and AI",
+    "section": "Who owns AI outputs?",
+    "text": "Who owns AI outputs?\n\nCopyright requires a human author. Thaler v. Perlmutter (D.C. Cir., 2025): a work generated autonomously by an AI system cannot be copyrighted\nZarya of the Dawn (2023): the Copyright Office registered a comic book’s text and the selection and arrangement of images, but not the individual images generated with Midjourney\nCopyright Office (2025): prompts alone are generally not enough for authorship; human creative control over the expression is needed (e.g., editing, arranging, modifying)\nPatents require a human inventor: Thaler v. Vidal (Fed. Cir., 2022) rejected patents listing the AI system DABUS as the inventor\n\nIf AI outputs are not copyrightable, they go into the public domain. Is that good for the commons?"
+  },
+  {
+    "objectID": "slides/slides-08-02.html#is-ai-enclosing-the-commons",
+    "href": "slides/slides-08-02.html#is-ai-enclosing-the-commons",
+    "title": "The Commons, Open Source, and AI",
+    "section": "Is AI enclosing the commons?",
+    "text": "Is AI enclosing the commons?\n\nModels trained on the commons (Wikipedia, open-source code, public forums) are often sold as closed products\nAnswers from AI chatbots reduce visits to the sources they learned from: questions posted on Stack Overflow dropped sharply after ChatGPT’s release\nAI crawlers increase costs for commons projects: the Wikimedia Foundation reported that bandwidth for downloading multimedia grew 50% since January 2024, mostly from bots scraping for AI training (Wikimedia, 2025)\n“Open” AI: many “open” models release weights but not training data, and add use restrictions. The Open Source Initiative’s Open Source AI Definition (2024) requires enough information about the data to rebuild the model"
+  },
+  {
+    "objectID": "slides/slides-08-02.html#responses",
+    "href": "slides/slides-08-02.html#responses",
+    "title": "The Commons, Open Source, and AI",
+    "section": "Responses",
+    "text": "Responses\n\nLicensing deals: platforms sell access to their users’ content (e.g., Reddit licensed its data to Google in 2024 for about $60 million a year). Who gets paid: the platform or the people who wrote the posts?\nOpt-outs: robots.txt and the EU’s text-and-data-mining opt-out. The EU AI Act requires general-purpose AI providers to respect opt-outs and publish a summary of training data\nTechnical tools for artists: Glaze and Nightshade (University of Chicago) alter images to disrupt style mimicry and training\nCollective approaches: data trusts and cooperatives that negotiate on behalf of creators (recall CARE principles and data sovereignty)\n\nRecall contextual integrity: you posted an answer on a forum to help another programmer. Is training a commercial model on it an appropriate flow?"
+  },
+  {
+    "objectID": "slides/slides-08-02.html#group-activity-fair-use-tribunal",
+    "href": "slides/slides-08-02.html#group-activity-fair-use-tribunal",
+    "title": "The Commons, Open Source, and AI",
+    "section": "Group Activity: Fair use tribunal",
+    "text": "Group Activity: Fair use tribunal\nYour group is a court. Choose one case and apply the four fair use factors (purpose/transformative, nature, amount, market effect). Decide: fair use or not?\n\nA company trains an image generator on millions of artworks scraped from an artists’ portfolio site, and users can request images “in the style of” a named living artist\nA university lab trains a model on public GitHub code (including GPL code) to study bugs, and publishes the results but not the model\nA startup trains a chatbot on news articles; the chatbot summarizes today’s news so users don’t need to visit the news sites\nA coding assistant sometimes outputs long, verbatim chunks of GPL-licensed code without the license\n\nThen: even if it’s legal, is it ethical? Use one ethics framework to answer."
+  },
+  {
+    "objectID": "slides/slides-08-02.html#group-discussion-ethics-frameworks",
+    "href": "slides/slides-08-02.html#group-discussion-ethics-frameworks",
+    "title": "The Commons, Open Source, and AI",
+    "section": "Group Discussion: Ethics frameworks",
+    "text": "Group Discussion: Ethics frameworks\n\nConsequentialism: Would requiring permission and payment for all training data lead to better or worse outcomes? For whom (creators, AI companies, small labs, the public)?\nDeontology / Locke: Does an AI company “mix its labor” with the commons in a way that justifies owning the result? Does it leave “enough and as good” for others?\nContractualism: Could the rules for AI training be justified to a freelance illustrator? A Wikipedia editor? An open-source maintainer?\nPolitical economy: Who captures the value created by the commons? Who bears the costs of maintaining it?\nOstrom: What would a well-governed AI training commons look like?"
+  },
+  {
+    "objectID": "slides/slides-08-02.html#references-and-further-readings",
+    "href": "slides/slides-08-02.html#references-and-further-readings",
+    "title": "The Commons, Open Source, and AI",
+    "section": "References and Further Readings",
+    "text": "References and Further Readings\n\nBenkler, Y. (2006). The Wealth of Networks: How Social Production Transforms Markets and Freedom. Yale University Press.\nEghbal, N. (2020). Working in Public: The Making and Maintenance of Open Source Software. Stripe Press.\nHardin, G. (1968). The tragedy of the commons. Science, 162(3859), 1243–1248.\nHeller, M. A., & Eisenberg, R. S. (1998). Can patents deter innovation? The anticommons in biomedical research. Science, 280(5364), 698–701.\nHess, C., & Ostrom, E. (Eds.). (2007). Understanding Knowledge as a Commons: From Theory to Practice. MIT Press.\nOpen Source Initiative (2024). The Open Source AI Definition 1.0."
+  },
+  {
+    "objectID": "slides/slides-08-02.html#references-and-further-readings-1",
+    "href": "slides/slides-08-02.html#references-and-further-readings-1",
+    "title": "The Commons, Open Source, and AI",
+    "section": "References and Further Readings",
+    "text": "References and Further Readings\n\nOstrom, E. (1990). Governing the Commons: The Evolution of Institutions for Collective Action. Cambridge University Press.\nStallman, R. What is free software? GNU Project.\nU.S. Copyright Office (2024–2025). Copyright and Artificial Intelligence (Parts 1–3).\nWikimedia Foundation (2025). How crawlers impact the operations of the Wikimedia projects."
+  },
+  {
+    "objectID": "slides/slides-08-02.html#journal-writing",
+    "href": "slides/slides-08-02.html#journal-writing",
+    "title": "The Commons, Open Source, and AI",
+    "section": "Journal Writing",
+    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked or disliked"
+  },
+  {
+    "objectID": "slides/extra-slides.html",
+    "href": "slides/extra-slides.html",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "",
+    "text": "Q&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/extra-slides.html#qa-10-minutes",
+    "href": "slides/extra-slides.html#qa-10-minutes",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "",
+    "text": "Q&A about ethics, computing, and logistics of the course.\nNo question is too silly, naive, controversial, basic, or advanced."
+  },
+  {
+    "objectID": "slides/extra-slides.html#warm-up",
+    "href": "slides/extra-slides.html#warm-up",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Warm-up",
+    "text": "Warm-up\nBefore we start, answer in your journal:\nThink of a decision about your life that was made (or helped) by an algorithm (admissions, a loan, a job application, a content ban, a grade flag).\n\nDid you know an algorithm was involved?\nCould you find out why the decision was made?\nCould you challenge it? Who would you contact?"
+  },
+  {
+    "objectID": "slides/extra-slides.html#from-fairness-to-justice",
+    "href": "slides/extra-slides.html#from-fairness-to-justice",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "From fairness to justice",
+    "text": "From fairness to justice\nLast class we saw that:\n\nFairness metrics measure how errors and outcomes are distributed\nJustice also asks about history, structure, and power\nA system can be fair by a metric and still unjust (feedback loops, poverty profiling, nationality as a risk factor)\n\nToday: if fairness is not enough, what should we do instead?"
+  },
+  {
+    "objectID": "slides/extra-slides.html#ask-how-ai-shifts-power",
+    "href": "slides/extra-slides.html#ask-how-ai-shifts-power",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Ask how AI shifts power",
+    "text": "Ask how AI shifts power\nKalluri (2020), writing in Nature:\n\nIt is not uncommon now for AI experts to ask whether an AI is ‘fair’ and ‘for good’. But ‘fair’ and ‘good’ are infinitely spacious words that any AI system can be squeezed into. The question to pose is a deeper one: how is AI shifting power?"
+  },
+  {
+    "objectID": "slides/extra-slides.html#power-questions",
+    "href": "slides/extra-slides.html#power-questions",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Power questions",
+    "text": "Power questions\nFor any system, ask:\n\nWho decided to build it, and what problem did they say it solves?\nWho designed it and chose its objective, data, and metrics?\nWho is subject to its decisions? Did they have a say?\nWho can see how it works? (Recall COMPAS as a trade secret)\nWho can contest its decisions, and at what cost?\nWho benefits and who bears the burdens when it is wrong?\n\nNotice how often the people who design and benefit are different from the people who are subject to the system."
+  },
+  {
+    "objectID": "slides/extra-slides.html#data-feminism",
+    "href": "slides/extra-slides.html#data-feminism",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Data feminism",
+    "text": "Data feminism\nD’Ignazio & Klein (2020) propose principles for working with data in ways that challenge unequal power, including:\n\nExamine power: analyze how power operates in the world, including in data science itself\nChallenge power: commit to challenging unequal power structures and working toward justice\nElevate emotion and embodiment: value many forms of knowledge, including lived experience\nConsider context: data are not neutral or objective; they are products of unequal social relations\nMake labor visible: data work is done by many people (labelers, content moderators) whose work is often hidden"
+  },
+  {
+    "objectID": "slides/extra-slides.html#group-discussion",
+    "href": "slides/extra-slides.html#group-discussion",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Group Discussion",
+    "text": "Group Discussion\n\nApply the power questions to a system you use every day (e.g., a social media feed, Canvas, a dating app, a ride-sharing app).\nWho has the most power in that system? Who has the least?\nWould changing the fairness metric change any of your answers?"
+  },
+  {
+    "objectID": "slides/extra-slides.html#design-justice",
+    "href": "slides/extra-slides.html#design-justice",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Design justice",
+    "text": "Design justice\nCostanza-Chock (2020) describes design justice as design led by marginalized communities that aims to challenge structural inequality. Some of its principles:\n\n“We center the voices of those who are directly impacted by the outcomes of the design process.”\n“We prioritize design’s impact on the community over the intentions of the designer.”\n“We view change as emerging from an accountable, accessible, and collaborative process, rather than as a point at the end of a process.”\n“We work towards sustainable, community-led and -controlled outcomes.”\n\nDisability rights movement: “Nothing about us without us.”"
+  },
+  {
+    "objectID": "slides/extra-slides.html#participation-is-not-a-design-fix",
+    "href": "slides/extra-slides.html#participation-is-not-a-design-fix",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Participation is not a design fix",
+    "text": "Participation is not a design fix\nSloane et al. (2022) warn about “participation-washing”: inviting communities in without giving them real power.\n\n\n\n\n\n\n\nType of participation\nExample\n\n\n\n\nParticipation as work\nUnpaid or underpaid labeling, data donation\n\n\nParticipation as consultation\nA survey or town hall whose results may be ignored\n\n\nParticipation as justice\nLong-term partnership; communities can shape or stop the project\n\n\n\nQuestions to ask: Are participants paid? Do they participate from the start or only at the end? Can they say no?"
+  },
+  {
+    "objectID": "slides/extra-slides.html#data-sovereignty",
+    "href": "slides/extra-slides.html#data-sovereignty",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Data sovereignty",
+    "text": "Data sovereignty\nIndigenous communities have long had data collected about them without their control (e.g., genetic samples reused without consent).\nThe CARE Principles for Indigenous Data Governance (Global Indigenous Data Alliance, 2019) complement the FAIR (Findable, Accessible, Interoperable, Reusable) principles for open data:\n\nCollective benefit\nAuthority to control\nResponsibility\nEthics\n\nRecall contextual integrity and networked privacy: data about one person is often data about a community."
+  },
+  {
+    "objectID": "slides/extra-slides.html#contestability-and-due-process",
+    "href": "slides/extra-slides.html#contestability-and-due-process",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Contestability and due process",
+    "text": "Contestability and due process\nProcedural justice requires that people can understand and challenge decisions about them.\n\nCitron (2008) argued that automated government decisions often deny “technological due process”: notice, a hearing, and a reasoned explanation. Rules written in code can change policy without public input.\nRecall: GDPR Article 22 (right not to be subject to solely automated decisions) and the Minnesota Consumer Data Privacy Act (right to question a profiling decision)\nRecall MiDAS: no human review and no meaningful way to contest led to thousands of wrongful fraud determinations\n\nWhat would a good appeal process for an automated decision look like?"
+  },
+  {
+    "objectID": "slides/extra-slides.html#algorithmic-impact-assessments",
+    "href": "slides/extra-slides.html#algorithmic-impact-assessments",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Algorithmic impact assessments",
+    "text": "Algorithmic impact assessments\nLike environmental impact assessments, algorithmic impact assessments (AIAs) evaluate a system before it is deployed.\n\nAI Now Institute (Reisman et al., 2018): public agencies should disclose the systems they use, evaluate impacts, allow external researchers to review, and give the public a chance to comment\nCanada’s Directive on Automated Decision-Making (2019): federal agencies must complete an impact assessment; higher-impact systems require more human involvement, peer review, and notice to affected people\n\nRecall the Collingridge dilemma: AIAs try to act while change is still easy."
+  },
+  {
+    "objectID": "slides/extra-slides.html#regulation-the-eu-ai-act-2024",
+    "href": "slides/extra-slides.html#regulation-the-eu-ai-act-2024",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Regulation: The EU AI Act (2024)",
+    "text": "Regulation: The EU AI Act (2024)\nThe EU AI Act takes a risk-based approach:\n\n\n\n\n\n\n\n\nRisk level\nExamples\nRequirement\n\n\n\n\nUnacceptable\nSocial scoring; predicting crime solely from profiling or personality traits; untargeted scraping of face images\nBanned (since February 2025)\n\n\nHigh\nHiring, education, credit, essential public benefits, law enforcement, migration\nRisk management, data quality, documentation, human oversight\n\n\nLimited\nChatbots, deepfakes\nTransparency (tell people they are interacting with AI)\n\n\nMinimal\nSpam filters, video games\nNo new obligations\n\n\n\nWhich of the systems from last class would fall into each category?"
+  },
+  {
+    "objectID": "slides/extra-slides.html#refusal",
+    "href": "slides/extra-slides.html#refusal",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Refusal",
+    "text": "Refusal\nSometimes the just answer is: don’t build it or stop using it.\n\n2019: San Francisco became the first major U.S. city to ban government use of face recognition; Boston, Oakland, and others followed\n2020: Santa Cruz, California, banned predictive policing\nThe Los Angeles Police Department ended its LASER program (2019) and stopped using PredPol (2020) after community organizing and an inspector general review\nChicago decommissioned its “Strategic Subject List” (a “heat list” of people predicted to be involved in shootings) in 2019\n\nThese changes came largely from community organizing, not from better fairness metrics."
+  },
+  {
+    "objectID": "slides/extra-slides.html#algorithmic-reparation",
+    "href": "slides/extra-slides.html#algorithmic-reparation",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Algorithmic reparation",
+    "text": "Algorithmic reparation\nDavis, Williams & Yang (2021) propose algorithmic reparation as an alternative to “fair” (neutral) ML:\n\nFairness tries to make algorithms blind to group membership\nReparation instead uses algorithms to actively address historical and structural harm, informed by intersectionality\nExample directions: designing systems to redistribute resources toward groups harmed by past policies, rather than just equalizing error rates\n\nRecall the deontology question from the fairness lecture: Is it ever acceptable to use a protected attribute to correct for bias? Recall also the legal limits (e.g., Students for Fair Admissions v. Harvard, 2023)."
+  },
+  {
+    "objectID": "slides/extra-slides.html#a-spectrum-of-responses",
+    "href": "slides/extra-slides.html#a-spectrum-of-responses",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "A spectrum of responses",
+    "text": "A spectrum of responses\n\n\n\n\n\n\n\n\nResponse\nWhat it does\nExample\n\n\n\n\nFix\nChange the model or data\nRe-weighting, fairness constraints\n\n\nAudit\nMeasure and disclose disparities\nNYC Local Law 144 bias audits\n\n\nConstrain\nLimit uses, require oversight\nEU AI Act high-risk requirements\n\n\nContest\nGive people a way to challenge decisions\nNotice, explanation, appeal, human review\n\n\nShare power\nGive affected communities decision-making power\nDesign justice, CARE principles\n\n\nRefuse\nDon’t build it, ban it, or retire it\nFace recognition bans, ending predictive policing\n\n\nRepair\nAddress past harms\nAlgorithmic reparation, settlements (MiDAS)\n\n\n\nThese are not mutually exclusive. Which responses address symptoms and which address causes?"
+  },
+  {
+    "objectID": "slides/extra-slides.html#group-discussion-ethics-frameworks",
+    "href": "slides/extra-slides.html#group-discussion-ethics-frameworks",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Group Discussion: Ethics frameworks",
+    "text": "Group Discussion: Ethics frameworks\n\nConsequentialism: Refusing to deploy a system also has consequences (e.g., human decision-makers can be biased too). When is “no algorithm” worse than a flawed algorithm?\nDeontology: Do people have a duty-based right to a human decision, an explanation, or an appeal, regardless of outcomes?\nVirtue ethics (Vallor): Which technomoral virtues (e.g., justice, humility, care, civility) does design justice ask of computing professionals?\nContractualism: If the affected community rejects a system, can it still be justified to them?\nPolitical economy: Who pays for participation, impact assessments, and appeals? Who profits when they are skipped?"
+  },
+  {
+    "objectID": "slides/extra-slides.html#group-activity-justice-redesign",
+    "href": "slides/extra-slides.html#group-activity-justice-redesign",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Group Activity: Justice redesign",
+    "text": "Group Activity: Justice redesign\nIn groups, choose one system: (a) Allegheny Family Screening Tool, (b) a city’s predictive policing program, (c) an automated tenant screening service, (d) AI proctoring software, (e) your Paper 2 application\n\nPower: Answer the power questions (who decided, designed, is subject, can see, can contest, benefits).\nHistory: What historical or structural injustices shape the data or the decision?\nParticipation: Who should be at the table? What power should they have?\nContest: Design an appeal process for a person harmed by the system.\nResponse: Choose from the spectrum (fix, audit, constrain, contest, share power, refuse, repair). Justify your choice with one ethics framework."
+  },
+  {
+    "objectID": "slides/extra-slides.html#references-and-further-readings",
+    "href": "slides/extra-slides.html#references-and-further-readings",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "References and Further Readings",
+    "text": "References and Further Readings\n\nCitron, D. K. (2008). Technological due process. Washington University Law Review, 85(6), 1249–1313.\nCostanza-Chock, S. (2020). Design Justice: Community-Led Practices to Build the Worlds We Need. MIT Press.\nDavis, J. L., Williams, A., & Yang, M. W. (2021). Algorithmic reparation. Big Data & Society, 8(2).\nD’Ignazio, C., & Klein, L. F. (2020). Data Feminism. MIT Press.\nGlobal Indigenous Data Alliance (2019). CARE Principles for Indigenous Data Governance.\nGovernment of Canada (2019). Directive on Automated Decision-Making."
+  },
+  {
+    "objectID": "slides/extra-slides.html#references-and-further-readings-1",
+    "href": "slides/extra-slides.html#references-and-further-readings-1",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "References and Further Readings",
+    "text": "References and Further Readings\n\nKalluri, P. (2020). Don’t ask if artificial intelligence is good or fair, ask how it shifts power. Nature, 583, 169.\nRegulation (EU) 2024/1689, Artificial Intelligence Act.\nReisman, D., Schultz, J., Crawford, K., & Whittaker, M. (2018). Algorithmic impact assessments: A practical framework for public agency accountability. AI Now Institute.\nSloane, M., Moss, E., Awomolo, O., & Forlano, L. (2022). Participation is not a design fix for machine learning. Proceedings of EAAMO ’22.\nVallor, S. (2016). Technology and the Virtues. Oxford University Press."
+  },
+  {
+    "objectID": "slides/extra-slides.html#journal-writing",
+    "href": "slides/extra-slides.html#journal-writing",
+    "title": "Algorithmic Justice: Power, Participation, and Refusal",
+    "section": "Journal Writing",
+    "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked or disliked"
   }
 ]

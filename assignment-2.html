@@ -5152,7 +5152,7 @@ background-color: #5e0013;
 <h2 class="anchored" data-anchor-id="step-2-design-and-run-your-tests">Step 2: Design and run your tests</h2>
 <ul>
 <li>Use <strong>paired (counterfactual) inputs</strong>: identical inputs that differ <em>only</em> in the attribute you are testing. For example, the same resume with only the name changed.</li>
-<li>Run at least <strong>30 test cases</strong> in total (pairs: at least 60), spread across your groups. Since many systems are non-deterministic, run each input more than once, or in a fresh session, and record whether the outputs vary.</li>
+<li>Run at least <strong>30 test cases</strong> in total (pairs: at least 60), spread across your groups. That means the size of your N: one test is a unique attribute combination: for example one resume + one name. So N=30 means you have 30 different combinations of names and resumes. That can be 3 names and 10 different resumes, or 10 names and 3 different resumes, for example. Since many systems are non-deterministic, run each input more than once, or in a fresh session, and record whether the outputs vary.</li>
 <li>Record <strong>every</strong> input and output in a spreadsheet: date, system and version, exact input, output, and your coding of the output. Include a link to it (shared with me) or a summary table in an appendix.</li>
 <li>Decide how you will code outputs <strong>before</strong> looking at the results, so you are not tempted to code them in a way that confirms your hypothesis.</li>
 </ul>
