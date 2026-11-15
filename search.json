@@ -2650,7 +2650,7 @@
     "href": "index.html#slides-3",
     "title": "CSCI 3921W - Social, Legal, and Ethical Issues in Computing",
     "section": "Slides",
-    "text": "Slides\n\nAlgorithmic Bias\nFairness\nAlgorithmic Audits\nData Collection and Privacy\nSurveillance and Civil Liberties\nAlgorithmic Justice: Beyond Fairness"
+    "text": "Slides\n\nAlgorithmic Bias\nFairness\nAlgorithmic Audits\nData Collection and Privacy\nSurveillance and Civil Liberties\nAlgorithmic Justice: Beyond Fairness\nIntellectual Property: Copyright, Patents, and Trade Secrets"
   },
   {
     "objectID": "slides/slides-05-01.html",
@@ -4162,7 +4162,7 @@
     "href": "slides/slides-08-01.html#from-past-to-present",
     "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
     "section": "From past to present",
-    "text": "From past to present\n\nIn Paper 1 you analyzed a technology through its patent: a legal document that gives its owner the right to exclude others\nIn the algorithmic bias and justice modules, we saw that trade secrets (e.g., COMPAS) can block audits and contestation\nIn the privacy module we asked who controls data about us\n\nThis module asks:\n\nWhy do we grant ownership over ideas, code, and data?\nHow does intellectual property law apply to software, data, and AI?\nWhat do we lose when knowledge is owned instead of shared?"
+    "text": "From past to present\n\nIn Paper 1 you analyzed a technology through its patent: a legal document that gives its owner the right to exclude others\nIn the algorithmic bias and justice modules, we saw that trade secrets (e.g., COMPAS) can block audits and contestation\nIn the privacy module we asked who controls data about us\n\nThis module asks:\n\nWhy and in what situations do we grant ownership over ideas, code, and data?\nHow does intellectual property law apply to software, data, and AI?\nWhat do we lose when knowledge is owned instead of shared?"
   },
   {
     "objectID": "slides/slides-08-01.html#why-intellectual-property",
@@ -4183,14 +4183,14 @@
     "href": "slides/slides-08-01.html#four-types-of-intellectual-property",
     "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
     "section": "Four types of intellectual property",
-    "text": "Four types of intellectual property\n\n\n\n\n\n\n\n\n\n\nType\nProtects\nHow you get it\nLasts\nSoftware example\n\n\n\n\nCopyright\nOriginal expression (text, code, images, music)\nAutomatically, when fixed in a tangible medium\nAuthor’s life + 70 years (95 years for corporate works)\nSource code, documentation, UI artwork\n\n\nPatent\nInventions: new, useful, non-obvious processes or machines\nApplication to the patent office, examination\n20 years from filing\nAn algorithm used in a specific technical process\n\n\nTrade secret\nValuable information kept secret\nReasonable efforts to keep it secret\nAs long as it stays secret\nGoogle’s ranking algorithm, COMPAS, model weights\n\n\nTrademark\nBrand names and logos\nUse in commerce (registration optional)\nAs long as it is used\n“Python” logo, “Windows”"
+    "text": "Four types of intellectual property\n\n\n\nType\nProtects\nHow you get it\nLasts\nSoftware example\n\n\n\n\nCopyright\nOriginal works (text, sound recordings, computer programs, blog posts, etc.)\nAutomatically, when fixed in a tangible form of expression\nAuthor’s life + 70 years (work for hire: 95 years from publication or 120 years from creation)\nSource code, documentation, UI artwork\n\n\nPatent\nInventions: new, useful, non-obvious processes or machines\nApplication to the patent office, examination\n20 years from the earliest filing date\nAn algorithm used in a specific technical process"
   },
   {
     "objectID": "slides/slides-08-01.html#ideas-vs.-expression",
     "href": "slides/slides-08-01.html#ideas-vs.-expression",
     "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
     "section": "Ideas vs. expression",
-    "text": "Ideas vs. expression\nCopyright protects expression, not ideas. 17 U.S.C. § 102(b):\n\nIn no case does copyright protection […] extend to any idea, procedure, process, system, method of operation, concept, principle, or discovery […]\n\n\nThe code of a sorting function can be copyrighted; the idea of quicksort cannot\nFacts and data are not copyrightable: Feist v. Rural Telephone (1991) held that a phone directory’s listings were not protected, rejecting the idea that effort (“sweat of the brow”) alone creates copyright\nThe selection and arrangement of data can be protected, but only thinly\nIn contrast, the EU grants a separate database right to those who invest substantially in building a database\n\nWho “owns” a dataset of scraped public posts?"
+    "text": "Ideas vs. expression\nCopyright protects expression, not ideas. 17 U.S.C. § 102(b):\n\nIn no case does copyright protection […] extend to any idea, procedure, process, system, method of operation, concept, principle, or discovery […]\n\n\nThe code of a sorting function can be copyrighted; the idea of quicksort cannot\nFacts and data are not copyrightable: Feist v. Rural Telephone (1991) held that a phone directory’s listings were not protected, rejecting the idea that effort (“sweat of the brow”) alone creates copyright\nThe selection and arrangement of data can be protected, but the raw facts and underlying data themselves cannot\nOriginality, Not Sweat: must involve creative judgment, example: deciding a unique subset of data to include or organizing it in a non-obvious way\nIn contrast, the EU grants a separate database right to those who invest substantially in building a database"
   },
   {
     "objectID": "slides/slides-08-01.html#fair-use",
@@ -4204,14 +4204,14 @@
     "href": "slides/slides-08-01.html#case-google-v.-oracle-2021",
     "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
     "section": "Case: Google v. Oracle (2021)",
-    "text": "Case: Google v. Oracle (2021)\n\nGoogle built Android using the Java programming language. To let Java programmers use familiar commands, Google copied about 11,500 lines of declaring code (method names and organization) from the Java SE API, and wrote its own implementation\nOracle (which acquired Java’s creator, Sun) sued for copyright infringement, seeking about $9 billion\nThe Supreme Court (6–2) held that Google’s copying was fair use: it was transformative, used only what was needed to let programmers carry over their skills, and the declaring code is closer to the “core” of uncopyrightable ideas\nThe Court did not decide whether APIs are copyrightable at all\n\nWhy might a ruling for Oracle have mattered to every programmer who has reimplemented an API?"
+    "text": "Case: Google v. Oracle (2021)\n\nGoogle built Android using the Java programming language. To let Java programmers use familiar commands, Google copied about 11,500 lines of declaring code (method names and organization) from the Java SE API, and wrote its own implementation\nOracle (which acquired Java’s creator, Sun) sued for copyright infringement, seeking about $9 billion\nThe Supreme Court (6–2) held that Google’s copying was fair use: it was transformative, used only what was needed to let programmers carry over their skills, and the declaring code is closer to the “core” of uncopyrightable ideas"
   },
   {
     "objectID": "slides/slides-08-01.html#the-dmca-1998",
     "href": "slides/slides-08-01.html#the-dmca-1998",
     "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
     "section": "The DMCA (1998)",
-    "text": "The DMCA (1998)\nThe Digital Millennium Copyright Act has two parts that shape computing today:\n\nAnti-circumvention (§ 1201): it is illegal to bypass digital locks (DRM), even for a use that would otherwise be legal. The Copyright Office grants temporary exemptions every three years, e.g., for security research, repair, and accessibility\nSafe harbor (§ 512): platforms are not liable for users’ uploads if they remove infringing content after a notice-and-takedown request. This made YouTube, GitHub, and social media possible, but also enables false takedowns to silence criticism\n\nRecall the legal risks of auditing: researchers who audit systems may need to circumvent technical protections."
+    "text": "The DMCA (1998)\nThe Digital Millennium Copyright Act:\n\nAnti-circumvention (§ 1201): it is illegal to bypass digital locks (DRM), even for a use that would otherwise be legal.\nSafe harbor (§ 512): platforms are not liable for users’ uploads if they remove infringing content after a notice-and-takedown request. This made YouTube, GitHub, and social media possible, but also enables false takedowns to silence criticism\n\nRecall the legal risks of auditing: researchers who audit systems may need to circumvent technical protections."
   },
   {
     "objectID": "slides/slides-08-01.html#who-owns-your-code",
@@ -4232,7 +4232,7 @@
     "href": "slides/slides-08-01.html#patents-benefits-and-harms",
     "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
     "section": "Patents: Benefits and harms",
-    "text": "Patents: Benefits and harms\nBenefits\n\nDisclosure: in exchange for exclusive rights, the inventor must publish how the invention works (this is why you could read your Paper 1 patent!)\nCan protect small inventors and startups from larger competitors copying them\n\nHarms\n\nPatent thickets: so many overlapping patents that building a product requires many licenses (e.g., smartphones)\nPatent assertion entities (“patent trolls”): companies that make no products and earn money by suing or threatening to sue over broad patents\nOverly broad patents: Amazon’s 1-Click patent (granted 1999, expired 2017) covered buying something with a single click"
+    "text": "Patents: Benefits and harms\nBenefits\n\nDisclosure: in exchange for exclusive rights, the inventor must publish how the invention works\nCan protect small inventors and startups from larger competitors copying them\n\nHarms\n\nPatent thickets: so many overlapping patents that building a product requires many licenses (e.g., smartphones)\nPatent assertion entities (“patent trolls”): companies that acquire patents from third parties and seek to generate revenue by asserting them against alleged infringers\nOverly broad patents: Amazon’s 1-Click patent (granted 1999, expired 2017) covered buying something with a single click"
   },
   {
     "objectID": "slides/slides-08-01.html#in-class-activity-read-the-claims",
@@ -4246,21 +4246,21 @@
     "href": "slides/slides-08-01.html#trade-secrets-and-accountability",
     "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
     "section": "Trade secrets and accountability",
-    "text": "Trade secrets and accountability\nTrade secrets require no disclosure and can last forever, which makes them attractive for algorithms and AI models.\n\nState v. Loomis (Wisconsin, 2016): the defendant could not examine how COMPAS computed his risk score because its methodology was a trade secret. The court allowed its use with warnings\nThe Defend Trade Secrets Act (2016) made trade secret theft a federal civil claim\nReverse engineering a legally obtained product is generally allowed for trade secrets, but may be limited by contracts (terms of service) and the DMCA\n\nWhen should a company’s interest in secrecy give way to the public’s interest in accountability?"
+    "text": "Trade secrets and accountability\nTrade secrets require no disclosure and can last forever, which makes them attractive for algorithms and AI models.\n\nState v. Loomis (Wisconsin, 2016): the defendant could not examine how COMPAS computed his risk score because its methodology was a trade secret. The court allowed its use with warnings\nThe Defend Trade Secrets Act (2016) made trade secret theft a federal civil claim\nReverse engineering a legally obtained product is generally allowed for trade secrets, but may be limited by contracts (terms of service) and the DMCA"
   },
   {
     "objectID": "slides/slides-08-01.html#you-bought-it-but-do-you-own-it",
     "href": "slides/slides-08-01.html#you-bought-it-but-do-you-own-it",
     "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
     "section": "You bought it, but do you own it?",
-    "text": "You bought it, but do you own it?\nMost software is licensed, not sold. The End User License Agreement (EULA) defines what you can do.\n\nFarmers who bought John Deere tractors could not repair them because the software required dealer-only tools; bypassing the lock could violate the DMCA\nDigital purchases (e-books, movies, games) can be removed when a store loses its license\nRight to repair laws push back: Colorado passed the first agricultural right-to-repair law (2023), and the Minnesota Digital Fair Repair Act (2023, in effect since July 2024) requires manufacturers to provide parts, tools, and documentation for many electronics\n\nWhat does “ownership” mean when software controls the physical object?"
+    "text": "You bought it, but do you own it?\nMost software is licensed, not sold. The End User License Agreement (EULA) defines what you can do.\n\nFarmers who bought John Deere tractors could not repair them because the software required dealer-only tools, and bypassing the lock could violate the DMCA\nDigital purchases (e-books, movies, games) can be removed when a store loses its license\nRight to repair laws push back: Colorado passed the first agricultural right-to-repair law (2023), and the Minnesota Digital Fair Repair Act (2023, in effect since July 2024) requires manufacturers to provide parts, tools, and documentation for many electronics"
   },
   {
     "objectID": "slides/slides-08-01.html#group-discussion-ethics-frameworks",
     "href": "slides/slides-08-01.html#group-discussion-ethics-frameworks",
     "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
     "section": "Group Discussion: Ethics frameworks",
-    "text": "Group Discussion: Ethics frameworks\n\nConsequentialism: Do software patents promote or slow down innovation? What evidence would you need to decide?\nDeontology / Locke: Locke’s labor theory requires leaving “enough and as good” for others. Does a 20-year patent on a common software method meet that requirement?\nContractualism: Could a EULA that forbids repair be justified to every person affected, including farmers and independent repair shops?\nPolitical economy: Who can afford to file and defend patents? Who can afford to be sued?\nVirtue ethics: What would an honest, generous, and fair software developer do with an invention?"
+    "text": "Group Discussion: Ethics frameworks\n\nConsequentialism: Do software patents promote or slow down innovation?\nDeontology / Locke: Locke’s labor theory requires leaving “enough and as good” for others. Do the intellectual property laws in the US applied to software meet that requirement?\nPolitical economy: Who can afford to file and defend patents? Who can afford to be sued?"
   },
   {
     "objectID": "slides/slides-08-01.html#references-and-further-readings",
@@ -4583,5 +4583,26 @@
     "title": "Algorithmic Justice: Power, Participation, and Refusal",
     "section": "Journal Writing",
     "text": "Journal Writing\nReflect on what you liked and disliked about this lecture, what you learned, and what you wished you’d learned.\n\nWhat you learned from the lecture and discussion – this can be something that surprised you, something you had not considered before, a new way of thinking about something\nWhat you wish you’d learned from the discussion – this can be questions you still have and questions you would like to explore further\nAnything you liked or disliked"
+  },
+  {
+    "objectID": "slides/slides-08-01.html#four-types-of-intellectual-property-1",
+    "href": "slides/slides-08-01.html#four-types-of-intellectual-property-1",
+    "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
+    "section": "Four types of intellectual property",
+    "text": "Four types of intellectual property\n\n\n\nType\nProtects\nHow you get it\nLasts\nSoftware example\n\n\n\n\nTrade secret\nEconomicly valuable information kept secret\nReasonable efforts to keep it secret\nAs long as it stays secret (the owner must take steps to protect it)\nGoogle’s ranking algorithm, COMPAS, model weights\n\n\nTrademark\nBrand names and logos\nUse in commerce (registration optional)\nAs long as it is used\n“Python” logo, “Windows”\n\n\n\nSoftware Intellectual Property: What It Is & How to Protect It"
+  },
+  {
+    "objectID": "slides/slides-08-01.html#discussion",
+    "href": "slides/slides-08-01.html#discussion",
+    "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
+    "section": "Discussion",
+    "text": "Discussion\n\nWho “owns” a dataset of scraped public posts?\nWho has rights over the code you write for a class assignment?\nWho has rights over the code you write during a summer internship?"
+  },
+  {
+    "objectID": "slides/slides-08-01.html#discussion-1",
+    "href": "slides/slides-08-01.html#discussion-1",
+    "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
+    "section": "Discussion",
+    "text": "Discussion\n\nBrandon Thomas, a software engineer who launched a project motivated by his frustration over Adobe’s subscription pricing, used Anthropic’s Claude to write clean-room replacements from scratch for seven major Adobe apps in Rust. According to the project documentation, the code was built by observing the behavior, UI, and public file specifications rather than decompiling or copying Adobe’s proprietary source code.\n\n\nIs what Brandon Thomas doing legal in the US?\nIs it ethical?"
   }
 ]
