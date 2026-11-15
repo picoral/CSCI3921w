@@ -1,0 +1,213 @@
+---
+title: "Intellectual Property: Copyright, Patents, and Trade Secrets"
+author: "<em>CSCI 3921w Social, Legal, and Ethical Issues in Computing</em></br>Adriana Picoral"
+format:
+  revealjs:
+    slide-number: true
+    incremental: false
+    toc: false
+    embed-resources: true
+    chalkboard: false
+    footer: "<a href=\"../index.html\">go back to course home</a>"
+---
+
+## Q&A (10 minutes)
+
+Q&A about ethics, computing, and logistics of the course.
+
+No question is too silly, naive, controversial, basic, or advanced.
+
+## Warm-up
+
+Before we start, answer in your journal. Who owns:
+
+* The code you write for a class assignment?
+* The code you write during a summer internship?
+* A song you generate with an AI tool from your own prompt?
+* The computer (or phone) you bought, including the software inside it?
+
+How sure are you of each answer?
+
+## From past to present {.smaller}
+
+* In **Paper 1** you analyzed a technology through its **patent**: a legal document that gives its owner the right to **exclude others**
+* In the algorithmic bias and justice modules, we saw that **trade secrets** (e.g., COMPAS) can block audits and contestation
+* In the privacy module we asked who controls **data about us**
+
+This module asks:
+
+* **Why and in what situations** do we grant ownership over ideas, code, and data?
+* **How** does intellectual property law apply to software, data, and AI?
+* What do we lose when knowledge is **owned** instead of **shared**?
+
+# What is intellectual property?
+
+## Why intellectual property? {.smaller}
+
+The U.S. Constitution ([Article I, Section 8, Clause 8](https://constitution.congress.gov/browse/article-1/section-8/clause-8/)) gives Congress the power:
+
+> To promote the Progress of Science and useful Arts, by securing for limited Times to Authors and Inventors the exclusive Right to their respective Writings and Discoveries.
+
+Notice: the stated **goal** is progress for the public. Exclusive rights are the **means**, and they are for **limited times**.
+
+## Four types of intellectual property {.smaller}
+
+| Type | Protects | How you get it | Lasts | Software example |
+|------|-------|-------|-------|-------|
+| [Copyright](https://www.copyright.gov/what-is-copyright/) | Original **works** (text, sound recordings, computer programs, blog posts, etc.) | Automatically, when fixed in a tangible form of expression | Author's life + 70 years (work for hire: 95 years from publication or 120 years from creation) | Source code, documentation, UI artwork |
+| [Patent](https://www.uspto.gov/patents/basics) | **Inventions**: new, useful, non-obvious processes or machines | Application to the patent office, examination | 20 years from the earliest filing date | An algorithm used in a specific technical process |
+
+## Four types of intellectual property {.smaller}
+
+| Type | Protects | How you get it | Lasts | Software example |
+|------|-------|-------|-------|-------|
+| [Trade secret](https://www.law.cornell.edu/wex/trade_secret) | Economicly valuable information kept **secret** | Reasonable efforts to keep it secret | As long as it stays secret (the owner must take steps to protect it) | Google's ranking algorithm, COMPAS, model weights |
+| [Trademark](https://www.uspto.gov/trademarks) | Brand names and logos | Use in commerce (registration optional) | As long as it is used | "Python" logo, "Windows" |
+
+[Software Intellectual Property: What It Is & How to Protect It](https://cpl.thalesgroup.com/software-monetization/protecting-software-intellectual-property)
+
+## Ideas vs. expression {.smaller}
+
+Copyright protects **expression**, not **ideas**. [17 U.S.C. § 102(b)](https://www.law.cornell.edu/uscode/text/17/102):
+
+> In no case does copyright protection [...] extend to any idea, procedure, process, system, method of operation, concept, principle, or discovery [...]
+
+* The **code** of a sorting function can be copyrighted, but the **idea** of quicksort cannot
+* **Facts and data are not copyrightable**: *[Feist v. Rural Telephone](https://supreme.justia.com/cases/federal/us/499/340/)* (1991) held that a phone directory's listings were not protected, rejecting the idea that effort ("sweat of the brow") alone creates copyright
+* The [selection and arrangement of data can be protected](https://libraries.emory.edu/research/copyright/copyright-data), but the raw facts and underlying data themselves cannot
+* Originality, Not Sweat:  must involve creative judgment, example: deciding a unique subset of data to include or organizing it in a non-obvious way
+* In contrast, the [EU grants a separate **database right**](https://digital-strategy.ec.europa.eu/en/policies/protection-databases) to those who invest substantially in building a database
+
+## Discussion
+
+* Who "owns" a dataset of scraped public posts?
+* Who has rights over the code you write for a class assignment?
+* Who has rights over the code you write during a summer internship?
+
+## Who owns your code? {.smaller}
+
+* **Work made for hire**: code you write as an **employee**, within the scope of your job, belongs to your **employer**
+* Internship and employment contracts often include **invention assignment** clauses, which can cover inventions made outside of work hours (some states, including Minnesota, limit these when you use your own time and equipment and the invention is unrelated to the employer's business)
+* As a student, ownership of your coursework depends on your [university's IP policy](https://policy.umn.edu/research/copyright) and any agreements for sponsored research
+* **Contractors** keep copyright unless there is a written agreement transferring it
+
+Read the IP clause **before** you sign your first offer letter.
+
+# Copyright and software
+
+## Fair use {.smaller}
+
+Copyright is not absolute. [Fair use (17 U.S.C. § 107)](https://www.law.cornell.edu/uscode/text/17/107) allows some uses without permission, weighed with **four factors**:
+
+1. **Purpose and character** of the use: is it **transformative** (new purpose or meaning)? Commercial or nonprofit?
+2. **Nature** of the copyrighted work: factual or creative? Published?
+3. **Amount** and substantiality of the portion used
+4. **Effect on the market** for the original work
+
+Fair use is decided **case by case**: there is no fixed number of lines or seconds that is "safe."
+
+## Case: Google v. Oracle (2021) {.smaller}
+
+* Google built Android using the Java programming language. To let Java programmers use familiar commands, Google copied about **11,500 lines** of **declaring code** (method names and organization) from the Java SE API, and wrote its own implementation
+* Oracle (which acquired Java's creator, Sun) sued for copyright infringement, seeking about **$9 billion**
+* The [Supreme Court (6–2)](https://supreme.justia.com/cases/federal/us/593/18-956/) held that Google's copying was **fair use**: it was transformative, used only what was needed to let programmers carry over their skills, and the declaring code is closer to the "core" of uncopyrightable ideas
+
+## The DMCA (1998) {.smaller}
+
+[The Digital Millennium Copyright Act](https://www.copyright.gov/dmca/):
+
+* **Anti-circumvention ([§ 1201](https://www.law.cornell.edu/uscode/text/17/1201))**: it is illegal to bypass digital locks (DRM), **even for a use that would otherwise be legal**.
+* **Safe harbor ([§ 512](https://www.law.cornell.edu/uscode/text/17/512))**: platforms are not liable for users' uploads if they remove infringing content after a **notice-and-takedown** request. This made YouTube, GitHub, and social media possible, but also enables **false takedowns** to silence criticism
+
+Recall the **legal risks of auditing**: researchers who audit systems may need to circumvent technical protections.
+
+
+
+# Patents and software
+
+## Software patents and *Alice* (2014) {.smaller}
+
+**Abstract ideas** cannot be patented. But when is software an abstract idea?
+
+* *[Alice Corp. v. CLS Bank](https://supreme.justia.com/cases/federal/us/573/208/)* (2014): a patent on using a computer as an intermediary to reduce financial settlement risk was **invalid**
+* The Supreme Court (unanimous) set a **two-step test**:
+    1. Is the claim directed to an **abstract idea** (e.g., a fundamental economic practice, a mental process, math)?
+    2. If so, does it add an **"inventive concept"**, something more than implementing the idea on a **generic computer**?
+* "Do it on a computer" is not enough. Thousands of software patents were later invalidated under *Alice*
+
+## Patents: Benefits and harms {.smaller}
+
+**Benefits**
+
+* **Disclosure**: in exchange for exclusive rights, the inventor must publish how the invention works
+* Can protect small inventors and startups from larger competitors copying them
+
+**Harms**
+
+* [Patent thickets](https://insights.som.yale.edu/insights/are-patent-thickets-smothering-innovation): so many overlapping patents that building a product requires many licenses (e.g., smartphones)
+* [Patent assertion entities ("patent trolls")](https://openinventionnetwork.com/insider-combating-patent-assertion-entities/): companies that acquire patents from third parties and seek to generate revenue by asserting them against alleged infringers
+* **Overly broad patents**: [Amazon's **1-Click** patent](https://blog.withedge.com/p/the-legacy-of-amazons-1-click-checkout) (granted 1999, expired 2017) covered buying something with a single click
+
+## In-class Activity: Read the claims {.smaller}
+
+Return to the patent you used for **Paper 1** (or pick one from the [Patents List](../patents-list.html)).
+
+1. Find **claim 1**. In plain language, what exactly does it claim to **own**?
+2. Apply the *Alice* test: Is the claim directed to an **abstract idea**? Does it add anything beyond a **generic computer**?
+3. If this patent is granted, who would be **excluded**? Who could be sued?
+4. Would the world be better or worse if this invention were **not** patented? For whom?
+
+# Trade secrets and ownership
+
+## Trade secrets and accountability {.smaller}
+
+Trade secrets require **no disclosure** and can last **forever**, which makes them attractive for algorithms and AI models.
+
+* *[State v. Loomis](https://harvardlawreview.org/print/vol-130/state-v-loomis/)* (Wisconsin, 2016): the defendant could not examine how COMPAS computed his risk score because its methodology was a **trade secret**. The court allowed its use with warnings
+* The [Defend Trade Secrets Act (2016)](https://www.congress.gov/bill/114th-congress/senate-bill/1890) made trade secret theft a federal civil claim
+* **Reverse engineering** a legally obtained product is generally allowed for trade secrets, but may be limited by **contracts** (terms of service) and the **DMCA**
+
+## Discussion {.smaller}
+
+> [Brandon Thomas, a software engineer who launched a project motivated by his frustration over Adobe's subscription pricing, used Anthropic's Claude to write clean-room replacements from scratch for seven major Adobe apps in Rust](https://www.infoq.com/news/2026/10/photocraft-adobe-parity/). According to the project documentation, the code was built by observing the behavior, UI, and public file specifications rather than decompiling or copying Adobe's proprietary source code.
+
+* Is what Brandon Thomas doing legal in the US?
+* Is it ethical?
+
+## You bought it, but do you own it? {.smaller}
+
+Most software is **licensed**, not sold. The **End User License Agreement (EULA)** defines what you can do.
+
+* [Farmers who bought John Deere tractors could not repair them because the software required **dealer-only tools**, and bypassing the lock could violate the DMCA](https://www.agweb.com/news/machinery/ftc-orders-john-deere-provide-repair-software-diagnostic-tools)
+* Digital purchases (e-books, movies, games) can be removed when a store loses its license
+* **Right to repair** laws push back: Colorado passed the first [agricultural right-to-repair law (2023)](https://leg.colorado.gov/bills/hb23-1011), and the [Minnesota Digital Fair Repair Act (2023, in effect since July 2024)](https://www.ag.state.mn.us/Consumer/Publications/RightToRepair.asp) requires manufacturers to provide parts, tools, and documentation for many electronics
+
+## Group Discussion: Ethics frameworks
+
+* **Consequentialism**: Do software patents promote or slow down innovation? 
+* **Deontology / Locke**: [Locke's labor theory](https://press-pubs.uchicago.edu/founders/documents/v1ch16s3.html) requires leaving "enough and as good" for others. Do the intellectual property laws in the US applied to software meet that requirement?
+* **Political economy**: Who can afford to file and defend patents? Who can afford to be sued?
+
+## References and Further Readings {.smaller}
+
+* [*Alice Corp. v. CLS Bank International*, 573 U.S. 208 (2014).](https://supreme.justia.com/cases/federal/us/573/208/)
+* Bessen, J., & Meurer, M. J. (2008). *Patent Failure: How Judges, Bureaucrats, and Lawyers Put Innovators at Risk*. Princeton University Press.
+* [*Feist Publications, Inc. v. Rural Telephone Service Co.*, 499 U.S. 340 (1991).](https://supreme.justia.com/cases/federal/us/499/340/)
+* Fisher, W. (2001). Theories of intellectual property. In S. Munzer (Ed.), *New Essays in the Legal and Political Theory of Property*. Cambridge University Press.
+* [*Google LLC v. Oracle America, Inc.*, 593 U.S. 1 (2021).](https://supreme.justia.com/cases/federal/us/593/18-956/)
+* [Harvard Law Review (2017). *State v. Loomis*. 130 Harv. L. Rev. 1530.](https://harvardlawreview.org/print/vol-130/state-v-loomis/)
+
+## References and Further Readings {.smaller}
+
+* Lessig, L. (2004). *Free Culture: How Big Media Uses Technology and the Law to Lock Down Culture and Control Creativity*. Penguin Press.
+* Locke, J. (1689). *Second Treatise of Government*, Chapter V: Of Property.
+* Perzanowski, A., & Schultz, J. (2016). *The End of Ownership: Personal Property in the Digital Economy*. MIT Press.
+* [U.S. Code, Title 17 (Copyright).](https://www.law.cornell.edu/uscode/text/17)
+
+## Journal Writing
+
+Reflect on what you liked and disliked about this lecture, what you learned, and what you wished you'd learned.
+
+1. What you learned from the lecture and discussion -- this can be something that surprised you, something you had not considered before, a new way of thinking about something
+2. What you wish you'd learned from the discussion -- this can be questions you still have and questions you would like to explore further
+3. Anything you liked or disliked
