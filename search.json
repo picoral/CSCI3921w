@@ -550,7 +550,7 @@
     "href": "current-events.html",
     "title": "Happening Now",
     "section": "",
-    "text": "Seattle mayor signs grocery “fair pricing” into law, bans surveillance\nOpenAI Releases Findings on 377 Math Problems\n\n\nHugging Face AI Hacking\n\nHard Fork Podcast: Why the Hugging Face Attack Was Worse Than We Thought\nOpen AI (August, 2026). The Hugging Face incident and the road ahead"
+    "text": "Microsoft Says Some Service Is Improving on 2nd Day of Outage\nDefense Contractor L3Harris Was Behind Upgrade That Led to Ground Stop *Nationwide Ground Stop: Questions and Answers\nSeattle mayor signs grocery “fair pricing” into law, bans surveillance\nOpenAI Releases Findings on 377 Math Problems\n\n\nHugging Face AI Hacking\n\nHard Fork Podcast: Why the Hugging Face Attack Was Worse Than We Thought\nOpen AI (August, 2026). The Hugging Face incident and the road ahead"
   },
   {
     "objectID": "assignment-3.html",
@@ -4190,7 +4190,7 @@
     "href": "slides/slides-08-01.html#ideas-vs.-expression",
     "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
     "section": "Ideas vs. expression",
-    "text": "Ideas vs. expression\nCopyright protects expression, not ideas. 17 U.S.C. § 102(b):\n\nIn no case does copyright protection […] extend to any idea, procedure, process, system, method of operation, concept, principle, or discovery […]\n\n\nThe code of a sorting function can be copyrighted; the idea of quicksort cannot\nFacts and data are not copyrightable: Feist v. Rural Telephone (1991) held that a phone directory’s listings were not protected, rejecting the idea that effort (“sweat of the brow”) alone creates copyright\nThe selection and arrangement of data can be protected, but the raw facts and underlying data themselves cannot\nOriginality, Not Sweat: must involve creative judgment, example: deciding a unique subset of data to include or organizing it in a non-obvious way\nIn contrast, the EU grants a separate database right to those who invest substantially in building a database"
+    "text": "Ideas vs. expression\nCopyright protects expression, not ideas. 17 U.S.C. § 102(b):\n\nIn no case does copyright protection […] extend to any idea, procedure, process, system, method of operation, concept, principle, or discovery […]\n\n\nThe code of a sorting function can be copyrighted, but the idea of quicksort cannot\nFacts and data are not copyrightable: Feist v. Rural Telephone (1991) held that a phone directory’s listings were not protected, rejecting the idea that effort (“sweat of the brow”) alone creates copyright\nThe selection and arrangement of data can be protected, but the raw facts and underlying data themselves cannot\nOriginality, Not Sweat: must involve creative judgment, example: deciding a unique subset of data to include or organizing it in a non-obvious way\nIn contrast, the EU grants a separate database right to those who invest substantially in building a database"
   },
   {
     "objectID": "slides/slides-08-01.html#fair-use",
@@ -4604,5 +4604,19 @@
     "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
     "section": "Discussion",
     "text": "Discussion\n\nBrandon Thomas, a software engineer who launched a project motivated by his frustration over Adobe’s subscription pricing, used Anthropic’s Claude to write clean-room replacements from scratch for seven major Adobe apps in Rust. According to the project documentation, the code was built by observing the behavior, UI, and public file specifications rather than decompiling or copying Adobe’s proprietary source code.\n\n\nIs what Brandon Thomas doing legal in the US?\nIs it ethical?"
+  },
+  {
+    "objectID": "slides/slides-08-01.html#discussion-2",
+    "href": "slides/slides-08-01.html#discussion-2",
+    "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
+    "section": "Discussion",
+    "text": "Discussion\nThe Walmart Watchtower: Patents Speak Louder Than Pledges\n\nWalmart plans to install digital price tags in all U.S. stores by the end of the year. These devices, called electronic shelf labels (ESLs), can change prices in mere seconds. Across several patent applications, Walmart details the troves of data it can collect on users. […] (One) patent details how Walmart can use this data to identify the restaurants customers frequent, where they live, and how they commute to work. (Another) patent says that “labels and prices may be changed in a dynamic fashion” based on what products customers have already scanned and put in their cart by pushing price adjustments to electronic shelf labels. It offers an illustrative example of how prices might be customized: “if a customer has tuna fish, they may be offered a different price for mayonnaise.”\n\nWalmart’s response"
+  },
+  {
+    "objectID": "slides/slides-08-01.html#walmarts-patents",
+    "href": "slides/slides-08-01.html#walmarts-patents",
+    "title": "Intellectual Property: Copyright, Patents, and Trade Secrets",
+    "section": "Walmart’s Patents",
+    "text": "Walmart’s Patents\nThe Walmart Watchtower: Patents Speak Louder Than Pledges\n\nWalmart plans to install digital price tags in all U.S. stores by the end of the year. These devices, called electronic shelf labels (ESLs), can change prices in mere seconds. Across several patent applications, Walmart details the troves of data it can collect on users. […] (One) patent details how Walmart can use this data to identify the restaurants customers frequent, where they live, and how they commute to work. (Another) patent says that “labels and prices may be changed in a dynamic fashion” based on what products customers have already scanned and put in their cart by pushing price adjustments to electronic shelf labels. It offers an illustrative example of how prices might be customized: “if a customer has tuna fish, they may be offered a different price for mayonnaise.”\n\nWalmart’s response"
   }
 ]
